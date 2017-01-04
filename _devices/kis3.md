@@ -21,7 +21,7 @@ title: ZTE Open C / Kis 3
 #### Mod:
 
 - [How to change splash screen](http://www.modaco.com/forums/topic/373233-how-to-change-splash-screen/)
-- [ZTE Open C / Kis 3 Hardware Info](http://www.modaco.com/forums/topic/373348-zte-open-c-kis-3-hardware-info/)
+- [ZTE Open C / Kis 3 Hardware Info](/devices/kis3/Kis3Info)
 
 #### Downloads:
 
