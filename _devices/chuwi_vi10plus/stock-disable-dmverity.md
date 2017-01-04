@@ -7,10 +7,10 @@ tags: [chuwi_vi10plus, stockmod]
 comments: true
 ---
 
-Do not mirror my builds! Please post a link to this thread instead.
+<span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this thread instead.
 
 **Prerequisites:**  
-You need to have the latest stock firmware and TWRP recovery installed. See 'Settings -> About Tablet' on your device and choose the file that matches your stock firmware version. Important!!! Do not install these files on mismatching firmware versions!
+You need to have the latest stock firmware and TWRP recovery installed. See 'Settings -> About Tablet' on your device and choose the file that matches your stock firmware version. <span style="color:#FF0000;">Important!!!</span> Do not install these files on mismatching firmware versions!
 
 **Supported stock firmware versions:**  
 Vi10 Plus & Hi10 Plus: Remix OS B2016080801  

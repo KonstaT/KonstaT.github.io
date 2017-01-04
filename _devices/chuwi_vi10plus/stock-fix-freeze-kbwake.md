@@ -7,7 +7,7 @@ tags: [chuwi_vi10plus, stockmod]
 comments: true
 ---
 
-Do not mirror my builds! Please post a link to this thread instead.
+<span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this thread instead.
 
 Here's how to fix 'freezing issue' & 'keyboard dock wake issue' plaguing Chuwi Vi10 Plus & Hi10 Plus. This patch will:
 

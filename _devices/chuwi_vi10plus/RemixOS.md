@@ -11,7 +11,7 @@ This is my port of [Remix OS 2.0](http://www.jide.com/remixos) for Chuwi Vi10 Pl
 
 ![screenshot]({{ site.url }}/devices/chuwi_vi10plus/RemixOS/Screenshot_2016-12-11-17-38-09.png)
 
-Do not mirror my builds! Please post a link to this thread instead.
+<span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this thread instead.
 
 **RemixOS-B2016092102-chuwi_vi10plus.zip**  
 [https://www.androidfilehost.com/?fid=745425885120693269](https://www.androidfilehost.com/?fid=745425885120693269)  
@@ -88,7 +88,7 @@ md5:bae3c864d458192ed782d1ded5b10c9f
 **FAQ:**
 
 Q: I don't have root. I don't have busybox. What should I do?  
-*A: Download SuperSU and/or BusyBox flashable zip and install it in TWRP.*
+*A: Download [SuperSU](http://download.chainfire.eu/supersu-stable) and/or [BusyBox](http://forum.xda-developers.com/attachment.php?attachmentid=3932008&d=1478780582) flashable zip and install it in TWRP.*
 
 Q: I can't find developer options, why?  
 *A: Settings -> About tablet -> Click 'Build number' several times*

@@ -9,7 +9,7 @@ comments: true
 
 This is my build of Dees-Troy's [Team Win Recovery Project](http://teamw.in/project/twrp2/) (TWRP) 3.0.2-0 for Chuwi Vi10 Plus, Hi10 Plus, Hi10 Pro & Hibook Pro. Choose the right image for your device.
 
-Do not mirror my builds! Please post a link to this thread instead.
+<span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this thread instead.
 
 **recovery-twrp3020-cht_cr_mrd_w.img** (Vi10 Plus & Hi10 Plus)  
 [https://www.androidfilehost.com/?fid=457095661767101048](https://www.androidfilehost.com/?fid=457095661767101048)  
