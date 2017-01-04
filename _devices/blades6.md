@@ -5,7 +5,7 @@ title: ZTE Blade S6, ZTE Blade S6 Plus & Turkcell T60
 
 #### Recovery:
 
-- [TWRP 3.0.2-0](http://www.modaco.com/forums/topic/375597-twrp-3020/)
+- [TWRP 3.0.2-0](/devices/blades6/TWRP)
 
 #### Downloads:
 

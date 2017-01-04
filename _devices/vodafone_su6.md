@@ -5,7 +5,7 @@ title: Vodafone Smart Ultra 6
 
 #### Recovery:
 
-- [TWRP 3.0.2-0](http://www.modaco.com/forums/topic/375554-twrp-3020/)
+- [TWRP 3.0.2-0](/devices/vodafone_su6/TWRP)
 
 #### Downloads:
 

@@ -5,11 +5,11 @@ title: Nexbox A95X
 
 #### ROM:
 
-- [Remix OS 2.0 (Android 5.1.1)](http://www.modaco.com/forums/topic/377591-remix-os-20/)
+- [Remix OS 2.0 (Android 5.1.1)](/devices/nexbox_a95x/RemixOS)
 
 #### Recovery:
 
-- [TWRP 3.0.2-0](http://www.modaco.com/forums/topic/377557-twrp-3020/)
+- [TWRP 3.0.2-0](/devices/nexbox_a95x/TWRP)
 
 #### Downloads:
 

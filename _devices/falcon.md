@@ -5,7 +5,7 @@ title: Motorola Moto G
 
 #### ROM:
 
-- [CAF Firefox OS - B2G](http://www.modaco.com/topic/372487-caf-firefox-os-b2g/)
+- [CAF Firefox OS - B2G](/devices/falcon/FirefoxOS)
 
 #### Downloads:
 
