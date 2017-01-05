@@ -4,6 +4,7 @@ title: How to disable dm-verity and root
 subtitle: for Chuwi Vi10 Plus, Hi10 Plus, Hi10 Pro & Hibook Pro
 date: 2016-10-12
 tags: [chuwi_vi10plus, stockmod]
+social-share: true
 comments: true
 ---
 

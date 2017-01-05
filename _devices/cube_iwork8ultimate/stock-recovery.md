@@ -4,6 +4,7 @@ title: Stock recovery
 subtitle: for Cube iWork8 Ultimate & iWork8 Air
 date: 2016-05-31
 tags: [cube_iwork8ultimate, stockrecovery]
+social-share: true
 comments: true
 ---
 

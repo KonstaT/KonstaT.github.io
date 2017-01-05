@@ -4,6 +4,7 @@ title: Remix OS 2.0 (Android 5.1.1)
 subtitle: for Nexbox A95X
 date: 2016-08-12
 tags: [nexbox_a95x, RemixOS]
+social-share: true
 comments: true
 ---
 
@@ -58,6 +59,10 @@ md5:30f5f0de965e75cac148b701d9cdc406
 
 - Remix OS 2.0.200 B2016041201 (Sen5 S905)
 - initial release
+
+**Previous builds:**
+
+- [AndroidFileHost](https://www.androidfilehost.com/?w=files&flid=89614)
 
 ----
 ----

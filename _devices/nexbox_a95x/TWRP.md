@@ -4,6 +4,7 @@ title: TWRP 3.0.2-0
 subtitle: for Nexbox A95X
 date: 2016-07-24
 tags: [nexbox_a95x, TWRP]
+social-share: true
 comments: true
 ---
 

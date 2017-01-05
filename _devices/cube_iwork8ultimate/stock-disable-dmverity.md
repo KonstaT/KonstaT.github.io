@@ -4,6 +4,7 @@ title: How to disable dm-verity, root & navigation bar mod
 subtitle: for Cube iWork8 Ultimate & iWork8 Air
 date: 2016-05-31
 tags: [cube_iwork8ultimate, stockmod]
+social-share: true
 comments: true
 ---
 

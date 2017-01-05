@@ -4,6 +4,7 @@ title: CAF Firefox OS - B2G
 subtitle: for Motorola Moto G
 date: 2015-08-01
 tags: [falcon, FirefoxOS]
+social-share: true
 comments: true
 ---
 
@@ -93,6 +94,10 @@ md5:3b0e17793e5cf3d132383f0c2a3842b1
 **18.5. changelog:**
 
 - initial release
+
+**Previous builds:**
+
+- [AndroidFileHost](https://www.androidfilehost.com/?w=files&flid=89967)
 
 ----
 ----

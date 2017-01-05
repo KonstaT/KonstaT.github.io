@@ -4,6 +4,7 @@ title: How to fix 'freezing issue' & 'keyboard dock wake issue'
 subtitle: for Chuwi Vi10 Plus, Hi10 Plus, Hi10 Pro & Hibook Pro
 date: 2016-12-01
 tags: [chuwi_vi10plus, stockmod]
+social-share: true
 comments: true
 ---
 

@@ -4,6 +4,7 @@ title: TWRP 3.0.2-0
 subtitle: for Chuwi Vi10 Plus, Hi10 Plus, Hi10 Pro & Hibook Pro
 date: 2016-10-12
 tags: [chuwi_vi10plus, TWRP]
+social-share: true
 comments: true
 ---
 

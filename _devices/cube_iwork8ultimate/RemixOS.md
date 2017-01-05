@@ -4,6 +4,7 @@ title: Remix OS 2.0 (Android 5.1.1)
 subtitle: for Cube iWork8 Ultimate & iWork8 Air
 date: 2016-07-15
 tags: [cube_iwork8ultimate, RemixOS]
+social-share: true
 comments: true
 ---
 

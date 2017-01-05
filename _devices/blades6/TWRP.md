@@ -4,6 +4,7 @@ title: TWRP 3.0.2-0
 subtitle: for ZTE Blade S6, ZTE Blade S6 Plus & Turkcell T60
 date: 2016-04-27
 tags: [blades6, TWRP]
+social-share: true
 comments: true
 ---
 
@@ -76,6 +77,10 @@ md5:3cf082152acf382c40beaab563a2f87c
 **27.4 changelog:**
 
 - TWRP 3.0.2-0
+
+**Previous builds:**
+
+- [AndroidFileHost](https://www.androidfilehost.com/?w=files&flid=89959)
 
 ----
 ----

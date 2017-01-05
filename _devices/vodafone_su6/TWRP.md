@@ -4,6 +4,7 @@ title: TWRP 3.0.2-0
 subtitle: for Vodafone Smart Ultra 6
 date: 2016-04-27
 tags: [vodafone_su6, TWRP]
+social-share: true
 comments: true
 ---
 
@@ -71,6 +72,10 @@ If you already have TWRP installed, you can use a flashable zip to update it.
 **5.8. changelog:**
 
 - initial release
+
+**Previous builds:**
+
+- [AndroidFileHost](https://www.androidfilehost.com/?w=files&flid=89959)
 
 ----
 ----

@@ -4,6 +4,7 @@ title: ClockWorkMod 6.0.3.6
 subtitle: for ZTE Blade V
 date: 2013-09-19
 tags: [bladev, CWM]
+social-share: true
 comments: true
 ---
 

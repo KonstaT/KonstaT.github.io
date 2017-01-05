@@ -4,6 +4,7 @@ title: Remix OS 2.0 (Android 5.1.1)
 subtitle: for Chuwi Vi10 Plus, Hi10 Plus, Hi10 Pro, Hibook Pro & Hi12
 date: 2016-12-13
 tags: [chuwi_vi10plus, RemixOS]
+social-share: true
 comments: true
 ---
 
@@ -71,6 +72,10 @@ md5:bae3c864d458192ed782d1ded5b10c9f
 
 - B2016092102
 - initial release
+
+**Previous builds:**
+
+- [AndroidFileHost](https://www.androidfilehost.com/?w=files&flid=133629)
 
 ----
 ----

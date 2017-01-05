@@ -4,6 +4,7 @@ title: Stock recovery
 subtitle: for Chuwi Vi10 Plus, Hi10 Plus, Hi10 Pro, Hibook Pro & Hi12
 date: 2016-10-12
 tags: [chuwi_vi10plus, stockrecovery]
+social-share: true
 comments: true
 ---
 

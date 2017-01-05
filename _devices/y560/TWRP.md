@@ -4,6 +4,7 @@ title: TWRP 3.0.2-0
 subtitle: for Huawei Y5
 date: 2016-11-13
 tags: [y560, TWRP]
+social-share: true
 comments: true
 ---
 
@@ -81,6 +82,10 @@ md5:f8595a3bd3bfa924c006450f2f8d3266
 **19.1. changelog:**
 
 - initial release
+
+**Previous builds:**
+
+- [AndroidFileHost](https://www.androidfilehost.com/?w=files&flid=90103)
 
 ----
 ----
