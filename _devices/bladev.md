@@ -1,6 +1,7 @@
 ---
 layout: device
-title: ZTE Blade V
+title: ZTE
+subtitle: Blade V
 ---
 
 #### Recovery:

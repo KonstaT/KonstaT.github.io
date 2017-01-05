@@ -1,6 +1,7 @@
 ---
 layout: device
-title: Nexbox A95X
+title: Nexbox
+subtitle: A95X
 ---
 
 #### ROM:

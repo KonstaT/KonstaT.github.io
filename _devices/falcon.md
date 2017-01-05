@@ -1,6 +1,7 @@
 ---
 layout: device
-title: Motorola Moto G
+title: Motorola
+subtitle: Moto G
 ---
 
 #### ROM:

@@ -1,6 +1,7 @@
 ---
 layout: device
-title: Cube iWork8 Ultimate & iWork8 Air
+title: Cube
+subtitle: iWork8 Ultimate & iWork8 Air
 ---
 
 #### ROM:

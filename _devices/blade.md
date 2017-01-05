@@ -1,6 +1,7 @@
 ---
 layout: device
-title: ZTE Blade
+title: ZTE
+subtitle: Blade
 ---
 
 #### ROM:

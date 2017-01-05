@@ -1,6 +1,7 @@
 ---
 layout: device
-title: Vodafone Smart Ultra 6
+title: Vodafone
+subtitle: Smart Ultra 6
 ---
 
 #### Recovery:

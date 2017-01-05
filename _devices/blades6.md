@@ -1,6 +1,7 @@
 ---
 layout: device
-title: ZTE Blade S6, ZTE Blade S6 Plus & Turkcell T60
+title: ZTE
+subtitle: Blade S6, Blade S6 Plus & Turkcell T60
 ---
 
 #### Recovery:

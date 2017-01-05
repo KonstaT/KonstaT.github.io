@@ -2,21 +2,24 @@
 layout: base
 ---
 
-{% include header.html %}
+{% include header.html type="page" %}
 
-<div class="container">
+<div class="container" role="main">
   <div class="row">
     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-
-      <article role="main" class="blog-post">
-        {{ content }}
-      </article>
+      {{ content }}
 
       <p>
       <strong>Like my work?</strong><br>
       <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=L75PPUJK3DW3E"><img src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif"></a><br>
       <a href="https://docs.google.com/document/d/1x7Y2Rnu0gWyDm0uZ6RP-W0uPM6YHAI-iqrAQRquMicU/">Donation Hall of Fame</a>
+      <p>
 
+	    {% if page.comments %}
+        <div class="disqus-comments">
+	        {% include disqus.html %}
+        </div>
+	    {% endif %}
     </div>
   </div>
 </div>

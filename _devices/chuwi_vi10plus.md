@@ -1,6 +1,7 @@
 ---
 layout: device
-title: Chuwi Vi10 Plus, Hi10 Plus, Hi10 Pro, Hibook Pro & Hi12
+title: Chuwi
+subtitle: Vi10 Plus, Hi10 Plus, Hi10 Pro, Hibook Pro & Hi12
 ---
 
 #### ROM:

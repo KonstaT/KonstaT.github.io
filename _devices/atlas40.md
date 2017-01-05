@@ -1,6 +1,7 @@
 ---
 layout: device
-title: ZTE Blade III
+title: ZTE
+subtitle: Blade III
 ---
 
 #### ROM:
