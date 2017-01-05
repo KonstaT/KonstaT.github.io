@@ -3,7 +3,7 @@ layout: rom
 title: CAF Firefox OS - B2G
 subtitle: for Motorola Moto G
 date: 2015-08-01
-tags: [falcon, FirefoxOS]
+tags: [falcon, CAF, FirefoxOS]
 social-share: true
 comments: true
 ---
