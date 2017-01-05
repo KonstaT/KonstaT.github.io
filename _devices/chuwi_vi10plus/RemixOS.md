@@ -112,6 +112,10 @@ Q: I have Hi10 Pro. What should I do?
 [https://www.androidfilehost.com/?fid=457095661767123941](https://www.androidfilehost.com/?fid=457095661767123941)  
 md5:6caa1a7344655f782365b9461442ae8e
 
+**RemixOS-B2016092102-chuwi_vi10plus-Hi10Pro-HQ64.zip**  
+[https://www.androidfilehost.com/?fid=457095661767127488](https://www.androidfilehost.com/?fid=457095661767127488)  
+md5:48697ee4b66a5a18f5350dd7675b012e
+
 Q: I have Hibook Pro. What should I do?  
 *A: Download patch below and install it in TWRP.*
 

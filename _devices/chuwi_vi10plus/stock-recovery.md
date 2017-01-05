@@ -39,7 +39,7 @@ md5:c54d36aa41746409dbad8ef583d1327f
 [https://www.androidfilehost.com/?fid=529152257862686012](https://www.androidfilehost.com/?fid=529152257862686012)  
 md5:37c6a2006c8643137da2bb74feba5ea0
 
-**recovery-stock-Android-20161208-Hi10Pro.zip** (Hi10 Pro - z8350)  
+**recovery-stock-Android-20161208-Hi10Pro.zip** (Hi10 Pro - z8350 - serial no HQ64)  
 [https://www.androidfilehost.com/?fid=457095661767123990](https://www.androidfilehost.com/?fid=457095661767123990)  
 md5:70bd7b21bfefc3bee6ae0923053dae72
 
