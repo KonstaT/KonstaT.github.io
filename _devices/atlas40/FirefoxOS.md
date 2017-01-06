@@ -3,7 +3,7 @@ layout: rom
 title: Firefox OS - B2G
 subtitle: for ZTE Blade III
 date: 2014-05-21
-tags: [atlas40, Firefox OS]
+tags: [atlas40, FirefoxOS]
 social-share: true
 comments: true
 ---

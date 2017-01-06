@@ -1,0 +1,13 @@
+---
+layout: default
+---
+
+{% assign tags =  site.devices | map: 'tags' | join: ',' | split: ',' | uniq %}
+<h4>{{ page.tag }}</h4>
+<ul>
+{% for devices in site.devices %}
+  {% if devices.tags contains page.tag %}
+    <li>{{ devices.date | date: "%B %-d, %Y" }}: <a href="{{ site.baseurl }}{{ devices.url }}">{{ devices.title }} {{ devices.subtitle }}</a></li>
+  {% endif %}
+{% endfor %}
+</ul>

@@ -36,6 +36,7 @@ navbar-links:
     - ZTE Blade S6: "devices/blades6"
     - ZTE Blade V: "devices/bladev"
     - ZTE Open C / Kis 3: "devices/kis3"
+  Tags: "tag"
   About: "about"
 
 # Image to show in the navigation bar - image must be a square (width = height)
@@ -146,7 +147,7 @@ defaults:
       show-avatar: true
 
 # Use tags pages (not recommended if you are deploying via GitHub pages, only set to true if deploying locally with ruby)
-link-tags: false
+link-tags: true
 
 # Exclude these files from production site
 exclude:
