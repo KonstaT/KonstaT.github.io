@@ -2,7 +2,7 @@
 layout: default
 ---
 
-{% assign tags =  site.devices | map: 'tags' | join: ',' | split: ',' | uniq %}
+{% assign tags =  site.devices | map: 'tags' | join: ',' | split: ',' | sort | uniq %}
 <h4>{{ page.tag }}</h4>
 <ul>
 {% for devices in site.devices %}
