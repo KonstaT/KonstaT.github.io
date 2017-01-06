@@ -11,3 +11,5 @@ subtitle: Blade S6, Blade S6 Plus & Turkcell T60
 #### Downloads:
 
 - [AndroidFileHost](https://www.androidfilehost.com/?w=files&flid=89943)
+
+----

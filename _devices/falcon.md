@@ -11,3 +11,5 @@ subtitle: Moto G
 #### Downloads:
 
 - [AndroidFileHost](https://www.androidfilehost.com/?w=files&flid=89694)
+
+----

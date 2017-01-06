@@ -23,3 +23,5 @@ subtitle: Vi10 Plus, Hi10 Plus, Hi10 Pro, Hibook Pro & Hi12
 #### Downloads:
 
 - [AndroidFileHost](https://www.androidfilehost.com/?w=files&flid=122001)
+
+----

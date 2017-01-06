@@ -15,3 +15,5 @@ subtitle: A95X
 #### Downloads:
 
 - [AndroidFileHost](https://www.androidfilehost.com/?w=files&flid=89606)
+
+----
