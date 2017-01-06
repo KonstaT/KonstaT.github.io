@@ -10,7 +10,7 @@ comments: true
 
 This is my build of [Sailfish OS](https://sailfishos.org/) for ZTE Open C / Kis 3 (Beeline Smart2, Moche/MEO Smart A16, <s>ZTE V811W</s>, ZTE V811, Skinny V811, Optus Hop Smart, <s>ZTE Blade M</s>, etc). This is an early alpha build and it's not meant for daily use (or any use really), it's just something for **advanced users** to play with.
 
-<span style="color:#FF0000;">Important. Prerequisites!!!</span> You need to install Android KitKat on your Open C first (e.g. [EU_FFOS+to+Android.zip](http://www.mediafire.com/?k8g11221b4n2apy) will do). You also need to have this [ClockWorkMod](/devices/kis3/CWM) or this [TWRP](/devices/kis3/TWRP) recovery installed.
+<span style="color:#FF0000;">Important. Prerequisites!!!</span> You need to install Android KitKat on your Open C first (e.g. [EU_FFOS+to+Android.zip](https://www.androidfilehost.com/?fid=673368273298921576) will do). You also need to have this [ClockWorkMod](/devices/kis3/CWM) or this [TWRP](/devices/kis3/TWRP) recovery installed.
 
 ![screenshot]({{ site.url }}/devices/kis3/SailfishOS/20151004231859.png)  
 ![screenshot]({{ site.url }}/devices/kis3/SailfishOS/20151004231941.png)

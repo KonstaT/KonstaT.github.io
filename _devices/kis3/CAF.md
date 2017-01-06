@@ -12,7 +12,7 @@ This is my build of CAF Android for ZTE Open C / Kis 3 (Beeline Smart2, Moche/ME
 
 This build is based on the same [CAF release](https://www.codeaurora.org/xwiki/bin/QAEP/release) LNX.LA.3.5.1-00710-8x10.0 that ZTE initially started off with their stock firmware.
 
-<span style="color:#ff0000;">Important. Prerequisites!!!</span> You need to install Android KitKat on your Open C first (e.g. [EU_FFOS+to+Android.zip](http://www.mediafire.com/?k8g11221b4n2apy) will do). You also need to have this [ClockWorkMod](/devices/kis3/CWM) recovery installed ([TWRP](/devices/kis3/TWRP) seems to have some issues with CAF otapackages :o).
+<span style="color:#ff0000;">Important. Prerequisites!!!</span> You need to install Android KitKat on your Open C first (e.g. [EU_FFOS+to+Android.zip](https://www.androidfilehost.com/?fid=673368273298921576) will do). You also need to have this [ClockWorkMod](/devices/kis3/CWM) recovery installed ([TWRP](/devices/kis3/TWRP) seems to have some issues with CAF otapackages :o).
 
 ![screenshot]({{ site.url }}/devices/kis3/CAF/Screenshot_2014-10-24-18-13-31.png)  
 ![screenshot]({{ site.url }}/devices/kis3/CAF/Screenshot_2014-10-24-18-22-26.png)
