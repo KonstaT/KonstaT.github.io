@@ -2,6 +2,7 @@
 layout: page
 title: Tags
 subtitle: Browse site by tag
+use-site-title: true
 ---
 
 <div class="home">
