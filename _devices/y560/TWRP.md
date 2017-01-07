@@ -25,7 +25,7 @@ md5:7af4f29e20d5c3b474dca80342451132
 **How to install:**
 
 - Download and install Huawei USB drivers (windows) or setup udev rules (linux)
-- Download and install [Android SDK](https://developer.android.com/sdk/index.html) tools and platform-tools to get adb and fastboot
+- Download Android SDK platform-tools ([Windows](https://dl.google.com/android/repository/platform-tools-latest-windows.zip), [Linux](https://dl.google.com/android/repository/platform-tools-latest-linux.zip), [Mac](https://dl.google.com/android/repository/platform-tools-latest-darwin.zip)) to get adb and fastboot
 - Download recovery-twrpxxxx-y560.img recovery image and rename it to recovery.img
 - Create a new directory somewhere and copy adb(.exe), fastboot(.exe) and recovery.img into it
 - Enable USB debugging and OEM unlocking on your device (Settings -> Developer options -> Android debugging & Settings -> Developer options -> OEM unlocking)

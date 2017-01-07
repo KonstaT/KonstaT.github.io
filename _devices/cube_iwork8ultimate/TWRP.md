@@ -55,7 +55,7 @@ md5:d843481ca2e07a4697f678d52eeb875b
 **Prerequisites:**
 
 - Download and install [Intel Android USB driver](https://software.intel.com/en-us/android/articles/intel-usb-driver-for-android-devices) (Windows) or setup udev rules (Linux).
-- Download and install [Android SDK tools](https://developer.android.com/studio/index.html) and platform-tools to get adb and fastboot.
+- Download Android SDK platform-tools ([Windows](https://dl.google.com/android/repository/platform-tools-latest-windows.zip), [Linux](https://dl.google.com/android/repository/platform-tools-latest-linux.zip), [Mac](https://dl.google.com/android/repository/platform-tools-latest-darwin.zip)) to get adb and fastboot.
 
 **Unlocking the bootloader:**
 

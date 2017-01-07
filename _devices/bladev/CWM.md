@@ -25,7 +25,7 @@ md5:cd0a200baf4fe24e57805ee576e6ad4a
 **How to make clean ROM dump/backup of your device (before you root or install cwm):** (<span style="color:#ff0000;">recommended</span>)
 
 - download [ZTE USB drivers](http://download.ztedevice.com/device/global/support/product/560/1132/soft/P020121013422016358160.7z)
-- download and install [Android SDK tools](https://developer.android.com/sdk/index.html) and platform-tools to get adb and fastboot
+- download Android SDK platform-tools ([Windows](https://dl.google.com/android/repository/platform-tools-latest-windows.zip), [Linux](https://dl.google.com/android/repository/platform-tools-latest-linux.zip), [Mac](https://dl.google.com/android/repository/platform-tools-latest-darwin.zip)) to get adb and fastboot
 - download recovery-cwm6036-8225.img recovery image
 - create a new directory somewhere and copy adb.exe, fastboot.exe and recovery-cwm6036-8225.img into it
 - plug in your device via USB cable and install drivers (make sure you've enabled USB debugging on your device)
@@ -40,7 +40,7 @@ md5:cd0a200baf4fe24e57805ee576e6ad4a
 **How to install ClockWorkMod Recovery:** (windows)
 
 - download [ZTE USB drivers](http://download.ztedevice.com/device/global/support/product/560/1132/soft/P020121013422016358160.7z)
-- download and install [Android SDK tools](https://developer.android.com/sdk/index.html) and platform-tools to get adb and fastboot
+- download Android SDK platform-tools ([Windows](https://dl.google.com/android/repository/platform-tools-latest-windows.zip), [Linux](https://dl.google.com/android/repository/platform-tools-latest-linux.zip), [Mac](https://dl.google.com/android/repository/platform-tools-latest-darwin.zip)) to get adb and fastboot
 - download recovery-cwm6036-8225.img recovery image
 - create a new directory somewhere and copy adb.exe, fastboot.exe and recovery-cwm6036-8225.img into it
 - plug in your device via USB cable and install drivers (make sure you've enabled USB debugging on your device)
