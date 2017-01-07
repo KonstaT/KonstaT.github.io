@@ -8,7 +8,7 @@ social-share: true
 comments: true
 ---
 
-<span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this thread instead.
+<span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
 **Prerequisites:**  
 You need to have the latest stock firmware and TWRP recovery installed. See 'Settings -> About Tablet' on your device and choose the file that matches your stock firmware version. <span style="color:#FF0000;">Important!!!</span> Do not install these files on mismatching firmware versions!
@@ -27,7 +27,7 @@ Hibook Pro: stock Android 20161025
 **How to disable dm-verity:**
 
 1. Download zip below suitable for your device and copy it to your device's sdcard.
-2. Boot to [TWRP recovery](/devices/chuwi_vi10plus/TWRP).
+2. Boot into [TWRP recovery](/devices/chuwi_vi10plus/TWRP).
 3. Install zip in TWRP.
 
 **vi10plus-disable-dmverity-RemixOS-B2016080801.zip** (Vi10 Plus & Hi10 Plus)  
@@ -70,7 +70,7 @@ md5:8cb950b1060f39988aa97ab01fe0146d
 
 1. Disable dm-verity (see above).
 2. Download [SuperSU zip](http://download.chainfire.eu/supersu-stable) and copy it to your device's sdcard.
-3. Boot to [TWRP recovery](/devices/chuwi_vi10plus/TWRP).
+3. Boot into [TWRP recovery](/devices/chuwi_vi10plus/TWRP).
 4. Install SuperSU zip in TWRP.
 
 ----

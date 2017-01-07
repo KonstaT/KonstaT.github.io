@@ -15,6 +15,8 @@ This ROM is based on official Comviq/Tele2 ZTE Blade Gingerbread [GB_TELE2_P729V
 
 This ROM is for gen2 devices only. Wipe data/factory reset before installing. No wipe, no whine.
 
+<span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
+
 **Swedish-Snow-RLS7.zip**  
 [https://www.androidfilehost.com/?fid=24591000424952124](https://www.androidfilehost.com/?fid=24591000424952124)  
 MD5:9A583543F97BC6511C0E67089C806CD7

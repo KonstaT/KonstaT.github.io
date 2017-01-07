@@ -12,7 +12,7 @@ These are my builds of Dees-Troy's [Team Win Recovery Project](http://teamw.in/p
 
 <span style="color:#FF0000;">Important!</span> Partition layout is different between Blade S6 AS/EU/AU/etc devices (physical internal sdcard partition vs. emulated internal sdcard). Select the right version for you device.
 
-<span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this thread instead.
+<span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
 **recovery-twrp3020-p839f30-physical.img** (Blade S6 - physical internal sdcard partition - AS&EU variants)  
 [https://www.androidfilehost.com/?fid=24591000424952155](https://www.androidfilehost.com/?fid=24591000424952155)  

@@ -12,6 +12,8 @@ Here is a compatibility patch that will convert **any** [ZTE Blade III ROM](/dev
 
 This patch causes a problem with camcorder on CM11. Remove /system/etc/media_profiles.xml from this patch before installing with CM11.
 
+<span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
+
 **BladeIII-Acqua-compatibility-v2.zip**  
 [https://www.androidfilehost.com/?fid=24591000424952060](https://www.androidfilehost.com/?fid=24591000424952060)  
 md5:6e99819906adc97b3b985b6b8073e354

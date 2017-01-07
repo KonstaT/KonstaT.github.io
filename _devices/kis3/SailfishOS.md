@@ -15,7 +15,7 @@ This is my build of [Sailfish OS](https://sailfishos.org/) for ZTE Open C / Kis 
 ![screenshot]({{ site.url }}/devices/kis3/SailfishOS/20151004231859.png)  
 ![screenshot]({{ site.url }}/devices/kis3/SailfishOS/20151004231941.png)
 
-<span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this thread instead.
+<span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
 **cm-12.1-YOG3C-KonstaKANG-kis3.zip** (yes, you need to use this exact CM12.1 build as a base)  
 [https://www.androidfilehost.com/?fid=24591000424952228](https://www.androidfilehost.com/?fid=24591000424952228)  
@@ -95,7 +95,7 @@ md5:bf5ac7346ed5e08e32c884fd0022409c
 
 **How to install:**
 
-1. boot into [ClockWorkMod](/devices/kis3/CWM)
+1. boot into [ClockWorkMod recovery](/devices/kis3/CWM)
 2. backup and restore -> backup (create a nandroid backup of your current ROM)
 3. mounts and storage -> format /system
 4. wipe data and factory reset

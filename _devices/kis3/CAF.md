@@ -17,7 +17,7 @@ This build is based on the same [CAF release](https://www.codeaurora.org/xwiki/b
 ![screenshot]({{ site.url }}/devices/kis3/CAF/Screenshot_2014-10-24-18-13-31.png)  
 ![screenshot]({{ site.url }}/devices/kis3/CAF/Screenshot_2014-10-24-18-22-26.png)
 
-<span style="color:#ff0000;">Do not mirror my builds!</span> Please post a link to this thread instead.
+<span style="color:#ff0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
 **caf-20141104-kis3.zip**  
 [https://www.androidfilehost.com/?fid=24591000424952223](https://www.androidfilehost.com/?fid=24591000424952223)  

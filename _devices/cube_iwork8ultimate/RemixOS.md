@@ -12,7 +12,7 @@ This is my port of [Remix OS](http://www.jide.com/remixos) 2.0 for Cube iWork8 U
 
 ![screenshot]({{ site.url }}/devices/cube_iwork8ultimate/RemixOS/Screenshot_2016-07-15-17-47-01.png)
 
-<span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this thread instead.
+<span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
 **RemixOS-20160715-cht_cr_mrd.zip**  
 [https://www.androidfilehost.com/?fid=24659325368664682](https://www.androidfilehost.com/?fid=24659325368664682)  

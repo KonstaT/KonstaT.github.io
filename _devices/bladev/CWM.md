@@ -10,6 +10,8 @@ comments: true
 
 This is my build of Koush's [ClockWorkMod](https://www.clockworkmod.com/) Recovery 6.0.3.6 for ZTE Blade V.
 
+<span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
+
 **recovery-cwm6036-8225.img** (supports only external sdcard)  
 [https://www.androidfilehost.com/?fid=24591000424952106](https://www.androidfilehost.com/?fid=24591000424952106)  
 md5:27c86b75c2c83eb668a5827708c2050a
@@ -22,7 +24,7 @@ md5:cd0a200baf4fe24e57805ee576e6ad4a
 
 **How to make clean ROM dump/backup of your device (before you root or install cwm):** (<span style="color:#ff0000;">recommended</span>)
 
-- download [ZTE USB drivers](http://download.ztedevices.com/UpLoadFiles/product/643/3635/soft/2013091110335069.zip)
+- download [ZTE USB drivers](http://download.ztedevice.com/device/global/support/product/560/1132/soft/P020121013422016358160.7z)
 - download and install [Android SDK tools](https://developer.android.com/sdk/index.html) and platform-tools to get adb and fastboot
 - download recovery-cwm6036-8225.img recovery image
 - create a new directory somewhere and copy adb.exe, fastboot.exe and recovery-cwm6036-8225.img into it
@@ -37,7 +39,7 @@ md5:cd0a200baf4fe24e57805ee576e6ad4a
 
 **How to install ClockWorkMod Recovery:** (windows)
 
-- download [ZTE USB drivers](http://download.ztedevices.com/UpLoadFiles/product/643/3635/soft/2013091110335069.zip)
+- download [ZTE USB drivers](http://download.ztedevice.com/device/global/support/product/560/1132/soft/P020121013422016358160.7z)
 - download and install [Android SDK tools](https://developer.android.com/sdk/index.html) and platform-tools to get adb and fastboot
 - download recovery-cwm6036-8225.img recovery image
 - create a new directory somewhere and copy adb.exe, fastboot.exe and recovery-cwm6036-8225.img into it

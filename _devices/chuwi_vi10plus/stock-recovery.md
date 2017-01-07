@@ -11,9 +11,11 @@ comments: true
 **How to restore stock recovery:**
 
 1. Download zip below suitable for your device and copy it to your device's sdcard.
-2. Boot to [TWRP recovery](/devices/chuwi_vi10plus/TWRP).
+2. Boot into [TWRP recovery](/devices/chuwi_vi10plus/TWRP).
 3. Install zip in TWRP.
 4. Reboot recovery.
+
+<span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
 **recovery-stock-RemixOS-B2016080801-Vi10Plus.zip** (Vi10 Plus & Hi10 Plus)  
 [https://www.androidfilehost.com/?fid=312978532265363122](https://www.androidfilehost.com/?fid=312978532265363122)  

@@ -15,6 +15,8 @@ Images can be found from the zip's /splash/res/. You can use your favorite zip t
 splash.bmp - 480x800 - 565 bitmap - 768070 bytes - flipped vertically  
 battery*.bmp - 128x128 - 565 bitmap - 32838 bytes - flipped vertically
 
+<span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
+
 **ZTE-Atlas40-Splash-Flasher.zip**  
 [https://www.androidfilehost.com/?fid=24591000424952097](https://www.androidfilehost.com/?fid=24591000424952097)  
 md5:9cc6555e26647b4e5741743167020ec0

@@ -10,6 +10,8 @@ comments: true
 
 This is my build of Koush's [ClockWorkMod](https://www.clockworkmod.com/) Recovery 6.0.4.9. This recovery is common to all ZTE devices with board name atlas40 (e.g. ZTE Blade III, ZTE Acqua, V889D, V880E etc).
 
+<span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
+
 **recovery-clockwork-6.0.4.9-atlas40.zip** (CWM/TWRP flashable)  
 [https://www.androidfilehost.com/?fid=24591000424952062](https://www.androidfilehost.com/?fid=24591000424952062)  
 md5:8240530c5e891f7a6f52bb7ac5c23663
@@ -24,7 +26,7 @@ This recovery is fully working with goodies such as repeatable keys and adb side
 
 **How to make clean ROM dump/backup of your device (before you root or install cwm):** (<span style="color:#ff0000;">recommended</span>)
 
-- download ZTE [USB drivers](http://download.ztedevices.com/UploadFiles/product/560/1132/soft/P020121013422016358160.7z)
+- download ZTE [USB drivers](http://download.ztedevice.com/device/global/support/product/560/1132/soft/P020121013422016358160.7z)
 - download and install [Android SDK tools](https://developer.android.com/sdk/index.html) and platform-tools to get adb and fastboot
 - download recovery-cwm60xx-atlas40.img recovery image
 - create a new directory somewhere and copy adb.exe, fastboot.exe and recovery-cwm60xx-atlas40.img into it
@@ -39,7 +41,7 @@ This recovery is fully working with goodies such as repeatable keys and adb side
 
 **How to install ClockWorkMod Recovery (windows):**
 
-- download ZTE [USB drivers](http://download.ztedevices.com/UploadFiles/product/560/1132/soft/P020121013422016358160.7z)
+- download ZTE [USB drivers](http://download.ztedevice.com/device/global/support/product/560/1132/soft/P020121013422016358160.7z)
 - download and install [Android SDK tools](https://developer.android.com/sdk/index.html) and platform-tools to get adb and fastboot
 - download recovery-cwm60xx-atlas40.img recovery image
 - create a new directory somewhere and copy adb.exe, fastboot.exe and recovery-cwm60xx-atlas40.img into it
@@ -75,7 +77,9 @@ This recovery is fully working with goodies such as repeatable keys and adb side
 
 - Follow instructions in [ZTE Blade III stock ROMs](http://www.modaco.com/topic/361786-zte-blade-iii-stock-roms/) thread
 
-Sources for the recovery are available in [my github](https://github.com/KonstaT/android_device_zte_atlas40). You can compile it yourself using CM11 source tree.
+**Sources:**
+
+- [Device](https://github.com/KonstaT/android_device_zte_atlas40)
 
 ----
 ----

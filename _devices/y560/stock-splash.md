@@ -23,6 +23,8 @@ comments: true
 
 - Install the zip below in TWRP recovery
 
+<span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
+
 **splash-stock-y560.zip**  
 [https://www.androidfilehost.com/?fid=24591000424952167](https://www.androidfilehost.com/?fid=24591000424952167)  
 md5:038563ed5f404d7589ecbb02ea8112aa

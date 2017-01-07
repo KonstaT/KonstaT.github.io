@@ -12,7 +12,7 @@ This is my port of [Remix OS](http://www.jide.com/remixos) 2.0 for Nexbox A95X (
 
 ![screenshot]({{ site.url }}/devices/nexbox_a95x/RemixOS/Screenshot_2016-08-12-17-23-16.png)
 
-<span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this thread instead.
+<span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
 **RemixOS-20160812-nexbox_a95x.zip**  
 [https://www.androidfilehost.com/?fid=24671318762848889](https://www.androidfilehost.com/?fid=24671318762848889)  

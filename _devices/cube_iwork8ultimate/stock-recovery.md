@@ -11,9 +11,11 @@ comments: true
 **How to restore stock recovery:**
 
 1. Download zip below suitable for your device and copy it to your device's sdcard.
-2. Boot to [TWRP recovery](/devices/cube_iwork8ultimate/TWRP).
+2. Boot into [TWRP recovery](/devices/cube_iwork8ultimate/TWRP).
 3. Install zip in TWRP.
 4. Reboot recovery.
+
+<span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
 **recovery-stock-I1-T_V1.1_20160329.zip**  
 [https://www.androidfilehost.com/?fid=24659325368664668](https://www.androidfilehost.com/?fid=24659325368664668)  

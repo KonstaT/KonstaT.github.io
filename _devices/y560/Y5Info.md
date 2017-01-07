@@ -12,7 +12,7 @@ Here's a small app I wrote that pulls some useful hardware information.
 
 ![screenshot]({{ site.url }}/devices/y560/Y5Info/Screenshot_20170105-145508.png)
 
-<span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this thread instead.
+<span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
 Y5Info.apk  
 [https://www.androidfilehost.com/?fid=24591000424952168](https://www.androidfilehost.com/?fid=24591000424952168)  

@@ -13,6 +13,8 @@ This is my port of [Ubuntu Touch](http://www.ubuntu.com/phone) for ZTE Blade III
 ![screenshot]({{ site.url }}/devices/atlas40/UbuntuTouch/screenshot2.png)  
 ![screenshot]({{ site.url }}/devices/atlas40/UbuntuTouch/screenshot3.png)
 
+<span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
+
 **saucy-preinstalled-armel+atlas40.zip**  
 [https://www.androidfilehost.com/?fid=673368273298921573](https://www.androidfilehost.com/?fid=673368273298921573)  
 md5:125c782e322e3f217c662c49670b6f49
@@ -24,7 +26,7 @@ md5:f00724d112caa25d759f686acd6bf682
 **How to install:**
 
 1. copy the above packages to your phone's sdcard
-2. boot into [ClockWorkMod](/devices/atlas40/CWM) recovery
+2. boot into [ClockWorkMod recovery](/devices/atlas40/CWM)
 3. make a nandroid backup of your previous ROM: backup & restore -> backup
 4. wipe data & factory reset
 5. flash device specific package: install .zip from sdcard -> choose .zip from sdcard -> saucy-preinstalled-armel+atlas40.zip

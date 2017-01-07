@@ -10,7 +10,7 @@ comments: true
 
 This is my build of Dees-Troy's [Team Win Recovery Project](http://teamw.in/project/twrp2/) (TWRP) 3.0.2-0 for Nexbox A95X (Amlogic S905 with Android 5.1) TV box. You need to connect a mouse to your device to use this recovery.
 
-<span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this thread instead.
+<span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
 **recovery-twrp3020-nexbox_a95x.img**  
 [https://www.androidfilehost.com/?fid=24659325368664651](https://www.androidfilehost.com/?fid=24659325368664651)  
@@ -56,7 +56,7 @@ This device is rooted out-of-the-box and it has unlocked bootloader. Stock recov
 **How to install proper root management:**
 
 - Download [SuperSU](http://download.chainfire.eu/supersu-stable) zip and copy it to your device's sdcards or USB stick
-- Boot to TWRP recovery
+- Boot into TWRP recovery
 - Install SuperSU zip in TWRP
 
 **How to restore stock recovery:**

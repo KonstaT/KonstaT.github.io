@@ -8,7 +8,7 @@ social-share: true
 comments: true
 ---
 
-<span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this thread instead.
+<span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
 Here's how to fix 'freezing issue' & 'keyboard dock wake issue' plaguing Chuwi Vi10 Plus & Hi10 Plus. This patch will:
 
@@ -22,7 +22,7 @@ You need to have the latest stock firmware and TWRP recovery installed. See 'Set
 **How to install:**
 
 1. Download zip below matching your stock firmware and copy it to your device's sdcard.
-2. Boot to [TWRP recovery](/devices/chuwi_vi10plus/TWRP).
+2. Boot into [TWRP recovery](/devices/chuwi_vi10plus/TWRP).
 3. Install zip in TWRP.
 
 **vi10plus-fix-freeze-kbwake-RemixOS-B2016080801.zip**  
@@ -43,7 +43,7 @@ Here's how to fix 'keyboard dock wake issue' on Hi10 Plus, Hi10 Pro & Hibook Pro
 
 1. Disable [dm-verity](/devices/chuwi_vi10plus/stock-disable-dmverity).
 2. Download zip below and copy it to your device's sdcard.
-3. Boot to [TWRP recovery](/devices/chuwi_vi10plus/TWRP).
+3. Boot into [TWRP recovery](/devices/chuwi_vi10plus/TWRP).
 4. Install zip in TWRP.
 
 **vi10plus-fix-kbwake.zip**  
@@ -60,7 +60,7 @@ Here's how to add Widevide support on Vi10 Plus, Hi10 Plus, Hi10 Pro, Hibook Pro
 
 1. Disable [dm-verity](/devices/chuwi_vi10plus/stock-disable-dmverity).
 2. Download zip below and copy it to your device's sdcard.
-3. Boot to [TWRP recovery](/devices/chuwi_vi10plus/TWRP).
+3. Boot into [TWRP recovery](/devices/chuwi_vi10plus/TWRP).
 4. Install zip in TWRP.
 
 **vi10plus-widevine.zip**  

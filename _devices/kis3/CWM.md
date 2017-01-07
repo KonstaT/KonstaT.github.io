@@ -10,7 +10,7 @@ comments: true
 
 This is my build of Koush's [ClockWorkMod](https://www.clockworkmod.com/) Recovery 6.0.5.1 for ZTE Open C / Kis 3 (Beeline Smart2, Moche/MEO Smart A16, ZTE V811W, ZTE V811, Skinny V811, Optus Hop Smart, ZTE Blade M, etc).
 
-<span style="color:#ff0000;">Do not mirror my builds!</span> Please post a link to this thread instead.
+<span style="color:#ff0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
 **recovery-clockwork-6.0.5.1-kis3.zip** (CWM/TWRP flashable)  
 [https://www.androidfilehost.com/?fid=24591000424952211](https://www.androidfilehost.com/?fid=24591000424952211)  
@@ -68,7 +68,9 @@ This recovery is fully working with goodies such as repeatable keys and adb side
 - Follow instructions on how to install/boot ClockWorkMod recovery
 - Install zip from sdcard -> choose zip from sdcard -> root-app-of-your-choice.zip
 
-Sources for the recovery are available in [my github](https://github.com/KonstaT/android_device_zte_kis3). You can compile it yourself using CM11 source tree.
+**Sources:**
+
+- [Device](https://github.com/KonstaT/android_device_zte_kis3)
 
 ----
 ----

@@ -8,7 +8,7 @@ social-share: true
 comments: true
 ---
 
-<span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this thread instead.
+<span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
 **Prerequisites:**  
 You need to have the latest stock firmware (I1-T_V1.1_20160329, I1-TD_V1.0_20160329, I1-TWB_V1.0_20160329, I1-TC_V1.0_20160528, I1-TF_V1.0_20160527, I1-TF_V1.0_20161108) and [TWRP recovery](/devices/cube_iwork8ultimate/TWRP) installed.
@@ -16,7 +16,7 @@ You need to have the latest stock firmware (I1-T_V1.1_20160329, I1-TD_V1.0_20160
 **How to disable dm-verity and remove data encryption:**
 
 1. Download zip below suitable for your device and copy it to your device's sdcard.
-2. Boot to [TWRP recovery](/devices/cube_iwork8ultimate/TWRP).
+2. Boot into [TWRP recovery](/devices/cube_iwork8ultimate/TWRP).
 3. Install zip in TWRP.
 4. Select 'Wipe -> Format Data'. <span style="color:#FF0000;">Important!</span> This will erase your data including internal sdcard.
 
@@ -48,14 +48,14 @@ md5:58333ee1ce702a1914f2e9da128f1c83
 
 1. Disable dm-verity (see above).
 2. Download [SuperSU zip](http://download.chainfire.eu/supersu-stable) and copy it to your device's sdcard.
-3. Boot to [TWRP recovery](/devices/cube_iwork8ultimate/TWRP).
+3. Boot into [TWRP recovery](/devices/cube_iwork8ultimate/TWRP).
 4. Install SuperSU zip in TWRP.
 
 **How to remove screenshot and volume up/down buttons from navigation bar:**
 
 1. Disable dm-verity (see above).
 2. Download zip below suitable for your device and copy it to your device's sdcard.
-3. Boot to [TWRP recovery](/devices/cube_iwork8ultimate/TWRP).
+3. Boot into [TWRP recovery](/devices/cube_iwork8ultimate/TWRP).
 4. Install zip in TWRP.
 
 **iwork8-ultimate-navbar-mod.zip** (I1-T)  

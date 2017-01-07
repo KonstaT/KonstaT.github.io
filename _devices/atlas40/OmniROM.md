@@ -15,6 +15,8 @@ I've included some features that are not yet merged to OmniROM (e.g. multi-windo
 ![screenshot]({{ site.url }}/devices/atlas40/OmniROM/Screenshot_2013-10-20-11-31-06.png)  
 ![screenshot]({{ site.url }}/devices/atlas40/OmniROM/Screenshot_2013-10-20-11-31-54.png)
 
+<span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
+
 **omni-4.3.0-20131020-atlas40-KonstaKANG.zip**  
 [https://www.androidfilehost.com/?fid=24591000424952096](https://www.androidfilehost.com/?fid=24591000424952096)  
 md5:b44660f4c485c88128426b0b2d388f5c
@@ -67,7 +69,7 @@ md5:b44660f4c485c88128426b0b2d388f5c
 
 **How to install:**
 
-1. boot into [ClockWorkMod](/devices/atlas40/CWM)
+1. boot into [ClockWorkMod recovery](/devices/atlas40/CWM)
 2. backup and restore -> backup (makes a nandroid backup of your previous ROM)
 3. mounts and storage -> format /system
 4. wipe data and factory reset

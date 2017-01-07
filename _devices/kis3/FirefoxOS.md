@@ -17,7 +17,7 @@ This build is based on the latest [CAF release](https://www.codeaurora.org/xwiki
 ![screenshot]({{ site.url }}/devices/kis3/FirefoxOS/2014-08-20-15-10-38.png)  
 ![screenshot]({{ site.url }}/devices/kis3/FirefoxOS/2014-08-20-15-13-00.png)
 
-<span style="color:#ff0000;">Do not mirror my builds!</span> Please post a link to this thread instead.
+<span style="color:#ff0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
 **b2g-20150802-kis3.zip**  
 [https://www.androidfilehost.com/?fid=24591000424952219](https://www.androidfilehost.com/?fid=24591000424952219)  

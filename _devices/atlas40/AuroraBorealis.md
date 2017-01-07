@@ -13,6 +13,8 @@ This ROM is based on the latest generic update [ICS_P772N10V1.0.0B10](http://www
 ![screenshot]({{ site.url }}/devices/atlas40/AuroraBorealis/post-834050-0-30106600-1358682096.png)  
 ![screenshot]({{ site.url }}/devices/atlas40/AuroraBorealis/post-834050-0-05510700-1358682253.png)
 
+<span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
+
 **Aurora-Borealis-RLS1.zip**  
 [https://www.androidfilehost.com/?fid=24591000424952089](https://www.androidfilehost.com/?fid=24591000424952089)  
 md5:5bce3bd69e8fe7399a5bac1c4b24f112
@@ -64,7 +66,7 @@ md5:038fc490091480b6e50c393debe7976a
 **How to install:**
 
 1. Copy Aurora-Borealis-RLSx.zip to your phone's sdcard
-2. Boot into [ClockWorkMod](/devices/atlas40/CWM) recovery
+2. Boot into [ClockWorkMod recovery](/devices/atlas40/CWM)
 3. Make a nandroid backup of your previous ROM: backup & restore -> backup
 4. Install ROM: install .zip from sdcard -> choose .zip from sdcard -> Aurora-Borealis-RLSx.zip
 5. wipe data & factory reset (!)

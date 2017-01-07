@@ -13,6 +13,8 @@ This ROM is based on official [ZTE N880E MIUI](http://www.miui.com/getrom.php?r=
 ![screenshot]({{ site.url }}/devices/atlas40/MIUI/Screenshot_2013-05-21-12-10-41.png)  
 ![screenshot]({{ site.url }}/devices/atlas40/MIUI/Screenshot_2013-05-21-12-11-15.png)
 
+<span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
+
 **miui_atlas40_4.4.4_4.1.zip**  
 [https://www.androidfilehost.com/?fid=24591000424952069](https://www.androidfilehost.com/?fid=24591000424952069)  
 md5:a5a46d1fae01efb3a84ed7a008f5219b  
@@ -67,7 +69,7 @@ MIUI changes not mentioned in the changelog. See [MIUI changelog](http://www.miu
 
 **How to install:**
 
-1. boot into [ClockWorkMod](/devices/atlas40/CWM) recovery
+1. boot into [ClockWorkMod recovery](/devices/atlas40/CWM)
 2. mounts and storage -> format system
 3. wipe data and factory reset
 4. install zip from sdcard -> choose zip from sdcard -> miui_atlas40_x.x.x_4.1.zip

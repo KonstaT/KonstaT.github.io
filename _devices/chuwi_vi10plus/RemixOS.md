@@ -12,7 +12,7 @@ This is my port of [Remix OS 2.0](http://www.jide.com/remixos) for Chuwi Vi10 Pl
 
 ![screenshot]({{ site.url }}/devices/chuwi_vi10plus/RemixOS/Screenshot_2016-12-11-17-38-09.png)
 
-<span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this thread instead.
+<span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
 **RemixOS-B2016092102-chuwi_vi10plus.zip**  
 [https://www.androidfilehost.com/?fid=745425885120693269](https://www.androidfilehost.com/?fid=745425885120693269)  

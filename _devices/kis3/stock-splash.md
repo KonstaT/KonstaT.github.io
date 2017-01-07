@@ -8,6 +8,8 @@ social-share: true
 comments: true
 ---
 
+<span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
+
 **How to change splash screen:**
 
 - Download [kis3-splash-flash.zip](https://www.androidfilehost.com/?fid=24591000424952204)

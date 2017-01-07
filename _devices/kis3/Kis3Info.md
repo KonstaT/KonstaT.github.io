@@ -13,7 +13,7 @@ Here's a small app I wrote that pulls some useful hardware information.
 ![screenshot]({{ site.url }}/devices/kis3/Kis3Info/Screenshot_2015-03-17-10-51-38.png)  
 ![screenshot]({{ site.url }}/devices/kis3/Kis3Info/Screenshot_2015-03-17-10-51-49.png)
 
-<span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this thread instead.
+<span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
 Kis3Info-v0.7.5.apk  
 [https://www.androidfilehost.com/?fid=24591000424952217](https://www.androidfilehost.com/?fid=24591000424952217)  

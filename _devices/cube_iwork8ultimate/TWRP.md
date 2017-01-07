@@ -10,7 +10,7 @@ comments: true
 
 This is my build of Dees-Troy's [Team Win Recovery Project](http://teamw.in/project/twrp2/) (TWRP) 3.0.2-0 for Cube iWork8 Ultimate (I1-T/I1-TD/I1-TWB/I1-TC) and iWork8 Air (I1-TF). There's (at least) four different batches of iWork8 Ultimate with slightly different hardware. Choose the right image for your model!
 
-<span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this thread instead.
+<span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
 **recovery-twrp3020-cht_cr_mrd.img** (I1-T)  
 [https://www.androidfilehost.com/?fid=24659325368664657](https://www.androidfilehost.com/?fid=24659325368664657)  

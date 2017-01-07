@@ -13,6 +13,8 @@ This is my build of [Firefox OS](https://www.mozilla.org/en-US/firefoxos/) for Z
 ![screenshot]({{ site.url }}/devices/atlas40/FirefoxOS/screenshot-20140521-155653.png)  
 ![screenshot]({{ site.url }}/devices/atlas40/FirefoxOS/screenshot-20140521-155819.png)
 
+<span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
+
 **b2g-20140521-atlas40.zip**  
 [https://www.androidfilehost.com/?fid=24591000424952057](https://www.androidfilehost.com/?fid=24591000424952057)  
 md5:380603759b700b99b7a575808725ffef
@@ -100,7 +102,7 @@ md5:380603759b700b99b7a575808725ffef
 **How to install:**
 
 1. Copy b2g-xxxxxxxx-atlas40.zip to your phone's sdcard
-2. Boot into [ClockWorkMod](/devices/atlas40/CWM) recovery
+2. Boot into [ClockWorkMod recovery](/devices/atlas40/CWM)
 3. Make a nandroid backup of your previous ROM: backup & restore -> backup
 4. wipe data & factory reset (It's very important that you do this before you flash the zip - it also writes to data partition)
 5. Install ROM: install .zip from sdcard -> choose .zip from sdcard -> b2g-xxxxxxxx-atlas40.zip

@@ -15,7 +15,7 @@ This build is based on [CAF release](https://www.codeaurora.org/xwiki/bin/Firefo
 ![screenshot]({{ site.url }}/devices/falcon/FirefoxOS/2014-08-26-16-22-19.png)  
 ![screenshot]({{ site.url }}/devices/falcon/FirefoxOS/2014-08-26-16-22-46.png)
 
-<span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this thread instead.
+<span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
 **b2g-20150801-falcon.zip**  
 [https://www.androidfilehost.com/?fid=24591000424952111](https://www.androidfilehost.com/?fid=24591000424952111)  
