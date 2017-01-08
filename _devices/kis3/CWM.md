@@ -73,7 +73,6 @@ This recovery is fully working with goodies such as repeatable keys and adb side
 - [Device](https://github.com/KonstaT/android_device_zte_kis3)
 
 ----
-----
 
 **28.3. 2015 changelog:**
 
@@ -83,6 +82,8 @@ This recovery is fully working with goodies such as repeatable keys and adb side
 
 - initial release
 
+----
+
 **Previous builds:**
 
 - [AndroidFileHost](https://www.androidfilehost.com/?w=files&flid=90023)
@@ -91,5 +92,4 @@ This recovery is fully working with goodies such as repeatable keys and adb side
 
 - [MoDaCo](http://www.modaco.com/forums/topic/373213-clockworkmod-6051/)
 
-----
 ----

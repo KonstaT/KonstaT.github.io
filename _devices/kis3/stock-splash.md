@@ -52,11 +52,9 @@ Bytesize (1,152,054 bytes) doesn't exactly match ZTE splash.img (1,153,024 bytes
 [https://www.androidfilehost.com/?fid=24591000424952205](https://www.androidfilehost.com/?fid=24591000424952205)
 
 ----
-----
 
 **Previous discussion:**
 
 - [MoDaCo](http://www.modaco.com/forums/topic/373233-how-to-change-splash-screen/)
 
-----
 ----

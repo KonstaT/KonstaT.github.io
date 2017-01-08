@@ -31,6 +31,23 @@ md5:a5a46d1fae01efb3a84ed7a008f5219b
 Everything should work to CM10 standards except FM radio. Don't expect anything to be fixed (fix it yourself). I don't plan to use/support this ROM. It was just something I played around with for couple of hours. I just thought I'd share it because it's been requested several times and it seems to work well enough.
 
 ----
+
+**How to install:**
+
+1. boot into [ClockWorkMod recovery](/devices/atlas40/CWM)
+2. mounts and storage -> format system
+3. wipe data and factory reset
+4. install zip from sdcard -> choose zip from sdcard -> miui_atlas40_x.x.x_4.1.zip
+5. reboot
+
+**How to port:**  
+I wrote a simple tool for porting from N880E. You'll need a linux system with few basic packages installed (git, java, zip). Place an official N880E MIUI ROM to the root of the porting tool directory (_place_rom_here_) and run the tool.
+
+> ./port.sh
+
+**miui-porting-atlas40.tar.gz**  
+[https://www.androidfilehost.com/?fid=24591000424952068](https://www.androidfilehost.com/?fid=24591000424952068)
+
 ----
 
 MIUI changes not mentioned in the changelog. See [MIUI changelog](http://www.miui.com/changelog.html).
@@ -64,28 +81,10 @@ MIUI changes not mentioned in the changelog. See [MIUI changelog](http://www.miu
 - MIUI 3.5.17
 - initial release
 
+----
+
 **Previous discussion:**
 
 - [MoDaCo](http://www.modaco.com/forums/topic/362716-miui-v5/)
 
-----
-----
-
-**How to install:**
-
-1. boot into [ClockWorkMod recovery](/devices/atlas40/CWM)
-2. mounts and storage -> format system
-3. wipe data and factory reset
-4. install zip from sdcard -> choose zip from sdcard -> miui_atlas40_x.x.x_4.1.zip
-5. reboot
-
-**How to port:**  
-I wrote a simple tool for porting from N880E. You'll need a linux system with few basic packages installed (git, java, zip). Place an official N880E MIUI ROM to the root of the porting tool directory (_place_rom_here_) and run the tool.
-
-> ./port.sh
-
-**miui-porting-atlas40.tar.gz**  
-[https://www.androidfilehost.com/?fid=24591000424952068](https://www.androidfilehost.com/?fid=24591000424952068)
-
-----
 ----

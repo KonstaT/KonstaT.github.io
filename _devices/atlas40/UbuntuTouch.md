@@ -23,6 +23,20 @@ md5:125c782e322e3f217c662c49670b6f49
 [https://www.androidfilehost.com/?fid=385035244224410539](https://www.androidfilehost.com/?fid=385035244224410539)  
 md5:f00724d112caa25d759f686acd6bf682
 
+**Sources:**
+
+- [Device](https://github.com/KonstaT/android_device_zte_atlas40/tree/ubuntu)
+- [Kernel](https://github.com/KonstaT/zte-kernel-msm7x27a/tree/ubuntu)
+- [Proprietaries](https://github.com/KonstaT/proprietary_vendor_zte)
+- [phablet.ubuntu.com](http://phablet.ubuntu.com/gitweb)
+
+**Thanks:**
+
+- Canonical/Ubuntu
+- CyanogenMod team
+
+----
+
 **How to install:**
 
 1. copy the above packages to your phone's sdcard
@@ -41,19 +55,6 @@ md5:f00724d112caa25d759f686acd6bf682
 
 > ubuntu_chroot shell
 
-**Sources:**
-
-- [Device](https://github.com/KonstaT/android_device_zte_atlas40/tree/ubuntu)
-- [Kernel](https://github.com/KonstaT/zte-kernel-msm7x27a/tree/ubuntu)
-- [Proprietaries](https://github.com/KonstaT/proprietary_vendor_zte)
-- [phablet.ubuntu.com](http://phablet.ubuntu.com/gitweb)
-
-**Thanks:**
-
-- Canonical/Ubuntu
-- CyanogenMod team
-
-----
 ----
 
 **25.6. changelog:**
@@ -70,9 +71,10 @@ md5:f00724d112caa25d759f686acd6bf682
 
 - initial release for MWC2013 developer preview (Ubuntu Touch 12.10 Quantal Quetzal)
 
+----
+
 **Previous discussion:**
 
 - [MoDaCo](http://www.modaco.com/topic/361024-ubuntu-touch/)
 
-----
 ----

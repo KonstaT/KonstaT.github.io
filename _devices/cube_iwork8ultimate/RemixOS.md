@@ -48,18 +48,6 @@ md5:20c53bc58c41d948271ab2176377b2a6
 - Jide for Remix OS
 
 ----
-----
-
-**15.7. changelog:**
-
-- initial release
-
-**Previous discussion:**
-
-- [MoDaCo](http://www.modaco.com/forums/topic/377513-remix-os-20/)
-
-----
-----
 
 **How to install:**
 
@@ -102,4 +90,15 @@ Q: I have iWork8 Air (I1-TF) with different display hardware. What should I do?
 md5:9a06ebc95b21f8ea86d6ce691f4e7adf
 
 ----
+
+**15.7. changelog:**
+
+- initial release
+
+----
+
+**Previous discussion:**
+
+- [MoDaCo](http://www.modaco.com/forums/topic/377513-remix-os-20/)
+
 ----

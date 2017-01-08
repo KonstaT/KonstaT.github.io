@@ -63,7 +63,6 @@ md5:3e22cb7e766e1450cc993df95290bbf0
 - CAF & Mozilla/B2G
 
 ----
-----
 
 **2.8. changelog:**
 
@@ -92,6 +91,8 @@ md5:3e22cb7e766e1450cc993df95290bbf0
 
 - initial release
 
+----
+
 **Previous builds:**
 
 - [AndroidFileHost](https://www.androidfilehost.com/?w=files&flid=89975)
@@ -100,5 +101,4 @@ md5:3e22cb7e766e1450cc993df95290bbf0
 
 - [MoDaCo](http://www.modaco.com/topic/373261-caf-firefox-os-b2g/)
 
-----
 ----

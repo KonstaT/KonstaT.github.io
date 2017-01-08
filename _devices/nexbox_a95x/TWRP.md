@@ -77,15 +77,15 @@ md5:d536cf298d3b578bcab49a33b2f142a3
 - [Device](https://github.com/KonstaT/android_device_amlogic_nexbox_a95x/tree/android-5.1)
 
 ----
-----
 
 **24.7. changelog:**
 
 - initial release
 
+----
+
 **Previous discussion:**
 
 - [MoDaCo](http://www.modaco.com/forums/topic/377557-twrp-3020/)
 
-----
 ----

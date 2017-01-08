@@ -168,7 +168,6 @@ Kernel is built from burstlam's [source code](https://github.com/burstlam/zte-tu
 - Thanks to CyanogenMod Team.
 
 ----
-----
 
 **RLS7 changelog:** *13.4.2012*
 
@@ -284,9 +283,10 @@ Kernel is built from burstlam's [source code](https://github.com/burstlam/zte-tu
 
 - initial release
 
+----
+
 **Previous discussion:**
 
 - [MoDaCo](http://www.modaco.com/topic/350875-swedish-snow-rls7/)
 
-----
 ----

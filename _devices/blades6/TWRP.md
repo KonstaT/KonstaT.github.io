@@ -72,11 +72,12 @@ md5:3cf082152acf382c40beaab563a2f87c
 - [Device](https://gitlab.com/Konsta/android_device_zte_p839t60) (Turkcell T60)
 
 ----
-----
 
 **27.4 changelog:**
 
 - TWRP 3.0.2-0
+
+----
 
 **Previous builds:**
 
@@ -86,5 +87,4 @@ md5:3cf082152acf382c40beaab563a2f87c
 
 - [MoDaCo](http://www.modaco.com/forums/topic/375597-twrp-3020/)
 
-----
 ----

@@ -71,31 +71,6 @@ md5:bf5ac7346ed5e08e32c884fd0022409c
 - sledges, mal- & people at #sailfishos-porters
 
 ----
-----
-
-**23.1. 2016 changelog:**
-
-- fix voice calls
-- fix video decoding/encoding
-- disable proximity sensor for now - wasn't working(?) and would cause display to switch (and stay) off during calls
-- simplify installation process
-- Sailfish OS 2.0.0.10
-
-**1.10. changelog:**
-
-- initial release
-- Sailfish OS 1.1.9.28
-
-**Previous builds:**
-
-- [AndroidFileHost](https://www.androidfilehost.com/?w=files&flid=90031)
-
-**Previous discussion:**
-
-- [MoDaCo](http://www.modaco.com/forums/topic/375953-sailfish-os/)
-
-----
-----
 
 **How to install:**
 
@@ -113,4 +88,28 @@ md5:bf5ac7346ed5e08e32c884fd0022409c
 [Frequently Asked Question - SFE devices](http://forum.xda-developers.com/jolla-sailfish/general/qa-sailfish-n4-thread-devices-t2727330)
 
 ----
+
+**23.1. 2016 changelog:**
+
+- fix voice calls
+- fix video decoding/encoding
+- disable proximity sensor for now - wasn't working(?) and would cause display to switch (and stay) off during calls
+- simplify installation process
+- Sailfish OS 2.0.0.10
+
+**1.10. changelog:**
+
+- initial release
+- Sailfish OS 1.1.9.28
+
+----
+
+**Previous builds:**
+
+- [AndroidFileHost](https://www.androidfilehost.com/?w=files&flid=90031)
+
+**Previous discussion:**
+
+- [MoDaCo](http://www.modaco.com/forums/topic/375953-sailfish-os/)
+
 ----

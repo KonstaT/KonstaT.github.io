@@ -82,7 +82,6 @@ This recovery is fully working with goodies such as repeatable keys and adb side
 - [Device](https://github.com/KonstaT/android_device_zte_atlas40)
 
 ----
-----
 
 **6.6. 2014 changelog:**
 
@@ -100,6 +99,8 @@ This recovery is fully working with goodies such as repeatable keys and adb side
 - ClockWorkMod 6.0.3.1
 - add support for internal storage
 
+----
+
 **Previous builds:**
 
 - [AndroidFileHost](https://www.androidfilehost.com/?w=files&flid=89919)
@@ -108,5 +109,4 @@ This recovery is fully working with goodies such as repeatable keys and adb side
 
 - [MoDaCo](http://www.modaco.com/topic/360389-clockworkmod-6049/)
 
-----
 ----

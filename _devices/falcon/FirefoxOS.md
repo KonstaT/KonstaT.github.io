@@ -62,7 +62,6 @@ md5:3b0e17793e5cf3d132383f0c2a3842b1
 - CyanogenMod team & dhacker29 for CAF AOSP bring up
 
 ----
-----
 
 **1.8. changelog:**
 
@@ -95,6 +94,8 @@ md5:3b0e17793e5cf3d132383f0c2a3842b1
 
 - initial release
 
+----
+
 **Previous builds:**
 
 - [AndroidFileHost](https://www.androidfilehost.com/?w=files&flid=89967)
@@ -103,5 +104,4 @@ md5:3b0e17793e5cf3d132383f0c2a3842b1
 
 - [MoDaCo](http://www.modaco.com/topic/372487-caf-firefox-os-b2g/)
 
-----
 ----

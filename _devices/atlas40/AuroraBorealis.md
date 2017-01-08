@@ -61,7 +61,6 @@ md5:5bce3bd69e8fe7399a5bac1c4b24f112
 md5:038fc490091480b6e50c393debe7976a
 
 ----
-----
 
 **How to install:**
 
@@ -73,11 +72,9 @@ md5:038fc490091480b6e50c393debe7976a
 6. reboot now
 
 ----
-----
 
 **Previous discussion:**
 
 - [MoDaCo](http://www.modaco.com/topic/360392-aurora-borealis-rls1/)
 
-----
 ----

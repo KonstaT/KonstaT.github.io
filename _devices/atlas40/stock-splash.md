@@ -24,11 +24,9 @@ md5:9cc6555e26647b4e5741743167020ec0
 I've tested this thoroughly and it should be fully working and perfectly safe to use (bytesizes are checked and double-checked - it doesn't flash anything with mismatching image sizes).
 
 ----
-----
 
 **Previous discussion:**
 
 - [MoDaCo](http://www.modaco.com/forums/topic/360803-splash-flasher/)
 
-----
 ----

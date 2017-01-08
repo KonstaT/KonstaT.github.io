@@ -20,7 +20,6 @@ Kis3Info-v0.7.5.apk
 md5:03a47c18c72d0c5fd4e666ae3ff4986a
 
 ----
-----
 
 **17.3. 2015 v0.7.5:**
 
@@ -54,9 +53,10 @@ md5:03a47c18c72d0c5fd4e666ae3ff4986a
 
 - initial release
 
+----
+
 **Previous discussion:**
 
 - [MoDaCo](http://www.modaco.com/forums/topic/373348-zte-open-c-kis-3-hardware-info/)
 
-----
 ----

@@ -79,11 +79,9 @@ md5:2a2b5cf14df01d8f68e32cc8df9e9f7b
 md5:1e0764f7bd5a6c8895d6086f772425d5
 
 ----
-----
 
 **Previous discussion:**
 
 - [MoDaCo](http://www.modaco.com/forums/topic/377299-howto-disable-dm-verity-root-navigation-bar-mod/)
 
-----
 ----

@@ -93,18 +93,18 @@ Stock ROM is encrypted by default which means data partition is not accessible i
 
 **Sources:**
 
-*   [Device](https://github.com/CM-CHT/android_device_intel_cube_iwork8ultimate/tree/android-5.1)
+- [Device](https://github.com/CM-CHT/android_device_intel_cube_iwork8ultimate/tree/android-5.1)
 
-----
 ----
 
 **31.5. changelog**
 
 - initial release
 
+----
+
 **Previous discussion:**
 
 - [MoDaCo](http://www.modaco.com/forums/topic/377298-twrp-3020/)
 
-----
 ----

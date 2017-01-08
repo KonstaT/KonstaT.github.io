@@ -45,31 +45,6 @@ md5:30f5f0de965e75cac148b701d9cdc406
 - Jide for Remix OS
 
 ----
-----
-
-**12.8. changelog:**
-
-- Remix OS 2.0.300 B2016062801 (Vensmile U1)
-- Remote control improvements
-  - Pressing CloudTV button alternates between Remix OS desktop and MboxLauncher
-  - Pressing Kodi button launches Kodi app if installed
-- Change display density to something more suitable for TV box
-
-**3.8. changelog:**
-
-- Remix OS 2.0.200 B2016041201 (Sen5 S905)
-- initial release
-
-**Previous builds:**
-
-- [AndroidFileHost](https://www.androidfilehost.com/?w=files&flid=89614)
-
-**Previous discussion:**
-
-- [MoDaCo](http://www.modaco.com/forums/topic/377591-remix-os-20/)
-
-----
-----
 
 **How to install:**
 
@@ -89,4 +64,28 @@ Q: I can't find developer options, why?
 *A: Settings -> About phone -> Click 'Build number' several times*
 
 ----
+
+**12.8. changelog:**
+
+- Remix OS 2.0.300 B2016062801 (Vensmile U1)
+- Remote control improvements
+  - Pressing CloudTV button alternates between Remix OS desktop and MboxLauncher
+  - Pressing Kodi button launches Kodi app if installed
+- Change display density to something more suitable for TV box
+
+**3.8. changelog:**
+
+- Remix OS 2.0.200 B2016041201 (Sen5 S905)
+- initial release
+
+----
+
+**Previous builds:**
+
+- [AndroidFileHost](https://www.androidfilehost.com/?w=files&flid=89614)
+
+**Previous discussion:**
+
+- [MoDaCo](http://www.modaco.com/forums/topic/377591-remix-os-20/)
+
 ----

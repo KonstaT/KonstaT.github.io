@@ -56,20 +56,6 @@ md5:b44660f4c485c88128426b0b2d388f5c
 - OmniROM team
 
 ----
-----
-
-[Merged commits](https://gerrit.omnirom.org/#/q/status:merged,n,z) not mentioned in the changelog.
-
-**20.10. changelog:**
-
-- initial release
-
-**Previous discussion:**
-
-- [MoDaCo](http://www.modaco.com/topic/365936-omnirom-43/)
-
-----
-----
 
 **How to install:**
 
@@ -90,4 +76,17 @@ Q: I don't have reboot options in power menu, why?
 *A: Settings -> Developer options -> Advanced reboot*
 
 ----
+
+[Merged commits](https://gerrit.omnirom.org/#/q/status:merged,n,z) not mentioned in the changelog.
+
+**20.10. changelog:**
+
+- initial release
+
+----
+
+**Previous discussion:**
+
+- [MoDaCo](http://www.modaco.com/topic/365936-omnirom-43/)
+
 ----

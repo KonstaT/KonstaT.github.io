@@ -31,7 +31,6 @@ md5:9a7e877f7206ccee756e2451e2dadf9d
 - [Device](https://github.com/KonstaT/android_device_zte_atlas40/tree/android-4.3)
 
 ----
-----
 
 **7.6. 2014 changelog:**
 
@@ -41,6 +40,8 @@ md5:9a7e877f7206ccee756e2451e2dadf9d
 
 - initial release
 
+----
+
 **Previous builds:**
 
 - [AndroidFileHost](https://www.androidfilehost.com/?w=files&flid=89935)
@@ -49,5 +50,4 @@ md5:9a7e877f7206ccee756e2451e2dadf9d
 
 - [MoDaCo](http://www.modaco.com/topic/366058-twrp-2630/)
 
-----
 ----

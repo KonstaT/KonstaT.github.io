@@ -32,11 +32,9 @@ md5:038563ed5f404d7589ecbb02ea8112aa
 ![screenshot]({{ site.url }}/devices/y560/stock-splash/splash.png)
 
 ----
-----
 
 **Previous discussion:**
 
 - [MoDaCo](http://www.modaco.com/forums/topic/376914-how-to-change-splash-screen/)
 
-----
 ----

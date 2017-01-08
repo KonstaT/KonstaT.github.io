@@ -54,6 +54,16 @@ md5:380603759b700b99b7a575808725ffef
 - Mozilla/B2G/CAF
 
 ----
+
+**How to install:**
+
+1. Copy b2g-xxxxxxxx-atlas40.zip to your phone's sdcard
+2. Boot into [ClockWorkMod recovery](/devices/atlas40/CWM)
+3. Make a nandroid backup of your previous ROM: backup & restore -> backup
+4. wipe data & factory reset (It's very important that you do this before you flash the zip - it also writes to data partition)
+5. Install ROM: install .zip from sdcard -> choose .zip from sdcard -> b2g-xxxxxxxx-atlas40.zip
+6. reboot now
+
 ----
 
 **21.5. changelog:**
@@ -92,6 +102,8 @@ md5:380603759b700b99b7a575808725ffef
 
 - initial release
 
+----
+
 **Previous builds:**
 
 - [AndroidFileHost](https://www.androidfilehost.com/?w=files&flid=89887)
@@ -100,17 +112,4 @@ md5:380603759b700b99b7a575808725ffef
 
 - [MoDaCo](http://www.modaco.com/topic/360986-firefox-os-b2g/)
 
-----
-----
-
-**How to install:**
-
-1. Copy b2g-xxxxxxxx-atlas40.zip to your phone's sdcard
-2. Boot into [ClockWorkMod recovery](/devices/atlas40/CWM)
-3. Make a nandroid backup of your previous ROM: backup & restore -> backup
-4. wipe data & factory reset (It's very important that you do this before you flash the zip - it also writes to data partition)
-5. Install ROM: install .zip from sdcard -> choose .zip from sdcard -> b2g-xxxxxxxx-atlas40.zip
-6. reboot now
-
-----
 ----

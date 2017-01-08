@@ -52,7 +52,6 @@ If you already have TWRP installed, you can use a flashable zip to update it.
 - [Device](https://gitlab.com/Konsta/android_device_zte_p839v55)
 
 ----
-----
 
 **27.4. 2016 changelog:**
 
@@ -73,6 +72,8 @@ If you already have TWRP installed, you can use a flashable zip to update it.
 
 - initial release
 
+----
+
 **Previous builds:**
 
 - [AndroidFileHost](https://www.androidfilehost.com/?w=files&flid=89959)
@@ -81,5 +82,4 @@ If you already have TWRP installed, you can use a flashable zip to update it.
 
 - [MoDaCo](http://www.modaco.com/forums/topic/375554-twrp-3020/)
 
-----
 ----

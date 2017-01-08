@@ -83,15 +83,15 @@ You can boot to TWRP by executing 'adb reboot recovery'. It's also possible to b
 - [Device](https://github.com/CM-CHT/android_device_intel_chuwi_vi10plus/tree/android-5.1)
 
 ----
-----
 
 **12.10. changelog**
 
 - initial release
 
+----
+
 **Previous discussion:**
 
 - [MoDaCo](http://www.modaco.com/forums/topic/377883-twrp-3020/)
 
-----
 ----

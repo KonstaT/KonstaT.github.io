@@ -61,28 +61,6 @@ md5:bae3c864d458192ed782d1ded5b10c9f
 - matrixsoul for B2016092102 dump
 
 ----
-----
-
-**13.12. changelog:**
-
-- remove suspicious YouTubeOem app that's bundled with stock Remix OS on Chuwi devices (see virustotal)
-- add Widevine blobs from Cube iWork8 Ultimate to fix playback of DRM protected content with various media streaming apps
-
-**11.12. changelog:**
-
-- B2016092102
-- initial release
-
-**Previous builds:**
-
-- [AndroidFileHost](https://www.androidfilehost.com/?w=files&flid=133629)
-
-**Previous discussion:**
-
-- [MoDaCo](http://www.modaco.com/forums/topic/378166-remix-os-20/)
-
-----
-----
 
 **How to install:**
 
@@ -139,4 +117,25 @@ md5:3ceb8d817c1113480b5e31971cc45b0f
 md5:0df88ff0ca593747433af94b7585267e
 
 ----
+
+**13.12. changelog:**
+
+- remove suspicious YouTubeOem app that's bundled with stock Remix OS on Chuwi devices (see virustotal)
+- add Widevine blobs from Cube iWork8 Ultimate to fix playback of DRM protected content with various media streaming apps
+
+**11.12. changelog:**
+
+- B2016092102
+- initial release
+
+----
+
+**Previous builds:**
+
+- [AndroidFileHost](https://www.androidfilehost.com/?w=files&flid=133629)
+
+**Previous discussion:**
+
+- [MoDaCo](http://www.modaco.com/forums/topic/378166-remix-os-20/)
+
 ----

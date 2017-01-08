@@ -67,7 +67,6 @@ md5:f8595a3bd3bfa924c006450f2f8d3266
 - [Device](https://github.com/KonstaT/android_device_huawei_y560/tree/android-5.1)
 
 ----
-----
 
 **13.11. changelog:**
 
@@ -83,6 +82,8 @@ md5:f8595a3bd3bfa924c006450f2f8d3266
 
 - initial release
 
+----
+
 **Previous builds:**
 
 - [AndroidFileHost](https://www.androidfilehost.com/?w=files&flid=90103)
@@ -91,5 +92,4 @@ md5:f8595a3bd3bfa924c006450f2f8d3266
 
 - [MoDaCo](http://www.modaco.com/forums/topic/376807-twrp-3020/)
 
-----
 ----

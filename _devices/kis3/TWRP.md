@@ -31,7 +31,6 @@ md5:98ca1ea09aa5931cc5dd4a8916e76679
 - [Device](https://github.com/KonstaT/android_device_zte_kis3)
 
 ----
-----
 
 **20.4. 2016 changelog:**
 
@@ -47,6 +46,8 @@ md5:98ca1ea09aa5931cc5dd4a8916e76679
 
 - TWRP 2.7.1.0 - initial release
 
+----
+
 **Previous builds:**
 
 - [AndroidFileHost](https://www.androidfilehost.com/?w=files&flid=90055)
@@ -55,5 +56,4 @@ md5:98ca1ea09aa5931cc5dd4a8916e76679
 
 - [MoDaCo](http://www.modaco.com/forums/topic/373288-twrp-3020/)
 
-----
 ----

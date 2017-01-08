@@ -73,11 +73,9 @@ md5:cd0a200baf4fe24e57805ee576e6ad4a
 > dd if=/sdcard/recovery-cwm6036-8225.img of=/dev/block/platform/msm_sdcc.3/by-num/p16
 
 ----
-----
 
 **Previous discussion:**
 
 - [MoDaCo](http://www.modaco.com/forums/topic/365228-clockworkmod-6036/)
 
-----
 ----
