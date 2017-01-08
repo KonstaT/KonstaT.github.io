@@ -25,3 +25,10 @@ I've tested this thoroughly and it should be fully working and perfectly safe to
 
 ----
 ----
+
+**Previous discussion:**
+
+- [MoDaCo](http://www.modaco.com/forums/topic/360803-splash-flasher/)
+
+----
+----

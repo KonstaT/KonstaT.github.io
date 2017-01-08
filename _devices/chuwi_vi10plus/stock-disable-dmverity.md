@@ -75,3 +75,10 @@ md5:8cb950b1060f39988aa97ab01fe0146d
 
 ----
 ----
+
+**Previous discussion:**
+
+- [MoDaCo](http://www.modaco.com/forums/topic/377884-howto-disable-dm-verity-and-root/)
+
+----
+----

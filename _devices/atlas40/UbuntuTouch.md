@@ -70,5 +70,9 @@ md5:f00724d112caa25d759f686acd6bf682
 
 - initial release for MWC2013 developer preview (Ubuntu Touch 12.10 Quantal Quetzal)
 
+**Previous discussion:**
+
+- [MoDaCo](http://www.modaco.com/topic/361024-ubuntu-touch/)
+
 ----
 ----

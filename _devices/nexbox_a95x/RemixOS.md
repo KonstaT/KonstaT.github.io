@@ -64,6 +64,10 @@ md5:30f5f0de965e75cac148b701d9cdc406
 
 - [AndroidFileHost](https://www.androidfilehost.com/?w=files&flid=89614)
 
+**Previous discussion:**
+
+- [MoDaCo](http://www.modaco.com/forums/topic/377591-remix-os-20/)
+
 ----
 ----
 

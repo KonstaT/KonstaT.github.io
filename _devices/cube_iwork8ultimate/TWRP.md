@@ -102,5 +102,9 @@ Stock ROM is encrypted by default which means data partition is not accessible i
 
 - initial release
 
+**Previous discussion:**
+
+- [MoDaCo](http://www.modaco.com/forums/topic/377298-twrp-3020/)
+
 ----
 ----

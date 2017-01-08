@@ -74,3 +74,10 @@ md5:cd0a200baf4fe24e57805ee576e6ad4a
 
 ----
 ----
+
+**Previous discussion:**
+
+- [MoDaCo](http://www.modaco.com/forums/topic/365228-clockworkmod-6036/)
+
+----
+----

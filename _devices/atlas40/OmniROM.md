@@ -60,9 +60,13 @@ md5:b44660f4c485c88128426b0b2d388f5c
 
 [Merged commits](https://gerrit.omnirom.org/#/q/status:merged,n,z) not mentioned in the changelog.
 
-**20.10\. changelog:**
+**20.10. changelog:**
 
 - initial release
+
+**Previous discussion:**
+
+- [MoDaCo](http://www.modaco.com/topic/365936-omnirom-43/)
 
 ----
 ----

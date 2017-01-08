@@ -87,5 +87,9 @@ md5:f8595a3bd3bfa924c006450f2f8d3266
 
 - [AndroidFileHost](https://www.androidfilehost.com/?w=files&flid=90103)
 
+**Previous discussion:**
+
+- [MoDaCo](http://www.modaco.com/forums/topic/376807-twrp-3020/)
+
 ----
 ----

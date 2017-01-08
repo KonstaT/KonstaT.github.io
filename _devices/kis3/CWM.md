@@ -87,5 +87,9 @@ This recovery is fully working with goodies such as repeatable keys and adb side
 
 - [AndroidFileHost](https://www.androidfilehost.com/?w=files&flid=90023)
 
+**Previous discussion:**
+
+- [MoDaCo](http://www.modaco.com/forums/topic/373213-clockworkmod-6051/)
+
 ----
 ----

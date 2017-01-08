@@ -96,6 +96,10 @@ md5:380603759b700b99b7a575808725ffef
 
 - [AndroidFileHost](https://www.androidfilehost.com/?w=files&flid=89887)
 
+**Previous discussion:**
+
+- [MoDaCo](http://www.modaco.com/topic/360986-firefox-os-b2g/)
+
 ----
 ----
 

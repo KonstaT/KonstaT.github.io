@@ -284,5 +284,9 @@ Kernel is built from burstlam's [source code](https://github.com/burstlam/zte-tu
 
 - initial release
 
+**Previous discussion:**
+
+- [MoDaCo](http://www.modaco.com/topic/350875-swedish-snow-rls7/)
+
 ----
 ----

@@ -45,5 +45,9 @@ md5:9a7e877f7206ccee756e2451e2dadf9d
 
 - [AndroidFileHost](https://www.androidfilehost.com/?w=files&flid=89935)
 
+**Previous discussion:**
+
+- [MoDaCo](http://www.modaco.com/topic/366058-twrp-2630/)
+
 ----
 ----

@@ -77,5 +77,9 @@ If you already have TWRP installed, you can use a flashable zip to update it.
 
 - [AndroidFileHost](https://www.androidfilehost.com/?w=files&flid=89959)
 
+**Previous discussion:**
+
+- [MoDaCo](http://www.modaco.com/forums/topic/375554-twrp-3020/)
+
 ----
 ----

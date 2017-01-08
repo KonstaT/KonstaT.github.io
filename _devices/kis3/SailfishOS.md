@@ -90,6 +90,10 @@ md5:bf5ac7346ed5e08e32c884fd0022409c
 
 - [AndroidFileHost](https://www.androidfilehost.com/?w=files&flid=90031)
 
+**Previous discussion:**
+
+- [MoDaCo](http://www.modaco.com/forums/topic/375953-sailfish-os/)
+
 ----
 ----
 

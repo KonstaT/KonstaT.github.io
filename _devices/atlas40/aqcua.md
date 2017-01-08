@@ -32,3 +32,10 @@ md5:6e99819906adc97b3b985b6b8073e354
 
 ----
 ----
+
+**Previous discussion:**
+
+- [MoDaCo](http://www.modaco.com/forums/topic/365741-acqua-compatibility/)
+
+----
+----
