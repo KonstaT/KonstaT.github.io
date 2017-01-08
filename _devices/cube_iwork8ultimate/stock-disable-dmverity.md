@@ -40,7 +40,7 @@ md5:ef826ac9a9d6cf6da346056b363ffbc7
 [https://www.androidfilehost.com/?fid=24659325368664670](https://www.androidfilehost.com/?fid=24659325368664670)  
 md5:5177b0cb39d1edb3c2e020b52f71fd18
 
-**iwork8-air-disable-dmverity-unencrypt-I1-TF_V1.0_20161108.zip** (I1-TF - newest batch)  
+**iwork8-air-disable-dmverity-unencrypt-I1-TF-20161108.zip** (I1-TF - newest batch)  
 [https://www.androidfilehost.com/?fid=457095661767126849](https://www.androidfilehost.com/?fid=457095661767126849)  
 md5:58333ee1ce702a1914f2e9da128f1c83
 
@@ -77,6 +77,10 @@ md5:2a2b5cf14df01d8f68e32cc8df9e9f7b
 **iwork8-air-navbar-mod-I1-TF.zip** (I1-TF)  
 [https://www.androidfilehost.com/?fid=385035244224402925](https://www.androidfilehost.com/?fid=385035244224402925)  
 md5:1e0764f7bd5a6c8895d6086f772425d5
+
+**iwork8-air-navbar-mod-I1-TF-20161108.zip** (I1-TF - newest batch)  
+[https://www.androidfilehost.com/?fid=673368273298922151](https://www.androidfilehost.com/?fid=673368273298922151)  
+md5:3d05fe52acfce78c1979b50b48ee7679
 
 ----
 
