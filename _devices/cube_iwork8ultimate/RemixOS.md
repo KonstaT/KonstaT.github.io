@@ -89,7 +89,7 @@ Q: I have iWork8 Air (I1-TF) with different display hardware. What should I do?
 [https://www.androidfilehost.com/?fid=24659325368664684](https://www.androidfilehost.com/?fid=24659325368664684)  
 md5:9a06ebc95b21f8ea86d6ce691f4e7adf
 
-**RemixOS-cht_cr_mrd-I1-TF-20161108.zip**  
+**RemixOS-cht_cr_mrd-I1-TF-20161108.zip** (latest batch)  
 [https://www.androidfilehost.com/?fid=745425885120698942](https://www.androidfilehost.com/?fid=745425885120698942)  
 md5:c146108dc41dbdb6c8e5c4096f48a1f4
 
