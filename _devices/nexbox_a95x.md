@@ -7,6 +7,7 @@ subtitle: A95X
 #### ROM:
 
 - [Remix OS 2.0 (Android 5.1.1)](/devices/nexbox_a95x/RemixOS)
+- [Android TV (Android 5.1.1)](/devices/nexbox_a95x/AndroidTV)
 
 #### Recovery:
 
