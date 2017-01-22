@@ -35,7 +35,7 @@ md5:d7243d2ccd6081896bf7032e840940b1
 
 ----
 
-Here's how to fix 'keyboard dock wake issue' on Hi10 Plus, Hi10 Pro & Hibook Pro devices that don't need fix for 'freezing issue'. This patch will:
+Here's how to fix 'keyboard dock wake issue' on Vi10 Plus, Hi10 Plus, Hi10 Pro & Hibook Pro devices that don't need fix for 'freezing issue'. This patch will:
 
 - add configs for external keyboard docks to fix 'keyboard dock wake issue'
 
