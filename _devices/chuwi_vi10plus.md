@@ -6,7 +6,7 @@ subtitle: Vi10 Plus, Hi10 Plus, Hi10 Pro, Hibook Pro & Hi12
 
 #### ROM:
 
-- [CyanogenMod 13 - KonstaKANG (Android 6.0.1)](/devices/chuwi_vi10plus/CM13)
+- [LineageOS 13 - KonstaKANG (Android 6.0.1)](/devices/chuwi_vi10plus/CM13)
 - [CyanogenMod 12.1 - KonstaKANG (Android 5.1.1)](/devices/chuwi_vi10plus/CM12.1)
 - [Remix OS 2.0 (Android 5.1.1)](/devices/chuwi_vi10plus/RemixOS)
 
