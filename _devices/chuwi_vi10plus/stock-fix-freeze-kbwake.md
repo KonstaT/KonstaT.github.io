@@ -69,6 +69,23 @@ md5:09892471a4b74585937da8f53a43dfd3
 
 ----
 
+Here's how to fix too high minimum brightness on Vi10 Plus, Hi10 Plus, Hi10 Pro, Hibook Pro & Hi12. This patch will:
+
+- install lights HAL that allows decreasing display brightness to minimum value set in Android framework
+
+**How to install:**
+
+1. Disable [dm-verity](/devices/chuwi_vi10plus/stock-disable-dmverity).
+2. Download zip below and copy it to your device's sdcard.
+3. Boot into [TWRP recovery](/devices/chuwi_vi10plus/TWRP).
+4. Install zip in TWRP.
+
+**vi10plus-fix-minbrightness.zip**  
+[https://www.androidfilehost.com/?fid=673368273298927149](https://www.androidfilehost.com/?fid=673368273298927149)  
+md5:d47b2ad389cc06193b69a8f250dc5961
+
+----
+
 **Sources:**
 
 - [Kernel](https://github.com/CM-CHT/android_kernel_intel_cherrytrail/tree/lollipop)
