@@ -52,14 +52,6 @@ md5:5e227464fa775f216d60bddefc34d1ea
 [https://www.androidfilehost.com/?fid=24659325368664662](https://www.androidfilehost.com/?fid=24659325368664662)  
 md5:d843481ca2e07a4697f678d52eeb875b
 
-**recovery-twrp3020-cht_cr_mrd-I1-TF-20161108.img** (I1-TF - latest batch)  
-[https://www.androidfilehost.com/?fid=385035244224411127](https://www.androidfilehost.com/?fid=385035244224411127)  
-md5:3d5c21ae4adc49fed172fff8eb67b6d3
-
-**recovery-twrp-3.0.2-0-cht_cr_mrd-I1-TF-20161108.zip** (I1-TF - latest batch - TWRP flashable)  
-[https://www.androidfilehost.com/?fid=673368273298922144](https://www.androidfilehost.com/?fid=673368273298922144)  
-md5:6f5579910e73bc088f30f2cd9a58a4fb
-
 **Prerequisites:**
 
 - Download and install [Intel Android USB driver](https://software.intel.com/en-us/android/articles/intel-usb-driver-for-android-devices) (Windows) or setup udev rules (Linux).
