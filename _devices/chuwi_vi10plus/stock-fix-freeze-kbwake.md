@@ -81,8 +81,8 @@ Here's how to fix too high minimum brightness on Vi10 Plus, Hi10 Plus, Hi10 Pro,
 4. Install zip in TWRP.
 
 **vi10plus-fix-minbrightness.zip**  
-[https://www.androidfilehost.com/?fid=673368273298927149](https://www.androidfilehost.com/?fid=673368273298927149)  
-md5:d47b2ad389cc06193b69a8f250dc5961
+[https://www.androidfilehost.com/?fid=745425885120704070](https://www.androidfilehost.com/?fid=745425885120704070)  
+md5:0862707567ca81265a639fa79eae7f57
 
 ----
 
