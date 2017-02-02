@@ -11,7 +11,7 @@ comments: true
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
 **Prerequisites:**  
-You need to have the latest stock firmware (I1-T_V1.1_20160329, I1-TD_V1.0_20160329, I1-TWB_V1.0_20160329, I1-TC_V1.0_20160528, I1-TF_V1.0_20160527, I1-TF_V1.0_20161108) and [TWRP recovery](/devices/cube_iwork8ultimate/TWRP) installed.
+You need to have the latest stock firmware (I1-T_V1.1_20160329, I1-TD_V1.0_20160329, I1-TWB_V1.0_20160329, I1-TC_V1.0_20160528, I1-TF_V1.0_20160527, I1-TF_V1.0_20161108, I1-TFB_V1.0_20161114) and [TWRP recovery](/devices/cube_iwork8ultimate/TWRP) installed.
 
 **How to disable dm-verity and remove data encryption:**
 
@@ -43,6 +43,10 @@ md5:5177b0cb39d1edb3c2e020b52f71fd18
 **iwork8-air-disable-dmverity-unencrypt-I1-TF-20161108.zip** (I1-TF - latest batch)  
 [https://www.androidfilehost.com/?fid=457095661767126849](https://www.androidfilehost.com/?fid=457095661767126849)  
 md5:58333ee1ce702a1914f2e9da128f1c83
+
+**iwork8-air-disable-dmverity-unencrypt-I1-TFB.zip** (I1-TFB - z8350)  
+[https://www.androidfilehost.com/?fid=673368273298928303](https://www.androidfilehost.com/?fid=673368273298928303)  
+md5:412f19b73e9347f72e775f99405ec5f6
 
 **How to gain root access in Android:**
 
@@ -81,6 +85,10 @@ md5:1e0764f7bd5a6c8895d6086f772425d5
 **iwork8-air-navbar-mod-I1-TF-20161108.zip** (I1-TF - latest batch)  
 [https://www.androidfilehost.com/?fid=673368273298922151](https://www.androidfilehost.com/?fid=673368273298922151)  
 md5:3d05fe52acfce78c1979b50b48ee7679
+
+**iwork8-air-navbar-mod-I1-TFB.zip** (I1-TFB - z8350)  
+[https://www.androidfilehost.com/?fid=457095661767134382](https://www.androidfilehost.com/?fid=457095661767134382)  
+md5:70e107fc3b79c93b5655d6a22e6e8770
 
 ----
 

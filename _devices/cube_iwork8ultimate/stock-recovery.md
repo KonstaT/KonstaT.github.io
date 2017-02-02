@@ -41,4 +41,8 @@ md5:04889251f69a2ece6f5d0eaab3c82677
 [https://www.androidfilehost.com/?fid=385035244224409698](https://www.androidfilehost.com/?fid=385035244224409698)  
 md5:04889251f69a2ece6f5d0eaab3c82677
 
+**recovery-stock-I1-TFB_V1.0_20161114.zip**  
+[https://www.androidfilehost.com/?fid=817550096634743244](https://www.androidfilehost.com/?fid=817550096634743244)  
+md5:0aa5d3c01dd548f536f2e54cfb289b02
+
 ----

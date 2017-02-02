@@ -8,7 +8,7 @@ social-share: true
 comments: true
 ---
 
-This is my build of Dees-Troy's [Team Win Recovery Project](http://teamw.in/project/twrp2/) (TWRP) 3.0.2-0 for Cube iWork8 Ultimate (I1-T/I1-TD/I1-TWB/I1-TC) and iWork8 Air (I1-TF). There's (at least) four different batches of iWork8 Ultimate with slightly different hardware. Choose the right image for your model!
+This is my build of Dees-Troy's [Team Win Recovery Project](http://teamw.in/project/twrp2/) (TWRP) 3.0.2-0 for Cube iWork8 Ultimate (I1-T/I1-TD/I1-TWB/I1-TC) and iWork8 Air (I1-TF/I1-TBF). There's (at least) seven different batches of iWork8 Ultimate & iWork8 Air with slightly different hardware. Choose the right image for your model! I1-TWB image is reported working on I1-TF-20161108 and I1-TFB devices.
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
