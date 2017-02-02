@@ -26,7 +26,7 @@ Hibook Pro: stock Android 20161025
 
 **How to disable dm-verity:**
 
-1. Download zip below suitable for your device and copy it to your device's sdcard.
+1. Download suitable zip for your device below and copy it to your device's sdcard.
 2. Boot into [TWRP recovery](/devices/chuwi_vi10plus/TWRP).
 3. Install zip in TWRP.
 

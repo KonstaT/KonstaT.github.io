@@ -10,7 +10,7 @@ comments: true
 
 **How to restore stock recovery:**
 
-1. Download zip below suitable for your device and copy it to your device's sdcard.
+1. Download suitable zip for your device below and copy it to your device's sdcard.
 2. Boot into [TWRP recovery](/devices/cube_iwork8ultimate/TWRP).
 3. Install zip in TWRP.
 4. Reboot recovery.

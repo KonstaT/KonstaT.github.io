@@ -15,7 +15,7 @@ You need to have the latest stock firmware (I1-T_V1.1_20160329, I1-TD_V1.0_20160
 
 **How to disable dm-verity and remove data encryption:**
 
-1. Download zip below suitable for your device and copy it to your device's sdcard.
+1. Download suitable zip for your device below and copy it to your device's sdcard.
 2. Boot into [TWRP recovery](/devices/cube_iwork8ultimate/TWRP).
 3. Install zip in TWRP.
 4. Select 'Wipe -> Format Data'. <span style="color:#FF0000;">Important!</span> This will erase your data including internal sdcard.
@@ -58,7 +58,7 @@ md5:412f19b73e9347f72e775f99405ec5f6
 **How to remove screenshot and volume up/down buttons from navigation bar:**
 
 1. Disable dm-verity (see above).
-2. Download zip below suitable for your device and copy it to your device's sdcard.
+2. Download suitable zip for your device below and copy it to your device's sdcard.
 3. Boot into [TWRP recovery](/devices/cube_iwork8ultimate/TWRP).
 4. Install zip in TWRP.
 

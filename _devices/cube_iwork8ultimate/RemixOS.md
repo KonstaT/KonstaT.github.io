@@ -71,7 +71,7 @@ Q: I can't find developer options, why?
 *A: Settings -> About tablet -> Click 'Build number' several times*
 
 Q: I have iWork8 Ultimate I1-TD/I1-TWB/I1-TC with different touchscreen hardware. What should I do?  
-*A: Download patch below suitable for your device and install it in TWRP.*
+*A: Download suitable patch for your device below and install it in TWRP.*
 
 **RemixOS-cht_cr_mrd-I1-TD.zip**  
 [https://www.androidfilehost.com/?fid=24659325368664685](https://www.androidfilehost.com/?fid=24659325368664685)  
@@ -86,7 +86,7 @@ md5:99de1beb3cabc14015588c2f598ad53a
 md5:db24d04310d9ccde30ac4dc33d2e5fa5
 
 Q: I have iWork8 Air I1-TF/I1-TFB with different display hardware. What should I do?  
-*A: Download patch below suitable for your device and install it in TWRP.*
+*A: Download suitable patch for your device below and install it in TWRP.*
 
 **RemixOS-cht_cr_mrd-I1-TF.zip**  
 [https://www.androidfilehost.com/?fid=24659325368664684](https://www.androidfilehost.com/?fid=24659325368664684)  
