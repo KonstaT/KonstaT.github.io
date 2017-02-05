@@ -6,7 +6,7 @@ subtitle: Open C / Kis 3
 
 #### ROM:
 
-- [CyanogenMod 13 - KonstaKANG (Android 6.0.1)](/devices/kis3/CM13)
+- [LineageOS 13 - KonstaKANG (Android 6.0.1)](/devices/kis3/CM13)
 - [CyanogenMod 12.1 - KonstaKANG (Android 5.1.1)](/devices/kis3/CM12.1)
 - [CyanogenMod 11 - KonstaKANG (Android 4.4.4)](/devices/kis3/CM11)
 - [CAF Android (Android 4.4.2)](/devices/kis3/CAF)
