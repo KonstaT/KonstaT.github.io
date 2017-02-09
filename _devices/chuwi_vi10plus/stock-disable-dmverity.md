@@ -1,7 +1,7 @@
 ---
 layout: rom
 title: How to disable dm-verity and root
-subtitle: for Chuwi Vi10 Plus, Hi10 Plus, Hi10 Pro & Hibook Pro
+subtitle: for Chuwi Vi10 Plus, Hi10 Plus, Hi10 Pro, Hibook & Hibook Pro
 date: 2016-10-12
 tags: [chuwi_vi10plus, stockmod]
 social-share: true
@@ -21,6 +21,7 @@ Hi10 Plus (z8350): Android 20161108
 Hi10 Pro: Remix OS B2016081102  
 Hi10 Pro: stock Android 20161102  
 Hi10 Pro (z8350 - serial no HQ64): Android 20161208  
+Hibook: stock Android 20160422  
 Hibook Pro: stock Android 20160906  
 Hibook Pro: stock Android 20161025  
 
@@ -57,6 +58,10 @@ md5:af5599c6bf7b40451fc7b006588be09e
 **hi10pro-disable-dmverity-Android-20161208.zip** (Hi10 Pro - z8350 - serial no HQ64)  
 [https://www.androidfilehost.com/?fid=529152257862689704](https://www.androidfilehost.com/?fid=529152257862689704)  
 md5:b2d600d9cdb41b9fd2743654a0a97986
+
+**hibook-disable-dmverity-Android-20160422.zip** (Hibook)  
+[https://www.androidfilehost.com/?fid=529152257862701894](https://www.androidfilehost.com/?fid=529152257862701894)  
+md5:656153251309bf1ec32c365f256a98cf
 
 **hibookpro-disable-dmverity-Android-20160906.zip** (Hibook Pro)  
 [https://www.androidfilehost.com/?fid=457095661767103939](https://www.androidfilehost.com/?fid=457095661767103939)  

@@ -1,7 +1,7 @@
 ---
 layout: rom
 title: Stock recovery
-subtitle: for Chuwi Vi10 Plus, Hi10 Plus, Hi10 Pro, Hibook Pro & Hi12
+subtitle: for Chuwi Vi10 Plus, Hi10 Plus, Hi10 Pro, Hibook, Hibook Pro & Hi12
 date: 2016-10-12
 tags: [chuwi_vi10plus, stockrecovery]
 social-share: true
@@ -44,6 +44,10 @@ md5:37c6a2006c8643137da2bb74feba5ea0
 **recovery-stock-Android-20161208-Hi10Pro.zip** (Hi10 Pro - z8350 - serial no HQ64)  
 [https://www.androidfilehost.com/?fid=457095661767123990](https://www.androidfilehost.com/?fid=457095661767123990)  
 md5:70bd7b21bfefc3bee6ae0923053dae72
+
+**recovery-stock-Android-20160422-Hibook.zip** (Hibook)  
+[https://www.androidfilehost.com/?fid=673368273298930092](https://www.androidfilehost.com/?fid=673368273298930092)  
+md5:68abf4d6c1f79c8c039e64152c321269
 
 **recovery-stock-Android-20160906-HibookPro.zip** (Hibook Pro)  
 [https://www.androidfilehost.com/?fid=457095661767104025](https://www.androidfilehost.com/?fid=457095661767104025)  

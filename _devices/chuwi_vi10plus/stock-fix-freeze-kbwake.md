@@ -1,7 +1,7 @@
 ---
 layout: rom
 title: How to fix 'freezing issue' & 'keyboard dock wake issue'
-subtitle: for Chuwi Vi10 Plus, Hi10 Plus, Hi10 Pro & Hibook Pro
+subtitle: for Chuwi Vi10 Plus, Hi10 Plus, Hi10 Pro, Hibook & Hibook Pro
 date: 2016-12-01
 tags: [chuwi_vi10plus, stockmod]
 social-share: true
@@ -35,7 +35,7 @@ md5:d7243d2ccd6081896bf7032e840940b1
 
 ----
 
-Here's how to fix 'keyboard dock wake issue' on Vi10 Plus, Hi10 Plus, Hi10 Pro & Hibook Pro devices that don't need fix for 'freezing issue'. This patch will:
+Here's how to fix 'keyboard dock wake issue' on Vi10 Plus, Hi10 Plus, Hi10 Pro, Hibook & Hibook Pro devices that don't need fix for 'freezing issue'. This patch will:
 
 - add configs for external keyboard docks to fix 'keyboard dock wake issue'
 
@@ -52,7 +52,7 @@ md5:b298502a706299087fcdec74de0efc7b
 
 ----
 
-Here's how to add Widevide support on Vi10 Plus, Hi10 Plus, Hi10 Pro, Hibook Pro & Hi12 to fix playback of DRM protected content with various media streaming apps. This patch will:
+Here's how to add Widevide support on Vi10 Plus, Hi10 Plus, Hi10 Pro, Hibook, Hibook Pro & Hi12 to fix playback of DRM protected content with various media streaming apps. This patch will:
 
 - add Widewine blobs from Cube iWork8 Ultimate
 
@@ -69,7 +69,7 @@ md5:09892471a4b74585937da8f53a43dfd3
 
 ----
 
-Here's how to fix too high minimum brightness on Vi10 Plus, Hi10 Plus, Hi10 Pro, Hibook Pro & Hi12. This patch will:
+Here's how to fix too high minimum brightness on Vi10 Plus, Hi10 Plus, Hi10 Pro, Hibook, Hibook Pro & Hi12. This patch will:
 
 - install lights HAL that allows decreasing display brightness to minimum value set in Android framework
 

@@ -1,14 +1,14 @@
 ---
 layout: rom
 title: TWRP 3.0.2-0
-subtitle: for Chuwi Vi10 Plus, Hi10 Plus, Hi10 Pro & Hibook Pro
+subtitle: for Chuwi Vi10 Plus, Hi10 Plus, Hi10 Pro, Hibook & Hibook Pro
 date: 2016-10-12
 tags: [chuwi_vi10plus, TWRP]
 social-share: true
 comments: true
 ---
 
-This is my build of Dees-Troy's [Team Win Recovery Project](http://teamw.in/project/twrp2/) (TWRP) 3.0.2-0 for Chuwi Vi10 Plus, Hi10 Plus, Hi10 Pro & Hibook Pro. Choose the right image for your device.
+This is my build of Dees-Troy's [Team Win Recovery Project](http://teamw.in/project/twrp2/) (TWRP) 3.0.2-0 for Chuwi Vi10 Plus, Hi10 Plus, Hi10 Pro, Hibook & Hibook Pro. Choose the right image for your device.
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
@@ -35,6 +35,14 @@ md5:07059b0311f781a1e1e75db368688ad0
 **recovery-twrp-3.0.2-0-cht_cr_mrd_w-Hi10Pro-HQ64.zip** (Hi10 Pro - z8350 - serial no HQ64 - TWRP flashable)  
 [https://www.androidfilehost.com/?fid=457095661767127485](https://www.androidfilehost.com/?fid=457095661767127485)  
 md5:821e809924566528fdecb07354197103
+
+**recovery-twrp3020-cht_cr_mrd_w-Hibook.img** (Hibook)  
+[https://www.androidfilehost.com/?fid=529152257862701895](https://www.androidfilehost.com/?fid=529152257862701895)  
+md5:c2b4a2fbf963d64c70b9c0a4cc7f86df
+
+**recovery-twrp-3.0.2-0-cht_cr_mrd_w-Hibook.zip** (Hibook - TWRP flashable)  
+[https://www.androidfilehost.com/?fid=745425885120706901](https://www.androidfilehost.com/?fid=745425885120706901)  
+md5:03226dc7e12bd4d0e374e2721eb1c8c0
 
 **recovery-twrp3020-cht_cr_mrd_w-HibookPro.img** (Hibook Pro)  
 [https://www.androidfilehost.com/?fid=457095661767103931](https://www.androidfilehost.com/?fid=457095661767103931)  

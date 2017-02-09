@@ -1,14 +1,14 @@
 ---
 layout: rom
 title: Remix OS 2.0 (Android 5.1.1)
-subtitle: for Chuwi Vi10 Plus, Hi10 Plus, Hi10 Pro, Hibook Pro & Hi12
+subtitle: for Chuwi Vi10 Plus, Hi10 Plus, Hi10 Pro, Hibook, Hibook Pro & Hi12
 date: 2016-12-13
 tags: [chuwi_vi10plus, RemixOS]
 social-share: true
 comments: true
 ---
 
-This is my port of [Remix OS 2.0](http://www.jide.com/remixos) for Chuwi Vi10 Plus, Hi10 Plus, Hi10 Pro, Hibook Pro & Hi12. This ROM is based on Chuwi Hi10 Plus official Remix OS release build B2016092102.
+This is my port of [Remix OS 2.0](http://www.jide.com/remixos) for Chuwi Vi10 Plus, Hi10 Plus, Hi10 Pro, Hibook, Hibook Pro & Hi12. This ROM is based on Chuwi Hi10 Plus official Remix OS release build B2016092102.
 
 ![screenshot]({{ site.url }}/devices/chuwi_vi10plus/RemixOS/Screenshot_2016-12-11-17-38-09.png)
 
@@ -69,7 +69,7 @@ md5:bae3c864d458192ed782d1ded5b10c9f
 3. wipe -> advanced wipe -> wipe /system
 4. wipe -> factory reset
 5. install RemixOS-Bxxxxxxxxxx-chuwi_vi10plus.zip
-6. (install Hi10 Plus/Hi10 Pro/Hibook Pro/Hi12 patch if necessary - see FAQ below)
+6. (install Hi10 Plus/Hi10 Pro/Hibook/Hibook Pro/Hi12 patch if necessary - see FAQ below)
 7. reboot system
 
 **FAQ:**
@@ -100,6 +100,13 @@ md5:6caa1a7344655f782365b9461442ae8e
 **RemixOS-B2016092102-chuwi_vi10plus-Hi10Pro-HQ64.zip** (latest batch - serial no HQ64)  
 [https://www.androidfilehost.com/?fid=673368273298922118](https://www.androidfilehost.com/?fid=673368273298922118)  
 md5:e1ba1d733e6533d06b2688d0ab7d899e
+
+Q: I have Hibook. What should I do?  
+*A: Download patch below and install it in TWRP.*
+
+**RemixOS-B2016092102-chuwi_vi10plus-Hibook.zip**  
+[https://www.androidfilehost.com/?fid=673368273298930091](https://www.androidfilehost.com/?fid=673368273298930091)  
+md5:60595eb22f26f25470fa9b28e874ba36
 
 Q: I have Hibook Pro. What should I do?  
 *A: Download patch below and install it in TWRP.*
