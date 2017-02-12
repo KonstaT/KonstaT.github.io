@@ -56,7 +56,7 @@ md5:20c53bc58c41d948271ab2176377b2a6
 3. wipe -> advanced wipe -> wipe /system
 4. wipe -> factory reset
 5. install RemixOS-2016xxxx-cht_cr_mrd.zip
-6. (install I1-TD/I1-TWB/I1-TF patch if necessary)
+6. (install I1-TD/I1-TWB/I1-TC/I1-TF/I1-TFB patch if necessary - see FAQ below)
 7. reboot system
 
 **FAQ:**
