@@ -16,6 +16,7 @@ You need to have the latest stock firmware and TWRP recovery installed. See 'Set
 **Supported stock firmware versions:**  
 Vi10 Plus & Hi10 Plus: Remix OS B2016080801  
 Vi10 Plus: stock Android 20160803  
+Hi10 Plus: Remix OS B2016092601  
 Hi10 Plus (z8350): Remix OS B2016092102  
 Hi10 Plus (z8350): Android 20161108  
 Hi10 Pro: Remix OS B2016081102  
@@ -38,6 +39,10 @@ md5:852f530980c2f4577f81526af771f3a8
 **vi10plus-disable-dmverity-Android-20160803.zip** (Vi10 Plus)  
 [https://www.androidfilehost.com/?fid=385035244224384120](https://www.androidfilehost.com/?fid=385035244224384120)  
 md5:43d9b8fa9155ee77d0cc2f8288128b8b
+
+**hi10plus-disable-dmverity-RemixOS-B2016092601.zip** (Hi10 Plus)  
+[https://www.androidfilehost.com/?fid=745425885120707480](https://www.androidfilehost.com/?fid=745425885120707480)  
+md5:342cf59f61de70d2a5c292313e317912
 
 **hi10plus-disable-dmverity-RemixOS-B2016092102.zip** (Hi10 Plus - z8350)  
 [https://www.androidfilehost.com/?fid=745425885120692247](https://www.androidfilehost.com/?fid=745425885120692247)  
