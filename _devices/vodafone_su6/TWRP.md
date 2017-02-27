@@ -24,7 +24,7 @@ md5:e49bed24c5087946d29fa7a05167aa3e
 
 **How to install:**
 
-- Root your Android ([MobileGo](http://mobilego.wondershare.com/) Windows and [KingRoot](http://androidxda.com/download-kingroot-application) are reported to work)
+- Gain root access in Android with root exploit of your choice
 - Download TWRP recovery image, rename it to recovery.img and copy it to the root of your internal sdcard
 - Execute following two commands in 'adb shell'/[Terminal Emulator](https://play.google.com/store/apps/details?id=jackpal.androidterm) (make sure not to typo!)
 
