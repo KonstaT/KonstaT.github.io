@@ -8,7 +8,7 @@ social-share: true
 comments: true
 ---
 
-This is my port of [Remix OS 2.0](http://www.jide.com/remixos) for Chuwi Vi10 Plus, Hi10 Plus, Hi10 Pro, Hibook, Hibook Pro & Hi12. This ROM is based on Chuwi Hi10 Plus official Remix OS release build B2016092102.
+This is my port of [Remix OS 2.0](http://www.jide.com/remixos) for Chuwi Vi10 Plus. Chuwi Hi10 Plus, Hi10 Pro, Hibook, Hibook Pro & Hi12 are supported with compatibility patch (see installation instructions below). This ROM is based on Chuwi Hi10 Plus official Remix OS release build B2016092102.
 
 ![screenshot]({{ site.url }}/devices/chuwi_vi10plus/RemixOS/Screenshot_2016-12-11-17-38-09.png)
 
