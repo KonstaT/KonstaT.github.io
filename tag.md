@@ -22,7 +22,7 @@ use-site-title: true
       {% assign counter = counter | plus: 1 %}
     {% else %}
       {% assign rel_tag_size = counter | times: 2.5 | divided_by: tags_count | plus: 0.7 %}
-      <span style="white-space: nowrap; font-size: {{ rel_tag_size }}em; padding: 0.25em;">
+      <span style="white-space: nowrap; font-size: {{ rel_tag_size }}em; padding: 0.4em;">
         <a href="{{ site.baseurl }}/tag/{{ previousTag }}" class="tag">{{ previousTag }} ({{ counter }})</a>
       </span>
       {% assign counter = 1 %}
@@ -30,7 +30,7 @@ use-site-title: true
 
     {% if forloop.last %}
       {% assign rel_tag_size = counter | times: 2.5 | divided_by: tags_count | plus: 0.7 %}
-      <span style="white-space: nowrap; font-size: {{ rel_tag_size }}em; padding: 0.25em;">
+      <span style="white-space: nowrap; font-size: {{ rel_tag_size }}em; padding: 0.4em;">
         <a href="{{ site.baseurl }}/tag/{{ currentTag }}" class="tag">{{ currentTag }} ({{ counter }})</a>
       </span>
     {% endif %}
