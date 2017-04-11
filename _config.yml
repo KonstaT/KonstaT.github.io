@@ -30,6 +30,7 @@ navbar-links:
     - Huawei Y5: "devices/y560"
     - Motorola Moto G: "devices/falcon"
     - Nexbox A95X: "devices/nexbox_a95x"
+    - Raspberry Pi 3: "devices/rpi3"
     - Vodafone Smart Ultra 6: "devices/vodafone_su6"
     - ZTE Blade: "devices/blade"
     - ZTE Blade III: "devices/atlas40"
