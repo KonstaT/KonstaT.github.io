@@ -25,6 +25,7 @@ Hi10 Pro (z8350 - serial no HQ64): Android 20161208
 Hibook: stock Android 20160422  
 Hibook Pro: stock Android 20160906  
 Hibook Pro: stock Android 20161025  
+Hibook Pro: stock Android 20170113  
 
 **How to disable dm-verity:**
 
@@ -75,6 +76,10 @@ md5:cad2b4b51ce4e16e80bb3994b3624a2f
 **hibookpro-disable-dmverity-Android-20161025.zip** (Hibook Pro)  
 [https://www.androidfilehost.com/?fid=385035244224407941](https://www.androidfilehost.com/?fid=385035244224407941)  
 md5:8cb950b1060f39988aa97ab01fe0146d
+
+**hibookpro-disable-dmverity-Android-20170113.zip** (Hibook Pro)  
+[https://www.androidfilehost.com/?fid=745425885120728007](https://www.androidfilehost.com/?fid=745425885120728007)  
+md5:53ca753167f2f636655c14ef9578e679
 
 **How to gain root access in Android:**
 
