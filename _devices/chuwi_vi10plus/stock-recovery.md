@@ -37,6 +37,10 @@ md5:588c72ffb184d588e979b8ffa497ad78
 [https://www.androidfilehost.com/?fid=457095661767123989](https://www.androidfilehost.com/?fid=457095661767123989)  
 md5:63f916ec01d6a25ea00b851f35618251
 
+**recovery-stock-Android-20170220-Hi10Plus.zip** (Hi10 Plus - z8350)  
+[https://www.androidfilehost.com/?fid=529152257862724162](https://www.androidfilehost.com/?fid=529152257862724162)  
+md5:ed54388bea0ad42d33ceac335d13cd97
+
 **recovery-stock-RemixOS-B2016081102-Hi10Pro.zip** (Hi10 Pro)  
 [https://www.androidfilehost.com/?fid=385035244224386866](https://www.androidfilehost.com/?fid=385035244224386866)  
 md5:c54d36aa41746409dbad8ef583d1327f
