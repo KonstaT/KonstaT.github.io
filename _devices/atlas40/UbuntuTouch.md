@@ -10,8 +10,8 @@ comments: true
 
 This is my port of [Ubuntu Touch](http://www.ubuntu.com/phone) for ZTE Blade III. Ubuntu for phones is still in very early development and almost nothing works! This **developer preview** is only to give you some idea what Ubuntu Touch will feel like in a mobile device.
 
-![screenshot]({{ site.url }}/devices/atlas40/UbuntuTouch/screenshot2.png)  
-![screenshot]({{ site.url }}/devices/atlas40/UbuntuTouch/screenshot3.png)
+![screenshot]({{ site.url }}/img/atlas40/UbuntuTouch/screenshot2.png)  
+![screenshot]({{ site.url }}/img/atlas40/UbuntuTouch/screenshot3.png)
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 

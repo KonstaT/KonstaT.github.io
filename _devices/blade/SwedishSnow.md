@@ -10,8 +10,8 @@ comments: true
 
 This ROM is based on official Comviq/Tele2 ZTE Blade Gingerbread [GB_TELE2_P729VV1.0.0B03](http://android.modaco.com/topic/349790-zte-blade-android-235-stock-rom-16122011/) Android 2.3.5 (built Fri Nov 11 01:55:47 HKT 2011). This ROM will continue where I left with [Moldovan Mile-High-Mountain-Pie](http://android.modaco.com/topic/347215-romgen1-2-3-moldovan-mile-high-mountain-pie-rls9-android-235/).
 
-![screenshot]({{ site.url }}/devices/blade/SwedishSnow/post-834050-0-63480600-1326818950.png)  
-![screenshot]({{ site.url }}/devices/blade/SwedishSnow/post-834050-0-01830300-1334313808.png)
+![screenshot]({{ site.url }}/img/blade/SwedishSnow/post-834050-0-63480600-1326818950.png)  
+![screenshot]({{ site.url }}/img/blade/SwedishSnow/post-834050-0-01830300-1334313808.png)
 
 This ROM is for gen2 devices only. Wipe data/factory reset before installing. No wipe, no whine.
 

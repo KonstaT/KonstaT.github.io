@@ -10,8 +10,8 @@ comments: true
 
 This ROM is based on official [ZTE N880E MIUI](http://www.miui.com/getrom.php?r=49). Funny thing is that N880E MIUI builds are based on the CM10 device sources that I've released, so thanks to me. ;)
 
-![screenshot]({{ site.url }}/devices/atlas40/MIUI/Screenshot_2013-05-21-12-10-41.png)  
-![screenshot]({{ site.url }}/devices/atlas40/MIUI/Screenshot_2013-05-21-12-11-15.png)
+![screenshot]({{ site.url }}/img/atlas40/MIUI/Screenshot_2013-05-21-12-10-41.png)  
+![screenshot]({{ site.url }}/img/atlas40/MIUI/Screenshot_2013-05-21-12-11-15.png)
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 

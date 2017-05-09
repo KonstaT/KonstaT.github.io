@@ -10,8 +10,8 @@ comments: true
 
 This ROM is based on the latest generic update [ICS_P772N10V1.0.0B10](http://wwwen.zte.com.cn/endata/mobile/Macedonia/Macedonia_SoftWare/201212/P020121226586794303608.zip). ZTE apps have been removed or replaced with CM/AOSP apps where necessary. Most of the ZTE customizations have been removed to give this ROM a clean AOSP look.
 
-![screenshot]({{ site.url }}/devices/atlas40/AuroraBorealis/post-834050-0-30106600-1358682096.png)  
-![screenshot]({{ site.url }}/devices/atlas40/AuroraBorealis/post-834050-0-05510700-1358682253.png)
+![screenshot]({{ site.url }}/img/atlas40/AuroraBorealis/post-834050-0-30106600-1358682096.png)  
+![screenshot]({{ site.url }}/img/atlas40/AuroraBorealis/post-834050-0-05510700-1358682253.png)
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 

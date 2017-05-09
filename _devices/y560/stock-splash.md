@@ -29,7 +29,7 @@ comments: true
 [https://www.androidfilehost.com/?fid=24591000424952167](https://www.androidfilehost.com/?fid=24591000424952167)  
 md5:038563ed5f404d7589ecbb02ea8112aa
 
-![screenshot]({{ site.url }}/devices/y560/stock-splash/splash.png)
+![screenshot]({{ site.url }}/img/y560/stock-splash/splash.png)
 
 ----
 

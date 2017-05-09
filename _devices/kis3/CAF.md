@@ -14,8 +14,8 @@ This build is based on the same [CAF release](https://www.codeaurora.org/xwiki/b
 
 <span style="color:#ff0000;">Important. Prerequisites!!!</span> You need to install Android KitKat on your Open C first (e.g. [EU_FFOS+to+Android.zip](https://www.androidfilehost.com/?fid=673368273298921576) will do). You also need to have this [ClockWorkMod](/devices/kis3/CWM) recovery installed ([TWRP](/devices/kis3/TWRP) seems to have some issues with CAF otapackages :o).
 
-![screenshot]({{ site.url }}/devices/kis3/CAF/Screenshot_2014-10-24-18-13-31.png)  
-![screenshot]({{ site.url }}/devices/kis3/CAF/Screenshot_2014-10-24-18-22-26.png)
+![screenshot]({{ site.url }}/img/kis3/CAF/Screenshot_2014-10-24-18-13-31.png)  
+![screenshot]({{ site.url }}/img/kis3/CAF/Screenshot_2014-10-24-18-22-26.png)
 
 <span style="color:#ff0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 

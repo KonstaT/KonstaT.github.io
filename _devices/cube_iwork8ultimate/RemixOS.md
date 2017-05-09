@@ -10,7 +10,7 @@ comments: true
 
 This is my port of [Remix OS](http://www.jide.com/remixos) 2.0 for Cube iWork8 Ultimate (I1-T/I1-TD/I1-TWB/I1-TC) and iWork8 Air (I1-TF/I1-TFB). This ROM is based on [Onda v820w CH](http://www.jide.com/remixos/devices/v820wch) official Remix OS release build B2016051301.
 
-![screenshot]({{ site.url }}/devices/cube_iwork8ultimate/RemixOS/Screenshot_2016-07-15-17-47-01.png)
+![screenshot]({{ site.url }}/img/cube_iwork8ultimate/RemixOS/Screenshot_2016-07-15-17-47-01.png)
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 

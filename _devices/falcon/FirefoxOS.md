@@ -12,8 +12,8 @@ This is my build of [Firefox OS](https://www.mozilla.org/en-US/firefox/os/) for 
 
 This build is based on [CAF release](https://www.codeaurora.org/xwiki/bin/FirefoxOS/release) LNX.LF.3.5.1-11900-8x10.0 and it's Boot2Gecko 2.0.0.0-prerelease.
 
-![screenshot]({{ site.url }}/devices/falcon/FirefoxOS/2014-08-26-16-22-19.png)  
-![screenshot]({{ site.url }}/devices/falcon/FirefoxOS/2014-08-26-16-22-46.png)
+![screenshot]({{ site.url }}/img/falcon/FirefoxOS/2014-08-26-16-22-19.png)  
+![screenshot]({{ site.url }}/img/falcon/FirefoxOS/2014-08-26-16-22-46.png)
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 

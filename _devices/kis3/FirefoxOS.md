@@ -14,8 +14,8 @@ This build is based on the latest [CAF release](https://www.codeaurora.org/xwiki
 
 <span style="color:#ff0000;">Important. Prerequisites!!!</span> You need to install Android KitKat on your Open C first (e.g. [EU_FFOS+to+Android.zip](https://www.androidfilehost.com/?fid=673368273298921576) will do). Yes, that's right - this build is based on KitKat unlike the official ZTE Open C Firefox OS firmware. You also need to have this [ClockWorkMod](/devices/kis3/CWM) recovery installed ([TWRP](/devices/kis3/TWRP) seems to have some issues with CAF otapackages :o).
 
-![screenshot]({{ site.url }}/devices/kis3/FirefoxOS/2014-08-20-15-10-38.png)  
-![screenshot]({{ site.url }}/devices/kis3/FirefoxOS/2014-08-20-15-13-00.png)
+![screenshot]({{ site.url }}/img/kis3/FirefoxOS/2014-08-20-15-10-38.png)  
+![screenshot]({{ site.url }}/img/kis3/FirefoxOS/2014-08-20-15-13-00.png)
 
 <span style="color:#ff0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 

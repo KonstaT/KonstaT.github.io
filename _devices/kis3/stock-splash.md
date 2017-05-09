@@ -26,27 +26,27 @@ Bytesize (1,152,054 bytes) doesn't exactly match ZTE splash.img (1,153,024 bytes
 
 **Collection of splash screens from ZTE stock firmware:**
 
-![screenshot]({{ site.url }}/devices/kis3/stock-splash/splash-zte-new.png)
+![screenshot]({{ site.url }}/img/kis3/stock-splash/splash-zte-new.png)
 
 **splash-zte-new.img**  
 [https://www.androidfilehost.com/?fid=24591000424952208](https://www.androidfilehost.com/?fid=24591000424952208)
 
-![screenshot]({{ site.url }}/devices/kis3/stock-splash/splash-zte.png)
+![screenshot]({{ site.url }}/img/kis3/stock-splash/splash-zte.png)
 
 **splash-zte.img**  
 [https://www.androidfilehost.com/?fid=24591000424952207](https://www.androidfilehost.com/?fid=24591000424952207)
 
-![screenshot]({{ site.url }}/devices/kis3/stock-splash/splash-zte2.png)
+![screenshot]({{ site.url }}/img/kis3/stock-splash/splash-zte2.png)
 
 **splash-zte2.img**  
 [https://www.androidfilehost.com/?fid=24591000424952209](https://www.androidfilehost.com/?fid=24591000424952209)
 
-![screenshot]({{ site.url }}/devices/kis3/stock-splash/splash-droid.png)
+![screenshot]({{ site.url }}/img/kis3/stock-splash/splash-droid.png)
 
 **splash-droid.img**  
 [https://www.androidfilehost.com/?fid=24591000424952206](https://www.androidfilehost.com/?fid=24591000424952206)
 
-![screenshot]({{ site.url }}/devices/kis3/stock-splash/splash-firefox.png)
+![screenshot]({{ site.url }}/img/kis3/stock-splash/splash-firefox.png)
 
 **splash-firefox.img**  
 [https://www.androidfilehost.com/?fid=24591000424952205](https://www.androidfilehost.com/?fid=24591000424952205)

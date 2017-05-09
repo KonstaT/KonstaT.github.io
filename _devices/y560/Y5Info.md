@@ -10,7 +10,7 @@ comments: true
 
 Here's a small app I wrote that pulls some useful hardware information.
 
-![screenshot]({{ site.url }}/devices/y560/Y5Info/Screenshot_20170105-145508.png)
+![screenshot]({{ site.url }}/img/y560/Y5Info/Screenshot_20170105-145508.png)
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 

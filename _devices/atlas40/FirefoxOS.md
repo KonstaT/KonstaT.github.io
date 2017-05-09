@@ -10,8 +10,8 @@ comments: true
 
 This is my build of [Firefox OS](https://www.mozilla.org/en-US/firefoxos/) for ZTE Blade III. This is not meant for daily use (or any use really), it's just something to play with.
 
-![screenshot]({{ site.url }}/devices/atlas40/FirefoxOS/screenshot-20140521-155653.png)  
-![screenshot]({{ site.url }}/devices/atlas40/FirefoxOS/screenshot-20140521-155819.png)
+![screenshot]({{ site.url }}/img/atlas40/FirefoxOS/screenshot-20140521-155653.png)  
+![screenshot]({{ site.url }}/img/atlas40/FirefoxOS/screenshot-20140521-155819.png)
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 

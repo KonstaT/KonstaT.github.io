@@ -10,7 +10,7 @@ comments: true
 
 This is my port of [Remix OS](http://www.jide.com/remixos) 2.0 for Nexbox A95X (Amlogic S905 with Android 5.1) TV box. This ROM is based on Vensmile U1 official Remix OS release build B2016062801.
 
-![screenshot]({{ site.url }}/devices/nexbox_a95x/RemixOS/Screenshot_2016-08-12-17-23-16.png)
+![screenshot]({{ site.url }}/img/nexbox_a95x/RemixOS/Screenshot_2016-08-12-17-23-16.png)
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
