@@ -2,6 +2,7 @@
 layout: device
 title: Nexbox
 subtitle: A95X
+permalink: /devices/nexbox_a95x/
 ---
 
 #### ROM:

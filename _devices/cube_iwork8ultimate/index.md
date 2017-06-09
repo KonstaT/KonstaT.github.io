@@ -2,6 +2,7 @@
 layout: device
 title: Cube
 subtitle: iWork8 Ultimate & iWork8 Air
+permalink: /devices/cube_iwork8ultimate/
 ---
 
 #### ROM:

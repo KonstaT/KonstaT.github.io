@@ -2,6 +2,7 @@
 layout: device
 title: ZTE
 subtitle: Blade III
+permalink: /devices/atlas40/
 ---
 
 #### ROM:

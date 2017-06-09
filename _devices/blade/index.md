@@ -2,6 +2,7 @@
 layout: device
 title: ZTE
 subtitle: Blade
+permalink: /devices/blade/
 ---
 
 #### ROM:

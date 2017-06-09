@@ -2,6 +2,7 @@
 layout: device
 title: ZTE
 subtitle: Open C / Kis 3
+permalink: /devices/kis3/
 ---
 
 #### ROM:

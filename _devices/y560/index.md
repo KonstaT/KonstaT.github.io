@@ -2,6 +2,7 @@
 layout: device
 title: Huawei
 subtitle: Y5
+permalink: /devices/y560/
 ---
 
 #### ROM:

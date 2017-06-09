@@ -2,6 +2,7 @@
 layout: device
 title: ZTE
 subtitle: Blade V
+permalink: /devices/bladev/
 ---
 
 #### Recovery:

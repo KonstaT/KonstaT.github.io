@@ -2,6 +2,7 @@
 layout: device
 title: Raspberry
 subtitle: Pi 3
+permalink: /devices/rpi3/
 ---
 
 #### ROM:

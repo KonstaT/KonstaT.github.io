@@ -1,12 +1,13 @@
 ---
 layout: device
-title: ZTE
-subtitle: Blade S6, Blade S6 Plus & Turkcell T60
+title: Vodafone
+subtitle: Smart Ultra 6
+permalink: /devices/vodafone_su6/
 ---
 
 #### Recovery:
 
-- [TWRP 3.0.2-0](/devices/blades6/TWRP)
+- [TWRP 3.0.2-0](/devices/vodafone_su6/TWRP)
 
 #### Downloads:
 

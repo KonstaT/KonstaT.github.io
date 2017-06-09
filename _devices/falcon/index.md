@@ -2,6 +2,7 @@
 layout: device
 title: Motorola
 subtitle: Moto G
+permalink: /devices/falcon/
 ---
 
 #### ROM:
