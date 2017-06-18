@@ -42,3 +42,9 @@ use-site-title: true
 </div>
 
 <hr>
+
+{% include donate.html %}
+
+{% if site.google_adsense %}
+{% include ad.html %}
+{% endif %}

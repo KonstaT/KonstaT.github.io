@@ -14,6 +14,10 @@ layout: base
 
       {% include donate.html %}
 
+      {% if site.google_adsense %}
+      {% include ad.html %}
+      {% endif %}
+
       {% if page.tags.size > 0 %}
         <div class="blog-tags">
           Tags:
