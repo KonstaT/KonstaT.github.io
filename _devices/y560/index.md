@@ -7,7 +7,7 @@ permalink: /devices/y560/
 
 #### ROM:
 
-- [LineageOS 14.1 - KonstaKANG (Android 7.1.1)](/devices/y560/CM14.1)
+- [LineageOS 14.1 - KonstaKANG (Android 7.1.2)](/devices/y560/CM14.1)
 - [LineageOS 13 - KonstaKANG (Android 6.0.1)](/devices/y560/CM13)
 - [CyanogenMod 12.1 - KonstaKANG (Android 5.1.1)](/devices/y560/CM12.1)
 
