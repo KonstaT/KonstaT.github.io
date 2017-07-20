@@ -127,12 +127,12 @@ Q: I have Hi12. What should I do?
 *A: Download patch below and install it in TWRP.*
 
 **RemixOS-B2016092102-chuwi_vi10plus-Hi12.zip**  
-[https://www.androidfilehost.com/?fid=673368273298916095](https://www.androidfilehost.com/?fid=673368273298916095)  
-md5:3ceb8d817c1113480b5e31971cc45b0f
+[https://www.androidfilehost.com/?fid=745425885120750088](https://www.androidfilehost.com/?fid=745425885120750088)  
+md5:fea8cadbde7e641313ef1ddb3c6bc2a7
 
 **RemixOS-B2016092102-chuwi_vi10plus-Hi12-451609XXX.zip** (latest batch - serial no 451609XXX)  
-[https://www.androidfilehost.com/?fid=529152257862689659](https://www.androidfilehost.com/?fid=529152257862689659)  
-md5:0df88ff0ca593747433af94b7585267e
+[https://www.androidfilehost.com/?fid=961840155545583304](https://www.androidfilehost.com/?fid=961840155545583304)  
+md5:f129eb4245cb91e45bceaade878969b2
 
 ----
 
