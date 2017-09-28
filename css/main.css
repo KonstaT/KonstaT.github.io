@@ -1,3 +1,7 @@
+---
+layout: null
+---
+
 @import url("pygment_highlights.css");
 
 /* --- General --- */
@@ -8,6 +12,13 @@ body {
   color: #404040;
   position: relative;
   background: #FFF;
+  {% if site.page-col %}
+  background: {{ site.page-col }};
+  {% endif %}
+  {% if site.page-img %}
+  background-image: url({{ site.page-img }});
+  background-attachment: fixed;
+  {% endif %}
 }
 p {
   line-height: 1.5;
@@ -100,6 +111,13 @@ img {
   background: #F5F5F5;
   border-bottom: 1px solid #EAEAEA;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  {% if site.navbar-col %}
+  background: {{ site.navbar-col }};
+  {% endif %}
+  {% if site.navbar-img %}
+  background-image: url({{ site.navbar-img }});
+  background-attachment: fixed;
+  {% endif %}
 }
 
 .navbar-custom .nav li a {
@@ -254,6 +272,13 @@ footer {
   border-top: 1px #EAEAEA solid;
   margin-top: 50px;
   font-size: 14px;
+  {% if site.footer-col %}
+  background: {{ site.footer-col }};
+  {% endif %}
+  {% if site.footer-img %}
+  background-image: url({{ site.footer-img }});
+  background-attachment: fixed;
+  {% endif %}
 }
 
 footer a {
@@ -671,4 +696,72 @@ td.gutter {
 
 #social-share-section {
   margin-bottom: 30px;
+}
+
+/* --- Notification boxes --- */
+
+.box-note {
+  background-color: #eee;
+  padding: 15px;
+  padding-left: 10px;
+  margin: 20px;
+  margin-left: 5px;
+  border: 1px solid #eee;
+  border-left-width: 5px;
+  border-left-color: #2980b9;
+  border-radius: 3px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.box-warning {
+  background-color: #fdf5d4;
+  padding: 15px;
+  padding-left: 10px;
+  margin: 20px;
+  margin-left: 5px;
+  border: 1px solid #eee;
+  border-left-width: 5px;
+  border-left-color: #f1c40f;
+  border-radius: 3px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.box-error {
+  background-color: #f4dddb;
+  padding: 15px;
+  padding-left: 10px;
+  margin: 20px;
+  margin-left: 5px;
+  border: 1px solid #eee;
+  border-left-width: 5px;
+  border-left-color: #c0392b;
+  border-radius: 3px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+/* Icon Colors */
+.icon-blue {
+  color: #2980b9;
+}
+
+.icon-yellow {
+color: #f1c40f;
+}
+
+.icon-red{
+  color: #c0392b;
+}
+
+
+/* Fix table border github gist snippets */
+
+.gist, .gist-file table tr {
+  border: unset;
+}
+
+.gist, .gist-file table tr td {
+  border: unset;
 }
