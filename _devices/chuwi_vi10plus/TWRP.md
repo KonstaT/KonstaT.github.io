@@ -28,11 +28,11 @@ md5:bcea52fbb395a490f150c5593aeca68c
 [https://www.androidfilehost.com/?fid=457095661767112687](https://www.androidfilehost.com/?fid=457095661767112687)  
 md5:ca0df8c1fc1c8e73b10d48b2f936c18a
 
-**recovery-twrp3020-cht_cr_mrd_w-Hi10Pro-HQ64.img** (Hi10 Pro - z8350 - serial no HQ64G42170100001-HQ64G42170300000)  
+**recovery-twrp3020-cht_cr_mrd_w-Hi10Pro-HQ64.img** (Hi10 Pro - z8350 - serial no HQ64G42170100001->)  
 [https://www.androidfilehost.com/?fid=673368273298921365](https://www.androidfilehost.com/?fid=673368273298921365)  
 md5:07059b0311f781a1e1e75db368688ad0
 
-**recovery-twrp-3.0.2-0-cht_cr_mrd_w-Hi10Pro-HQ64.zip** (Hi10 Pro - z8350 - serial no HQ64G42170100001-HQ64G42170300000 - TWRP flashable)  
+**recovery-twrp-3.0.2-0-cht_cr_mrd_w-Hi10Pro-HQ64.zip** (Hi10 Pro - z8350 - serial no HQ64G42170100001-> - TWRP flashable)  
 [https://www.androidfilehost.com/?fid=457095661767127485](https://www.androidfilehost.com/?fid=457095661767127485)  
 md5:821e809924566528fdecb07354197103
 
