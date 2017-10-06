@@ -26,7 +26,7 @@ This recovery is fully working with goodies such as repeatable keys and adb side
 
 **How to make clean ROM dump/backup of your device (before you root or install CWM):** (<span style="color:#ff0000;">recommended</span>)
 
-- Download and install [ZTE USB drivers](https://dl.dropboxusercontent.com/u/35834778/ZTE-Kis3-Usb-Driver-Setup.exe) (windows) or setup udev rules (linux)
+- Download and install [ZTE USB drivers](https://www.androidfilehost.com/?fid=745849072291678957) (windows) or setup udev rules (linux)
 - Download Android SDK platform-tools ([Windows](https://dl.google.com/android/repository/platform-tools-latest-windows.zip), [Linux](https://dl.google.com/android/repository/platform-tools-latest-linux.zip), [Mac](https://dl.google.com/android/repository/platform-tools-latest-darwin.zip)) to get adb and fastboot
 - Download recovery-cwm60xx-kis3.img recovery image and rename it to recovery.img
 - Create a new directory somewhere and copy adb(.exe), fastboot(.exe) and recovery.img into it
@@ -43,7 +43,7 @@ This recovery is fully working with goodies such as repeatable keys and adb side
 
 **How to install ClockWorkMod Recovery:**
 
-- Download and install [ZTE USB drivers](https://dl.dropboxusercontent.com/u/35834778/ZTE-Kis3-Usb-Driver-Setup.exe) (windows) or setup udev rules (linux)
+- Download and install [ZTE USB drivers](https://www.androidfilehost.com/?fid=745849072291678957) (windows) or setup udev rules (linux)
 - Download Android SDK platform-tools ([Windows](https://dl.google.com/android/repository/platform-tools-latest-windows.zip), [Linux](https://dl.google.com/android/repository/platform-tools-latest-linux.zip), [Mac](https://dl.google.com/android/repository/platform-tools-latest-darwin.zip)) to get adb and fastboot
 - Download recovery-cwm60xx-kis3.img recovery image and rename it to recovery.img
 - Create a new directory somewhere and copy adb(.exe), fastboot(.exe) and recovery.img into it
