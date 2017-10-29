@@ -2,7 +2,7 @@
 layout: default
 ---
 
-{% assign sorted_devices = (site.devices | sort: 'date') | reverse %}
+{% assign sorted_devices = site.devices | sort: 'date' | reverse %}
 {% assign tags =  site.devices | map: 'tags' | join: ',' | split: ',' | sort | uniq %}
 <h4>{{ page.tag }}</h4>
 <ul>
