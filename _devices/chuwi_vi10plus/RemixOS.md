@@ -98,6 +98,10 @@ md5:b6bb6575a3077e9e550ecc69905fcc27
 [https://www.androidfilehost.com/?fid=817906626617942624](https://www.androidfilehost.com/?fid=817906626617942624)  
 md5:ed94a15aafa47365a78e08d7005b28ad
 
+**RemixOS-B2016092102-chuwi_vi10plus-Hi10Plus-20170504.zip**  
+[https://www.androidfilehost.com/?fid=889964283620769685](https://www.androidfilehost.com/?fid=889964283620769685)  
+md5:ef0a79d70b28e3112a57b68bd89a5461
+
 Q: I have Hi10 Pro. What should I do?  
 *A: Download patch below and install it in TWRP.*
 
