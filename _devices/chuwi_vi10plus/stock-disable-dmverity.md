@@ -22,6 +22,7 @@ Hi10 Plus (z8350): stock Android 20161108
 Hi10 Plus (z8350): stock Android 20170220  
 Hi10 Plus (z8350): stock Android 20170315  
 Hi10 Plus (z8350): stock Android 20170504  
+Hi10 Plus (z8350): stock Android 20171020  
 Hi10 Pro: Remix OS B2016081102  
 Hi10 Pro: stock Android 20161102  
 Hi10 Pro (z8350 - serial no HQ64G42170100000-HQ64G42170300000): stock Android 20161208  
@@ -70,6 +71,10 @@ md5:eaf22e0a1f7ed24f1cad8ced439ebc18
 **hi10plus-disable-dmverity-Android-20170504.zip** (Hi10 Plus - z8350)  
 [https://www.androidfilehost.com/?fid=817906626617948434](https://www.androidfilehost.com/?fid=817906626617948434)  
 md5:0650bf5d9a77a5ca5add3fada6a28bec
+
+**hi10plus-disable-dmverity-Android-20171020.zip** (Hi10 Plus - z8350)  
+[https://www.androidfilehost.com/?fid=745849072291697628](https://www.androidfilehost.com/?fid=745849072291697628)  
+md5:38e024baa390a45e63639bdcb823e242
 
 **hi10pro-disable-dmverity-RemixOS-B2016081102.zip** (Hi10 Pro)  
 [https://www.androidfilehost.com/?fid=529152257862669922](https://www.androidfilehost.com/?fid=529152257862669922)  
