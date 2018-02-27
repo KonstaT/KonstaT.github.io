@@ -43,7 +43,9 @@ Everything should work to CM10 standards except FM radio. Don't expect anything 
 **How to port:**  
 I wrote a simple tool for porting from N880E. You'll need a linux system with few basic packages installed (git, java, zip). Place an official N880E MIUI ROM to the root of the porting tool directory (_place_rom_here_) and run the tool.
 
-> ./port.sh
+```
+./port.sh
+```
 
 **miui-porting-atlas40.tar.gz**  
 [https://www.androidfilehost.com/?fid=24591000424952068](https://www.androidfilehost.com/?fid=24591000424952068)

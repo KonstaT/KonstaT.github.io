@@ -15,7 +15,9 @@ comments: true
 - Save as 24-bit Windows bitmap (RGB888)
 - Remove bitmap header (54 bytes) - splash.img should be 1229760 bytes in size
 
-> dd if=splash.bmp of=splash.img skip=54 bs=1
+```
+dd if=splash.bmp of=splash.img skip=54 bs=1
+```
 
 - Place splash.img inside the flashable zip below (drag&drop with your favorite zip tool) and install the zip in TWRP recovery
 

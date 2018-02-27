@@ -49,11 +49,11 @@ md5:f00724d112caa25d759f686acd6bf682
 
 **How to access Ubuntu shell:**
 
-> adb root
-
-> adb shell
-
-> ubuntu_chroot shell
+```
+adb root
+adb shell
+ubuntu_chroot shell
+```
 
 ----
 

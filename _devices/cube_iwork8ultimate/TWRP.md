@@ -62,13 +62,17 @@ md5:d843481ca2e07a4697f678d52eeb875b
 - Enable developer settings by clicking 'Settings -> About tablet -> Build number' several times. Enable 'Settings -> Developer options -> OEM unlocking' (not sure if necessary) and 'Settings -> Developer options -> Android debugging'.
 - Plug in your device via USB cable and open terminal window as an administrator (Windows). Boot device into bootloader by executing
 
-> adb reboot bootloader
+```
+adb reboot bootloader
+```
 
 You can also boot to bootloader by holding volume down button in dual boot menu and selecting to boot to Android.
 
 - Execute in terminal
 
-> fastboot oem unlock
+```
+fastboot oem unlock
+```
 
 Menu appears on the device warning that unlocking the bootloader will erase the device. Use volume keys to select the option to approve and use power key to confirm. It will try to format the data partition but fails because the bootloader is pretty useless (see below). Bootloader will be unlocked, though.
 
@@ -80,7 +84,9 @@ Android bootloader is not working properly because of how Windows partition are 
 - Download both TWRP recovery image and TWRP flashable zip from this post. Save the TWRP flashable zip to your device's sdcard. Save the TWRP recovery image to a place you can access in terminal window.
 - Change into the directory you saved the TWRP recovery image, boot to bootloader as above, and execute
 
-> fastboot boot recovery-twrp3020-cht_cr_mrd.img
+```
+fastboot boot recovery-twrp3020-cht_cr_mrd.img
+```
 
 - Install TWRP flashable zip from sdcard once booted to TWRP.
 - Reboot recovery.

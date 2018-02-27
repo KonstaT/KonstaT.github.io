@@ -33,9 +33,10 @@ This recovery is fully working with goodies such as repeatable keys and adb side
 - plug in your device via USB cable and install drivers (make sure you've enabled USB debugging on your device)
 - change into the directory you've created and execute following commands in terminal window (boots into recovery instead of flashing it)
 
-> adb reboot bootloader
-
-> fastboot boot recovery-cwm60xx-atlas40.img
+```
+adb reboot bootloader
+fastboot boot recovery-cwm60xx-atlas40.img
+```
 
 - select backup & restore -> backup (Seriously, always backup your device before you install anything!)  
 
@@ -48,11 +49,11 @@ This recovery is fully working with goodies such as repeatable keys and adb side
 - plug in your device via USB cable and install drivers (make sure you've enabled USB debugging on your device)
 - change into the directory you've created and execute following commands in terminal window
 
-> adb reboot bootloader
-
-> fastboot flash recovery recovery-cwm60xx-atlas40.img
-
-> fastboot reboot
+```
+adb reboot bootloader
+fastboot flash recovery recovery-cwm60xx-atlas40.img
+fastboot reboot
+```
 
 - congratulations, you have installed cwm on to your device
 - boot into ClockWorkMod by pressing volume up (or down) while powering on or using 'adb reboot recovery'
@@ -69,9 +70,10 @@ This recovery is fully working with goodies such as repeatable keys and adb side
 - copy recovery-cwm60xx-atlas40.img to the root of your phone's sdcard
 - execute following commands in terminal emulator
 
-> su
-
-> dd if=/sdcard/recovery-cwm60xx-atlas40.img of=/dev/block/mmcblk0p17
+```
+su
+dd if=/sdcard/recovery-cwm60xx-atlas40.img of=/dev/block/mmcblk0p17
+```
 
 **How to restore stock recovery:**
 

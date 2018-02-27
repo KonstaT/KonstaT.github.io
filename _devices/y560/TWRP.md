@@ -32,19 +32,27 @@ md5:7af4f29e20d5c3b474dca80342451132
 - Plug in your device via USB cable and install drivers if necessary
 - Open terminal window, change into the directory you've created and execute following command in terminal window to boot into bootloader
 
-> adb reboot bootloader
+```
+adb reboot bootloader
+```
 
 - Unlock bootloader (<span style="color:#FF0000;">this will wipe your device!</span>)
 
-> fastboot oem unlock-go
+```
+fastboot oem unlock-go
+```
 
 - Boot recovery image to make a clean backup of your firmware
 
-> fastboot boot recovery.img
+```
+fastboot boot recovery.img
+```
 
 - Reboot back to bootloader and flash recovery image to recovery partition
 
-> fastboot flash recovery recovery.img
+```
+fastboot flash recovery recovery.img
+```
 
 **How to root your Android using TWRP?**
 

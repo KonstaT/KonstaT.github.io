@@ -70,13 +70,17 @@ md5:4cc514d8b72fce7c0a7a045e4d8d3741
 - Enable developer settings by clicking 'Settings -> About tablet -> Build number' several times. Enable 'Settings -> Developer options -> OEM unlocking' (not sure if necessary) and 'Settings -> Developer options -> Android debugging'.
 - Plug in your device via USB cable and open terminal window as an administrator (Windows). Boot device into bootloader by executing
 
-> adb reboot bootloader
+```
+adb reboot bootloader
+```
 
 You can also boot to bootloader by holding volume down button when powering on the device (or when selecting to boot to Android if you have a dual-boot device).
 
 - Execute in terminal
 
-> fastboot oem unlock
+```
+fastboot oem unlock
+```
 
 Unlocking bootloader doesn't erase userdata on this device.
 
@@ -84,11 +88,15 @@ Unlocking bootloader doesn't erase userdata on this device.
 
 - Change into the directory you saved the TWRP recovery image, boot to bootloader as above, and execute
 
-> fastboot flash recovery recovery-twrp3020-cht_cr_mrd_w.img
+```
+fastboot flash recovery recovery-twrp3020-cht_cr_mrd_w.img
+```
 
 You can also just boot TWRP recovery image by executing
 
-> fastboot boot recovery-twrp3020-cht_cr_mrd_w.img
+```
+fastboot boot recovery-twrp3020-cht_cr_mrd_w.img
+```
 
 You can boot to TWRP by executing 'adb reboot recovery'. It's also possible to boot to recovery by booting to bootloader first (as above), using volume keys to select 'recovery' option and using power key to confirm.
 

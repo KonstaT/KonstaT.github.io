@@ -31,9 +31,10 @@ md5:cd0a200baf4fe24e57805ee576e6ad4a
 - plug in your device via USB cable and install drivers (make sure you've enabled USB debugging on your device)
 - cd into the directory you created and execute following commands in terminal window (boots into recovery instead of flashing it)
 
-> adb reboot bootloader
-
-> fastboot boot recovery-cwm6036-8225.img
+```
+adb reboot bootloader
+fastboot boot recovery-cwm6036-8225.img
+```
 
 - select backup & restore -> backup (Seriously, always backup your device before you install anything!)
 
@@ -46,11 +47,11 @@ md5:cd0a200baf4fe24e57805ee576e6ad4a
 - plug in your device via USB cable and install drivers (make sure you've enabled USB debugging on your device)
 - cd into the directory you created and execute following commands in terminal window
 
-> adb reboot bootloader
-
-> fastboot flash recovery recovery-cwm6036-8225.img
-
-> fastboot reboot
+```
+adb reboot bootloader
+fastboot flash recovery recovery-cwm6036-8225.img
+fastboot reboot
+```
 
 - congratulations, you have installed cwm on to your device
 - boot into ClockWorkMod by pressing volume down while powering on or using 'adb reboot recovery'
@@ -68,9 +69,10 @@ md5:cd0a200baf4fe24e57805ee576e6ad4a
 - copy recovery-cwm6036-8225.img to the root of your phone's sdcard
 - execute following commands in terminal emulator
 
-> su
-
-> dd if=/sdcard/recovery-cwm6036-8225.img of=/dev/block/platform/msm_sdcc.3/by-num/p16
+```
+su
+dd if=/sdcard/recovery-cwm6036-8225.img of=/dev/block/platform/msm_sdcc.3/by-num/p16
+```
 
 ----
 

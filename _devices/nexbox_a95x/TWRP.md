@@ -47,9 +47,10 @@ This device is rooted out-of-the-box and it has unlocked bootloader. Stock recov
 - Open e.g. [Terminal Emulator](https://play.google.com/store/apps/details?id=jackpal.androidterm) and change into the directory you saved the TWRP recovery.img (/sdcard, /storage/sdcard1, or /storage/udisk0, respectively)
 - Execute following commands
 
-> su
-
-> dd if=recovery.img of=/dev/block/recovery
+```
+su
+dd if=recovery.img of=/dev/block/recovery
+```
 
 - Reboot recovery
 

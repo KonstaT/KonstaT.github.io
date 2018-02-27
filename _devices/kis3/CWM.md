@@ -35,9 +35,10 @@ This recovery is fully working with goodies such as repeatable keys and adb side
 - Open terminal window as an administrator (windows) or execute adb commands with sudo (linux)
 - Change into the directory you've created and execute following commands in terminal window (boots into recovery instead of flashing it)
 
-> adb reboot bootloader
-
-> fastboot boot recovery.img
+```
+adb reboot bootloader
+fastboot boot recovery.img
+```
 
 - select backup & restore -> backup (Seriously, always backup your device before you install anything!)
 
@@ -52,11 +53,11 @@ This recovery is fully working with goodies such as repeatable keys and adb side
 - Open terminal window as an administrator (windows) or execute adb commands with sudo (linux)
 - Change into the directory you've created and execute following commands in terminal window
 
-> adb reboot bootloader
-
-> fastboot flash recovery recovery.img
-
-> fastboot reboot
+```
+adb reboot bootloader
+fastboot flash recovery recovery.img
+fastboot reboot
+```
 
 - Congratulations, you have installed CWM to your device
 - Boot into ClockWorkMod by pressing volume up while powering on or using 'adb reboot recovery'

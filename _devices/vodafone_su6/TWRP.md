@@ -28,9 +28,10 @@ md5:e49bed24c5087946d29fa7a05167aa3e
 - Download TWRP recovery image, rename it to recovery.img and copy it to the root of your internal sdcard
 - Execute following two commands in 'adb shell'/[Terminal Emulator](https://play.google.com/store/apps/details?id=jackpal.androidterm) (make sure not to typo!)
 
-> su
-
-> dd if=/sdcard/recovery.img of=/dev/block/bootdevice/by-name/recovery
+```
+su
+dd if=/sdcard/recovery.img of=/dev/block/bootdevice/by-name/recovery
+```
 
 - Boot into TWRP recovery using volume up + power key combination or 'adb reboot recovery'
 
