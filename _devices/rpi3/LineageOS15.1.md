@@ -31,7 +31,7 @@ md5:004b2c91f80057384c36e7e2632dec9c
 
 **FAQ:**
 
-Q: I can't find developer options and performance settings, why?  
+Q: I can't find developer options, why?  
 *A: Settings -> About phone -> Click 'Build number' several times*
 
 Q: I don't have reboot options in power menu, why?  
