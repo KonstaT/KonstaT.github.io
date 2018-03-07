@@ -2,7 +2,7 @@
 layout: rom
 title: LineageOS 15.1 (Android 8.1.0)
 subtitle: for Raspberry Pi 3
-date: 2018-03-03
+date: 2018-03-07
 tags: [rpi3, LineageOS, LOS15.1]
 social-share: true
 comments: true
@@ -14,9 +14,9 @@ Here's my build of LineageOS 15.1 for Raspberry Pi 3. It is unofficial and unsup
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
-**lineage-15.1-20180303-UNOFFICIAL-KonstaKANG-rpi3.zip**  
-[https://www.androidfilehost.com/?fid=746010030569958821](https://www.androidfilehost.com/?fid=746010030569958821)  
-md5:004b2c91f80057384c36e7e2632dec9c
+**lineage-15.1-20180307-UNOFFICIAL-KonstaKANG-rpi3.zip**  
+[https://www.androidfilehost.com/?fid=890129502657588904](https://www.androidfilehost.com/?fid=890129502657588904)  
+md5:4852ae422a21d837a63ab1416e849eb8
 
 **Sources:**
 
@@ -47,9 +47,16 @@ Q: Settings -> Storage shows xx GB used by system. There's unallocated space on 
 
 [Merged commits](https://review.lineageos.org/#/q/status:merged++branch:lineage-15.1+-project:%255E.*device.*+-project:%255E.*kernel.*,n,z) not mentioned in the changelog.
 
+**7.3. changelog:**
+
+- update display drivers from Android Things DP 7
+- update wifi firmware
+- update to Linux 4.4.120 kernel and patch known vulnerabilities (CVE-xxxx-xxxx, and more)
+- Android security patch level: 5 March 2018 (merged)
+
 **3.3. changelog:**
 
-- initial relase
+- initial release
 
 ----
 
