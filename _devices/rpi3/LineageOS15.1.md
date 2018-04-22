@@ -40,7 +40,7 @@ Q: I don't have reboot options in power menu, why?
 Q: I have no root, why? What is that hashtag on my status bar?  
 *A: You need enable root access under Settings -> Developer options -> Root access. Root management is now integrated as part of LineageOS' Privacy Guard and you can manage per app permissions under Settings -> Developer options -> Manage root access. You'll have a persistent notification in the status bar when you're running an app that uses root permissions.*
 
-Q: Settings -> Storage shows xx GB used by system. There's unallocated space on my scard. What should I do?  
+Q: Settings -> Storage shows xx GB used by system. There's unallocated space on my sdcard. What should I do?  
 *A: This is a 4 GB image, remaining space on your sdcard will remain unallocated. Settings app shows unallocated space as used by system which in reality it is not. You can use e.g. GParted and extend /data partition (/dev/block/mmcblk0p4) to cover the unallocated space.*
 
 ----
