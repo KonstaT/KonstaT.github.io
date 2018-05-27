@@ -23,11 +23,13 @@ Hi10 Plus (z8350): stock Android 20170220
 Hi10 Plus (z8350): stock Android 20170315  
 Hi10 Plus (z8350): stock Android 20170504  
 Hi10 Plus (z8350): stock Android 20171020  
+Hi10 Plus (z8350): stock Android 20171229  
 Hi10 Pro: Remix OS B2016081102  
 Hi10 Pro: stock Android 20161102  
 Hi10 Pro (z8350 - serial no HQ64G42170100000-HQ64G42170300000): stock Android 20161208  
 Hi10 Pro (z8350 - serial no HQ64G42170300000-HQ64G42170600000): stock Android 20170508  
 Hi10 Pro (z8350 - serial no HQ64G42170600000-HQ64G42170900000): stock Android 20170704  
+Hi10 Pro (z8350 - serial no HQ64G42170?00000-HQ64G42170?00000): stock Android 20170707  
 Hi10 Pro (z8350 - serial no HQ64G42170900000->): stock Android 20170720  
 Hibook: stock Android 20160422  
 Hibook Pro: stock Android 20160906  
@@ -76,6 +78,10 @@ md5:0650bf5d9a77a5ca5add3fada6a28bec
 [https://www.androidfilehost.com/?fid=745849072291697628](https://www.androidfilehost.com/?fid=745849072291697628)  
 md5:38e024baa390a45e63639bdcb823e242
 
+**hi10plus-disable-dmverity-Android-20171229.zip** (Hi10 Plus - z8350)  
+[https://www.androidfilehost.com/?fid=890278863836288054](https://www.androidfilehost.com/?fid=890278863836288054)  
+md5:9fdc4c48aea2470c49cfeb43594a8928
+
 **hi10pro-disable-dmverity-RemixOS-B2016081102.zip** (Hi10 Pro)  
 [https://www.androidfilehost.com/?fid=529152257862669922](https://www.androidfilehost.com/?fid=529152257862669922)  
 md5:7f427962a062994ead1608483ce082ca
@@ -95,6 +101,10 @@ md5:d981a7aeecb7bc443b8b1aa0e215dba5
 **hi10pro-disable-dmverity-Android-20170704.zip** (Hi10 Pro - z8350 - serial no HQ64G42170600000-HQ64G42170900000)  
 [https://www.androidfilehost.com/?fid=962021903579480800](https://www.androidfilehost.com/?fid=962021903579480800)  
 md5:6e6812fd24035c2584ee1f615ba369b3
+
+**hi10pro-disable-dmverity-Android-20170707.zip** (Hi10 Pro - z8350 - serial no HQ64G42170?00000-HQ64G42170?00000)  
+[https://www.androidfilehost.com/?fid=818222786056033205](https://www.androidfilehost.com/?fid=818222786056033205)  
+md5:428a7196ed6fd1af1b3cdbeef4573840
 
 **hi10pro-disable-dmverity-Android-20170720.zip** (Hi10 Pro - z8350 - serial no HQ64G42170900000->)  
 [https://www.androidfilehost.com/?fid=745849072291686621](https://www.androidfilehost.com/?fid=745849072291686621)  
