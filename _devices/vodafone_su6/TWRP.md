@@ -8,7 +8,7 @@ social-share: true
 comments: true
 ---
 
-This is my build of Dees-Troy's [Team Win Recovery Project](http://teamw.in/project/twrp2/) (TWRP) 3.0.2-0 for Vodafone Smart Ultra 6.
+This is my build of Dees-Troy's [Team Win Recovery Project](https://twrp.me) (TWRP) 3.0.2-0 for Vodafone Smart Ultra 6.
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 

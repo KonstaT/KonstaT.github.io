@@ -8,7 +8,7 @@ social-share: true
 comments: true
 ---
 
-This is my build of Dees-Troy's [Team Win Recovery Project](http://teamw.in/project/twrp2/) (TWRP) 3.0.2-0 for Huawei Y5 (Y560-L01/L02/L03/L23/U23).
+This is my build of Dees-Troy's [Team Win Recovery Project](https://twrp.me) (TWRP) 3.0.2-0 for Huawei Y5 (Y560-L01/L02/L03/L23/U23).
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 

@@ -8,7 +8,7 @@ social-share: true
 comments: true
 ---
 
-These are my builds of Dees-Troy's [Team Win Recovery Project](http://teamw.in/project/twrp2/) (TWRP) 3.0.2-0 for ZTE Blade S6 (p839f30), ZTE Blade S6 Plus (p839f50) and Turkcell T60 (p839t60).
+These are my builds of Dees-Troy's [Team Win Recovery Project](https://twrp.me) (TWRP) 3.0.2-0 for ZTE Blade S6 (p839f30), ZTE Blade S6 Plus (p839f50) and Turkcell T60 (p839t60).
 
 <span style="color:#FF0000;">Important!</span> Partition layout is different between Blade S6 AS/EU/AU/etc devices (physical internal sdcard partition vs. emulated internal sdcard). Select the right version for you device.
 

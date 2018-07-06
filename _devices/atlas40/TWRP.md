@@ -8,7 +8,7 @@ social-share: true
 comments: true
 ---
 
-This is my build of Dees-Troy's [Team Win Recovery Project](http://teamw.in/project/twrp2) (TWRP) 2.6.3.0. This recovery is common to all ZTE devices with board name atlas40 (e.g. ZTE Blade III, ZTE Acqua, V889D, V880E etc). TWRP is a popular touch based recovery and everything should be working in this build.
+This is my build of Dees-Troy's [Team Win Recovery Project](https://twrp.me) (TWRP) 2.6.3.0. This recovery is common to all ZTE devices with board name atlas40 (e.g. ZTE Blade III, ZTE Acqua, V889D, V880E etc). TWRP is a popular touch based recovery and everything should be working in this build.
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 

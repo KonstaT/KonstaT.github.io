@@ -8,7 +8,7 @@ social-share: true
 comments: true
 ---
 
-This is my build of Dees-Troy's [Team Win Recovery Project](http://teamw.in/project/twrp2/) (TWRP) 3.0.2-0 for Chuwi Vi10 Plus, Hi10 Plus, Hi10 Pro, Hibook & Hibook Pro. Choose the right image for your device.
+This is my build of Dees-Troy's [Team Win Recovery Project](https://twrp.me) (TWRP) 3.0.2-0 for Chuwi Vi10 Plus, Hi10 Plus, Hi10 Pro, Hibook & Hibook Pro. Choose the right image for your device.
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 

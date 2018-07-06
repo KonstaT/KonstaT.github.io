@@ -8,7 +8,7 @@ social-share: true
 comments: true
 ---
 
-This is my build of Dees-Troy's [Team Win Recovery Project](http://teamw.in/project/twrp2) (TWRP) 3.0.2-0 for ZTE Open C / Kis 3 (Beeline Smart2, Moche/MEO Smart A16, ZTE V811W, ZTE V811, Skinny V811, Optus Hop Smart, ZTE Blade M, etc). TWRP is a popular touch based recovery and everything should be working in this build. Internal sdcard is handled differently on Open C and Kis 3 so this recovery only supports external sdcard.
+This is my build of Dees-Troy's [Team Win Recovery Project](https://twrp.me) (TWRP) 3.0.2-0 for ZTE Open C / Kis 3 (Beeline Smart2, Moche/MEO Smart A16, ZTE V811W, ZTE V811, Skinny V811, Optus Hop Smart, ZTE Blade M, etc). TWRP is a popular touch based recovery and everything should be working in this build. Internal sdcard is handled differently on Open C and Kis 3 so this recovery only supports external sdcard.
 
 <span style="color:#ff0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 

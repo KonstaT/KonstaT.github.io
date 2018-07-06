@@ -8,7 +8,7 @@ social-share: true
 comments: true
 ---
 
-This is my build of Dees-Troy's [Team Win Recovery Project](http://teamw.in/project/twrp2/) (TWRP) 3.0.2-0 for Nexbox A95X (Amlogic S905 with Android 5.1) TV box. You need to connect a mouse to your device to use this recovery.
+This is my build of Dees-Troy's [Team Win Recovery Project](https://twrp.me) (TWRP) 3.0.2-0 for Nexbox A95X (Amlogic S905 with Android 5.1) TV box. You need to connect a mouse to your device to use this recovery.
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
