@@ -29,6 +29,10 @@ md5:257ade2f567223cf792023e2d75e5b75
 
 ----
 
+**How to install:**
+
+1. Follow the official Raspberry Pi instructions for writing the image to the SD card ([Linux](https://www.raspberrypi.org/documentation/installation/installing-images/linux.md), [Mac](https://www.raspberrypi.org/documentation/installation/installing-images/mac.md), [Windows](https://www.raspberrypi.org/documentation/installation/installing-images/windows.md)).
+
 **FAQ:**
 
 Q: I can't find developer options, why?  
@@ -66,7 +70,7 @@ rpi3-recovery.sh boot
 
 Q: How to install Google apps?  
 
-1. Download [MindTheGapps-8.1.0-arm-XXXXXXXX_XXXXXX.zip](https://androidfilehost.com/?flid=170282&w=files) and save it to your device's internal storage or use an USB drive
+1. Download [MindTheGapps-8.1.0-arm-XXXXXXXX_XXXXXX.zip](https://androidfilehost.com/?flid=170282&w=files) and save it to your device's internal storage or use an external USB drive
 2. Boot to TWRP recovery (see FAQ)
 3. Install MindTheGapps-8.1.0-arm-XXXXXXXX_XXXXXX.zip from your selected storage
 4. Wipe->Factory reset!
