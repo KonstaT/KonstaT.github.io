@@ -10,7 +10,7 @@ comments: true
 
 Here's my build of LineageOS 15.1 for Raspberry Pi 3 Model B and Model B+ (bluetooth does not currently work on the new plus model). It is unofficial and unsupported by the LineageOS team. It's for **advanced users** only. This build currently uses Google's SwiftShader software renderer so display performance is probably not what you'd expect. This build is not meant as a daily driver and it's certainly not suitable for media device use.
 
-![screenshot]({{ site.url }}/img/rpi3/LineageOS15.1/Screenshot_Settings_20180303-133238.png)
+![screenshot]({{ site.url }}/img/rpi3/LineageOS15.1/Screenshot_Settings_20180630-144620.png)
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
