@@ -113,19 +113,19 @@ Q: I have Hi10 Pro. What should I do?
 [https://www.androidfilehost.com/?fid=457095661767123941](https://www.androidfilehost.com/?fid=457095661767123941)  
 md5:6caa1a7344655f782365b9461442ae8e
 
-**RemixOS-B2016092102-chuwi_vi10plus-Hi10Pro-HQ64-20161208.zip** (serial no HQ64G42170100000-HQ64G42170300000)  
+**RemixOS-B2016092102-chuwi_vi10plus-Hi10Pro-HQ64-20161208.zip**  
 [https://www.androidfilehost.com/?fid=673368273298922118](https://www.androidfilehost.com/?fid=673368273298922118)  
 md5:e1ba1d733e6533d06b2688d0ab7d899e
 
-**RemixOS-B2016092102-chuwi_vi10plus-Hi10Pro-HQ64-20170508.zip** (serial no HQ64G42170300000-HQ64G42170600000)  
+**RemixOS-B2016092102-chuwi_vi10plus-Hi10Pro-HQ64-20170508.zip**  
 [https://www.androidfilehost.com/?fid=745425885120740183](https://www.androidfilehost.com/?fid=745425885120740183)  
 md5:07d2211b2ee1116dbf9c25fa1e456b61
 
-**RemixOS-B2016092102-chuwi_vi10plus-Hi10Pro-HQ64-20170704.zip** (serial no HQ64G42170600000-HQ64G42170900000)  
+**RemixOS-B2016092102-chuwi_vi10plus-Hi10Pro-HQ64-20170704.zip**  
 [https://www.androidfilehost.com/?fid=673791459329049250](https://www.androidfilehost.com/?fid=673791459329049250)  
 md5:726010789584de4b157da29f18f5c353
 
-**RemixOS-B2016092102-chuwi_vi10plus-Hi10Pro-HQ64-20170720.zip** (serial no HQ64G42170900000->)  
+**RemixOS-B2016092102-chuwi_vi10plus-Hi10Pro-HQ64-20170720.zip**  
 [https://www.androidfilehost.com/?fid=673791459329059118](https://www.androidfilehost.com/?fid=673791459329059118)  
 md5:7a91b34c7d36aee14ff846b0bc70aacb
 

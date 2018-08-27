@@ -61,19 +61,19 @@ md5:c54d36aa41746409dbad8ef583d1327f
 [https://www.androidfilehost.com/?fid=529152257862686012](https://www.androidfilehost.com/?fid=529152257862686012)  
 md5:37c6a2006c8643137da2bb74feba5ea0
 
-**recovery-stock-Android-20161208-Hi10Pro.zip** (Hi10 Pro - z8350 - serial no HQ64G42170100000-HQ64G42170300000)  
+**recovery-stock-Android-20161208-Hi10Pro.zip** (Hi10 Pro - z8350)  
 [https://www.androidfilehost.com/?fid=457095661767123990](https://www.androidfilehost.com/?fid=457095661767123990)  
 md5:70bd7b21bfefc3bee6ae0923053dae72
 
-**recovery-stock-Android-20170508-Hi10Pro.zip** (Hi10 Pro - z8350 - serial no HQ64G42170300000-HQ64G42170600000)  
+**recovery-stock-Android-20170508-Hi10Pro.zip** (Hi10 Pro - z8350)  
 [https://www.androidfilehost.com/?fid=817550096634776608](https://www.androidfilehost.com/?fid=817550096634776608)  
 md5:322f7fd20adebee34b1cfcfc43a0e4e6
 
-**recovery-stock-Android-20170704-Hi10Pro.zip** (Hi10 Pro - z8350 - serial no HQ64G42170600000-HQ64G42170900000)  
+**recovery-stock-Android-20170704-Hi10Pro.zip** (Hi10 Pro - z8350)  
 [https://www.androidfilehost.com/?fid=745849072291676869](https://www.androidfilehost.com/?fid=745849072291676869)  
 md5:c20a723c45eb32cc67e70b669e27ef88
 
-**recovery-stock-Android-20170720-Hi10Pro.zip** (Hi10 Pro - z8350 - serial no HQ64G42170900000->)  
+**recovery-stock-Android-20170720-Hi10Pro.zip** (Hi10 Pro - z8350)  
 [https://www.androidfilehost.com/?fid=745849072291686626](https://www.androidfilehost.com/?fid=745849072291686626)  
 md5:6bc6259ce20eecaa0f5f913fec0079bc
 
