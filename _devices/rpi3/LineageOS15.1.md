@@ -25,6 +25,7 @@ md5:257ade2f567223cf792023e2d75e5b75
 **Thanks:**
 
 - Google for Android Things platform
+- peyo-hd and everyone who's contributed to android-rpi
 - LineageOS team & everyone who's been working on LineageOS 15.1
 
 ----
@@ -38,9 +39,6 @@ md5:257ade2f567223cf792023e2d75e5b75
 Q: I can't find developer options, why?  
 *A: Settings -> About phone -> Click 'Build number' several times*
 
-Q: I don't have reboot options in power menu, why?  
-*A: Settings -> Developer options -> Advanced restart*
-
 Q: I have no root, why? What is that hashtag on my status bar?  
 *A: You need enable root access under Settings -> Developer options -> Root access. Root management is now integrated as part of LineageOS' Privacy Guard and you can manage per app permissions under Settings -> Developer options -> Manage root access. You'll have a persistent notification in the status bar when you're running an app that uses root permissions.*
 
@@ -51,7 +49,7 @@ Q: Raspberry Pi doesn't have power button, how do I power off/reboot my device?
 *A: Following keyboard keys work as Android buttons: F1 = Home, F2 = Back, F3 = Multi-tasking, F4 = Menu, F5 = Power, F11 = Volume down, and F12 = Volume up. You can also use one of many third party reboot applications.*
 
 Q: How to boot to TWRP recovery?  
-*A: There's currently no proper way to boot between Android and TWRP, but this can achieved by renaming the ramdisk you want to boot. Execute following commands in 'adb shell'/serial console/terminal and reboot your device:*
+*A: There's currently no proper way to boot between Android and TWRP, but this can achieved by renaming the ramdisk you want to boot. Execute following commands in 'adb shell'/serial console/terminal (you can enable built-in terminal app from Settings -> Developer options -> Local terminal) and reboot your device:*
 
 ```
 su
