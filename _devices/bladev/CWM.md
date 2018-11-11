@@ -59,10 +59,9 @@ fastboot reboot
 
 **How to root your device via recovery:**
 
-- download latest Superuser and su binary from [Superuser website](http://androidsu.com/superuser/) and save it to your sdcard
-- follow instructions on how to install clockworkmod recovery
-- boot into clockworkmod
-- install zip from sdcard -> choose zip from sdcard -> Superuser-3.2-arm-signed.zip
+- download SuperSU and save it to your sdcard
+- follow instructions on how to install/boot ClockWorkMod recovery
+- install SuperSU zip in ClockWorkMod recovery
 
 **If you have already gained root access with some other [root method](http://forum.xda-developers.com/showthread.php?t=1886460), you can flash recovery using [Terminal Emulator](https://play.google.com/store/apps/details?id=jackpal.androidterm&hl=en):**
 

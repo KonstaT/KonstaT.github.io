@@ -51,7 +51,7 @@ md5:412f19b73e9347f72e775f99405ec5f6
 **How to gain root access in Android:**
 
 1. Disable dm-verity (see above).
-2. Download [SuperSU zip](http://download.chainfire.eu/supersu-stable) and copy it to your device's sdcard.
+2. Download SuperSU and copy it to your device's sdcard.
 3. Boot into [TWRP recovery](/devices/cube_iwork8ultimate/TWRP).
 4. Install SuperSU zip in TWRP.
 

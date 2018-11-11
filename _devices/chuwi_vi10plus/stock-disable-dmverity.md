@@ -134,7 +134,7 @@ md5:53ca753167f2f636655c14ef9578e679
 **How to gain root access in Android:**
 
 1. Disable dm-verity (see above).
-2. Download [SuperSU zip](http://download.chainfire.eu/supersu-stable) and copy it to your device's sdcard.
+2. Download SuperSU and copy it to your device's sdcard.
 3. Boot into [TWRP recovery](/devices/chuwi_vi10plus/TWRP).
 4. Install SuperSU zip in TWRP.
 

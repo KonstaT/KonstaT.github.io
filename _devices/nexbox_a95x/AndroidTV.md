@@ -54,7 +54,7 @@ md5:91170c7e8265aa2ee14661f69927e44a
 **FAQ:**
 
 Q: I don't have root. What should I do?  
-*A: Download [SuperSU](http://download.chainfire.eu/supersu-stable) flashable zip and install it in TWRP or select Settings -> Ugoos settings/system -> Root*
+*A: Download SuperSU flashable zip and install it in TWRP or select Settings -> Ugoos settings/system -> Root*
 
 Q: I can't find developer options, why?  
 *A: Settings -> More settings -> About MediaBox -> Click 'Build number' several times*

@@ -58,7 +58,7 @@ md5:30f5f0de965e75cac148b701d9cdc406
 **FAQ:**
 
 Q: I don't have root. What should I do?  
-*A: Download [SuperSU](http://download.chainfire.eu/supersu-stable) flashable zip and install it in TWRP*
+*A: Download SuperSU flashable zip and install it in TWRP*
 
 Q: I can't find developer options, why?  
 *A: Settings -> About phone -> Click 'Build number' several times*

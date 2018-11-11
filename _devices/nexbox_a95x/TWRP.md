@@ -56,7 +56,7 @@ dd if=recovery.img of=/dev/block/recovery
 
 **How to install proper root management:**
 
-- Download [SuperSU](http://download.chainfire.eu/supersu-stable) zip and copy it to your device's sdcards or USB stick
+- Download SuperSU zip and copy it to your device's sdcards or USB stick
 - Boot into TWRP recovery
 - Install SuperSU zip in TWRP
 

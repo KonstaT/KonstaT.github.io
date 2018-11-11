@@ -56,7 +56,7 @@ fastboot flash recovery recovery.img
 
 **How to root your Android using TWRP?**
 
-- Download Chainfire's [SuperSU](http://download.chainfire.eu/supersu) and copy it to your sdcard
+- Download SuperSU and copy it to your sdcard
 - Follow instructions on how to install/boot TWRP recovery
 - Install the SuperSU zip in TWRP
 

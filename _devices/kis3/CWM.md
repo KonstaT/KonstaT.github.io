@@ -65,9 +65,9 @@ fastboot reboot
 
 **How to root your (Android) firmware via recovery:**
 
-- Download root app of your choice ([Koush's Superuser](http://koush.com/post/superuser) or [Chainfire's SuperSU](http://download.chainfire.eu/supersu)) and save it to your sdcard
+- Download SuperSU and save it to your sdcard
 - Follow instructions on how to install/boot ClockWorkMod recovery
-- Install zip from sdcard -> choose zip from sdcard -> root-app-of-your-choice.zip
+- Install SuperSU zip in ClockWorkMod recovery
 
 **Sources:**
 

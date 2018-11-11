@@ -31,10 +31,6 @@ md5:32c116d1a7496ce0cc1a9113c405e1c9
 [Google Apps - CyanogenMod](https://wiki.cyanogenmod.org/w/Google_Apps)  
 [[GAPPS][4.4.x] OFFICIAL Up-to-Date PA-GOOGLE APPS (All ROM's)](http://forum.xda-developers.com/showthread.php?t=2397942)
 
-**Root:**  
-[SuperSU](http://download.chainfire.eu/supersu)  
-[SuperUser](http://koush.com/post/superuser)
-
 **Working:**
 
 - RIL (mobile network, SMS & data) - dual-SIM (V811W)

@@ -10,7 +10,7 @@ comments: true
 
 This is my port of [OmniROM](https://omnirom.org/) for ZTE Blade III. It is unofficial and **unsupported** by the Omni team (or anyone else for that matter :P). It's for **advanced users** and for **testing purposes** only.
 
-I've included some features that are not yet merged to OmniROM (e.g. multi-window support) and fixed few things that are not working in OmniROM in general. Please note that OmniROM is still very very early in development. Only reason I'm releasing this now is to have a quite clean AOSP build (with all the hardware working) without too many additional features. Root access needs to be enabled by using a separate package ([SuperSU](http://forum.xda-developers.com/showthread.php?t=1538053) from XDA).
+I've included some features that are not yet merged to OmniROM (e.g. multi-window support) and fixed few things that are not working in OmniROM in general. Please note that OmniROM is still very very early in development. Only reason I'm releasing this now is to have a quite clean AOSP build (with all the hardware working) without too many additional features. Root access needs to be enabled by using a separate package (SuperSU).
 
 ![screenshot]({{ site.url }}/img/atlas40/OmniROM/Screenshot_2013-10-20-11-31-06.png)  
 ![screenshot]({{ site.url }}/img/atlas40/OmniROM/Screenshot_2013-10-20-11-31-54.png)
