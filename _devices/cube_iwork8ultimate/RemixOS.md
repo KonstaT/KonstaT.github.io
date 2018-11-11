@@ -62,7 +62,7 @@ md5:20c53bc58c41d948271ab2176377b2a6
 **FAQ:**
 
 Q: I don't have root. I don't have busybox. What should I do?  
-*A: Download SuperSU and/or [BusyBox](http://forum.xda-developers.com/attachment.php?attachmentid=3932008&d=1478780582) flashable zip and install it in TWRP.*
+*A: Download SuperSU and/or [BusyBox](https://forum.xda-developers.com/attachment.php?attachmentid=4632153&d=1541097826) flashable zip and install it in TWRP.*
 
 Q: Official Xposed Framework is not working with Intel stock ROMs. What should I do?  
 *A: You can use [this modified build](http://amiduos.com/support/knowledge-base/article/xposed-framework-support-in-amiduos) with Intel stock ROMs.*
