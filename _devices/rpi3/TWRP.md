@@ -25,6 +25,6 @@ This is my build of Dees-Troy's [Team Win Recovery Project](https://twrp.me) (TW
 
 - initial release
 - TWRP 3.2.2-0
-- included in lineage-15.1-20180613-UNOFFICIAL-KonstaKANG-rpi3
+- included in lineage-15.1-20180706-UNOFFICIAL-KonstaKANG-rpi3
 
 ----
