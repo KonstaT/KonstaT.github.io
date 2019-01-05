@@ -77,6 +77,10 @@ md5:c20a723c45eb32cc67e70b669e27ef88
 [https://www.androidfilehost.com/?fid=745849072291686626](https://www.androidfilehost.com/?fid=745849072291686626)  
 md5:6bc6259ce20eecaa0f5f913fec0079bc
 
+**recovery-stock-Android-20171228-Hi10Pro.zip** (Hi10 Pro - z8350)  
+[https://www.androidfilehost.com/?fid=11410963190603891382](https://www.androidfilehost.com/?fid=11410963190603891382)  
+md5:e4d6fa0c23f11dc34197c4f6bd934022
+
 **recovery-stock-Android-20160422-Hibook.zip** (Hibook)  
 [https://www.androidfilehost.com/?fid=673368273298930092](https://www.androidfilehost.com/?fid=673368273298930092)  
 md5:68abf4d6c1f79c8c039e64152c321269
