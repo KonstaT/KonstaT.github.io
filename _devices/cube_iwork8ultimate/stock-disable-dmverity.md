@@ -63,11 +63,11 @@ md5:412f19b73e9347f72e775f99405ec5f6
 4. Install zip in TWRP.
 
 **iwork8-ultimate-navbar-mod.zip** (I1-T)  
-[https://www.androidfilehost.com/?fid=24659325368664672](https://www.androidfilehost.com/?fid=24659325368664672)  
+[https://www.androidfilehost.com/?fid=1395089523397898345](https://www.androidfilehost.com/?fid=1395089523397898345)  
 md5:7bf1211796fe2e7e5d655329f36d3a15
 
 **iwork8-ultimate-navbar-mod-I1-TD.zip** (I1-TD)  
-[https://www.androidfilehost.com/?fid=385035244224402924](https://www.androidfilehost.com/?fid=385035244224402924)  
+[https://www.androidfilehost.com/?fid=1395089523397898346](https://www.androidfilehost.com/?fid=1395089523397898346)  
 md5:c298ad6ac19a3110db4098dbf98aa780
 
 **iwork8-ultimate-navbar-mod-I1-TWB.zip** (I1-TWB)  
