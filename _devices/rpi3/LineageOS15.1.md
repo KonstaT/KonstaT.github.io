@@ -64,6 +64,7 @@ Q: How to boot out of TWRP recovery?
 ```
 rpi3-recovery.sh boot
 ```
+
 *Or you can flash my [recovery2boot](https://www.androidfilehost.com/?fid=5862345805528041368) zip in TWRP.*
 
 Q: How to install Google apps?  
