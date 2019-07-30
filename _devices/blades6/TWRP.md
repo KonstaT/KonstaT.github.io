@@ -50,7 +50,7 @@ md5:de2b286dbbd4300eef4692daef613209
 2. Reboot recovery
 
 **recovery-stock-ZTE_AS_Blade_S6V1.0.0B12.zip** (Blade S6 - AS)  
-[https://www.androidfilehost.com/?fid=24591000424952131](https://www.androidfilehost.com/?fid=24591000424952131)  
+[https://www.androidfilehost.com/?fid=6006931924117927363](https://www.androidfilehost.com/?fid=6006931924117927363)  
 md5:5d05cf6859ccd926daadf8df77a2631b
 
 **recovery-stock-ZTE_ES_Blade_S6V1.0.0B05.zip** (Blade S6 - ES)  
