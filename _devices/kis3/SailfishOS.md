@@ -10,7 +10,7 @@ comments: true
 
 This is my build of [Sailfish OS](https://sailfishos.org/) for ZTE Open C / Kis 3 (Beeline Smart2, Moche/MEO Smart A16, <s>ZTE V811W</s>, ZTE V811, Skinny V811, Optus Hop Smart, <s>ZTE Blade M</s>, etc). This is an early alpha build and it's not meant for daily use (or any use really), it's just something for **advanced users** to play with.
 
-<span style="color:#FF0000;">Important. Prerequisites!!!</span> You need to install Android KitKat on your Open C first (e.g. [EU_FFOS+to+Android.zip](https://www.androidfilehost.com/?fid=673368273298921576) will do). You also need to have this [ClockWorkMod](/devices/kis3/CWM) or this [TWRP](/devices/kis3/TWRP) recovery installed.
+<span style="color:#FF0000;">Important. Prerequisites!!!</span> You need to install Android KitKat on your Open C first (e.g. [EU_FFOS+to+Android.zip](https://www.androidfilehost.com/?fid=4349826312261607875) will do). You also need to have this [ClockWorkMod](/devices/kis3/CWM) or this [TWRP](/devices/kis3/TWRP) recovery installed.
 
 ![screenshot]({{ site.url }}/img/kis3/SailfishOS/20151004231859.png)  
 ![screenshot]({{ site.url }}/img/kis3/SailfishOS/20151004231941.png)
@@ -18,11 +18,11 @@ This is my build of [Sailfish OS](https://sailfishos.org/) for ZTE Open C / Kis 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
 **cm-12.1-YOG3C-KonstaKANG-kis3.zip** (yes, you need to use this exact CM12.1 build as a base)  
-[https://www.androidfilehost.com/?fid=24591000424952228](https://www.androidfilehost.com/?fid=24591000424952228)  
+[https://www.androidfilehost.com/?fid=4349826312261607763](https://www.androidfilehost.com/?fid=4349826312261607763)  
 md5:23593b90fb7be93a7e14aec6a3a95f68
 
 **sailfishos-kis3-release-2.0.0.10-20160123-alpha2.zip**  
-[https://www.androidfilehost.com/?fid=24591000424952230](https://www.androidfilehost.com/?fid=24591000424952230)  
+[https://www.androidfilehost.com/?fid=4349826312261607762](https://www.androidfilehost.com/?fid=4349826312261607762)  
 md5:bf5ac7346ed5e08e32c884fd0022409c
 
 **Working:**

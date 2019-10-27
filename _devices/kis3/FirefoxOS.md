@@ -12,7 +12,7 @@ This is my build of [Firefox OS](https://www.mozilla.org/en-US/firefox/os/) for 
 
 This build is based on the latest [CAF release](https://www.codeaurora.org/xwiki/bin/FirefoxOS/release) LNX.LF.3.5.1-11900-8x10.0 and it's Boot2Gecko 2.0.0.0-prerelease.
 
-<span style="color:#ff0000;">Important. Prerequisites!!!</span> You need to install Android KitKat on your Open C first (e.g. [EU_FFOS+to+Android.zip](https://www.androidfilehost.com/?fid=673368273298921576) will do). Yes, that's right - this build is based on KitKat unlike the official ZTE Open C Firefox OS firmware. You also need to have this [ClockWorkMod](/devices/kis3/CWM) recovery installed ([TWRP](/devices/kis3/TWRP) seems to have some issues with CAF otapackages :o).
+<span style="color:#ff0000;">Important. Prerequisites!!!</span> You need to install Android KitKat on your Open C first (e.g. [EU_FFOS+to+Android.zip](https://www.androidfilehost.com/?fid=4349826312261607875) will do). Yes, that's right - this build is based on KitKat unlike the official ZTE Open C Firefox OS firmware. You also need to have this [ClockWorkMod](/devices/kis3/CWM) recovery installed ([TWRP](/devices/kis3/TWRP) seems to have some issues with CAF otapackages :o).
 
 ![screenshot]({{ site.url }}/img/kis3/FirefoxOS/2014-08-20-15-10-38.png)  
 ![screenshot]({{ site.url }}/img/kis3/FirefoxOS/2014-08-20-15-13-00.png)
@@ -20,7 +20,7 @@ This build is based on the latest [CAF release](https://www.codeaurora.org/xwiki
 <span style="color:#ff0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
 **b2g-20150802-kis3.zip**  
-[https://www.androidfilehost.com/?fid=24591000424952219](https://www.androidfilehost.com/?fid=24591000424952219)  
+[https://www.androidfilehost.com/?fid=4349826312261607382](https://www.androidfilehost.com/?fid=4349826312261607382)  
 md5:3e22cb7e766e1450cc993df95290bbf0
 
 **Working:**

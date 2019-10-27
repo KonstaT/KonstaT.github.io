@@ -16,7 +16,7 @@ Here's a small app I wrote that pulls some useful hardware information.
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
 Kis3Info-v0.7.5.apk  
-[https://www.androidfilehost.com/?fid=24591000424952217](https://www.androidfilehost.com/?fid=24591000424952217)  
+[https://www.androidfilehost.com/?fid=4349826312261607799](https://www.androidfilehost.com/?fid=4349826312261607799)  
 md5:03a47c18c72d0c5fd4e666ae3ff4986a
 
 ----

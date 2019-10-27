@@ -18,7 +18,7 @@ This build is based on [CAF release](https://www.codeaurora.org/xwiki/bin/Firefo
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
 **b2g-20150801-falcon.zip**  
-[https://www.androidfilehost.com/?fid=24591000424952111](https://www.androidfilehost.com/?fid=24591000424952111)  
+[https://www.androidfilehost.com/?fid=4349826312261607842](https://www.androidfilehost.com/?fid=4349826312261607842)  
 md5:3b0e17793e5cf3d132383f0c2a3842b1
 
 **Working:**

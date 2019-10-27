@@ -12,7 +12,7 @@ comments: true
 
 **How to change splash screen:**
 
-- Download [kis3-splash-flash.zip](https://www.androidfilehost.com/?fid=24591000424952204)
+- Download [kis3-splash-flash.zip](https://www.androidfilehost.com/?fid=4349826312261607805)
 - Download/create a splash.img and replace the empty template inside the kis3-splash-flash.zip with your file (drag&drop with your favorite zip tool)
 - Boot into [ClockWorkMod](/devices/kis3/CWM) recovery and install kis3-splash-flash.zip
 
@@ -29,27 +29,27 @@ Bytesize (1,152,054 bytes) doesn't exactly match ZTE splash.img (1,153,024 bytes
 ![screenshot]({{ site.url }}/img/kis3/stock-splash/splash-zte-new.png)
 
 **splash-zte-new.img**  
-[https://www.androidfilehost.com/?fid=24591000424952208](https://www.androidfilehost.com/?fid=24591000424952208)
+[https://www.androidfilehost.com/?fid=4349826312261607808](https://www.androidfilehost.com/?fid=4349826312261607808)
 
 ![screenshot]({{ site.url }}/img/kis3/stock-splash/splash-zte.png)
 
 **splash-zte.img**  
-[https://www.androidfilehost.com/?fid=24591000424952207](https://www.androidfilehost.com/?fid=24591000424952207)
+[https://www.androidfilehost.com/?fid=4349826312261607806](https://www.androidfilehost.com/?fid=4349826312261607806)
 
 ![screenshot]({{ site.url }}/img/kis3/stock-splash/splash-zte2.png)
 
 **splash-zte2.img**  
-[https://www.androidfilehost.com/?fid=24591000424952209](https://www.androidfilehost.com/?fid=24591000424952209)
+[https://www.androidfilehost.com/?fid=4349826312261607804](https://www.androidfilehost.com/?fid=4349826312261607804)
 
 ![screenshot]({{ site.url }}/img/kis3/stock-splash/splash-droid.png)
 
 **splash-droid.img**  
-[https://www.androidfilehost.com/?fid=24591000424952206](https://www.androidfilehost.com/?fid=24591000424952206)
+[https://www.androidfilehost.com/?fid=4349826312261607809](https://www.androidfilehost.com/?fid=4349826312261607809)
 
 ![screenshot]({{ site.url }}/img/kis3/stock-splash/splash-firefox.png)
 
 **splash-firefox.img**  
-[https://www.androidfilehost.com/?fid=24591000424952205](https://www.androidfilehost.com/?fid=24591000424952205)
+[https://www.androidfilehost.com/?fid=4349826312261607807](https://www.androidfilehost.com/?fid=4349826312261607807)
 
 ----
 

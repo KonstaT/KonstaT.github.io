@@ -13,11 +13,11 @@ This is my build of Koush's [ClockWorkMod](https://www.clockworkmod.com/) Recove
 <span style="color:#ff0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
 **recovery-clockwork-6.0.5.1-kis3.zip** (CWM/TWRP flashable)  
-[https://www.androidfilehost.com/?fid=24591000424952211](https://www.androidfilehost.com/?fid=24591000424952211)  
+[https://www.androidfilehost.com/?fid=4349826312261607788](https://www.androidfilehost.com/?fid=4349826312261607788)  
 md5:a1eb8af7d8e2606df9eaa7734c180076
 
 **recovery-cwm6051-kis3.img**  
-[https://www.androidfilehost.com/?fid=24591000424952212](https://www.androidfilehost.com/?fid=24591000424952212)  
+[https://www.androidfilehost.com/?fid=4349826312261607789](https://www.androidfilehost.com/?fid=4349826312261607789)  
 md5:3571bf70f64e59fb73d8f1f229158d1c
 
 This recovery is fully working with goodies such as repeatable keys and adb sideload support. Use volume keys to navigate menus and power button to select. Internal sdcard is handled differently on Open C and Kis 3 so this recovery only supports external sdcard.
@@ -26,7 +26,7 @@ This recovery is fully working with goodies such as repeatable keys and adb side
 
 **How to make clean ROM dump/backup of your device (before you root or install CWM):** (<span style="color:#ff0000;">recommended</span>)
 
-- Download and install [ZTE USB drivers](https://www.androidfilehost.com/?fid=745849072291678957) (windows) or setup udev rules (linux)
+- Download and install [ZTE USB drivers](https://www.androidfilehost.com/?fid=4349826312261607856) (windows) or setup udev rules (linux)
 - Download Android SDK platform-tools ([Windows](https://dl.google.com/android/repository/platform-tools-latest-windows.zip), [Linux](https://dl.google.com/android/repository/platform-tools-latest-linux.zip), [Mac](https://dl.google.com/android/repository/platform-tools-latest-darwin.zip)) to get adb and fastboot
 - Download recovery-cwm60xx-kis3.img recovery image and rename it to recovery.img
 - Create a new directory somewhere and copy adb(.exe), fastboot(.exe) and recovery.img into it
@@ -44,7 +44,7 @@ fastboot boot recovery.img
 
 **How to install ClockWorkMod Recovery:**
 
-- Download and install [ZTE USB drivers](https://www.androidfilehost.com/?fid=745849072291678957) (windows) or setup udev rules (linux)
+- Download and install [ZTE USB drivers](https://www.androidfilehost.com/?fid=4349826312261607856) (windows) or setup udev rules (linux)
 - Download Android SDK platform-tools ([Windows](https://dl.google.com/android/repository/platform-tools-latest-windows.zip), [Linux](https://dl.google.com/android/repository/platform-tools-latest-linux.zip), [Mac](https://dl.google.com/android/repository/platform-tools-latest-darwin.zip)) to get adb and fastboot
 - Download recovery-cwm60xx-kis3.img recovery image and rename it to recovery.img
 - Create a new directory somewhere and copy adb(.exe), fastboot(.exe) and recovery.img into it

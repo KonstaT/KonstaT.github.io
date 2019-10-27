@@ -12,7 +12,7 @@ This is my build of CAF Android for ZTE Open C / Kis 3 (Beeline Smart2, Moche/ME
 
 This build is based on the same [CAF release](https://www.codeaurora.org/xwiki/bin/QAEP/release) LNX.LA.3.5.1-00710-8x10.0 that ZTE initially started off with their stock firmware.
 
-<span style="color:#ff0000;">Important. Prerequisites!!!</span> You need to install Android KitKat on your Open C first (e.g. [EU_FFOS+to+Android.zip](https://www.androidfilehost.com/?fid=673368273298921576) will do). You also need to have this [ClockWorkMod](/devices/kis3/CWM) recovery installed ([TWRP](/devices/kis3/TWRP) seems to have some issues with CAF otapackages :o).
+<span style="color:#ff0000;">Important. Prerequisites!!!</span> You need to install Android KitKat on your Open C first (e.g. [EU_FFOS+to+Android.zip](https://www.androidfilehost.com/?fid=4349826312261607875) will do). You also need to have this [ClockWorkMod](/devices/kis3/CWM) recovery installed ([TWRP](/devices/kis3/TWRP) seems to have some issues with CAF otapackages :o).
 
 ![screenshot]({{ site.url }}/img/kis3/CAF/Screenshot_2014-10-24-18-13-31.png)  
 ![screenshot]({{ site.url }}/img/kis3/CAF/Screenshot_2014-10-24-18-22-26.png)
@@ -20,11 +20,11 @@ This build is based on the same [CAF release](https://www.codeaurora.org/xwiki/b
 <span style="color:#ff0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
 **caf-20141104-kis3.zip**  
-[https://www.androidfilehost.com/?fid=24591000424952223](https://www.androidfilehost.com/?fid=24591000424952223)  
+[https://www.androidfilehost.com/?fid=4349826312261607748](https://www.androidfilehost.com/?fid=4349826312261607748)  
 md5:0b05a7c3a03e344e26a007d73fb7711f
 
 **caf-kis3-stock-kernel.zip** (kernel and wifi drivers from EE_UK_P821E10V1.0.0B06 - for devices with GT960F touchscreen)  
-[https://www.androidfilehost.com/?fid=24591000424952224](https://www.androidfilehost.com/?fid=24591000424952224)  
+[https://www.androidfilehost.com/?fid=4349826312261607749](https://www.androidfilehost.com/?fid=4349826312261607749)  
 md5:32c116d1a7496ce0cc1a9113c405e1c9
 
 **Google Apps:**  

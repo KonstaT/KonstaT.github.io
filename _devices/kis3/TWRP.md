@@ -13,11 +13,11 @@ This is my build of Dees-Troy's [Team Win Recovery Project](https://twrp.me) (TW
 <span style="color:#ff0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
 **recovery-twrp-3.0.2-0-kis3.zip** (CWM/TWRP flashable)  
-[https://www.androidfilehost.com/?fid=24591000424952196](https://www.androidfilehost.com/?fid=24591000424952196)  
+[https://www.androidfilehost.com/?fid=4349826312261607744](https://www.androidfilehost.com/?fid=4349826312261607744)  
 md5:7eeb358cd5e6f0d5a7231b7fda2f401f
 
 **recovery-twrp3020-kis3.img**  
-[https://www.androidfilehost.com/?fid=24591000424952195](https://www.androidfilehost.com/?fid=24591000424952195)  
+[https://www.androidfilehost.com/?fid=4349826312261607743](https://www.androidfilehost.com/?fid=4349826312261607743)  
 md5:98ca1ea09aa5931cc5dd4a8916e76679
 
 <span style="color:#ff0000;">Do not use this recovery to flash official updates from ZTE website!</span> You need to repack them for custom recovery or use the stock recovery to install.
