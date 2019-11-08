@@ -182,13 +182,11 @@ img {
 }
 .navbar-custom .avatar-container  .avatar-img-border {
   width: 100%;
-  border-radius: 50%;
   margin-left: -50%;
   display: inline-block;
 }
 .navbar-custom .avatar-container  .avatar-img {
   width: 100%;
-  border-radius: 50%;
   display: block;
 }
 
