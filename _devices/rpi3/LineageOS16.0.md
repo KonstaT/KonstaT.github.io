@@ -2,7 +2,7 @@
 layout: rom
 title: LineageOS 16.0 (Android 9)
 subtitle: for Raspberry Pi 3
-date: 2019-06-27
+date: 2019-12-22
 tags: [rpi3, LineageOS, LOS16.0]
 social-share: true
 comments: true
@@ -16,9 +16,9 @@ Here's my build of LineageOS 16.0 for Raspberry Pi 3 Model B and Model B+. It is
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
-**lineage-16.0-20190627-UNOFFICIAL-KonstaKANG-rpi3.zip**  
-[https://www.androidfilehost.com/?fid=6006931924117904151](https://www.androidfilehost.com/?fid=6006931924117904151)  
-md5:13cdd420f2050fcd60532d8d3b7aeafe
+**lineage-16.0-20191222-UNOFFICIAL-KonstaKANG-rpi3.zip**  
+[https://www.androidfilehost.com/?fid=4349826312261681719](https://www.androidfilehost.com/?fid=4349826312261681719)  
+md5:956962b364583917b47046ef8556db85
 
 **Sources:**
 
@@ -48,6 +48,9 @@ Q: I have no root, why? What is that hashtag on my status bar?
 Q: Settings -> Storage shows xx GB used by system. There's unallocated space on my sdcard. What should I do?  
 *A: This is a 4 GB image, remaining space on your sdcard will remain unallocated. Settings app shows unallocated space as used by system which in reality it is not. You can use e.g. GParted and extend /data partition (/dev/block/mmcblk0p4) to cover the unallocated space. Resizing the partition manually will break support for encrypting /data. Format /data in TWRP recovery (Wipe->Format data) after resizing to leave required space for crypto footer.*
 
+Q: My display is not working. I can only see the rainbow screen but no Android boot animation. What should I do?  
+*A: This build only supports HDMI displays that report supported resolutions using EDID. See [this page](https://www.raspberrypi.org/documentation/configuration/config-txt/video.md) under 'Which values are valid for my monitor?' to see how to check which resolutions your display supports using Raspbian. 1280x720 resolution is used by default with this build. If your display doesn't support 1280x720 resolution, you can try changing value in /boot/resolution.txt to something it does.*
+
 Q: Raspberry Pi doesn't have power button, how do I power off/reboot my device?  
 *A: Following keyboard keys work as Android buttons: F1 = Home, F2 = Back, F3 = Multi-tasking, F4 = Menu, F5 = Power, F11 = Volume down, and F12 = Volume up. You can also use one of many third party reboot applications.*
 
@@ -61,6 +64,14 @@ Q: How to create a DIY hardware power button?
 ```
 su
 rpi3-powerbutton.sh
+```
+
+Q: How to enable audio through 3.5mm jack?  
+*Execute following commands in 'adb shell'/serial console/terminal (you can enable built-in terminal app from Settings -> System -> Developer options -> Local terminal) to enable the feature and reboot your device:*
+
+```
+su
+rpi3-audio-jack.sh
 ```
 
 Q: How to boot from USB device?  
@@ -96,6 +107,19 @@ rpi3-recovery.sh boot
 
 *Or you can flash my [recovery2boot](https://www.androidfilehost.com/?fid=6006931924117903444) zip in TWRP. If you are booting from an USB device as above you need to use [recovery2boot-usb](https://www.androidfilehost.com/?fid=6006931924117903445) instead.*
 
+Q: How to update from previous LineageOS 16.0 build without losing data?  
+*A:*
+
+1. Boot to TWRP recovery with the build you want to keep the data (see FAQ)
+2. Plug in an external USB storage device and select 'Backup'
+3. Use 'Select Storage' to choose the USB device and 'Swipe to backup' (it's only necessary to backup the data partition so you can uncheck other partitions to speed up the process)
+4. Write new LineageOS 16.0 image to the sdcard following installation instructions
+5. Boot to TWRP recovery with the new build (see FAQ)
+6. Select 'Restore' and find the backup you created from the USB device ('Select Storage')
+7. Make sure you only have data selected as partitions to restore (uncheck other partitions if available) and select 'Swipe to Restore'
+8. (Flash Google apps package/other add-ons you had previously installed)
+9. Boot out of recovery (see FAQ)
+
 Q: How to install Google apps?  
 *A: Warning, installing gapps slows things down especially on low-end devices with limited amount of RAM such as this one.*
 
@@ -108,6 +132,17 @@ Q: How to install Google apps?
 ----
 
 [Merged commits](https://review.lineageos.org/#/q/status:merged++branch:lineage-16.0+-project:%255E.*device.*+-project:%255E.*kernel.*,n,z) not mentioned in the changelog.
+
+**22.12. changelog:**
+
+- update to MESA 19.3 and latest upstream versions of minigbm gralloc, drm_hwcomposer, and libdrm
+- set default resolution using a configuration file (see FAQ)
+- add vendor init library to set serial number, revision, and resolution properties
+- add health HAL to fake battery/charging
+- add script to enable audio through 3.5mm jack (see FAQ)
+- add initial support for RTC hardware (tested with DS3231)
+- update to Linux 4.14.160 kernel and patch known vulnerabilities (CVE-xxxx-xxxx, and more)
+- Android security patch level: 5 December 2019 (merged)
 
 **27.6. changelog:**
 
