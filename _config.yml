@@ -30,6 +30,7 @@ navbar-links:
     - Motorola Moto G: "devices/falcon"
     - Nexbox A95X: "devices/nexbox_a95x"
     - Raspberry Pi 3: "devices/rpi3"
+    - Raspberry Pi 4: "devices/rpi4"
     - Vodafone Smart Ultra 6: "devices/vodafone_su6"
     - ZTE Blade: "devices/blade"
     - ZTE Blade III: "devices/atlas40"
@@ -123,7 +124,7 @@ disqus: "konstakang"
 google_analytics: "UA-89785842-1"
 
 # Fill in your Google AdSense ID
-#google_adsense: ""
+google_adsense: "ca-pub-2525301408566801"
 
 # Google Tag Manager ID
 #gtm: ""
