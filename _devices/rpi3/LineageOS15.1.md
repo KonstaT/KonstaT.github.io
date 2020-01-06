@@ -8,7 +8,7 @@ social-share: true
 comments: true
 ---
 
-Here's my build of LineageOS 15.1 for Raspberry Pi 3 Model B and Model B+ (bluetooth does not currently work on the new plus model). It is unofficial and unsupported by the LineageOS team. It's for **advanced users** only. This build currently uses Google's SwiftShader software renderer so display performance is probably not what you'd expect. This build is not meant as a daily driver and it's certainly not suitable for media device use.
+Here's my build of LineageOS 15.1 for Raspberry Pi 3 Model B and Model B+ (bluetooth does not currently work on the new plus model). It is unofficial and unsupported by the LineageOS team. It's for **advanced users** only. This build currently uses Google's SwiftShader software renderer so graphics performance is probably not what you'd expect. This build is not meant as a daily driver and it's certainly not suitable for media device use.
 
 ![screenshot]({{ site.url }}/img/rpi3/LineageOS15.1/Screenshot_Settings_20180630-144620.png)
 
@@ -44,6 +44,12 @@ Q: I have no root, why? What is that hashtag on my status bar?
 
 Q: Settings -> Storage shows xx GB used by system. There's unallocated space on my sdcard. What should I do?  
 *A: This is a 4 GB image, remaining space on your sdcard will remain unallocated. Settings app shows unallocated space as used by system which in reality it is not. You can use e.g. GParted and extend /data partition (/dev/block/mmcblk0p4) to cover the unallocated space. Resizing the partition manually will break support for encrypting /data. Format /data in TWRP recovery (Wipe->Format data) after resizing to leave required space for crypto footer.*
+
+Q: My display is not working. I can only see the rainbow screen but no Android boot animation. What should I do?  
+*A: This build uses 1280x720 resolution by default so you need to use a HDMI display that supports it. See [this page](https://www.raspberrypi.org/documentation/configuration/config-txt/video.md) under 'Which values are valid for my monitor?' to see how to check which resolutions your display supports using Raspbian. If your display doesn't support 1280x720 resolution, you can try changing values in /boot/config.txt to something it does (see [this page](https://www.raspberrypi.org/documentation/configuration/config-txt/video.md)). 720p is still the maximum resolution that is supported by the graphics drivers used in this build.*
+
+Q: I have official 7" LCD display and touchscreen. What should I do?  
+*A: Official 7" touchscreen is supported without any modifications. You will only need to change display size under Settings -> Display -> Display size (or change ro.sf.lcd_density to 120 in /system/build.prop) to adapt to the smaller resolution.*
 
 Q: Raspberry Pi doesn't have power button, how do I power off/reboot my device?  
 *A: Following keyboard keys work as Android buttons: F1 = Home, F2 = Back, F3 = Multi-tasking, F4 = Menu, F5 = Power, F11 = Volume down, and F12 = Volume up. You can also use one of many third party reboot applications.*
