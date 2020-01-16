@@ -2,7 +2,7 @@
 layout: rom
 title: LineageOS 16.0 (Android 9)
 subtitle: for Raspberry Pi 4
-date: 2020-01-06
+date: 2020-01-16
 tags: [rpi4, LineageOS, LOS16.0]
 social-share: true
 comments: true
@@ -16,9 +16,9 @@ Here's my build of LineageOS 16.0 for Raspberry Pi 4 Model B. It is unofficial a
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
-**lineage-16.0-20200106-UNOFFICIAL-KonstaKANG-rpi4.zip**  
-[https://www.androidfilehost.com/?fid=4349826312261694601](https://www.androidfilehost.com/?fid=4349826312261694601)  
-md5:4d440798dca478eaea6b5ae057883f21
+**lineage-16.0-20200116-UNOFFICIAL-KonstaKANG-rpi4.zip**  
+[https://www.androidfilehost.com/?fid=4349826312261702446](https://www.androidfilehost.com/?fid=4349826312261702446)  
+md5:d5dc9d577e5170bbf8b07f95506ed55d
 
 **Sources:**
 
@@ -98,6 +98,19 @@ rpi4-recovery.sh boot
 
 *Or you can flash my [recovery2boot](https://www.androidfilehost.com/?fid=4349826312261694552) zip in TWRP.*
 
+Q: How to update from previous LineageOS 16.0 build without losing data?  
+*A:*
+
+1. Boot to TWRP recovery with the build you want to keep the data (see FAQ)
+2. Plug in an external USB storage device and select 'Backup'
+3. Use 'Select Storage' to choose the USB device and 'Swipe to backup' (it's only necessary to backup the data partition so you can uncheck other partitions to speed up the process)
+4. Write new LineageOS 16.0 image to the sdcard following installation instructions
+5. Boot to TWRP recovery with the new build (see FAQ)
+6. Select 'Restore' and find the backup you created from the USB device ('Select Storage')
+7. Make sure you only have data selected as partitions to restore (uncheck other partitions if available) and select 'Swipe to Restore'
+8. (Flash Google apps package/other add-ons you had previously installed)
+9. Boot out of recovery (see FAQ)
+
 Q: How to install Google apps?  
 *A: <span style="color:#FF0000;">Warning</span>, Raspberry Pi is not a Google Play certified device and you will need to register this build as an exception. You can find more information on [this page](https://lineageos.org/Google-Play-Certification/). Acquiring Google Services Framework Android ID requires some extra steps so I'd recommend [getting familiar with the process](https://www.google.com/android/uncertified/) before proceeding to install gapps. If you are not too familiar executing commands in adb shell'/serial console/terminal I have also created a TWRP [flashable zip](https://www.androidfilehost.com/?fid=4349826312261699299) that will read and print the GSFAID you need to register.*
 
@@ -110,6 +123,13 @@ Q: How to install Google apps?
 ----
 
 [Merged commits](https://review.lineageos.org/#/q/status:merged++branch:lineage-16.0+-project:%255E.*device.*+-project:%255E.*kernel.*,n,z) not mentioned in the changelog.
+
+**16.1. changelog:**
+
+- fix USB storage
+- fix wifi tethering
+- update to Linux 4.19.95 kernel and patch known vulnerabilities (CVE-xxxx-xxxx, and more)
+- Android security patch level: 5 January 2020 (merged)
 
 **6.1. changelog:**
 
