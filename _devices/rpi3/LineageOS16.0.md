@@ -2,7 +2,7 @@
 layout: rom
 title: LineageOS 16.0 (Android 9)
 subtitle: for Raspberry Pi 3
-date: 2019-12-22
+date: 2020-02-07
 tags: [rpi3, LineageOS, LOS16.0]
 social-share: true
 comments: true
@@ -16,20 +16,22 @@ Here's my build of LineageOS 16.0 for Raspberry Pi 3 Model B and Model B+. It is
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
-**lineage-16.0-20191222-UNOFFICIAL-KonstaKANG-rpi3.zip**  
-[https://www.androidfilehost.com/?fid=4349826312261681719](https://www.androidfilehost.com/?fid=4349826312261681719)  
-md5:956962b364583917b47046ef8556db85
+**lineage-16.0-20200207-UNOFFICIAL-KonstaKANG-rpi3.zip**  
+[https://www.androidfilehost.com/?fid=4349826312261718177](https://www.androidfilehost.com/?fid=4349826312261718177)  
+md5:b46e1a88bc60c684a43fb1f20fd5b405
 
 **Sources:**
 
-- [kernel](https://github.com/lineage-rpi/android_kernel_brcm_rpi3/tree/lineage-16.0)
+- [kernel](https://github.com/lineage-rpi/android_kernel_brcm_rpi4/tree/lineage-16.0)
 
 **Thanks:**
 
-- peyo-hd and everyone who's contributed to android-rpi
+- peyo-hd and everyone who has contributed to android-rpi
 - brobwind for graphics and bluetooth fixes
 - Eric Anholt for VC4 graphics driver
-- LineageOS team & everyone who's been working on LineageOS 16.0
+- Google for Android Things platform
+- Android-x86 project
+- LineageOS team & everyone who has contributed to LineageOS 16.0
 
 ----
 
@@ -51,6 +53,21 @@ Q: Settings -> Storage shows xx GB used by system. There's unallocated space on 
 Q: My display is not working. I can only see the rainbow screen but no Android boot animation. What should I do?  
 *A: This build only supports HDMI displays that report supported resolutions using EDID. See [this page](https://www.raspberrypi.org/documentation/configuration/config-txt/video.md) under 'Which values are valid for my monitor?' to see how to check which resolutions your display supports using Raspbian. 1280x720 resolution is used by default with this build. If your display doesn't support 1280x720 resolution, you can try changing value in /boot/resolution.txt to something it does.*
 
+Q: I have official 7" LCD display and touchscreen. What should I do?  
+*A: Official 7" touchscreen is only supported using SwiftShader software renderer. See below how to switch between different graphics drivers. You will also need to change display size under Settings -> Display -> Display size (or change ro.sf.lcd_density to 120 in /system/build.prop) to adapt to the smaller resolution.*
+
+Q: I need to use SwiftShader software renderer to use the official 7" display or I want to boot without any display connected. What should I do?  
+*A: Warning, SwiftShader is a software renderer and using it affects graphics performance. You can switch between MESA and SwiftShader graphics drivers by executing following commands in 'adb shell'/serial console/terminal (you can enable built-in terminal app from Settings -> System -> Developer options -> Local terminal):*
+
+```
+su
+rpi3-graphics.sh swiftshader
+```
+```
+su
+rpi3-graphics.sh mesa
+```
+
 Q: Raspberry Pi doesn't have power button, how do I power off/reboot my device?  
 *A: Following keyboard keys work as Android buttons: F1 = Home, F2 = Back, F3 = Multi-tasking, F4 = Menu, F5 = Power, F11 = Volume down, and F12 = Volume up. You can also use one of many third party reboot applications.*
 
@@ -65,6 +82,8 @@ Q: How to create a DIY hardware power button?
 su
 rpi3-powerbutton.sh
 ```
+
+*You can also use the DIY power button to boot the device to TWRP recovery. Press and hold the button while powering on the device until you see the TWRP screen. If you use this method to boot to recovery, you can ignore what is said about booting into/out of TWRP later in the FAQ.*
 
 Q: How to enable audio through 3.5mm jack?  
 *Execute following commands in 'adb shell'/serial console/terminal (you can enable built-in terminal app from Settings -> System -> Developer options -> Local terminal) to enable the feature and reboot your device:*
@@ -105,7 +124,7 @@ Q: How to boot out of TWRP recovery?
 rpi3-recovery.sh boot
 ```
 
-*Or you can flash my [recovery2boot](https://www.androidfilehost.com/?fid=6006931924117903444) zip in TWRP. If you are booting from an USB device as above you need to use [recovery2boot-usb](https://www.androidfilehost.com/?fid=6006931924117903445) instead.*
+*Or you can flash my [recovery2boot](https://www.androidfilehost.com/?fid=4349826312261718184) zip in TWRP. If you are booting from an USB device as above you need to use [recovery2boot-usb](https://www.androidfilehost.com/?fid=4349826312261718183) instead.*
 
 Q: How to update from previous LineageOS 16.0 build without losing data?  
 *A:*
@@ -133,9 +152,22 @@ Q: How to install Google apps?
 
 [Merged commits](https://review.lineageos.org/#/q/status:merged++branch:lineage-16.0+-project:%255E.*device.*+-project:%255E.*kernel.*,n,z) not mentioned in the changelog.
 
+**7.2. 2020 changelog:**
+
+- add camera HAL to support Pi camera modules and USB webcams (thanks to Android-x86)
+- update to MESA 19.3.3 and latest upstream versions of minigbm gralloc, drm_hwcomposer, and libdrm
+- enable hardware overlays (improves graphics performance)
+- add option to switch to SwiftShader software renderer e.g. to use official 7" touchscreen or to boot without any display connected (see FAQ)
+- fix portrait apps on forced landscape orientation (thanks to Ladehunter)
+- update GPS HAL
+- option to use DIY hardware power button to boot to TWRP recovery (see FAQ)
+- initial support for IR modules and remotes (tested with TSOP4838)
+- update to Linux 4.19.102 kernel and patch known vulnerabilities (CVE-xxxx-xxxx, and more)
+- Android security patch level: 5 January 2020 (merged)
+
 **22.12. changelog:**
 
-- update to MESA 19.3 and latest upstream versions of minigbm gralloc, drm_hwcomposer, and libdrm
+- update to MESA 19.3.1 and latest upstream versions of minigbm gralloc, drm_hwcomposer, and libdrm
 - set default resolution using a configuration file (see FAQ)
 - add vendor init library to set serial number, revision, and resolution properties
 - add health HAL to fake battery/charging
