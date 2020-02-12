@@ -2,7 +2,7 @@
 layout: rom
 title: LineageOS 16.0 (Android 9)
 subtitle: for Raspberry Pi 4
-date: 2020-01-16
+date: 2020-02-12
 tags: [rpi4, LineageOS, LOS16.0]
 social-share: true
 comments: true
@@ -16,9 +16,9 @@ Here's my build of LineageOS 16.0 for Raspberry Pi 4 Model B. It is unofficial a
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
-**lineage-16.0-20200116-UNOFFICIAL-KonstaKANG-rpi4.zip**  
-[https://www.androidfilehost.com/?fid=4349826312261702446](https://www.androidfilehost.com/?fid=4349826312261702446)  
-md5:d5dc9d577e5170bbf8b07f95506ed55d
+**lineage-16.0-20200212-UNOFFICIAL-KonstaKANG-rpi4.zip**  
+[https://www.androidfilehost.com/?fid=4349826312261721851](https://www.androidfilehost.com/?fid=4349826312261721851)  
+md5:1ea17c9a6f2966ebf1d3e3f9dc84a6a4
 
 **Sources:**
 
@@ -29,6 +29,7 @@ md5:d5dc9d577e5170bbf8b07f95506ed55d
 - peyo-hd and everyone who has contributed to android-rpi
 - brobwind for bluetooth fixes
 - Google for Android Things platform
+- Android-x86 project
 - LineageOS team & everyone who has contributed to LineageOS 16.0
 
 ----
@@ -123,6 +124,16 @@ Q: How to install Google apps?
 ----
 
 [Merged commits](https://review.lineageos.org/#/q/status:merged++branch:lineage-16.0+-project:%255E.*device.*+-project:%255E.*kernel.*,n,z) not mentioned in the changelog.
+
+**12.2. changelog:**
+
+- add camera HAL to support Pi camera modules and USB webcams (thanks to Android-x86)
+- fix portrait apps on forced landscape orientation (thanks to Ladehunter)
+- update GPS HAL
+- add ir-keytable tool to configure IR remotes
+- enable USB gadget support & fix adb toggle in developer options
+- update to Linux 4.19.103 kernel and patch known vulnerabilities (CVE-xxxx-xxxx, and more)
+- Android security patch level: 5 February 2020 (merged)
 
 **16.1. changelog:**
 
