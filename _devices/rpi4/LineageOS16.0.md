@@ -20,6 +20,36 @@ Here's my build of LineageOS 16.0 for Raspberry Pi 4 Model B. It is unofficial a
 [https://www.androidfilehost.com/?fid=4349826312261721851](https://www.androidfilehost.com/?fid=4349826312261721851)  
 md5:1ea17c9a6f2966ebf1d3e3f9dc84a6a4
 
+**Working:**
+
+- Audio (HDMI, 3.5mm jack, USB microphones, bluetooth speakers/headsets, etc)
+- Bluetooth
+- Camera (using official Pi camera modules & UVC USB webcams)
+- GPIO
+- GPS (using external USB modules e.g. U-Blox 7)
+- Ethernet
+- HDMI display
+- I2C
+- IR remotes (using external GPIO IR modules e.g. TSOP4838)
+- RTC (using external GPIO I2C modules e.g. DS3231)
+- Serial console (using external GPIO serial console adapters e.g. PL2303)
+- SPI
+- Touchscreen/multi-touch (using official 7" display)
+- USB (mouse, keyboard, storage, etc)
+- Wifi
+- Wifi tethering
+
+**Not working:**
+
+- Hardware accelerated graphics (V3D)
+- Hardware video decoding & encoding
+
+**Issues:**
+
+- SELinux is in permissive mode
+- Recording videos with camera doesn't work (software video encoding issue)
+- and more...
+
 **Sources:**
 
 - [kernel](https://github.com/lineage-rpi/android_kernel_brcm_rpi4/tree/lineage-16.0)
