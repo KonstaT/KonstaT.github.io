@@ -52,7 +52,7 @@ md5:1ea17c9a6f2966ebf1d3e3f9dc84a6a4
 
 **Sources:**
 
-- [kernel](https://github.com/lineage-rpi/android_kernel_brcm_rpi4/tree/lineage-16.0)
+- [kernel](https://github.com/lineage-rpi/android_kernel_brcm_rpi/tree/lineage-16.0)
 
 **Thanks:**
 
