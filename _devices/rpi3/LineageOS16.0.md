@@ -2,7 +2,7 @@
 layout: rom
 title: LineageOS 16.0 (Android 9)
 subtitle: for Raspberry Pi 3
-date: 2020-02-07
+date: 2020-07-13
 tags: [rpi3, LineageOS, LOS16.0]
 social-share: true
 comments: true
@@ -16,13 +16,14 @@ Here's my build of LineageOS 16.0 for Raspberry Pi 3 Model B and Model B+. It is
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
-**lineage-16.0-20200207-UNOFFICIAL-KonstaKANG-rpi3.zip**  
-[https://www.androidfilehost.com/?fid=4349826312261718177](https://www.androidfilehost.com/?fid=4349826312261718177)  
-md5:b46e1a88bc60c684a43fb1f20fd5b405
+**lineage-16.0-20200713-UNOFFICIAL-KonstaKANG-rpi3.zip**  
+[https://www.androidfilehost.com/?fid=8889791610682891697](https://www.androidfilehost.com/?fid=8889791610682891697)  
+md5:3689e767c41858bb53db20190b6542a5
 
 **Working:**
 
 - Audio (HDMI, 3.5mm jack, USB microphones, bluetooth speakers/headsets, etc)
+- Audio DAC (using PCM512x DACs e.g. Hifiberry DAC+)
 - Bluetooth
 - Camera (using official Pi camera modules & UVC USB webcams)
 - GPIO
@@ -47,7 +48,6 @@ md5:b46e1a88bc60c684a43fb1f20fd5b405
 **Issues:**
 
 - SELinux is in permissive mode
-- Recording videos with camera doesn't work (software video encoding issue)
 - and more...
 
 **Sources:**
@@ -77,8 +77,10 @@ Q: I can't find developer options, why?
 Q: I have no root, why? What is that hashtag on my status bar?  
 *A: You need enable root access under Settings -> System -> Developer options -> Root access. Root management is now integrated as part of LineageOS' Privacy Guard and you can manage per app permissions under Settings -> System -> Developer options -> Manage root access. You'll have a persistent notification in the status bar when you're running an app that uses root permissions.*
 
-Q: Settings -> Storage shows xx GB used by system. There's unallocated space on my sdcard. What should I do?  
-*A: This is a 4 GB image, remaining space on your sdcard will remain unallocated. Settings app shows unallocated space as used by system which in reality it is not. You can use e.g. GParted and extend /data partition (/dev/block/mmcblk0p4) to cover the unallocated space. Resizing the partition manually will break support for encrypting /data. Format /data in TWRP recovery (Wipe->Format data) after resizing to leave required space for crypto footer.*
+Q: Settings -> Storage shows total system size of 4 GB. There's unallocated space on my sdcard. What should I do?  
+*A: This is a 4 GB image, remaining space on your sdcard will remain unallocated. You can use e.g. GParted and extend /data partition (/dev/block/mmcblk0p4) to cover the unallocated space. Resizing the partition manually will break support for encrypting /data. Format /data in TWRP recovery (Wipe->Format data) after resizing to leave required space for crypto footer.*
+
+*Or you can flash my [resize](https://www.androidfilehost.com/?fid=8889791610682891659) zip in TWRP.*
 
 Q: My display is not working. I can only see the rainbow screen but no Android boot animation. What should I do?  
 *A: This build only supports HDMI displays that report supported resolutions using EDID. See [this page](https://www.raspberrypi.org/documentation/configuration/config-txt/video.md) under 'Which values are valid for my monitor?' to see how to check which resolutions your display supports using Raspbian. 1280x720 resolution is used by default with this build. If your display doesn't support 1280x720 resolution, you can try changing value in /boot/resolution.txt to something it does.*
@@ -154,7 +156,7 @@ Q: How to boot out of TWRP recovery?
 rpi3-recovery.sh boot
 ```
 
-*Or you can flash my [recovery2boot](https://www.androidfilehost.com/?fid=4349826312261718184) zip in TWRP. If you are booting from an USB device as above you need to use [recovery2boot-usb](https://www.androidfilehost.com/?fid=4349826312261718183) instead.*
+*Or you can flash my [recovery2boot](https://www.androidfilehost.com/?fid=8889791610682891658) zip in TWRP.*
 
 Q: How to update from previous LineageOS 16.0 build without losing data?  
 *A:*
@@ -181,6 +183,21 @@ Q: How to install Google apps?
 ----
 
 [Merged commits](https://review.lineageos.org/#/q/status:merged++branch:lineage-16.0+-project:%255E.*device.*+-project:%255E.*kernel.*,n,z) not mentioned in the changelog.
+
+**13.7. changelog:**
+
+- add ir-keytable tool to configure IR remotes
+- enable USB gadget support & fix adb toggle in developer options
+- add support for storage devices with exFAT filesystem
+- hide su binary when root access is not enabled in developer options
+- add support for PCM512x audio DACs (tested with Hifiberry DAC+)
+- improve support for Waveshare HDMI touchscreens
+- fix recording videos with camcorder
+- add TWRP flashable zip to resize data partition (see FAQ)
+- update TWRP to 3.3.1-1
+- update to MESA 20.1.3 and latest upstream versions of minigbm gralloc, drm_hwcomposer, and libdrm
+- update to Linux 4.19.132 kernel and patch known vulnerabilities (CVE-xxxx-xxxx, and more)
+- Android security patch level: 5 July 2020 (merged)
 
 **7.2. 2020 changelog:**
 

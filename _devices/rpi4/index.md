@@ -11,7 +11,7 @@ permalink: /devices/rpi4/
 
 #### Recovery:
 
-- [TWRP 3.3.1-0](/devices/rpi4/TWRP)
+- [TWRP 3.3.1-1](/devices/rpi4/TWRP)
 
 #### Downloads:
 

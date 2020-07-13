@@ -1,8 +1,8 @@
 ---
 layout: rom
-title: TWRP 3.3.1-0
+title: TWRP 3.3.1-1
 subtitle: for Raspberry Pi 3
-date: 2019-06-27
+date: 2020-07-13
 tags: [rpi3, TWRP]
 social-share: true
 comments: true
@@ -12,9 +12,15 @@ This is my build of Dees-Troy's [Team Win Recovery Project](https://twrp.me) (TW
 
 **Sources:**
 
-- [lineage-rpi](https://github.com/lineage-rpi/android_local_manifest/tree/twrp-8.1)
+- [lineage-rpi](https://github.com/lineage-rpi/android_local_manifest/tree/lineage-16.0-twrp)
 
 ----
+
+**13.7. 2020 changelog:**
+
+- TWRP 3.3.1-1
+- add support for encrypted data partition
+- included in lineage-16.0-20200713-UNOFFICIAL-KonstaKANG-rpi3
 
 **27.6. 2019 changelog:**
 

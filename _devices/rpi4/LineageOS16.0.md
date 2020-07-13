@@ -2,13 +2,13 @@
 layout: rom
 title: LineageOS 16.0 (Android 9)
 subtitle: for Raspberry Pi 4
-date: 2020-02-12
+date: 2020-07-13
 tags: [rpi4, LineageOS, LOS16.0]
 social-share: true
 comments: true
 ---
 
-Here's my build of LineageOS 16.0 for Raspberry Pi 4 Model B. It is unofficial and unsupported by the LineageOS team. It's for **advanced users** only. This build currently uses Google's SwiftShader software renderer so graphics performance is probably not what you'd expect. This build is not suitable for media device use or graphics intensive gaming. I'd also recommend using Pi 4 models with 2GB or 4GB of RAM to run this build.
+Here's my build of LineageOS 16.0 for Raspberry Pi 4 Model B. It is unofficial and unsupported by the LineageOS team. It's for **advanced users** only. This build currently uses Google's SwiftShader software renderer so graphics performance is probably not what you'd expect. I'd recommend using Pi 4 models with 2GB or 4GB of RAM to run this build.
 
 <span style="color:#FF0000;">Important!</span> This image includes parts that are licensed under non-commercial license ([Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International](http://creativecommons.org/licenses/by-nc-sa/4.0/)). You may use this build freely in personal/educational/etc use. Commercial use is not allowed with this build!
 
@@ -16,13 +16,14 @@ Here's my build of LineageOS 16.0 for Raspberry Pi 4 Model B. It is unofficial a
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
-**lineage-16.0-20200212-UNOFFICIAL-KonstaKANG-rpi4.zip**  
-[https://www.androidfilehost.com/?fid=4349826312261721851](https://www.androidfilehost.com/?fid=4349826312261721851)  
-md5:1ea17c9a6f2966ebf1d3e3f9dc84a6a4
+**lineage-16.0-20200713-UNOFFICIAL-KonstaKANG-rpi4.zip**  
+[https://www.androidfilehost.com/?fid=8889791610682891700](https://www.androidfilehost.com/?fid=8889791610682891700)  
+md5:d8fe572b7ba14b010fc5475557bc8f77
 
 **Working:**
 
 - Audio (HDMI, 3.5mm jack, USB microphones, bluetooth speakers/headsets, etc)
+- Audio DAC (using PCM512x DACs e.g. Hifiberry DAC+)
 - Bluetooth
 - Camera (using official Pi camera modules & UVC USB webcams)
 - GPIO
@@ -47,7 +48,6 @@ md5:1ea17c9a6f2966ebf1d3e3f9dc84a6a4
 **Issues:**
 
 - SELinux is in permissive mode
-- Recording videos with camera doesn't work (software video encoding issue)
 - and more...
 
 **Sources:**
@@ -76,8 +76,10 @@ Q: I can't find developer options, why?
 Q: I have no root, why? What is that hashtag on my status bar?  
 *A: You need enable root access under Settings -> System -> Developer options -> Root access. Root management is now integrated as part of LineageOS' Privacy Guard and you can manage per app permissions under Settings -> System -> Developer options -> Manage root access. You'll have a persistent notification in the status bar when you're running an app that uses root permissions.*
 
-Q: Settings -> Storage shows xx GB used by system. There's unallocated space on my sdcard. What should I do?  
-*A: This is a 4 GB image, remaining space on your sdcard will remain unallocated. Settings app shows unallocated space as used by system which in reality it is not. You can use e.g. GParted and extend /data partition (/dev/block/mmcblk0p4) to cover the unallocated space. Resizing the partition manually will break support for encrypting /data. Format /data in TWRP recovery (Wipe->Format data) after resizing to leave required space for crypto footer.*
+Q: Settings -> Storage shows total system size of 4 GB. There's unallocated space on my sdcard. What should I do?  
+*A: This is a 4 GB image, remaining space on your sdcard will remain unallocated. You can use e.g. GParted and extend /data partition (/dev/block/mmcblk0p4) to cover the unallocated space. Resizing the partition manually will break support for encrypting /data. Format /data in TWRP recovery (Wipe->Format data) after resizing to leave required space for crypto footer.*
+
+*Or you can flash my [resize](https://www.androidfilehost.com/?fid=8889791610682891659) zip in TWRP.*
 
 Q: My display is not working. I can only see the rainbow screen but no Android boot animation. What should I do?  
 *A: This build uses 1280x720 resolution by default so you need to use a HDMI display that supports it. See [this page](https://www.raspberrypi.org/documentation/configuration/config-txt/video.md) under 'Which values are valid for my monitor?' to see how to check which resolutions your display supports using Raspbian. If your display doesn't support 1280x720 resolution, you can try changing values in /boot/config.txt to something it does (see [this page](https://www.raspberrypi.org/documentation/configuration/config-txt/video.md)). 720p is still the maximum resolution that is supported by the graphics drivers used in this build.*
@@ -110,6 +112,20 @@ su
 rpi4-audio-jack.sh
 ```
 
+Q: How to boot from USB device?  
+*A: Warning, this is an experimental feature and there's still some issues with it. Android shows USB storage notification for each partition and you should ignore these. TWRP shows errors in few places but everything seems to be working regardless of this.*
+
+1. Install EEPROM that supports booting from USB
+2. Write image to your USB device as above
+3. Mount the USB device on your computer and rename following files on the boot partition:
+```
+mv ramdisk.img ramdisk-sdcard.img
+mv ramdisk-usb.img ramdisk.img
+mv ramdisk-recovery.img ramdisk-recovery-sdcard.img
+mv ramdisk-recovery-usb.img ramdisk-recovery.img
+```
+4. Plug in the USB device to your Raspberry Pi, remove any sdcard, and boot
+
 Q: How to boot to TWRP recovery?  
 *A: There's currently no proper way to boot between Android and TWRP, but this can achieved by renaming the ramdisk you want to boot. Execute following commands in 'adb shell'/serial console/terminal (you can enable built-in terminal app from Settings -> System -> Developer options -> Local terminal) and reboot your device:*
 
@@ -127,7 +143,7 @@ Q: How to boot out of TWRP recovery?
 rpi4-recovery.sh boot
 ```
 
-*Or you can flash my [recovery2boot](https://www.androidfilehost.com/?fid=4349826312261694552) zip in TWRP.*
+*Or you can flash my [recovery2boot](https://www.androidfilehost.com/?fid=8889791610682891658) zip in TWRP.*
 
 Q: How to update from previous LineageOS 16.0 build without losing data?  
 *A:*
@@ -143,7 +159,7 @@ Q: How to update from previous LineageOS 16.0 build without losing data?
 9. Boot out of recovery (see FAQ)
 
 Q: How to install Google apps?  
-*A: <span style="color:#FF0000;">Warning</span>, Raspberry Pi is not a Google Play certified device and you will need to register this build as an exception. You can find more information on [this page](https://lineageos.org/Google-Play-Certification/). Acquiring Google Services Framework Android ID requires some extra steps so I'd recommend [getting familiar with the process](https://www.google.com/android/uncertified/) before proceeding to install gapps. If you are not too familiar executing commands in adb shell'/serial console/terminal I have also created a TWRP [flashable zip](https://www.androidfilehost.com/?fid=4349826312261699299) that will read and print the GSFAID you need to register.*
+*A:*
 
 1. Download [open_gapps-arm-9.0-pico-xxxxxxxx.zip](https://opengapps.org/?arch=arm&api=9.0&variant=pico) and save it to your device's internal storage or use an external USB drive
 2. Boot to TWRP recovery (see FAQ)
@@ -154,6 +170,19 @@ Q: How to install Google apps?
 ----
 
 [Merged commits](https://review.lineageos.org/#/q/status:merged++branch:lineage-16.0+-project:%255E.*device.*+-project:%255E.*kernel.*,n,z) not mentioned in the changelog.
+
+**13.7. changelog:**
+
+- add support for storage devices with exFAT filesystem
+- hide su binary when root access is not enabled in developer options
+- support for booting from USB devices (see FAQ)
+- add support for PCM512x audio DACs (tested with Hifiberry DAC+)
+- improve support for Waveshare HDMI touchscreens
+- fix recording videos with camcorder
+- add TWRP flashable zip to resize data partition (see FAQ)
+- update TWRP to 3.3.1-1
+- update to Linux 4.19.132 kernel and patch known vulnerabilities (CVE-xxxx-xxxx, and more)
+- Android security patch level: 5 July 2020 (merged)
 
 **12.2. changelog:**
 
