@@ -8,6 +8,7 @@ permalink: /devices/rpi4/
 #### ROM:
 
 - [LineageOS 16.0 - KonstaKANG (Android 9)](/devices/rpi4/LineageOS16.0)
+- [LineageOS 16.0 Android TV - KonstaKANG (Android 9)](/devices/rpi4/LineageOS16.0-ATV)
 
 #### Recovery:
 
