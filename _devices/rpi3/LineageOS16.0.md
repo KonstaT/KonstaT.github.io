@@ -36,7 +36,7 @@ md5:3689e767c41858bb53db20190b6542a5
 - RTC (using external GPIO I2C modules e.g. DS3231)
 - Serial console (using external GPIO serial console adapters e.g. PL2303)
 - SPI
-- Touchscreen/multi-touch (using official 7" display with SwiftShafer software renderer)
+- Touchscreen/multi-touch (using official 7" display with SwiftShader software renderer)
 - USB (mouse, keyboard, storage, etc)
 - Wifi
 - Wifi tethering
@@ -118,7 +118,7 @@ rpi3-powerbutton.sh
 *You can also use the DIY power button to boot the device to TWRP recovery. Press and hold the button while powering on the device until you see the TWRP screen. If you use this method to boot to recovery, you can ignore what is said about booting into/out of TWRP later in the FAQ.*
 
 Q: How to enable audio through 3.5mm jack?  
-*Execute following commands in 'adb shell'/serial console/terminal (you can enable built-in terminal app from Settings -> System -> Developer options -> Local terminal) to enable the feature and reboot your device:*
+*A: Execute following commands in 'adb shell'/serial console/terminal (you can enable built-in terminal app from Settings -> System -> Developer options -> Local terminal) to enable the feature and reboot your device:*
 
 ```
 su
