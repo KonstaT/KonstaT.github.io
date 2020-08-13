@@ -2,7 +2,7 @@
 layout: rom
 title: LineageOS 17.1 (Android 10)
 subtitle: for Raspberry Pi 3
-date: 2020-07-27
+date: 2020-08-13
 tags: [rpi3, LineageOS, LOS17.1]
 social-share: true
 comments: true
@@ -16,9 +16,9 @@ Here's my build of LineageOS 17.1 for Raspberry Pi 3 Model B and Model B+. It is
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
-**lineage-17.1-20200727-UNOFFICIAL-KonstaKANG-rpi3.zip**  
-[https://www.androidfilehost.com/?fid=8889791610682901057](https://www.androidfilehost.com/?fid=8889791610682901057)  
-md5:fa2acb20e9bd656cc526ee8c2d80e09d
+**lineage-17.1-20200813-UNOFFICIAL-KonstaKANG-rpi3.zip**  
+[https://www.androidfilehost.com/?fid=8889791610682914185](https://www.androidfilehost.com/?fid=8889791610682914185)  
+md5:1677ddd38c24b23b3ac0a6cc5c085e7a
 
 **Working:**
 
@@ -83,10 +83,10 @@ Q: Settings -> Storage shows total system size of 7 GB. There's unallocated spac
 *Or you can flash my [resize](https://www.androidfilehost.com/?fid=8889791610682901036) zip in TWRP.*
 
 Q: My display is not working. I can only see the rainbow screen but no Android boot animation. What should I do?  
-*A: This build only supports HDMI displays that report supported resolutions using EDID. See [this page](https://www.raspberrypi.org/documentation/configuration/config-txt/video.md) under 'Which values are valid for my monitor?' to see how to check which resolutions your display supports using Raspbian. 1280x720 resolution is used by default with this build. If your display doesn't support 1280x720 resolution, you can try changing value of debug.drm.mode.force property in /system/build.prop to something it does.*
+*A: This build only supports HDMI displays that report supported resolutions using EDID. See [this page](https://www.raspberrypi.org/documentation/configuration/config-txt/video.md) under 'Which values are valid for my monitor?' to see how to check which resolutions your display supports using Raspbian. 1280x720 resolution is used by default with this build. If your display doesn't support 1280x720 resolution, you can try changing value in /boot/resolution.txt to something it does.*
 
 Q: I have official 7" LCD display and touchscreen. What should I do?  
-*A: Official 7" touchscreen is only supported using SwiftShader software renderer. See below how to switch between different graphics drivers. You will also need to change display size under Settings -> Display -> Display size (or change ro.sf.lcd_density to 120 in /system/build.prop) to adapt to the smaller resolution.*
+*A: Official 7" touchscreen is only supported using SwiftShader software renderer. See below how to switch between different graphics drivers. You will also need to change display size under Settings -> Display -> Display size (or change ro.sf.lcd_density to 120 in /vendor/build.prop) to adapt to the smaller resolution.*
 
 Q: I need to use SwiftShader software renderer to use the official 7" display or I want to boot without any display connected. What should I do?  
 *A: <span style="color:#FF0000;">Warning</span>, SwiftShader is a software renderer and using it affects graphics performance. You can switch between MESA and SwiftShader graphics drivers by executing following commands in 'adb shell'/serial console/terminal (you can enable built-in terminal app from Settings -> System -> Developer options -> Local terminal):*
@@ -164,7 +164,18 @@ Q: How to install Google apps?
 
 [Merged commits](https://review.lineageos.org/#/q/status:merged++branch:lineage-17.1+-project:%255E.*device.*+-project:%255E.*kernel.*,n,z) not mentioned in the changelog.
 
-**27.6. changelog:**
+**13.8. changelog:**
+
+- bring back forced landscape orientation for portrait apps
+- bring back support for running scripts from /system/etc/init.d/
+- read resolution from /boot/resolution.txt
+- fix issue with drm video playback
+- initial support for SSH server
+- update Mesa to 20.1.5
+- update to Linux 4.19.139 kernel and patch known vulnerabilities (CVE-xxxx-xxxx, and more)
+- Android security patch level: 5 August 2020 (merged)
+
+**27.7. changelog:**
 
 - initial LineageOS 17.1 build
 - hardware accelerated graphics
