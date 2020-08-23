@@ -20,29 +20,29 @@ baseurl: ""
 # Of course don't forget to change the username and projectname to YOUR username and projec
 
 # Name of website
-title: PrestonJude
+title: Raspberry Pi Projects And More
 
 # Short description of your site
-description: Open source Android & mobile Linux development
+
 
 # --- Navigation bar options --- #
 
 # List of links in the navigation bar
 navbar-links:
   Devices:
-    - Chuwi Vi10 Plus: "devices/chuwi_vi10plus"
-    - Cube iWork8 Ultimate: "devices/cube_iwork8ultimate"
-    - Huawei Y5: "devices/y560"
-    - Motorola Moto G: "devices/falcon"
-    - Nexbox A95X: "devices/nexbox_a95x"
-    - Raspberry Pi 3: "devices/rpi3"
-    - Raspberry Pi 4: "devices/rpi4"
-    - Vodafone Smart Ultra 6: "devices/vodafone_su6"
-    - ZTE Blade: "devices/blade"
-    - ZTE Blade III: "devices/atlas40"
-    - ZTE Blade S6: "devices/blades6"
-    - ZTE Blade V: "devices/bladev"
-    - ZTE Open C / Kis 3: "devices/kis3"
+  #  - Chuwi Vi10 Plus: "devices/chuwi_vi10plus"
+   # - Cube iWork8 Ultimate: "devices/cube_iwork8ultimate"
+ #   - Huawei Y5: "devices/y560"
+   # - Motorola Moto G: "devices/falcon"
+   # - Nexbox A95X: "devices/nexbox_a95x"
+  #  - Raspberry Pi 3: "devices/rpi3"
+    - Raspberry Pi : "devices/rpi4"
+  #  - Vodafone Smart Ultra 6: "devices/vodafone_su6"
+  #  - ZTE Blade: "devices/blade"
+   # - ZTE Blade III: "devices/atlas40"
+  #  - ZTE Blade S6: "devices/blades6"
+  #  - ZTE Blade V: "devices/bladev"
+ #   - ZTE Open C / Kis 3: "devices/kis3"
   Tags: "tag"
   Blog: ""
 
