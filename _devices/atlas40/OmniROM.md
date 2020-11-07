@@ -84,9 +84,3 @@ Q: I don't have reboot options in power menu, why?
 - initial release
 
 ----
-
-**Previous discussion:**
-
-- [MoDaCo](http://www.modaco.com/topic/365936-omnirom-43/)
-
-----

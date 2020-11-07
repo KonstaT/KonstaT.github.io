@@ -107,9 +107,3 @@ md5:9fa23c93599f8bd44fccc50b0991753e
 - initial release
 
 ----
-
-**Previous discussion:**
-
-- [MoDaCo](http://www.modaco.com/forums/topic/377513-remix-os-20/)
-
-----

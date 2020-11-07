@@ -44,7 +44,7 @@ If you already have TWRP installed, you can use a flashable zip to update it.
 
 **How to restore stock recovery?**
 
-- Download TWRP flashable zip that matches your stock firmware version from [stock ROMs thread](http://www.modaco.com/forums/topic/375788-vodafone-smart-ultra-6-stock-roms-otas-and-recoveries/) and copy it to your sdcard
+- Download TWRP flashable zip that matches your stock firmware version from stock ROMs thread and copy it to your sdcard
 - Install the zip in TWRP
 - Reboot recovery
 
@@ -78,9 +78,5 @@ If you already have TWRP installed, you can use a flashable zip to update it.
 **Previous builds:**
 
 - [AndroidFileHost](https://www.androidfilehost.com/?w=files&flid=89959)
-
-**Previous discussion:**
-
-- [MoDaCo](http://www.modaco.com/forums/topic/375554-twrp-3020/)
 
 ----

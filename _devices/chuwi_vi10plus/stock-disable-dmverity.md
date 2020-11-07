@@ -144,9 +144,3 @@ md5:53ca753167f2f636655c14ef9578e679
 4. Install SuperSU zip in TWRP.
 
 ----
-
-**Previous discussion:**
-
-- [MoDaCo](http://www.modaco.com/forums/topic/377884-howto-disable-dm-verity-and-root/)
-
-----

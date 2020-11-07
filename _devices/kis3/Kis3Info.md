@@ -54,9 +54,3 @@ md5:03a47c18c72d0c5fd4e666ae3ff4986a
 - initial release
 
 ----
-
-**Previous discussion:**
-
-- [MoDaCo](http://www.modaco.com/forums/topic/373348-zte-open-c-kis-3-hardware-info/)
-
-----

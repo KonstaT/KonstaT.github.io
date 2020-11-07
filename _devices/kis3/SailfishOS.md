@@ -46,7 +46,7 @@ md5:bf5ac7346ed5e08e32c884fd0022409c
 
 **Partially working:**
 
-- FM radio - not hooked to UI yet - command line guide in [this post](http://www.modaco.com/forums/topic/375953-devrom231-sailfish-os-for-zte-open-c-kis-3/?do=findComment&comment=2271337)
+- FM radio - command line, not hooked to UI yet
 
 **Not working:**
 
@@ -107,9 +107,5 @@ md5:bf5ac7346ed5e08e32c884fd0022409c
 **Previous builds:**
 
 - [AndroidFileHost](https://www.androidfilehost.com/?w=files&flid=90031)
-
-**Previous discussion:**
-
-- [MoDaCo](http://www.modaco.com/forums/topic/375953-sailfish-os/)
 
 ----

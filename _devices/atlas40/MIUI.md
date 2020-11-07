@@ -84,9 +84,3 @@ MIUI changes not mentioned in the changelog. See [MIUI changelog](http://www.miu
 - initial release
 
 ----
-
-**Previous discussion:**
-
-- [MoDaCo](http://www.modaco.com/forums/topic/362716-miui-v5/)
-
-----

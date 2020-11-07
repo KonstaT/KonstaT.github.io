@@ -77,7 +77,7 @@ dd if=/sdcard/recovery-cwm60xx-atlas40.img of=/dev/block/mmcblk0p17
 
 **How to restore stock recovery:**
 
-- Follow instructions in [ZTE Blade III stock ROMs](http://www.modaco.com/topic/361786-zte-blade-iii-stock-roms/) thread
+- Follow instructions in ZTE Blade III stock ROMs thread
 
 **Sources:**
 
@@ -106,9 +106,5 @@ dd if=/sdcard/recovery-cwm60xx-atlas40.img of=/dev/block/mmcblk0p17
 **Previous builds:**
 
 - [AndroidFileHost](https://www.androidfilehost.com/?w=files&flid=89919)
-
-**Previous discussion:**
-
-- [MoDaCo](http://www.modaco.com/topic/360389-clockworkmod-6049/)
 
 ----

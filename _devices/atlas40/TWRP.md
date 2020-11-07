@@ -24,7 +24,7 @@ md5:9a7e877f7206ccee756e2451e2dadf9d
 
 **How to install:**
 
-- The same you would install any other recovery image ([ClockWorkMod](/devices/atlas40/CWM) or [stock](http://www.modaco.com/topic/361786-zte-blade-iii-stock-roms/)).
+- The same you would install any other recovery image ([ClockWorkMod](/devices/atlas40/CWM) or stock).
 
 **Sources:**
 
@@ -45,9 +45,5 @@ md5:9a7e877f7206ccee756e2451e2dadf9d
 **Previous builds:**
 
 - [AndroidFileHost](https://www.androidfilehost.com/?w=files&flid=89935)
-
-**Previous discussion:**
-
-- [MoDaCo](http://www.modaco.com/topic/366058-twrp-2630/)
 
 ----

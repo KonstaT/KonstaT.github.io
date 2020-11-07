@@ -102,9 +102,3 @@ md5:0862707567ca81265a639fa79eae7f57
 - initial release
 
 ----
-
-**Previous discussion:**
-
-- [MoDaCo](http://www.modaco.com/forums/topic/378147-howto-fix-freezing-issue-keyboard-dock-wake-issue/)
-
-----

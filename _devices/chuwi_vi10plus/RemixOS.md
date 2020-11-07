@@ -172,8 +172,4 @@ md5:f129eb4245cb91e45bceaade878969b2
 
 - [AndroidFileHost](https://www.androidfilehost.com/?w=files&flid=133629)
 
-**Previous discussion:**
-
-- [MoDaCo](http://www.modaco.com/forums/topic/378166-remix-os-20/)
-
 ----

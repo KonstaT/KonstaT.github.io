@@ -84,8 +84,4 @@ Q: I can't find developer options, why?
 
 - [AndroidFileHost](https://www.androidfilehost.com/?w=files&flid=89614)
 
-**Previous discussion:**
-
-- [MoDaCo](http://www.modaco.com/forums/topic/377591-remix-os-20/)
-
 ----

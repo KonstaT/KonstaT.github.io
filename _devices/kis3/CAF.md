@@ -81,9 +81,3 @@ md5:32c116d1a7496ce0cc1a9113c405e1c9
 - LNX.LA.3.5.1-00710-8x10.0
 
 ----
-
-**Previous discussion:**
-
-- [MoDaCo](http://www.modaco.com/topic/373718-caf-android/)
-
-----

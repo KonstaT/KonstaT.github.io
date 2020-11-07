@@ -33,9 +33,3 @@ md5:6e99819906adc97b3b985b6b8073e354
 - Flash BladeIII-Acqua-compatibility-v2.zip in CWM after installing the ROM
 
 ----
-
-**Previous discussion:**
-
-- [MoDaCo](http://www.modaco.com/forums/topic/365741-acqua-compatibility/)
-
-----

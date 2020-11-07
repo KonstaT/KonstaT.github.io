@@ -8,7 +8,7 @@ social-share: true
 comments: true
 ---
 
-This ROM is based on official Comviq/Tele2 ZTE Blade Gingerbread [GB_TELE2_P729VV1.0.0B03](http://android.modaco.com/topic/349790-zte-blade-android-235-stock-rom-16122011/) Android 2.3.5 (built Fri Nov 11 01:55:47 HKT 2011). This ROM will continue where I left with [Moldovan Mile-High-Mountain-Pie](http://android.modaco.com/topic/347215-romgen1-2-3-moldovan-mile-high-mountain-pie-rls9-android-235/).
+This ROM is based on official Comviq/Tele2 ZTE Blade Gingerbread GB_TELE2_P729VV1.0.0B03 Android 2.3.5 (built Fri Nov 11 01:55:47 HKT 2011). This ROM will continue where I left with Moldovan Mile-High-Mountain-Pie.
 
 ![screenshot]({{ site.url }}/img/blade/SwedishSnow/post-834050-0-63480600-1326818950.png)  
 ![screenshot]({{ site.url }}/img/blade/SwedishSnow/post-834050-0-01830300-1334313808.png)
@@ -59,7 +59,7 @@ This will only work in phones that were sold with gen1 layout or updated to gen2
 - updates gen1->gen2
 - repartitions internal storage (128mb /system, 326mb /data, 2mb /cache, 0,1mb /oem)
 - installs Swedish Snow RLS7
-- installs [ClockWorkMod Recovery 4.0.1.5](http://android.modaco.com/topic/327215-recovery-clockworkmod-recovery-for-zte-blade-oledtft/)
+- installs ClockWorkMod Recovery 4.0.1.5
 - installs classic green android splash screen
 
 **Swedish-Snow-RLS7-TPT.zip**  
@@ -95,7 +95,7 @@ After completed installation, delete/move/rename 'image' folder so that you don'
 - fully customisable CM7 look-a-like scrollable notification power widget with 11 toggles (thanks to [lidroid](http://forum.xda-developers.com/showthread.php?t=1289896))
 *wifi, mobile data, GPS, bluetooth, sync, auto-rotate, flight mode, brightness, wifi tethering, network mode and sound/vibrate
 - reboot and recovery options in power menu
-- screenshot in power menu (thanks to [Ceco](http://android.modaco.com/topic/350717-rom-skatie-by-ceco-android-235/) for porting it to skate)
+- screenshot in power menu (thanks to Ceco for porting it to skate)
 - MIUI style battery bar (thanks to [Pvy](http://forum.xda-developers.com/showthread.php?t=1371330))
 - ROM settings embedded into settings menu
 - CRT screen off animation
@@ -106,8 +106,8 @@ After completed installation, delete/move/rename 'image' folder so that you don'
 - [Terminal Emulator](https://market.android.com/details?id=jackpal.androidterm&feature=search_result)
 - [No-frills CPU Control](https://market.android.com/details?id=it.sineo.android.noFrillsCPU&feature=search_result)
 - [AppWidgetPicker](http://forum.xda-developers.com/showthread.php?t=780828)
-- [FM-Radio](http://android.modaco.com/topic/327949-fm-radio-for-zte-bladesf/) (thanks to andorko)
-- [USB Charging Commander](http://android.modaco.com/topic/333406-usb-charging-commander/) (thanks to t0mm13b)
+- FM-Radio (thanks to andorko)
+- USB Charging Commander (thanks to t0mm13b)
 - [adfree](https://market.android.com/details?id=com.bigtincan.android.adfree&hl=en) hosts file - almost no ads (please support app developers by buying their apps instead)
 - HSPA differentation
 - cache2tmpfs when /cache is smaller than 20mb
@@ -123,7 +123,7 @@ After completed installation, delete/move/rename 'image' folder so that you don'
 - volume key music controls. When screen is off and music is playing long press on volume up/down keys changes next/prev music track. (thanks to CyanogenMod)
 - statusbar brightness control. Sliding on closed statusbar changes screen brightness (thanks to [daryelv](https://github.com/daryelv/android_frameworks_base))
 - lockscreen displays next alarm time from any app
-- volume key cursor controls. Volume up/down keys can be used as d-pad left/right when in text fields. (thanks to [azuwis](http://android.modaco.com/topic/313953-mod-use-volume-updown-keys-as-d-pad-leftright-when-soft-keyboard-is-shown/))
+- volume key cursor controls. Volume up/down keys can be used as d-pad left/right when in text fields. (thanks to azuwis)
 - disabled scrolling cache (inspired by [AndroidON](http://forum.xda-developers.com/showthread.php?t=1411317))
 - long press on back key kills foreground app. I've increased the long press delay to three times normal so this can't be used by accident. Use with caution, only for misbehaving apps! (thanks to CyanogenMod)
 - change ringer mode (volume/vibrate/silent) using volume keys froyo style. (thanks to [mkasick](http://forum.xda-developers.com/showthread.php?t=1016556))
@@ -131,7 +131,7 @@ After completed installation, delete/move/rename 'image' folder so that you don'
 - checkbox preference for volume key cursor controls
 - statusbar software keys. HOME, MENU and BACK softkeys with long press functions. (thanks to CyanogenMod)
 - checkbox preference for statusbar sofkeys. You need to reboot your phone for this setting to take effect.
-- framework patch to support MVNOs (mobile virtual network operators). I'm not held responsible for any roaming charges. (Inspired by [leromarinvit](http://android.modaco.com/topic/342267-universal-mvno-patch/))
+- framework patch to support MVNOs (mobile virtual network operators). I'm not held responsible for any roaming charges. (Inspired by leromarinvit)
 - checkbox preference for MVNO roaming. This equals ticking 'national roaming' box in CM7\. You need to reboot your phone or use airplane mode for the setting to take effect.
 - swipe to clear notifications. Individual notifications can be cleared by swiping them to left or right (thanks to CyanogenMod)
 - VOLUME UP key works as shutter button in camera app. Pressing the key focuses and releasing the key takes the photo. VOLUME UP key also starts/stops recording in camcorder.
@@ -216,7 +216,7 @@ Kernel is built from burstlam's [source code](https://github.com/burstlam/zte-tu
 - added checkbox preference for volume key cursor controls
 - added statusbar software keys. HOME, MENU and BACK softkeys with long press functions. (thanks to CyanogenMod)
 - added checkbox preference for statusbar sofkeys. You need to reboot your phone for this setting to take effect.
-- added framework patch to support MVNOs (mobile virtual network operators). I'm not held responsible for any roaming charges. (Inspired by [leromarinvit](http://android.modaco.com/topic/342267-universal-mvno-patch/))
+- added framework patch to support MVNOs (mobile virtual network operators). I'm not held responsible for any roaming charges. (Inspired by leromarinvit)
 - added checkbox preference for MVNO roaming. This equals ticking 'national roaming' box in CM7\. You need to reboot your phone or use airplane mode for the setting to take effect.
 - added swipe to clear notifications. Individual notifications can be cleared by swiping them to left or right (thanks to CyanogenMod)
 - added VOLUME UP key works as shutter button in camera app. Pressing the key focuses and releasing the key takes the photo. VOLUME UP key also starts/stops recording in camcorder.
@@ -237,7 +237,7 @@ Kernel is built from burstlam's [source code](https://github.com/burstlam/zte-tu
 
 - switched back to CM7 dialer
 - added lockscreen music controls. Play/pause, previous and next buttons are displayd on locksreen when music is playing. (thanks to CyanogenMod)
-- added volume key cursor controls. Volume up/down keys can be used as d-pad left/right when in text fields. (thanks to [azuwis](http://android.modaco.com/topic/313953-mod-use-volume-updown-keys-as-d-pad-leftright-when-soft-keyboard-is-shown/))
+- added volume key cursor controls. Volume up/down keys can be used as d-pad left/right when in text fields. (thanks to azuwis)
 - disabled scrolling cache (inspired by [AndroidON](http://forum.xda-developers.com/showthread.php?t=1411317))
 - added long press on back key kills foreground app. I've increased the long press delay to three times normal so this can't be used by accident. Use with caution, only for misbehaving apps! (thanks to CyanogenMod)
 - added ability to toggle between ringer volume/vibrate/silent using volume keys. Volume down key can be used to toggle between vibrate/silent. (inspired by [mkasick](http://forum.xda-developers.com/showthread.php?t=1016556))
@@ -255,7 +255,7 @@ Kernel is built from burstlam's [source code](https://github.com/burstlam/zte-tu
 - disabled call connect vibrate
 - new kernel with undervolted 200mzh & 403mhz freqs, support for OV5640 camera sensor
 - replaced CM7 T9 dialer with AOSP dialer
-- allowed SIP calls with special characters (thanks to [kadettgte](http://android.modaco.com/topic/350875-romgen2-swedish-snow-rls2-android-235/page__view__findpost__p__1889428))
+- allowed SIP calls with special characters (thanks to kadettgte)
 - ROM settings translated to czech (thanks to vlastik7)
 - added [arabic](http://forum.xda-developers.com/showpost.php?p=10984105&postcount=1026), [czech](http://forum.xda-developers.com/showthread.php?t=875202), [polish](http://forum.xda-developers.com/showthread.php?t=875202) and [turkish](http://xt720.ru/Files/DexTrans/LatinIME/res/) dictionaries to the keyboard
 - replaced [danish](http://forum.xda-developers.com/showthread.php?t=875202) and [hebrew](https://market.android.com/details?id=com.moo.android.inputmethod.latin.languagepack.iw&hl=en) dictionaries
@@ -282,11 +282,5 @@ Kernel is built from burstlam's [source code](https://github.com/burstlam/zte-tu
 **RLS1 changelog:** *17.1.2012*
 
 - initial release
-
-----
-
-**Previous discussion:**
-
-- [MoDaCo](http://www.modaco.com/topic/350875-swedish-snow-rls7/)
 
 ----

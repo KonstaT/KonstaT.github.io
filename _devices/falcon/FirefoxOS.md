@@ -100,8 +100,4 @@ md5:3b0e17793e5cf3d132383f0c2a3842b1
 
 - [AndroidFileHost](https://www.androidfilehost.com/?w=files&flid=89967)
 
-**Previous discussion:**
-
-- [MoDaCo](http://www.modaco.com/topic/372487-caf-firefox-os-b2g/)
-
 ----

@@ -113,9 +113,3 @@ You can boot to TWRP by executing 'adb reboot recovery'. It's also possible to b
 - initial release
 
 ----
-
-**Previous discussion:**
-
-- [MoDaCo](http://www.modaco.com/forums/topic/377883-twrp-3020/)
-
-----

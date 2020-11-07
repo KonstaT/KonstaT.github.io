@@ -84,9 +84,3 @@ md5:d536cf298d3b578bcab49a33b2f142a3
 - initial release
 
 ----
-
-**Previous discussion:**
-
-- [MoDaCo](http://www.modaco.com/forums/topic/377557-twrp-3020/)
-
-----
