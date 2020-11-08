@@ -1,8 +1,8 @@
 ---
 layout: rom
-title: TWRP 3.4.0-0
+title: TWRP 3.4.0-1
 subtitle: for Raspberry Pi 3
-date: 2020-07-27
+date: 2020-11-08
 tags: [rpi3, TWRP]
 social-share: true
 comments: true
@@ -15,6 +15,13 @@ This is my build of Dees-Troy's [Team Win Recovery Project](https://twrp.me) (TW
 - [lineage-rpi](https://github.com/lineage-rpi/android_local_manifest/tree/lineage-16.0-twrp)
 
 ----
+
+**8.11. changelog:**
+
+- TWRP 3.4.0-1
+- automatically reboot to system
+- USB boot support
+- included in lineage-17.1-20201108-UNOFFICIAL-KonstaKANG-rpi3
 
 **27.7. changelog:**
 
