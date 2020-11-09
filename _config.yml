@@ -17,7 +17,7 @@ baseurl: ""
 title: KonstaKANG.com
 
 # Short description of your site
-description: Open source Android & mobile Linux development
+description: ""
 
 # --- Navigation bar options --- #
 
@@ -31,14 +31,10 @@ navbar-links:
     - Nexbox A95X: "devices/nexbox_a95x"
     - Raspberry Pi 3: "devices/rpi3"
     - Raspberry Pi 4: "devices/rpi4"
-    - Vodafone Smart Ultra 6: "devices/vodafone_su6"
     - ZTE Blade: "devices/blade"
     - ZTE Blade III: "devices/atlas40"
-    - ZTE Blade S6: "devices/blades6"
-    - ZTE Blade V: "devices/bladev"
     - ZTE Open C / Kis 3: "devices/kis3"
   Tags: "tag"
-  Blog: ""
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
@@ -65,8 +61,8 @@ avatar: "/img/konsta.png"
 # Change all these values or delete the ones you don't want.
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
-  name: © KonstaT
-  email: "konsta09@gmail.com"
+  name: © KonstaKANG
+  email: "konstakang@gmail.com"
   facebook: yourname  # eg. daattali
   github: KonstaT    # eg. daattali
   twitter: KonstaKANG   # eg. daattali

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: KonstaKANG
-subtitle: Open source Android & mobile Linux development
+subtitle: _
 use-site-title: true
 ---
 
@@ -55,6 +55,10 @@ use-site-title: true
    </article>
   {% endfor %}
 </div>
+
+{% if site.google_adsense %}
+{% include ad.html %}
+{% endif %}
 
 {% if paginator.total_pages > 1 %}
 <ul class="pager main-pager">
