@@ -78,9 +78,9 @@ Q: I have no root, why? What is that hashtag on my status bar?
 *A: You need enable root access under Settings -> System -> Developer options -> Root access. Root management is now integrated as part of LineageOS' Privacy Guard and you can manage per app permissions under Settings -> System -> Developer options -> Manage root access. You'll have a persistent notification in the status bar when you're running an app that uses root permissions.*
 
 Q: Settings -> Storage shows total system size of 4 GB. There's unallocated space on my sdcard. What should I do?  
-*A: This is a 4 GB image, remaining space on your sdcard will remain unallocated. You can use e.g. GParted and extend /data partition (/dev/block/mmcblk0p4) to cover the unallocated space. Resizing the partition manually will break support for encrypting /data. Format /data in TWRP recovery (Wipe->Format data) after resizing to leave required space for crypto footer.*
+*A: This is a 4 GB image, remaining space on your sdcard will remain unallocated. Easiest way to extend /data partition is to simply flash my [resize](https://www.androidfilehost.com/?fid=8889791610682891659) zip in TWRP.*
 
-*Or you can flash my [resize](https://www.androidfilehost.com/?fid=8889791610682891659) zip in TWRP.*
+*Alternative option is to use e.g. GParted and extend /data partition (/dev/block/mmcblk0p4) to cover the unallocated space. Resizing the partition manually will break support for encrypting /data. Format /data in TWRP recovery (Wipe -> Format data) after resizing to leave required space for crypto footer.*
 
 Q: My display is not working. I can only see the rainbow screen but no Android boot animation. What should I do?  
 *A: This build only supports HDMI displays that report supported resolutions using EDID. See [this page](https://www.raspberrypi.org/documentation/configuration/config-txt/video.md) under 'Which values are valid for my monitor?' to see how to check which resolutions your display supports using Raspbian. 1280x720 resolution is used by default with this build. If your display doesn't support 1280x720 resolution, you can try changing value in /boot/resolution.txt to something it does.*
@@ -150,7 +150,7 @@ rpi3-recovery.sh
 *If mouse cursor doesn't appear, try replugging your mouse.*
 
 Q: How to boot out of TWRP recovery?  
-*A: You can execute the same script in TWRP terminal (Advanced->Terminal) if you have boot and system partitions mounted (Mount->Boot & Mount->System):*
+*A: You can execute the same script in TWRP terminal (Advanced -> Terminal) if you have boot and system partitions mounted (Mount -> Boot & Mount -> System):*
 
 ```
 rpi3-recovery.sh boot
@@ -177,7 +177,7 @@ Q: How to install Google apps?
 1. Download [open_gapps-arm-9.0-pico-xxxxxxxx.zip](https://opengapps.org/?arch=arm&api=9.0&variant=pico) and save it to your device's internal storage or use an external USB drive
 2. Boot to TWRP recovery (see FAQ)
 3. Install open_gapps-arm-9.0-pico-xxxxxxxx.zip from your selected storage
-4. Wipe->Factory reset!
+4. Wipe -> Factory reset!
 5. Boot out of recovery (see FAQ)
 
 ----
