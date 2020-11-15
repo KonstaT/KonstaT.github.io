@@ -221,7 +221,6 @@ img {
   content: " \25BC";
 }
 .navbar-custom .nav .navlinks-children {
-  width: 160%;
   display: none;
   word-break: break-word;
 }
@@ -241,6 +240,9 @@ img {
   .navbar-custom .nav .navlinks-container.show-children .navlinks-children {
     display: block;
   }
+  .navbar-custom .nav .navlinks-children {
+    width: 100%;
+  }
 }
 @media only screen and (min-width: 768px) {
   .navbar-custom .nav .navlinks-container {
@@ -253,6 +255,7 @@ img {
     display: block;
   }
   .navbar-custom .nav .navlinks-children {
+    width: 160%;
     position: absolute;
   }
   .navbar-custom .nav .navlinks-container .navlinks-children a {
