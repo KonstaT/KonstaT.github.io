@@ -2,13 +2,13 @@
 layout: rom
 title: LineageOS 17.1 (Android 10)
 subtitle: for Raspberry Pi 4
-date: 2020-11-08
+date: 2020-11-20
 tags: [rpi4, LineageOS, LOS17.1]
 social-share: true
 comments: true
 ---
 
-Here's my build of LineageOS 17.1 for Raspberry Pi 4 Model B. It is unofficial and unsupported by the LineageOS team. It's for **advanced users** only. Pi 4 model with at least 2GB of RAM is required to run this build.
+Here's my build of LineageOS 17.1 for Raspberry Pi 4 Model B and Pi 400. It is unofficial and unsupported by the LineageOS team. It's for **advanced users** only. Pi 4 model with at least 2GB of RAM is required to run this build.
 
 <span style="color:#FF0000;">Important!</span> This image includes parts that are licensed under non-commercial license ([Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International](http://creativecommons.org/licenses/by-nc-sa/4.0/)). You may use this build freely in personal/educational/etc use. Commercial use is not allowed with this build!
 
@@ -16,9 +16,9 @@ Here's my build of LineageOS 17.1 for Raspberry Pi 4 Model B. It is unofficial a
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
-**lineage-17.1-20201108-UNOFFICIAL-KonstaKANG-rpi4.zip**  
-[https://www.androidfilehost.com/?fid=10763459528675579757](https://www.androidfilehost.com/?fid=10763459528675579757)  
-md5:fb489c9f993daba37d870034e1c8541a
+**lineage-17.1-20201120-UNOFFICIAL-KonstaKANG-rpi4.zip**  
+[https://www.androidfilehost.com/?fid=10763459528675587733](https://www.androidfilehost.com/?fid=10763459528675587733)  
+md5:9c3567aa6ae41931c9c02ae997f8775c
 
 **Working:**
 
@@ -89,8 +89,10 @@ Q: How to enable advanced reboot options?
 Q: How to find several Raspberry Pi specific settings options?  
 *A: Settings -> System -> Advanced settings*
 
+*Most options in this menu require you to reboot your device for the setting to take effect.*
+
 Q: My display is not working. I can only see the rainbow screen but no Android boot animation. What should I do?  
-*A: First of all make sure that you are using the primary HDMI port (HDMI0). This build only supports HDMI displays that report supported resolutions using EDID. See [this page](https://www.raspberrypi.org/documentation/configuration/config-txt/video.md) under 'Which values are valid for my monitor?' to see how to check in Raspberry Pi OS which resolutions your display supports. 1920x1080 resolution is used by default with this build. You can try changing value in /boot/resolution.txt to use a different resolution that your display supports. Removing /boot/resolution.txt will try to use the preferred resolution for your display.*
+*A: This build only supports HDMI displays that report supported resolutions using EDID. See [this page](https://www.raspberrypi.org/documentation/configuration/config-txt/video.md) under 'Which values are valid for my monitor?' to see how to check in Raspberry Pi OS which resolutions your display supports. 1920x1080 resolution is used by default with this build. You can try changing value in /boot/resolution.txt to use a different resolution that your display supports. Removing /boot/resolution.txt will try to use the preferred resolution for your display.*
 
 Q: Settings -> Storage shows total system size of 7 GB. There's unallocated space on my sdcard. What should I do?  
 *A: This is a 7 GB image, remaining space on your sdcard will remain unallocated. Easiest way to extend /data partition is to simply flash my [resize](https://www.androidfilehost.com/?fid=8889791610682901036) zip in TWRP.*
@@ -166,6 +168,23 @@ su
 hwclock -w -f /dev/rtc0
 ```
 
+Q: How to use SSH?  
+*A: You can start/stop the built-in SSH server by using a settings option found in Settings -> System -> Advanced settings -> SSH.*
+
+*Android doesn't have user accounts with passwords so key based authentication is used with SSH instead. Necessary keys are generated on the first boot and you need to pull the private key to your computer (or alternatively you can push your own previously generated keys to the device). See Settings -> About tablet -> IP address for your device's IP address (192.168.0.100 is assumed here). Enable Android debugging & Rooted debugging under Settings -> System -> Developer options.*
+
+```
+adb connect 192.168.0.100
+adb root
+adb pull /data/ssh/ssh_host_rsa_key my_private_key
+```
+
+```
+ssh -i my_private_key root@192.168.0.100
+```
+
+*It's recommended to disable adb after this.*
+
 Q: How to boot from USB device?  
 *A: <span style="color:#FF0000;">Warning</span>, this is still an experimental feature. Especially TWRP seems to have some issues with USB boot.*
 
@@ -218,6 +237,17 @@ Q: How to install Google apps?
 ----
 
 [Merged commits](https://review.lineageos.org/#/q/status:merged++branch:lineage-17.1+-project:%255E.*device.*+-project:%255E.*kernel.*,n,z) not mentioned in the changelog.
+
+**20.11. changelog:**
+
+- device settings improvements
+  - fix audio device option
+  - add CPU overclock option (make sure to take care of cooling if you decide to overclock!)
+  - add SSH option and improve support for built-in SSH server (see FAQ)
+- fix wifi & bluetooth on Pi 400, should be fully functional now (Compute Module 4 support still untested)
+- support using HDMI:1 (fix HDMI audio in Android & fix display in TWRP)
+- fix touch input on Fondar USB touchscreen (thanks to maxwen)
+- update to Linux 5.4.77 kernel and patch known vulnerabilities (CVE-xxxx-xxxx, and more)
 
 **8.11. changelog:**
 
