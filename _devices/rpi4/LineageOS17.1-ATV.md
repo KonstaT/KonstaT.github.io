@@ -2,13 +2,13 @@
 layout: rom
 title: LineageOS 17.1 Android TV (Android 10)
 subtitle: for Raspberry Pi 4
-date: 2020-11-09
+date: 2020-11-21
 tags: [rpi4, LineageOS, LOS17.1, AndroidTV]
 social-share: true
 comments: true
 ---
 
-Here's my build of LineageOS 17.1 Android TV for Raspberry Pi 4 Model B. It is unofficial and unsupported by the LineageOS team. It's for **advanced users** only. Pi 4 model with at least 2GB of RAM is required to run this build.
+Here's my build of LineageOS 17.1 Android TV for Raspberry Pi 4 Model B and Pi 400. It is unofficial and unsupported by the LineageOS team. It's for **advanced users** only. Pi 4 model with at least 2GB of RAM is required to run this build.
 
 <span style="color:#FF0000;">Important!</span> This image includes parts that are licensed under non-commercial license ([Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International](http://creativecommons.org/licenses/by-nc-sa/4.0/)). You may use this build freely in personal/educational/etc use. Commercial use is not allowed with this build!
 
@@ -16,9 +16,9 @@ Here's my build of LineageOS 17.1 Android TV for Raspberry Pi 4 Model B. It is u
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
-**lineage-17.1-20201109-UNOFFICIAL-KonstaKANG-rpi4-atv.zip**  
-[https://www.androidfilehost.com/?fid=10763459528675580269](https://www.androidfilehost.com/?fid=10763459528675580269)  
-md5:cbab8a6fccc150e83a3e20e4dfda3439
+**lineage-17.1-20201121-UNOFFICIAL-KonstaKANG-rpi4-atv.zip**  
+[https://www.androidfilehost.com/?fid=10763459528675588552](https://www.androidfilehost.com/?fid=10763459528675588552)  
+md5:89200bb8ba6fbd3c77aff3427f247acd
 
 **Working:**
 
@@ -86,8 +86,13 @@ Q: How to enable local terminal application?
 Q: How to enable advanced reboot options?  
 *A: Settings -> Device Preferences -> Developer options -> Advanced reboot*
 
+Q: How to find several Raspberry Pi specific settings options?  
+*A: Settings -> Device Preferences -> Raspberry Pi settings*
+
+*Most options in this menu require you to reboot your device for the setting to take effect.*
+
 Q: My display is not working. I can only see the rainbow screen but no Android boot animation. What should I do?  
-*A: First of all make sure that you are using the primary HDMI port (HDMI0). This build only supports HDMI displays that report supported resolutions using EDID. See [this page](https://www.raspberrypi.org/documentation/configuration/config-txt/video.md) under 'Which values are valid for my monitor?' to see how to check in Raspberry Pi OS which resolutions your display supports. 1920x1080 resolution is used by default with this build. You can try changing value in /boot/resolution.txt to use a different resolution that your display supports. Removing /boot/resolution.txt will try to use the preferred resolution for your display.*
+*A: This build only supports HDMI displays that report supported resolutions using EDID. See [this page](https://www.raspberrypi.org/documentation/configuration/config-txt/video.md) under 'Which values are valid for my monitor?' to see how to check in Raspberry Pi OS which resolutions your display supports. 1920x1080 resolution is used by default with this build. You can try changing value in /boot/resolution.txt to use a different resolution that your display supports. Removing /boot/resolution.txt will try to use the preferred resolution for your display.*
 
 Q: Settings -> Storage shows total system size of 7 GB. There's unallocated space on my sdcard. What should I do?  
 *A: This is a 7 GB image, remaining space on your sdcard will remain unallocated. Easiest way to extend /data partition is to simply flash my [resize](https://www.androidfilehost.com/?fid=8889791610682901036) zip in TWRP.*
@@ -102,7 +107,9 @@ Q: How to create a DIY hardware power button?
 
 ![fritzing]({{ site.url }}/img/rpi4/LineageOS17.1/powerbutton.png)
 
-*Execute following commands in 'adb shell'/serial console/terminal to enable the feature and reboot your device:*
+*You can enable the feature by using a settings option found in Settings -> Device Preferences -> Raspberry Pi settings -> Power button.*
+
+*Also the previous method of executing following commands in 'adb shell'/serial console/terminal still works:*
 
 ```
 su
@@ -112,7 +119,9 @@ rpi4-powerbutton.sh
 *You can also use the DIY power button to boot the device to TWRP recovery. Press and hold the button while powering on the device until you see the TWRP screen.*
 
 Q: How to enable audio through 3.5mm jack?  
-*A: Execute following commands in 'adb shell'/serial console/terminal to select audio device and reboot your device:*
+*A: You can enable the feature by using a settings option found in Settings -> Device Preferences -> Raspberry Pi settings -> Audio device.*
+
+*Also the previous method of executing following commands in 'adb shell'/serial console/terminal still works:*
 
 ```
 su
@@ -128,12 +137,7 @@ rpi4-audio.sh dac
 ```
 
 Q: How to use IR remote?  
-*A: Execute following commands in 'adb shell'/serial console/terminal to enable the feature and reboot your device:*
-
-```
-su
-rpi4-ir.sh
-```
+*A: You can enable the feature by using a settings option found in Settings -> Device Preferences -> Raspberry Pi settings -> Infrared remote.*
 
 *You can place a keymap for your remote as /boot/rc_keymap to be automatically loaded on boot (see [available keymaps](https://github.com/lineage-rpi/android_external_ir-keytable/tree/lineage-17.1/rc_keymaps) for reference).*
 
@@ -189,6 +193,17 @@ Q: How to install Google apps?
 ----
 
 [Merged commits](https://review.lineageos.org/#/q/status:merged++branch:lineage-17.1+-project:%255E.*device.*+-project:%255E.*kernel.*,n,z) not mentioned in the changelog.
+
+**21.11. changelog:**
+
+- initial device settings for various Raspberry Pi specific options (Settings -> Device Preferences -> Raspberry Pi settings)
+  - audio device option (HDMI/3.5mm jack/audio DAC)
+  - display options (graphics drivers, display resolution, display rotation)
+  - options for IR remote, hardware keys, CPU overclock, SSH, and RTC
+- fix wifi & bluetooth on Pi 400, should be fully functional now (Compute Module 4 support still untested)
+- support using HDMI:1 (fix HDMI audio in Android & fix display in TWRP)
+- fix touch input on Fondar USB touchscreen (thanks to maxwen)
+- update to Linux 5.4.77 kernel and patch known vulnerabilities (CVE-xxxx-xxxx, and more)
 
 **9.11. changelog:**
 
