@@ -7,6 +7,7 @@ permalink: /devices/rpi4/
 
 #### ROM:
 
+- [LineageOS 18.1 - KonstaKANG (Android 11)](/devices/rpi4/LineageOS18)
 - [LineageOS 17.1 - KonstaKANG (Android 10)](/devices/rpi4/LineageOS17.1)
 - [LineageOS 17.1 Android TV - KonstaKANG (Android 10)](/devices/rpi4/LineageOS17.1-ATV)
 - [LineageOS 16.0 - KonstaKANG (Android 9)](/devices/rpi4/LineageOS16.0)
@@ -14,7 +15,7 @@ permalink: /devices/rpi4/
 
 #### Recovery:
 
-- [TWRP 3.4.0-1](/devices/rpi4/TWRP)
+- [TWRP 3.4.0-2](/devices/rpi4/TWRP)
 
 #### Downloads:
 
