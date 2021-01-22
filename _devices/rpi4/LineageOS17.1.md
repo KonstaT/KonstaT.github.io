@@ -2,7 +2,7 @@
 layout: rom
 title: LineageOS 17.1 (Android 10)
 subtitle: for Raspberry Pi 4
-date: 2020-11-20
+date: 2021-01-22
 tags: [rpi4, LineageOS, LOS17.1]
 social-share: true
 comments: true
@@ -16,14 +16,14 @@ Here's my build of LineageOS 17.1 for Raspberry Pi 4 Model B, Pi 400, and Comput
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
-**lineage-17.1-20201120-UNOFFICIAL-KonstaKANG-rpi4.zip**  
-[https://www.androidfilehost.com/?fid=10763459528675587733](https://www.androidfilehost.com/?fid=10763459528675587733)  
-md5:9c3567aa6ae41931c9c02ae997f8775c
+**lineage-17.1-20210122-UNOFFICIAL-KonstaKANG-rpi4.zip**  
+[https://www.androidfilehost.com/?fid=17248734326145720259](https://www.androidfilehost.com/?fid=17248734326145720259)  
+md5:55cd5eb5eda5f9e33ce20cc763ef668c
 
 **Working:**
 
 - Audio (HDMI, 3.5mm jack, USB microphones, bluetooth speakers/headsets, etc)
-- Audio DAC (using PCM512x DACs e.g. Hifiberry DAC+)
+- Audio DAC (using GPIO DACs e.g. Hifiberry DAC+)
 - Bluetooth
 - Camera (using official Pi camera modules & UVC USB webcams)
 - GPIO
@@ -34,10 +34,12 @@ md5:9c3567aa6ae41931c9c02ae997f8775c
 - I2C
 - IR remotes (using external GPIO IR modules e.g. TSOP4838)
 - RTC (using external GPIO I2C modules e.g. DS3231)
+- Sensors (using external GPIO I2C modules e.g. MPU6050, LSM6DS3 & LSM303DLHC accelerometer/gyroscope/magnetometer)
 - Serial console (using external GPIO serial console adapters e.g. PL2303)
 - SPI
 - Touchscreen/multi-touch (USB touchscreens, Waveshare SPI touchscreens, official 7" touchscreen using SwiftShader software renderer)
 - USB (mouse, keyboard, storage, etc)
+- USB-C (ADB, MTP, PTP, USB-tethering)
 - Wifi
 - Wifi tethering
 
@@ -237,6 +239,18 @@ Q: How to install Google apps?
 ----
 
 [Merged commits](https://review.lineageos.org/#/q/status:merged++branch:lineage-17.1+-project:%255E.*device.*+-project:%255E.*kernel.*,n,z) not mentioned in the changelog.
+
+**22.1. 2021 changelog:**
+
+- add support for sensors (MPU6050, LSM6DS3 & LSM303DLHC accelerometer/gyroscope/magnetometer on I2C)
+- add support for more serial GPS devices
+- add support for USB-C (ADB, MTP, PTP, USB-tethering)
+- enable bluetooth tethering
+- add settings option for mouse back button feature
+- update to TWRP 3.5.0_9-0-KonstaKANG
+- update to Mesa 20.3.3
+- update to Linux 5.4.91 kernel and patch known vulnerabilities (CVE-xxxx-xxxx, and more)
+- Android security patch level: 5 January 2021 (merged)
 
 **20.11. changelog:**
 

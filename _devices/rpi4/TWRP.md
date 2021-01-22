@@ -1,6 +1,6 @@
 ---
 layout: rom
-title: TWRP 3.4.0-2
+title: TWRP 3.5.0_9-0
 subtitle: for Raspberry Pi 4
 date: 2021-01-04
 tags: [rpi4, TWRP]
@@ -15,6 +15,12 @@ This is my build of Dees-Troy's [Team Win Recovery Project](https://twrp.me) (TW
 - [lineage-rpi](https://github.com/lineage-rpi/android_local_manifest/tree/lineage-16.0-twrp)
 
 ----
+
+**22.1. changelog:**
+
+- TWRP 3.5.0_9-0
+- add support for serial console
+- included in lineage-17.1-20210122-UNOFFICIAL-KonstaKANG-rpi4
 
 **4.1. 2021 changelog:**
 
