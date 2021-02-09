@@ -1,0 +1,20 @@
+---
+layout: page
+---
+
+<h4>Devices:</h4>
+<ul>
+  {% for device in site.devices %}
+    {% if device.permalink %}
+      <li><a href="{{ site.baseurl }}{{ device.url }}">{{ device.title }} {{ device.subtitle }}</a></li>
+    {% endif %}
+  {% endfor %}
+</ul>
+
+<hr>
+
+{% include donate.html %}
+
+{% if site.google_adsense %}
+{% include ad.html %}
+{% endif %}
