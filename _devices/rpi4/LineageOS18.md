@@ -2,7 +2,7 @@
 layout: rom
 title: LineageOS 18.1 (Android 11)
 subtitle: for Raspberry Pi 4
-date: 2021-01-04
+date: 2021-02-14
 tags: [rpi4, LineageOS, LOS18]
 social-share: true
 comments: true
@@ -16,9 +16,9 @@ Here's my build of LineageOS 18.1 for Raspberry Pi 4 Model B, Pi 400, and Comput
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
-**lineage-18.1-20210104-UNOFFICIAL-KonstaKANG-rpi4.zip**  
-[https://www.androidfilehost.com/?fid=17248734326145708986](https://www.androidfilehost.com/?fid=17248734326145708986)  
-md5:4775eb4b2a89859ebf4d16dbf306cea2
+**lineage-18.1-20210214-UNOFFICIAL-KonstaKANG-rpi4.zip**  
+[https://www.androidfilehost.com/?fid=17248734326145736366](https://www.androidfilehost.com/?fid=17248734326145736366)  
+md5:ece3833a6797595cc0aa5bfec9a3ffcd
 
 **Working:**
 
@@ -34,11 +34,12 @@ md5:4775eb4b2a89859ebf4d16dbf306cea2
 - I2C
 - IR remotes (using external GPIO IR modules e.g. TSOP4838)
 - RTC (using external GPIO I2C modules e.g. DS3231)
-- Sensors (using external GPIO I2C modules e.g. LSM6DS3 & MPU6050 accelerometer & gyroscope)
+- Sensors (using external GPIO I2C modules e.g. MPU6050, LSM6DS3 & LSM303DLHC accelerometer/gyroscope/magnetometer)
 - Serial console (using external GPIO serial console adapters e.g. PL2303)
 - SPI
 - Touchscreen/multi-touch (USB touchscreens, Waveshare SPI touchscreens)
 - USB (mouse, keyboard, storage, etc)
+- USB-C (ADB, MTP, PTP, USB-tethering)
 - Wifi
 - Wifi tethering
 
@@ -79,6 +80,8 @@ Q: How to enable developer options?
 
 Q: How to enable root access?  
 *A: LineageOS no longer has built-in root management for applications. You can have root access via ADB after enabling Settings -> System -> Developer options -> Rooted debugging, SSH (see FAQ below), or serial console.*
+
+*I have also created a separate TWRP flashable [su add-on](https://www.androidfilehost.com/?fid=17248734326145736362). After installing the add-on you can enable root access under Settings -> System -> Developer options -> Root access. You should keep this option disabled at all times when you are not using an app that explicitly requires root access.*
 
 Q: How to enable advanced reboot options?  
 *A: Settings -> System -> Gestures -> Power menu -> Advanced restart*
@@ -187,6 +190,19 @@ Q: How to install Google apps?
 ----
 
 [Merged commits](https://review.lineageos.org/#/q/status:merged++branch:lineage-18.1+-project:%255E.*device.*+-project:%255E.*kernel.*,n,z) not mentioned in the changelog.
+
+**14.2. changelog:**
+
+- add support for LSM303DLHC accelerometer & magnetometer sensor
+- add separate TWRP flashable su add-on (see FAQ)
+- allow switching display off with power button
+- add support for USB-C (ADB, MTP, PTP, USB-tethering)
+- enable bluetooth tethering
+- add settings option for mouse back button feature
+- update to TWRP 3.5.0_9-0-KonstaKANG
+- update to Mesa 20.3.4
+- update to Linux 5.4.98 kernel and patch known vulnerabilities (CVE-xxxx-xxxx, and more)
+- Android security patch level: 5 February 2021 (merged)
 
 **4.1. changelog:**
 

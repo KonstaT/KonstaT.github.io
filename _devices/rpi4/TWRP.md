@@ -20,7 +20,7 @@ This is my build of Dees-Troy's [Team Win Recovery Project](https://twrp.me) (TW
 
 - TWRP 3.5.0_9-0
 - add support for serial console
-- included in lineage-17.1-20210122-UNOFFICIAL-KonstaKANG-rpi4
+- included in lineage-17.1-20210122-UNOFFICIAL-KonstaKANG-rpi4 & lineage-18.1-20210214-UNOFFICIAL-KonstaKANG-rpi4
 
 **4.1. 2021 changelog:**
 
