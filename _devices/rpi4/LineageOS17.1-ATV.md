@@ -12,7 +12,7 @@ Here's my build of LineageOS 17.1 Android TV for Raspberry Pi 4 Model B, Pi 400,
 
 <span style="color:#FF0000;">Important!</span> This image includes parts that are licensed under non-commercial license ([Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International](http://creativecommons.org/licenses/by-nc-sa/4.0/)). You may use this build freely in personal/educational/etc use. Commercial use is not allowed with this build!
 
-![screenshot]({{ site.url }}/img/rpi4/LineageOS17.1-ATV/Screenshot_20200815-143204_Settings.png)
+![screenshot]({{ site.url }}/img/rpi4/LineageOS17.1/Screenshot_20200815-143204_Settings.png)
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
@@ -143,8 +143,35 @@ Q: How to use IR remote?
 
 *You can place a keymap for your remote as /boot/rc_keymap to be automatically loaded on boot (see [available keymaps](https://github.com/lineage-rpi/android_external_ir-keytable/tree/lineage-17.1/rc_keymaps) for reference).*
 
+Q: How to use RTC?  
+*A: You can enable the feature by using a settings option found in Settings -> Device Preferences -> Raspberry Pi settings -> Real time clock.*
+
+*System time is automatically read and set from the RTC on boot once you've enabled the feature. You need to write the system time you want to use to the RTC in rooted shell:*
+
+```
+su
+hwclock -w -f /dev/rtc0
+```
+
+Q: How to use SSH?  
+*A: You can start/stop the built-in SSH server by using a settings option found in Settings -> Device Preferences -> Raspberry Pi settings -> SSH.*
+
+*Android doesn't have user accounts with passwords so key based authentication is used with SSH instead. Necessary keys are generated on the first boot and you need to pull the private key to your computer (or alternatively you can push your own previously generated keys to the device). See Settings -> Device Preferences -> About -> Status -> IP address for your device's IP address (192.168.0.100 is assumed here). Enable Android debugging & Rooted debugging under Settings -> Device Preferences -> Developer options.*
+
+```
+adb connect 192.168.0.100
+adb root
+adb pull /data/ssh/ssh_host_rsa_key my_private_key
+```
+
+```
+ssh -i my_private_key root@192.168.0.100
+```
+
+*It's recommended to disable adb after this.*
+
 Q: How to boot from USB device?  
-*A: <span style="color:#FF0000;">Warning</span>, this is an experimental feature and there's still some issues with it. TWRP seems to be broken in various ways so it is not currently usable with USB boot.*
+*A: <span style="color:#FF0000;">Warning</span>, this is still an experimental feature. Especially TWRP seems to have some issues with USB boot.*
 
 1. Install EEPROM that supports booting from USB
 2. Write image to your USB device as above

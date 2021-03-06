@@ -12,7 +12,7 @@ Here's my build of LineageOS 16.0 Android TV for Raspberry Pi 4 Model B. It is u
 
 <span style="color:#FF0000;">Important!</span> This image includes parts that are licensed under non-commercial license ([Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International](http://creativecommons.org/licenses/by-nc-sa/4.0/)). You may use this build freely in personal/educational/etc use. Commercial use is not allowed with this build!
 
-![screenshot]({{ site.url }}/img/rpi4/LineageOS16.0-ATV/Screenshot_20200714-163900_Settings.png)
+![screenshot]({{ site.url }}/img/rpi4/LineageOS16.0/Screenshot_20200714-163900_Settings.png)
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 

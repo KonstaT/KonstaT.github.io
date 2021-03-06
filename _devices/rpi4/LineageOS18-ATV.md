@@ -1,24 +1,24 @@
 ---
 layout: rom
-title: LineageOS 18.1 (Android 11)
+title: LineageOS 18.1 Android TV (Android 11)
 subtitle: for Raspberry Pi 4
-date: 2021-02-14
-tags: [rpi4, LineageOS, LOS18]
+date: 2021-03-06
+tags: [rpi4, LineageOS, LOS18, AndroidTV]
 social-share: true
 comments: true
 ---
 
-Here's my build of LineageOS 18.1 for Raspberry Pi 4 Model B, Pi 400, and Compute Module 4. It is unofficial and unsupported by the LineageOS team. It's for **advanced users** only. Pi 4 model with at least 2GB of RAM is required to run this build.
+Here's my build of LineageOS 18.1 Android TV for Raspberry Pi 4 Model B, Pi 400, and Compute Module 4. It is unofficial and unsupported by the LineageOS team. It's for **advanced users** only. Pi 4 model with at least 2GB of RAM is required to run this build.
 
 <span style="color:#FF0000;">Important!</span> This image includes parts that are licensed under non-commercial license ([Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International](http://creativecommons.org/licenses/by-nc-sa/4.0/)). You may use this build freely in personal/educational/etc use. Commercial use is not allowed with this build!
 
-![screenshot]({{ site.url }}/img/rpi4/LineageOS18/Screenshot_20210104-104810_Settings.png)
+![screenshot]({{ site.url }}/img/rpi4/LineageOS18/Screenshot_20210306-163341_Settings.png)
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
-**lineage-18.1-20210214-UNOFFICIAL-KonstaKANG-rpi4.zip**  
-[https://www.androidfilehost.com/?fid=17248734326145736366](https://www.androidfilehost.com/?fid=17248734326145736366)  
-md5:ece3833a6797595cc0aa5bfec9a3ffcd
+**lineage-18.1-20210306-UNOFFICIAL-KonstaKANG-rpi4-atv.zip**  
+[https://www.androidfilehost.com/?fid=2188818919693748406](https://www.androidfilehost.com/?fid=2188818919693748406)  
+md5:d7169ce1cca24def09b229db1b6d8b8d
 
 **Working:**
 
@@ -49,7 +49,7 @@ md5:ece3833a6797595cc0aa5bfec9a3ffcd
 
 **Issues:**
 
-- Stock camera app is not working - many third party camera apps seem to work
+- Chromecast functionality is not supported on uncertified Android TV devices
 - SELinux is in permissive mode
 - and more...
 
@@ -76,18 +76,18 @@ md5:ece3833a6797595cc0aa5bfec9a3ffcd
 **FAQ:**
 
 Q: How to enable developer options?  
-*A: Settings -> About tablet -> Click 'Build number' several times.*
+*A: Settings -> Device Preferences -> About -> Click 'Build number' several times.*
 
 Q: How to enable root access?  
-*A: LineageOS no longer has built-in root management for applications. You can have root access via ADB after enabling Settings -> System -> Developer options -> Rooted debugging, SSH (see FAQ below), or serial console.*
+*A: LineageOS no longer has built-in root management for applications. You can have root access via ADB after enabling Settings -> Device Preferences -> Developer options -> Rooted debugging, SSH (see FAQ below), or serial console.*
 
-*I have also created a separate TWRP flashable [su add-on](https://www.androidfilehost.com/?fid=17248734326145736362). After installing the add-on you can enable root access under Settings -> System -> Developer options -> Root access. You should keep this option disabled at all times when you are not using an app that explicitly requires root access.*
+*I have also created a separate TWRP flashable [su add-on](https://www.androidfilehost.com/?fid=17248734326145736362). After installing the add-on you can enable root access under Settings -> Device Preferences -> Developer options -> Root access. You should keep this option disabled at all times when you are not using an app that explicitly requires root access.*
 
 Q: How to enable advanced reboot options?  
-*A: Settings -> System -> Gestures -> Power menu -> Advanced restart*
+*A: Settings -> Device Preferences -> Developer options -> Advanced reboot*
 
 Q: How to find several Raspberry Pi specific settings options?  
-*A: Settings -> System -> Advanced settings*
+*A: Settings -> Device Preferences -> Raspberry Pi settings*
 
 *Most options in this menu require you to reboot your device for the setting to take effect.*
 
@@ -107,20 +107,20 @@ Q: How to create a DIY hardware power button?
 
 ![fritzing]({{ site.url }}/img/rpi4/LineageOS18/powerbutton.png)
 
-*You can enable the feature by using a settings option found in Settings -> System -> Advanced settings -> Power button.*
+*You can enable the feature by using a settings option found in Settings -> Device Preferences -> Raspberry Pi settings -> Power button.*
 
 *You can also use the DIY power button to boot the device to TWRP recovery. Press and hold the button while powering on the device until you see the TWRP screen.*
 
 Q: How to enable audio through 3.5mm jack?  
-*A: You can enable the feature by using a settings option found in Settings -> System -> Advanced settings -> Audio device.*
+*A: You can enable the feature by using a settings option found in Settings -> Device Preferences -> Raspberry Pi settings -> Audio device.*
 
 Q: How to use IR remote?  
-*A: You can enable the feature by using a settings option found in Settings -> System -> Advanced settings -> Infrared remote.*
+*A: You can enable the feature by using a settings option found in Settings -> Device Preferences -> Raspberry Pi settings -> Infrared remote.*
 
 *You can place a keymap for your remote as /boot/rc_keymap to be automatically loaded on boot (see [available keymaps](https://github.com/lineage-rpi/android_external_ir-keytable/tree/lineage-18.1/rc_keymaps) for reference).*
 
 Q: How to use RTC?  
-*A: You can enable the feature by using a settings option found in Settings -> System -> Advanced settings -> Real time clock.*
+*A: You can enable the feature by using a settings option found in Settings -> Device Preferences -> Raspberry Pi settings -> Real time clock.*
 
 *System time is automatically read and set from the RTC on boot once you've enabled the feature. You need to write the system time you want to use to the RTC in rooted shell:*
 
@@ -129,9 +129,9 @@ hwclock -w -f /dev/rtc0
 ```
 
 Q: How to use SSH?  
-*A: You can start/stop the built-in SSH server by using a settings option found in Settings -> System -> Advanced settings -> SSH.*
+*A: You can start/stop the built-in SSH server by using a settings option found in Settings -> Device Preferences -> Raspberry Pi settings -> SSH.*
 
-*Android doesn't have user accounts with passwords so key based authentication is used with SSH instead. Necessary keys are generated on the first boot and you need to pull the private key to your computer (or alternatively you can push your own previously generated keys to the device). See Settings -> About tablet -> IP address for your device's IP address (192.168.0.100 is assumed here). Enable Android debugging & Rooted debugging under Settings -> System -> Developer options.*
+*Android doesn't have user accounts with passwords so key based authentication is used with SSH instead. Necessary keys are generated on the first boot and you need to pull the private key to your computer (or alternatively you can push your own previously generated keys to the device). See Settings -> Device Preferences -> About -> Status -> IP address for your device's IP address (192.168.0.100 is assumed here). Enable Android debugging & Rooted debugging under Settings -> Device Preferences -> Developer options.*
 
 ```
 adb connect 192.168.0.100
@@ -158,7 +158,7 @@ dtoverlay=android-usb
 4. Plug in the USB device to your Raspberry Pi, remove any sdcard, and boot
 
 Q: How to boot to TWRP recovery?  
-*A: You can boot to TWRP by selecting recovery option in Android power menu after enabling advanced restart options.*
+*A: You can boot to TWRP by selecting Settings -> Device preferences -> Reboot -> Recovery after enabling advanced restart options.*
 
 *If mouse cursor doesn't appear, try replugging your mouse.*
 
@@ -181,9 +181,9 @@ Q: How to update from previous LineageOS 18.1 build without losing data?
 Q: How to install Google apps?  
 *A: It's still difficult to find gapps packages for Android 11. [OpenGApps](https://sourceforge.net/projects/opengapps/files/arm/test/) has Android 11 arm test builds available.*
 
-1. Download open_gapps-arm-11.0-pico-xxxxxxxx.zip and save it to your device's internal storage or use an external USB drive
+1. Download open_gapps-arm-11.0-tvstock-xxxxxxxx.zip and save it to your device's internal storage or use an external USB drive
 2. Boot to TWRP recovery (see FAQ)
-3. Install open_gapps-arm-11.0-pico-xxxxxxxx.zip from your selected storage
+3. Install open_gapps-arm-11.0-tvstock-xxxxxxxx.zip from your selected storage
 4. Wipe -> Factory reset!
 5. Boot out of recovery (see FAQ)
 
@@ -191,30 +191,11 @@ Q: How to install Google apps?
 
 [Merged commits](https://review.lineageos.org/#/q/status:merged++branch:lineage-18.1+-project:%255E.*device.*+-project:%255E.*kernel.*,n,z) not mentioned in the changelog.
 
-**14.2. changelog:**
+**6.3. changelog:**
 
-- add support for LSM303DLHC accelerometer & magnetometer sensor
-- add separate TWRP flashable su add-on (see FAQ)
-- allow switching display off with power button
-- add support for USB-C (ADB, MTP, PTP, USB-tethering)
-- enable bluetooth tethering
-- add settings option for mouse back button feature
-- update to TWRP 3.5.0_9-0-KonstaKANG
-- update to Mesa 20.3.4
-- update to Linux 5.4.98 kernel and patch known vulnerabilities (CVE-xxxx-xxxx, and more)
-- Android security patch level: 5 February 2021 (merged)
-
-**4.1. changelog:**
-
-- initial LineageOS 18.1 build
-- add support for sensors (LSM6DS3 & MPU6050 accelerometer & gyroscope on I2C)
-- add support for more serial USB GPS devices
-- drop support for SwiftShader software renderer which also means dropping support for the official 7" touchscreen for now
-- update to Mesa 20.3.2
-- add option to switch between gbm and minigbm gralloc
-- update to TWRP 3.4.0-2
-- update to Linux 5.4.86 kernel and patch known vulnerabilities (CVE-xxxx-xxxx, and more)
-- Android security patch level: 5 December 2020 (merged)
+- initial Android TV build
+- update to Linux 5.4.102 kernel and patch known vulnerabilities (CVE-xxxx-xxxx, and more)
+- Android security patch level: 5 March 2021 (merged)
 
 ----
 
