@@ -2,7 +2,7 @@
 layout: rom
 title: LineageOS 18.1 (Android 11)
 subtitle: for Raspberry Pi 4
-date: 2021-02-14
+date: 2021-04-11
 tags: [rpi4, LineageOS, LOS18]
 social-share: true
 comments: true
@@ -16,9 +16,9 @@ Here's my build of LineageOS 18.1 for Raspberry Pi 4 Model B, Pi 400, and Comput
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
-**lineage-18.1-20210214-UNOFFICIAL-KonstaKANG-rpi4.zip**  
-[https://www.androidfilehost.com/?fid=17248734326145736366](https://www.androidfilehost.com/?fid=17248734326145736366)  
-md5:ece3833a6797595cc0aa5bfec9a3ffcd
+**lineage-18.1-20210411-UNOFFICIAL-KonstaKANG-rpi4.zip**  
+[https://www.androidfilehost.com/?fid=2188818919693781155](https://www.androidfilehost.com/?fid=2188818919693781155)  
+md5:23299b1f8f2b50064c7d382b5a0ad178
 
 **Working:**
 
@@ -117,7 +117,7 @@ Q: How to enable audio through 3.5mm jack?
 Q: How to use IR remote?  
 *A: You can enable the feature by using a settings option found in Settings -> System -> Advanced settings -> Infrared remote.*
 
-*You can place a keymap for your remote as /boot/rc_keymap to be automatically loaded on boot (see [available keymaps](https://github.com/lineage-rpi/android_external_ir-keytable/tree/lineage-18.1/rc_keymaps) for reference).*
+*You can place a keymap for your remote as /boot/rc_keymap.txt to be automatically loaded on boot (see [available keymaps](https://github.com/lineage-rpi/android_external_ir-keytable/tree/lineage-18.1/rc_keymaps) for reference).*
 
 Q: How to use RTC?  
 *A: You can enable the feature by using a settings option found in Settings -> System -> Advanced settings -> Real time clock.*
@@ -190,6 +190,14 @@ Q: How to install Google apps?
 ----
 
 [Merged commits](https://review.lineageos.org/#/q/status:merged++branch:lineage-18.1+-project:%255E.*device.*+-project:%255E.*kernel.*,n,z) not mentioned in the changelog.
+
+**11.4. changelog:**
+
+- add initial support for HDMI-CEC
+- add built-in VNC server
+- update to Mesa 21.0.2
+- update to Linux 5.4.111 kernel and patch known vulnerabilities (CVE-xxxx-xxxx, and more)
+- Android security patch level: 5 April 2021 (merged)
 
 **14.2. changelog:**
 
