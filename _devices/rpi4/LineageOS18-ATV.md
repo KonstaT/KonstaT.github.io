@@ -2,7 +2,7 @@
 layout: rom
 title: LineageOS 18.1 Android TV (Android 11)
 subtitle: for Raspberry Pi 4
-date: 2021-03-06
+date: 2021-07-20
 tags: [rpi4, LineageOS, LOS18, AndroidTV]
 social-share: true
 comments: true
@@ -16,9 +16,9 @@ Here's my build of LineageOS 18.1 Android TV for Raspberry Pi 4 Model B, Pi 400,
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
-**lineage-18.1-20210306-UNOFFICIAL-KonstaKANG-rpi4-atv.zip**  
-[https://www.androidfilehost.com/?fid=2188818919693748406](https://www.androidfilehost.com/?fid=2188818919693748406)  
-md5:d7169ce1cca24def09b229db1b6d8b8d
+**lineage-18.1-20210720-UNOFFICIAL-KonstaKANG-rpi4-atv.zip**  
+[https://www.androidfilehost.com/?fid=14943124697586371016](https://www.androidfilehost.com/?fid=14943124697586371016)  
+md5:d1af7ee2057eab3c268d3aaeee63237e
 
 **Working:**
 
@@ -117,7 +117,7 @@ Q: How to enable audio through 3.5mm jack?
 Q: How to use IR remote?  
 *A: You can enable the feature by using a settings option found in Settings -> Device Preferences -> Raspberry Pi settings -> Infrared remote.*
 
-*You can place a keymap for your remote as /boot/rc_keymap to be automatically loaded on boot (see [available keymaps](https://github.com/lineage-rpi/android_external_ir-keytable/tree/lineage-18.1/rc_keymaps) for reference).*
+*You can place a keymap for your remote as /boot/rc_keymap.txt to be automatically loaded on boot (see [available keymaps](https://github.com/lineage-rpi/android_external_ir-keytable/tree/lineage-18.1/rc_keymaps) for reference).*
 
 Q: How to use RTC?  
 *A: You can enable the feature by using a settings option found in Settings -> Device Preferences -> Raspberry Pi settings -> Real time clock.*
@@ -190,6 +190,14 @@ Q: How to install Google apps?
 ----
 
 [Merged commits](https://review.lineageos.org/#/q/status:merged++branch:lineage-18.1+-project:%255E.*device.*+-project:%255E.*kernel.*,n,z) not mentioned in the changelog.
+
+**20.7. changelog:**
+
+- add support for HDMI-CEC
+- add built-in VNC server
+- update to Mesa 21.1.5
+- update to Linux 5.4.132 kernel and patch known vulnerabilities (CVE-xxxx-xxxx, and more)
+- Android security patch level: 5 July 2021 (merged)
 
 **6.3. changelog:**
 
