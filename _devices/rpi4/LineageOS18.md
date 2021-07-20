@@ -2,7 +2,7 @@
 layout: rom
 title: LineageOS 18.1 (Android 11)
 subtitle: for Raspberry Pi 4
-date: 2021-04-11
+date: 2021-07-20
 tags: [rpi4, LineageOS, LOS18]
 social-share: true
 comments: true
@@ -16,9 +16,9 @@ Here's my build of LineageOS 18.1 for Raspberry Pi 4 Model B, Pi 400, and Comput
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
-**lineage-18.1-20210411-UNOFFICIAL-KonstaKANG-rpi4.zip**  
-[https://www.androidfilehost.com/?fid=2188818919693781155](https://www.androidfilehost.com/?fid=2188818919693781155)  
-md5:23299b1f8f2b50064c7d382b5a0ad178
+**lineage-18.1-20210720-UNOFFICIAL-KonstaKANG-rpi4.zip**  
+[https://www.androidfilehost.com/?fid=14943124697586370965](https://www.androidfilehost.com/?fid=14943124697586370965)  
+md5:2458b154b56df2add28ddd27c024d2c1
 
 **Working:**
 
@@ -179,9 +179,9 @@ Q: How to update from previous LineageOS 18.1 build without losing data?
 9. Boot out of recovery (see FAQ)
 
 Q: How to install Google apps?  
-*A: It's still difficult to find gapps packages for Android 11. [OpenGApps](https://sourceforge.net/projects/opengapps/files/arm/test/) has Android 11 arm test builds available.*
+*A:*
 
-1. Download open_gapps-arm-11.0-pico-xxxxxxxx.zip and save it to your device's internal storage or use an external USB drive
+1. Download [open_gapps-arm-11.0-pico-xxxxxxxx.zip](https://opengapps.org/?arch=arm&api=11.0&variant=pico) and save it to your device's internal storage or use an external USB drive
 2. Boot to TWRP recovery (see FAQ)
 3. Install open_gapps-arm-11.0-pico-xxxxxxxx.zip from your selected storage
 4. Wipe -> Factory reset!
@@ -190,6 +190,13 @@ Q: How to install Google apps?
 ----
 
 [Merged commits](https://review.lineageos.org/#/q/status:merged++branch:lineage-18.1+-project:%255E.*device.*+-project:%255E.*kernel.*,n,z) not mentioned in the changelog.
+
+**20.7. changelog:**
+
+- switch to using HDMI-CEC HAL
+- update to Mesa 21.1.5
+- update to Linux 5.4.132 kernel and patch known vulnerabilities (CVE-xxxx-xxxx, and more)
+- Android security patch level: 5 July 2021 (merged)
 
 **11.4. changelog:**
 
