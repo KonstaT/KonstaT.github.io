@@ -67,7 +67,7 @@ md5:3689e767c41858bb53db20190b6542a5
 
 **How to install:**
 
-1. Follow the official Raspberry Pi instructions for writing the image to the SD card ([Linux](https://www.raspberrypi.org/documentation/installation/installing-images/linux.md), [Mac](https://www.raspberrypi.org/documentation/installation/installing-images/mac.md), [Windows](https://www.raspberrypi.org/documentation/installation/installing-images/windows.md)).
+1. Follow the official [Raspberry Pi instructions](https://www.raspberrypi.org/documentation/computers/getting-started.html#installing-the-operating-system) for writing the image to the SD card.
 
 **FAQ:**
 
@@ -83,7 +83,7 @@ Q: Settings -> Storage shows total system size of 4 GB. There's unallocated spac
 *Alternative option is to use e.g. GParted and extend /data partition (/dev/block/mmcblk0p4) to cover the unallocated space. Resizing the partition manually will break support for encrypting /data. Format /data in TWRP recovery (Wipe -> Format data) after resizing to leave required space for crypto footer.*
 
 Q: My display is not working. I can only see the rainbow screen but no Android boot animation. What should I do?  
-*A: This build only supports HDMI displays that report supported resolutions using EDID. See [this page](https://www.raspberrypi.org/documentation/configuration/config-txt/video.md) under 'Which values are valid for my monitor?' to see how to check which resolutions your display supports using Raspbian. 1280x720 resolution is used by default with this build. If your display doesn't support 1280x720 resolution, you can try changing value in /boot/resolution.txt to something it does.*
+*A: This build only supports HDMI displays that report supported resolutions using EDID. 1280x720 resolution is used by default with this build. You can change value in /boot/resolution.txt to use a different resolution that your display supports.*
 
 Q: I have official 7" LCD display and touchscreen. What should I do?  
 *A: Official 7" touchscreen is only supported using SwiftShader software renderer. See below how to switch between different graphics drivers. You will also need to change display size under Settings -> Display -> Display size (or change ro.sf.lcd_density to 120 in /system/build.prop) to adapt to the smaller resolution.*

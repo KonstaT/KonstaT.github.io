@@ -71,7 +71,7 @@ md5:d1af7ee2057eab3c268d3aaeee63237e
 
 **How to install:**
 
-1. Follow the official Raspberry Pi instructions for writing the image to the SD card ([Linux](https://www.raspberrypi.org/documentation/installation/installing-images/linux.md), [Mac](https://www.raspberrypi.org/documentation/installation/installing-images/mac.md), [Windows](https://www.raspberrypi.org/documentation/installation/installing-images/windows.md)).
+1. Follow the official [Raspberry Pi instructions](https://www.raspberrypi.org/documentation/computers/getting-started.html#installing-the-operating-system) for writing the image to the SD card.
 
 **FAQ:**
 
@@ -92,7 +92,7 @@ Q: How to find several Raspberry Pi specific settings options?
 *Most options in this menu require you to reboot your device for the setting to take effect.*
 
 Q: My display is not working. I can only see the rainbow screen but no Android boot animation. What should I do?  
-*A: This build only supports HDMI displays that report supported resolutions using EDID. See [this page](https://www.raspberrypi.org/documentation/configuration/config-txt/video.md) under 'Which values are valid for my monitor?' to see how to check in Raspberry Pi OS which resolutions your display supports. 1920x1080 resolution is used by default with this build. You can try changing value in /boot/resolution.txt to use a different resolution that your display supports. Removing /boot/resolution.txt will try to use the preferred resolution for your display.*
+*A: This build only supports HDMI displays that report supported resolutions using EDID. 1920x1080 resolution is used by default with this build. You can change value in /boot/resolution.txt to use a different resolution that your display supports. Removing /boot/resolution.txt will use the preferred resolution of your display.*
 
 Q: Settings -> Storage shows total system size of 7 GB. There's unallocated space on my sdcard. What should I do?  
 *A: This is a 7 GB image, remaining space on your sdcard will remain unallocated. Easiest way to extend /data partition is to simply flash my [resize](https://www.androidfilehost.com/?fid=17248734326145708983) zip in TWRP.*

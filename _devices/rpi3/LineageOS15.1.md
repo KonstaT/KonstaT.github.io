@@ -32,7 +32,7 @@ md5:257ade2f567223cf792023e2d75e5b75
 
 **How to install:**
 
-1. Follow the official Raspberry Pi instructions for writing the image to the SD card ([Linux](https://www.raspberrypi.org/documentation/installation/installing-images/linux.md), [Mac](https://www.raspberrypi.org/documentation/installation/installing-images/mac.md), [Windows](https://www.raspberrypi.org/documentation/installation/installing-images/windows.md)).
+1. Follow the official [Raspberry Pi instructions](https://www.raspberrypi.org/documentation/computers/getting-started.html#installing-the-operating-system) for writing the image to the SD card.
 
 **FAQ:**
 
@@ -46,7 +46,7 @@ Q: Settings -> Storage shows xx GB used by system. There's unallocated space on 
 *A: This is a 4 GB image, remaining space on your sdcard will remain unallocated. Settings app shows unallocated space as used by system which in reality it is not. You can use e.g. GParted and extend /data partition (/dev/block/mmcblk0p4) to cover the unallocated space. Resizing the partition manually will break support for encrypting /data. Format /data in TWRP recovery (Wipe->Format data) after resizing to leave required space for crypto footer.*
 
 Q: My display is not working. I can only see the rainbow screen but no Android boot animation. What should I do?  
-*A: This build uses 1280x720 resolution by default so you need to use a HDMI display that supports it. See [this page](https://www.raspberrypi.org/documentation/configuration/config-txt/video.md) under 'Which values are valid for my monitor?' to see how to check which resolutions your display supports using Raspbian. If your display doesn't support 1280x720 resolution, you can try changing values in /boot/config.txt to something it does (see [this page](https://www.raspberrypi.org/documentation/configuration/config-txt/video.md)). 720p is still the maximum resolution that is supported by the graphics drivers used in this build.*
+*A: This build uses 1280x720 resolution by default so you need to use a HDMI display that supports it. If your display doesn't support 1280x720 resolution, you can try changing values in /boot/config.txt to something it does (see [this page](https://www.raspberrypi.org/documentation/computers/config_txt.html#hdmi-mode)). 720p is still the maximum resolution that is supported by the graphics drivers used in this build.*
 
 Q: I have official 7" LCD display and touchscreen. What should I do?  
 *A: Official 7" touchscreen is supported without any modifications. You will only need to change display size under Settings -> Display -> Display size (or change ro.sf.lcd_density to 120 in /system/build.prop) to adapt to the smaller resolution.*
