@@ -2,7 +2,7 @@
 layout: rom
 title: LineageOS 18.1 (Android 11)
 subtitle: for Raspberry Pi 4
-date: 2021-07-20
+date: 2021-10-11
 tags: [rpi4, LineageOS, LOS18]
 social-share: true
 comments: true
@@ -16,9 +16,9 @@ Here's my build of LineageOS 18.1 for Raspberry Pi 4 Model B, Pi 400, and Comput
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
-**lineage-18.1-20210720-UNOFFICIAL-KonstaKANG-rpi4.zip**  
-[https://www.androidfilehost.com/?fid=14943124697586370965](https://www.androidfilehost.com/?fid=14943124697586370965)  
-md5:2458b154b56df2add28ddd27c024d2c1
+**lineage-18.1-20211011-UNOFFICIAL-KonstaKANG-rpi4.zip**  
+[https://www.androidfilehost.com/?fid=7161016148664822516](https://www.androidfilehost.com/?fid=7161016148664822516)  
+md5:3a9ae72b03b006da7e644c7b3e6e9faf
 
 **Working:**
 
@@ -29,7 +29,7 @@ md5:2458b154b56df2add28ddd27c024d2c1
 - GPIO
 - GPS (using external USB modules e.g. U-Blox 7)
 - Ethernet
-- Hardware accelerated graphics (V3D)
+- Hardware accelerated graphics (V3D, OpenGL & Vulkan)
 - HDMI display
 - I2C
 - IR remotes (using external GPIO IR modules e.g. TSOP4838)
@@ -190,6 +190,14 @@ Q: How to install Google apps?
 ----
 
 [Merged commits](https://review.lineageos.org/#/q/status:merged++branch:lineage-18.1+-project:%255E.*device.*+-project:%255E.*kernel.*,n,z) not mentioned in the changelog.
+
+**11.10. changelog:**
+
+- add support for Vulkan
+- rework bluetooth (thanks to android-rpi)
+- update to Mesa 21.1.8
+- update to Linux 5.4.152 kernel and patch known vulnerabilities (CVE-xxxx-xxxx, and more)
+- Android security patch level: 1 October 2021 (merged)
 
 **20.7. changelog:**
 
