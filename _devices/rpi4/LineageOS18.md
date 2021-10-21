@@ -79,9 +79,7 @@ Q: How to enable developer options?
 *A: Settings -> About tablet -> Click 'Build number' several times.*
 
 Q: How to enable root access?  
-*A: LineageOS no longer has built-in root management for applications. You can have root access via ADB after enabling Settings -> System -> Developer options -> Rooted debugging, SSH (see FAQ below), or serial console.*
-
-*I have also created a separate TWRP flashable [su add-on](https://www.androidfilehost.com/?fid=17248734326145736362). After installing the add-on you can enable root access under Settings -> System -> Developer options -> Root access. You should keep this option disabled at all times when you are not using an app that explicitly requires root access.*
+*A: LineageOS no longer has built-in root management for applications. You can have root access via ADB after enabling Settings -> System -> Developer options -> Rooted debugging, SSH (see FAQ below), or serial console. It is also possible to install Magisk following instructions later in the FAQ.*
 
 Q: How to enable advanced reboot options?  
 *A: Settings -> System -> Gestures -> Power menu -> Advanced restart*
@@ -177,6 +175,16 @@ Q: How to update from previous LineageOS 18.1 build without losing data?
 7. Make sure you only have data selected as partitions to restore (uncheck other partitions if available) and select 'Swipe to Restore'
 8. (Flash Google apps package/other add-ons you had previously installed)
 9. Boot out of recovery (see FAQ)
+
+Q: How to install Magisk?  
+*A:*
+
+1. Download [lineage-18.1-rpi-magisk.zip](https://www.androidfilehost.com/?fid=7161016148664826632) and save it to your device's internal storage or use an external USB drive
+2. Download [Magisk-v23.0.apk](https://github.com/topjohnwu/Magisk/releases/tag/v23.0)
+3. Boot to TWRP recovery (see FAQ)
+4. Install lineage-18.1-rpi-magisk.zip from your selected storage
+5. Boot out of recovery (see FAQ)
+6. Install Magisk-v23.0.apk using Android's built-in file manager/'adb install'/etc.
 
 Q: How to install Google apps?  
 *A:*
