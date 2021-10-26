@@ -2,7 +2,7 @@
 layout: rom
 title: LineageOS 18.1 Android TV (Android 11)
 subtitle: for Raspberry Pi 4
-date: 2021-10-11
+date: 2021-10-26
 tags: [rpi4, LineageOS, LOS18, AndroidTV]
 social-share: true
 comments: true
@@ -16,9 +16,9 @@ Here's my build of LineageOS 18.1 Android TV for Raspberry Pi 4 Model B, Pi 400,
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
-**lineage-18.1-20211011-UNOFFICIAL-KonstaKANG-rpi4-atv.zip**  
-[https://www.androidfilehost.com/?fid=7161016148664822514](https://www.androidfilehost.com/?fid=7161016148664822514)  
-md5:a89d7a8b9cb43bc83d6d56d0e151562d
+**lineage-18.1-20211026-UNOFFICIAL-KonstaKANG-rpi4-atv.zip**  
+[https://www.androidfilehost.com/?fid=7161016148664829102](https://www.androidfilehost.com/?fid=7161016148664829102)  
+md5:60531f2a6e92a94edc5971a096fc9fc5
 
 **Working:**
 
@@ -59,13 +59,13 @@ md5:a89d7a8b9cb43bc83d6d56d0e151562d
 
 **Thanks:**
 
-- Peter Yoon and everyone who has contributed to android-rpi
-- Roman Stratiienko and GloDroid project for graphics fixes
-- brobwind for bluetooth fixes
-- Eric Anholt for V3D graphics driver
+- Peter Yoon and android-rpi project
+- Roman Stratiienko and GloDroid project
+- AOSP reference board developers (dragonboard, hikey, yukawa)
+- E. Anholt for V3D graphics driver
 - Maxime Ripard for Pi 4 KMS driver
 - Android-x86 project
-- LineageOS team & everyone who has contributed to LineageOS 18.1
+- LineageOS team and everyone who has contributed to LineageOS 18.1
 
 ----
 
@@ -179,7 +179,7 @@ Q: How to update from previous LineageOS 18.1 build without losing data?
 Q: How to install Magisk?  
 *A:*
 
-1. Download [lineage-18.1-rpi-magisk.zip](https://www.androidfilehost.com/?fid=7161016148664826632) and save it to your device's internal storage or use an external USB drive
+1. Download [lineage-18.1-rpi-magisk.zip](https://www.androidfilehost.com/?fid=7161016148664829100) and save it to your device's internal storage or use an external USB drive
 2. Download [Magisk-v23.0.apk](https://github.com/topjohnwu/Magisk/releases/tag/v23.0)
 3. Boot to TWRP recovery (see FAQ)
 4. Install lineage-18.1-rpi-magisk.zip from your selected storage
@@ -189,15 +189,22 @@ Q: How to install Magisk?
 Q: How to install Google apps?  
 *A:*
 
-1. Download [open_gapps-arm-11.0-tvstock-xxxxxxxx.zip](https://opengapps.org/?arch=arm&api=11.0&variant=tvstock) and save it to your device's internal storage or use an external USB drive
+1. Download [open_gapps-arm64-11.0-tvstock-xxxxxxxx.zip](https://opengapps.org/?arch=arm64&api=11.0&variant=tvstock) and save it to your device's internal storage or use an external USB drive
 2. Boot to TWRP recovery (see FAQ)
-3. Install open_gapps-arm-11.0-tvstock-xxxxxxxx.zip from your selected storage
+3. Install open_gapps-arm64-11.0-tvstock-xxxxxxxx.zip from your selected storage
 4. Wipe -> Factory reset!
 5. Boot out of recovery (see FAQ)
 
 ----
 
-[Merged commits](https://review.lineageos.org/#/q/status:merged++branch:lineage-18.1+-project:%255E.*device.*+-project:%255E.*kernel.*,n,z) not mentioned in the changelog.
+[Merged commits](https://review.lineageos.org/#/q/status:merged+branch:lineage-18.1+-project:%255E.*device.*+-project:%255E.*kernel.*) not mentioned in the changelog.
+
+**26.10. changelog:**
+
+- switch to 64-bit kernel & userspace
+- switch to minigbm gbm_mesa and gralloc@4 API (thanks to Roman Stratiienko)
+- update to Mesa 21.2.4
+- update to Linux 5.4.155 kernel and patch known vulnerabilities (CVE-xxxx-xxxx, and more)
 
 **11.10. changelog:**
 
