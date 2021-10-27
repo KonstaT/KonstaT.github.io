@@ -22,15 +22,15 @@ md5:60531f2a6e92a94edc5971a096fc9fc5
 
 **Working:**
 
-- Audio (HDMI, 3.5mm jack, USB microphones, bluetooth speakers/headsets, etc)
+- Audio (HDMI, 3.5mm jack, USB microphones, bluetooth speakers/headphones, etc)
 - Audio DAC (using GPIO DACs e.g. Hifiberry DAC+)
-- Bluetooth
+- Bluetooth (and bluetooth tethering)
 - Camera (using official Pi camera modules & UVC USB webcams)
 - GPIO
 - GPS (using external USB modules e.g. U-Blox 7)
 - Ethernet
 - Hardware accelerated graphics (V3D, OpenGL & Vulkan)
-- HDMI display
+- HDMI display (and HDMI-CEC)
 - I2C
 - IR remotes (using external GPIO IR modules e.g. TSOP4838)
 - RTC (using external GPIO I2C modules e.g. DS3231)
@@ -39,9 +39,8 @@ md5:60531f2a6e92a94edc5971a096fc9fc5
 - SPI
 - Touchscreen/multi-touch (USB touchscreens, Waveshare SPI touchscreens)
 - USB (mouse, keyboard, storage, etc)
-- USB-C (ADB, MTP, PTP, USB-tethering)
-- Wifi
-- Wifi tethering
+- USB-C (ADB, MTP, PTP, USB tethering)
+- Wifi (and wifi tethering)
 
 **Not working:**
 
