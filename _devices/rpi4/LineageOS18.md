@@ -2,7 +2,7 @@
 layout: rom
 title: LineageOS 18.1 (Android 11)
 subtitle: for Raspberry Pi 4
-date: 2021-10-26
+date: 2021-11-23
 tags: [rpi4, LineageOS, LOS18]
 social-share: true
 comments: true
@@ -16,9 +16,9 @@ Here's my build of LineageOS 18.1 for Raspberry Pi 4 Model B, Pi 400, and Comput
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
-**lineage-18.1-20211026-UNOFFICIAL-KonstaKANG-rpi4.zip**  
-[https://www.androidfilehost.com/?fid=7161016148664829105](https://www.androidfilehost.com/?fid=7161016148664829105)  
-md5:bd1867c12e5f95af1e2cad6725c4f673
+**lineage-18.1-20211123-UNOFFICIAL-KonstaKANG-rpi4.zip**  
+[https://www.androidfilehost.com/?fid=7161016148664844942](https://www.androidfilehost.com/?fid=7161016148664844942)  
+md5:72e9236baa3cb5ae6e65af210ccae939
 
 **Working:**
 
@@ -34,7 +34,7 @@ md5:bd1867c12e5f95af1e2cad6725c4f673
 - I2C
 - IR remotes (using external GPIO IR modules e.g. TSOP4838)
 - RTC (using external GPIO I2C modules e.g. DS3231)
-- Sensors (using external GPIO I2C modules e.g. MPU6050, LSM6DS3 & LSM303DLHC accelerometer/gyroscope/magnetometer)
+- Sensors (using external GPIO I2C modules e.g. MPU6050, LSM6DS3, LSM303DLHC & BME280/BMP280 accelerometer/gyroscope/magnetometer/temperature/pressure/humidity)
 - Serial console (using external GPIO serial console adapters e.g. PL2303)
 - SPI
 - Touchscreen/multi-touch (USB touchscreens, Waveshare SPI touchscreens)
@@ -92,7 +92,7 @@ Q: My display is not working. I can only see the rainbow screen but no Android b
 *A: This build only supports HDMI displays that report supported resolutions using EDID. 1920x1080 resolution is used by default with this build. You can change value in /boot/resolution.txt to use a different resolution that your display supports. Removing /boot/resolution.txt will use the preferred resolution of your display.*
 
 Q: Settings -> Storage shows total system size of 7 GB. There's unallocated space on my sdcard. What should I do?  
-*A: This is a 7 GB image, remaining space on your sdcard will remain unallocated. Easiest way to extend /data partition is to simply flash my [resize](https://www.androidfilehost.com/?fid=17248734326145708983) zip in TWRP.*
+*A: This is a 7 GB image, remaining space on your sdcard will remain unallocated. Easiest way to extend /data partition is to simply flash my [resize](https://www.androidfilehost.com/?fid=7161016148664844921) zip in TWRP.*
 
 *Alternative option is to use e.g. GParted and extend /data partition (/dev/block/mmcblk0p4) to cover the unallocated space. Resizing the partition manually will break support for encrypting /data. Format /data in TWRP recovery (Wipe -> Format data) after resizing to leave required space for crypto footer.*
 
@@ -178,7 +178,7 @@ Q: How to update from previous LineageOS 18.1 build without losing data?
 Q: How to install Magisk?  
 *A:*
 
-1. Download [lineage-18.1-rpi-magisk.zip](https://www.androidfilehost.com/?fid=7161016148664829100) and save it to your device's internal storage or use an external USB drive
+1. Download [lineage-18.1-rpi-magisk.zip](https://www.androidfilehost.com/?fid=7161016148664844923) and save it to your device's internal storage or use an external USB drive
 2. Download [Magisk-v23.0.apk](https://github.com/topjohnwu/Magisk/releases/tag/v23.0)
 3. Boot to TWRP recovery (see FAQ)
 4. Install lineage-18.1-rpi-magisk.zip from your selected storage
@@ -197,6 +197,19 @@ Q: How to install Google apps?
 ----
 
 [Merged commits](https://review.lineageos.org/#/q/status:merged+branch:lineage-18.1+-project:%255E.*device.*+-project:%255E.*kernel.*) not mentioned in the changelog.
+
+**23.11. changelog:**
+
+- add support for BME280/BMP280 temperature/pressure/humidity sensors
+- add option to select HDMI-CEC device
+- add option to show virtual volume down, volume up, and power keys on navigation bar
+- add option for old TCP-based ADB over network
+- show IP address and port for ADB/SSH/VNC options
+- fix resizing data partition that broke with previous build
+- update to TWRP 3.6.0_11-0-KonstaKANG
+- update to Mesa 21.3.0
+- update to Linux 5.4.161 kernel and patch known vulnerabilities (CVE-xxxx-xxxx, and more)
+- Android security patch level: 5 November 2021 (merged)
 
 **26.10. changelog:**
 
