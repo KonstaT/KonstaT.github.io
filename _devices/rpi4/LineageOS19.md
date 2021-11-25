@@ -2,7 +2,7 @@
 layout: rom
 title: LineageOS 19.0 (Android 12)
 subtitle: for Raspberry Pi 4
-date: 2021-11-04
+date: 2021-11-25
 tags: [rpi4, LineageOS, LOS19]
 social-share: true
 comments: true
@@ -16,9 +16,13 @@ Here's my build of LineageOS 19.0 for Raspberry Pi 4 Model B, Pi 400, and Comput
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
-**lineage-19.0-20211104-UNOFFICIAL-KonstaKANG-rpi4.zip**  
-[https://www.androidfilehost.com/?fid=7161016148664832989](https://www.androidfilehost.com/?fid=7161016148664832989)  
-md5:36fce62af79954473a862bfad91c0b80
+**lineage-19.0-20211125-UNOFFICIAL-KonstaKANG-rpi4.zip**  
+[https://www.androidfilehost.com/?fid=7161016148664845826](https://www.androidfilehost.com/?fid=7161016148664845826)  
+md5:2e1d14fc355c44a868ea700cea773476
+
+**lineage-19.0-20211125-rpi4-5.10-kernel.zip** (optional add-on)  
+[https://www.androidfilehost.com/?fid=7161016148664845824](https://www.androidfilehost.com/?fid=7161016148664845824)  
+md5:8fae131b74e33b0060fa010ad5b36a28
 
 **Working:**
 
@@ -44,7 +48,14 @@ md5:36fce62af79954473a862bfad91c0b80
 **Not working:**
 
 - Hardware video decoding & encoding (software decoding & encoding works)
-- Camera (UVC USB webcams that support MJPEG format should work)
+- Camera (UVC USB webcams that support MJPG format should work)
+
+**Linux 5.10 kernel:** (optional add-on)
+
+- various KMS driver improvements (DSI display support, etc)
+- Camera preview & photos work with Pi camera modules - camcorder is not working
+- option to enable H.264 hardware video decoding (still very WIP and broken in various ways)
+- HDMI audio is not supported! (see [issue #4651](https://github.com/raspberrypi/linux/issues/4651) & [issue #4654](https://github.com/raspberrypi/linux/issues/4654))
 
 **Issues:**
 
@@ -53,7 +64,7 @@ md5:36fce62af79954473a862bfad91c0b80
 
 **Sources:**
 
-- [kernel](https://github.com/lineage-rpi/android_kernel_brcm_rpi/tree/lineage-19.0)
+- [5.4 kernel](https://github.com/lineage-rpi/android_kernel_brcm_rpi/tree/lineage-19.0) & [5.10 kernel](https://github.com/lineage-rpi/android_kernel_brcm_rpi/tree/lineage-19.0-5.10)
 
 **Thanks:**
 
@@ -194,12 +205,31 @@ Q: How to install Google apps?
 
 [Merged commits](https://review.lineageos.org/#/q/status:merged+branch:lineage-19.0+-project:%255E.*device.*+-project:%255E.*kernel.*) not mentioned in the changelog.
 
+**25.11. changelog:**
+
+- add option to show virtual volume down, volume up, and power keys on navigation bar (requires reboot)
+- add option for old TCP-based ADB over network
+- show IP address and port for ADB/SSH/VNC options
+- update to TWRP 3.6.0_11-0-KonstaKANG
+- update to Mesa 21.3.0
+- update to Linux 5.4.161 kernel and patch known vulnerabilities (CVE-xxxx-xxxx, and more)
+- Android security patch level: 5 November 2021 (merged)
+
+Linux 5.10 kernel: (optional add-on)
+- various KMS driver improvements (DSI display support, etc)
+- support for Pi camera modules using libcamera, preview & photos work - camcorder doesn't (thanks to Roman Stratiienko)
+- option to test currently very WIP H.264 hardware video decoding using v4l2_codec2 (Settings -> System -> Advanced settings -> Hardware video decoding)
+- HDMI audio is not supported! (see [issue #4651](https://github.com/raspberrypi/linux/issues/4651) & [issue #4654](https://github.com/raspberrypi/linux/issues/4654))
+- new Raspberry Pi Android kernel bring-up based on AOSP android12-5.10-lts
+- update to Linux 5.10.81 kernel and patch known vulnerabilities (CVE-xxxx-xxxx, and more)
+
 **4.11. changelog:**
 
 - initial LineageOS 19.0 build
 - switch to codec2 software decoders/encoders
 - add support for BME280/BMP280 temperature/pressure/humidity sensors
-- drop old v1 camera HAL and use external camera HAL for UVC USB webcams (camera needs to support MJPEG format)
+- add option to select HDMI-CEC device
+- drop old v1 camera HAL and use external camera HAL for UVC USB webcams (camera needs to support MJPG format)
 - update to TWRP 3.5.2_11-0-KonstaKANG
 - update to Mesa 21.2.5
 - new Raspberry Pi Android kernel bring-up based on AOSP android12-5.4-lts
