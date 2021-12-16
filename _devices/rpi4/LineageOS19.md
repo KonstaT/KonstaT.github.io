@@ -2,7 +2,7 @@
 layout: rom
 title: LineageOS 19.0 (Android 12)
 subtitle: for Raspberry Pi 4
-date: 2021-11-25
+date: 2021-12-16
 tags: [rpi4, LineageOS, LOS19]
 social-share: true
 comments: true
@@ -16,19 +16,16 @@ Here's my build of LineageOS 19.0 for Raspberry Pi 4 Model B and Pi 400. It is u
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
-**lineage-19.0-20211125-UNOFFICIAL-KonstaKANG-rpi4.zip**  
-[https://www.androidfilehost.com/?fid=7161016148664845826](https://www.androidfilehost.com/?fid=7161016148664845826)  
-md5:2e1d14fc355c44a868ea700cea773476
-
-**lineage-19.0-20211125-rpi4-5.10-kernel.zip** (optional add-on)  
-[https://www.androidfilehost.com/?fid=7161016148664845824](https://www.androidfilehost.com/?fid=7161016148664845824)  
-md5:8fae131b74e33b0060fa010ad5b36a28
+**lineage-19.0-20211216-UNOFFICIAL-KonstaKANG-rpi4.zip**  
+[https://www.androidfilehost.com/?fid=17825722713688251114](https://www.androidfilehost.com/?fid=17825722713688251114)  
+md5:0b70c8ff922cb8ffad7dab230a239bd3
 
 **Working:**
 
 - Audio (HDMI, 3.5mm jack, USB microphones, bluetooth speakers/headphones, etc)
 - Audio DAC (using GPIO DACs e.g. Hifiberry DAC+)
 - Bluetooth (and bluetooth tethering)
+- Camera (using official Pi camera modules & UVC USB webcams)
 - GPIO
 - GPS (using external USB modules e.g. U-Blox 7)
 - Ethernet
@@ -40,31 +37,24 @@ md5:8fae131b74e33b0060fa010ad5b36a28
 - Sensors (using external GPIO I2C modules e.g. MPU6050, LSM6DS3, LSM303DLHC & BME280/BMP280 accelerometer/gyroscope/magnetometer/temperature/pressure/humidity)
 - Serial console (using external GPIO serial console adapters e.g. PL2303)
 - SPI
-- Touchscreen/multi-touch (USB touchscreens, Waveshare SPI touchscreens)
+- Touchscreen/multi-touch (official 7" touchscreen, USB touchscreens, Waveshare SPI touchscreens)
 - USB (mouse, keyboard, storage, etc)
 - USB-C (ADB, MTP, PTP, USB tethering)
 - Wifi (and wifi tethering)
 
 **Not working:**
 
-- Hardware video decoding & encoding (software decoding & encoding works)
-- Camera (UVC USB webcams that support MJPG format should work)
-
-**Linux 5.10 kernel:** (optional add-on)
-
-- various KMS driver improvements (DSI display support, etc)
-- Camera preview & photos work with Pi camera modules - camcorder is not working
-- option to enable H.264 hardware video decoding (still very WIP and broken in various ways)
-- HDMI audio is not supported! (see [issue #4651](https://github.com/raspberrypi/linux/issues/4651) & [issue #4654](https://github.com/raspberrypi/linux/issues/4654))
+- Hardware video decoding & encoding (software decoding & encoding works, option to test highly experimental H.264 hardware video decoding)
 
 **Issues:**
 
+- Camcorder & some third party camera apps don't work with official Pi camera modules
 - SELinux is in permissive mode
 - and more...
 
 **Sources:**
 
-- [5.4 kernel](https://github.com/lineage-rpi/android_kernel_brcm_rpi/tree/lineage-19.0) & [5.10 kernel](https://github.com/lineage-rpi/android_kernel_brcm_rpi/tree/lineage-19.0-5.10)
+- [kernel](https://github.com/lineage-rpi/android_kernel_brcm_rpi/tree/lineage-19.0)
 
 **Thanks:**
 
@@ -98,6 +88,9 @@ Q: How to find several Raspberry Pi specific settings options?
 Q: My display is not working. I can only see the rainbow screen but no Android boot animation. What should I do?  
 *A: This build only supports HDMI displays that report supported resolutions using EDID. 1920x1080 resolution is used by default with this build. You can change value in /boot/resolution.txt to use a different resolution that your display supports. Removing /boot/resolution.txt will use the preferred resolution of your display.*
 
+Q: How to use official 7" touchscreen display?  
+*A: You can enable required configurations using a settings option found in Settings -> System -> Advanced settings -> Touchscreen.*
+
 Q: Settings -> Storage shows total system size of 7 GB. There's unallocated space on my sdcard. What should I do?  
 *A: This is a 7 GB image, remaining space on your sdcard will remain unallocated. Easiest way to extend /data partition is to simply flash my [resize](https://www.androidfilehost.com/?fid=7161016148664832950) zip in TWRP.*
 
@@ -115,8 +108,8 @@ Q: How to create a DIY hardware power button?
 
 *You can also use the DIY power button to boot the device to TWRP recovery. Press and hold the button while powering on the device until you see the TWRP screen.*
 
-Q: How to enable audio through 3.5mm jack?  
-*A: You can enable the feature by using a settings option found in Settings -> System -> Advanced settings -> Audio device.*
+Q: How to enable audio through HDMI?  
+*A: 3.5mm jack is used for audio by default. You can select the audio device you want to use by using a settings option found in Settings -> System -> Advanced settings -> Audio device.*
 
 Q: How to use IR remote?  
 *A: You can enable the feature by using a settings option found in Settings -> System -> Advanced settings -> Infrared remote.*
@@ -204,6 +197,21 @@ Q: How to install Google apps?
 ----
 
 [Merged commits](https://review.lineageos.org/#/q/status:merged+branch:lineage-19.0+-project:%255E.*device.*+-project:%255E.*kernel.*) not mentioned in the changelog.
+
+**16.12. changelog:**
+
+- switch to Linux 5.10 kernel by default
+- fix VC4 HDMI audio with 5.10 kernel (3.5mm jack is now used by default so select the right HDMI device from the settings)
+- add support for the official 7" touchscreen display with hw accelerated graphics (enable configurations for the touchscreen from the settings)
+- minor brightness fixes for the official 7" display
+- add support for Pi camera modules using libcamera, preview & photos work - camcorder doesn't (thanks to Roman Stratiienko)
+- fix UVC USB webcams that use external camera HAL (camera needs to support MJPG format - preview, photos & camcorder works)
+- add option to enable currently very WIP H.264 hardware video decoding using v4l2_codec2 (enable experimental feature from the settings)
+- fix reboots related to Hotspot 2.0 networks/ANQP requests (see [issue #6](https://github.com/lineage-rpi/android_kernel_brcm_rpi/issues/6))
+- Vulkan 1.1 (thanks to people at Igalia for Vulkan 1.1 conformance and Roman Stratiienko for latest Mesa fixes)
+- update to Mesa 21.3.1
+- update to Linux 5.10.83 kernel and patch known vulnerabilities (CVE-xxxx-xxxx, and more)
+- Android security patch level: 5 December 2021 (merged)
 
 **25.11. changelog:**
 
