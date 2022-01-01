@@ -197,6 +197,9 @@ rpi4-recovery.sh
 Q: How to boot out of TWRP recovery?  
 *A: You can boot out of recovery by simply selecting reboot to system option in TWRP.*
 
+Q: My device keeps booting into TWRP recovery. What should I do?  
+*A: If you have GPIO21 connected to ground (or if you have something drawing power from it) your device will always boot to TWRP recovery (see FAQ section about DIY power button). If you have a hardware failure on GPIO21 you can edit /boot/config.txt to remove the GPIO21 related logic (see 'Ramdisk' and 'Graphics acceleration' sections).*
+
 Q: How to update from previous LineageOS 17.1 build without losing data?  
 *A:*
 

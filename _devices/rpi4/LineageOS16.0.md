@@ -145,6 +145,9 @@ rpi4-recovery.sh boot
 
 *Or you can flash my [recovery2boot](https://www.androidfilehost.com/?fid=8889791610682891658) zip in TWRP.*
 
+Q: My device keeps booting into TWRP recovery. What should I do?  
+*A: If you have GPIO21 connected to ground (or if you have something drawing power from it) your device will always boot to TWRP recovery (see FAQ section about DIY power button). If you have a hardware failure on GPIO21 you can edit /boot/config.txt to remove the GPIO21 related logic (see 'Ramdisk' and 'Graphics acceleration' sections).*
+
 Q: How to update from previous LineageOS 16.0 build without losing data?  
 *A:*
 
