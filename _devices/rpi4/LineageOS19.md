@@ -2,7 +2,7 @@
 layout: rom
 title: LineageOS 19.0 (Android 12)
 subtitle: for Raspberry Pi 4
-date: 2021-12-16
+date: 2022-01-14
 tags: [rpi4, LineageOS, LOS19]
 social-share: true
 comments: true
@@ -16,9 +16,9 @@ Here's my build of LineageOS 19.0 for Raspberry Pi 4 Model B and Pi 400. It is u
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
-**lineage-19.0-20211216-UNOFFICIAL-KonstaKANG-rpi4.zip**  
-[https://www.androidfilehost.com/?fid=17825722713688251114](https://www.androidfilehost.com/?fid=17825722713688251114)  
-md5:0b70c8ff922cb8ffad7dab230a239bd3
+**lineage-19.0-20220114-UNOFFICIAL-KonstaKANG-rpi4.zip**  
+[https://www.androidfilehost.com/?fid=17825722713688267143](https://www.androidfilehost.com/?fid=17825722713688267143)  
+md5:d34a5b33699b12a051432894b3657015
 
 **Working:**
 
@@ -74,22 +74,25 @@ md5:0b70c8ff922cb8ffad7dab230a239bd3
 
 **FAQ:**
 
+Q: How to find several Raspberry Pi specific settings options?  
+*A: Settings -> System -> Raspberry Pi settings*
+
+*Most options in this menu require you to reboot your device for the setting to take effect.*
+
+Q: How to enable advanced reboot options?  
+*A: Settings -> System -> Gestures -> Press and hold power button -> Advanced restart*
+
 Q: How to enable developer options?  
 *A: Settings -> About tablet -> Click 'Build number' several times.*
 
 Q: How to enable root access?  
 *A: LineageOS no longer has built-in root management for applications. You can have root access via ADB after 'adb root', SSH (see FAQ below), or serial console. It is also possible to install Magisk following instructions later in the FAQ.*
 
-Q: How to find several Raspberry Pi specific settings options?  
-*A: Settings -> System -> Advanced settings*
-
-*Most options in this menu require you to reboot your device for the setting to take effect.*
-
 Q: My display is not working. I can only see the rainbow screen but no Android boot animation. What should I do?  
 *A: This build only supports HDMI displays that report supported resolutions using EDID. 1920x1080 resolution is used by default with this build. You can change value in /boot/resolution.txt to use a different resolution that your display supports. Removing /boot/resolution.txt will use the preferred resolution of your display.*
 
 Q: How to use official 7" touchscreen display?  
-*A: You can enable required configurations using a settings option found in Settings -> System -> Advanced settings -> Touchscreen.*
+*A: You can enable required configurations using a settings option found in Settings -> System -> Raspberry Pi settings -> Touchscreen.*
 
 Q: Settings -> Storage shows total system size of 7 GB. There's unallocated space on my sdcard. What should I do?  
 *A: This is a 7 GB image, remaining space on your sdcard will remain unallocated. Easiest way to extend /data partition is to simply flash my [resize](https://www.androidfilehost.com/?fid=7161016148664832950) zip in TWRP.*
@@ -104,20 +107,20 @@ Q: How to create a DIY hardware power button?
 
 ![fritzing]({{ site.url }}/img/rpi4/LineageOS19/powerbutton.png)
 
-*You can enable the feature by using a settings option found in Settings -> System -> Advanced settings -> Power button.*
+*You can enable the feature by using a settings option found in Settings -> System -> Raspberry Pi settings -> Power button.*
 
 *You can also use the DIY power button to boot the device to TWRP recovery. Press and hold the button while powering on the device until you see the TWRP screen.*
 
 Q: How to enable audio through HDMI?  
-*A: 3.5mm jack is used for audio by default. You can select the audio device you want to use by using a settings option found in Settings -> System -> Advanced settings -> Audio device.*
+*A: 3.5mm jack is used for audio by default. You can select the audio device you want to use by using a settings option found in Settings -> System -> Raspberry Pi settings -> Audio device.*
 
 Q: How to use IR remote?  
-*A: You can enable the feature by using a settings option found in Settings -> System -> Advanced settings -> Infrared remote.*
+*A: You can enable the feature by using a settings option found in Settings -> System -> Raspberry Pi settings -> Infrared remote.*
 
 *You can place a keymap for your remote as /boot/rc_keymap.txt to be automatically loaded on boot (see [available keymaps](https://github.com/lineage-rpi/android_external_v4l-utils/tree/lineage-19.0/utils/keytable/rc_keymaps) for reference).*
 
 Q: How to use RTC?  
-*A: You can enable the feature by using a settings option found in Settings -> System -> Advanced settings -> Real time clock.*
+*A: You can enable the feature by using a settings option found in Settings -> System -> Raspberry Pi settings -> Real time clock.*
 
 *System time is automatically read and set from the RTC on boot once you've enabled the feature. You need to write the system time you want to use to the RTC in rooted shell:*
 
@@ -126,7 +129,7 @@ hwclock -w -f /dev/rtc0
 ```
 
 Q: How to use SSH?  
-*A: You can start/stop the built-in SSH server by using a settings option found in Settings -> System -> Advanced settings -> SSH.*
+*A: You can start/stop the built-in SSH server by using a settings option found in Settings -> System -> Raspberry Pi settings -> SSH.*
 
 *Android doesn't have user accounts with passwords so key based authentication is used with SSH instead. Necessary keys are generated on the first boot and you need to pull the private key to your computer (or alternatively you can push your own previously generated keys to the device). See Settings -> About tablet -> IP address for your device's IP address (192.168.0.100 is assumed here). Enable Android debugging & Rooted debugging under Settings -> System -> Developer options.*
 
@@ -155,7 +158,7 @@ dtoverlay=android-usb
 4. Plug in the USB device to your Raspberry Pi, remove any sdcard, and boot
 
 Q: How to boot to TWRP recovery?  
-*A: LineageOS 19 doesn't yet have advanced reboot options so there is a temporary switch in Settings -> System -> Advanced settings -> Reboot to recovery.*
+*A: You can boot to TWRP by selecting recovery option in Android power menu after enabling advanced restart options.*
 
 *If mouse cursor doesn't appear, try replugging your mouse.*
 
@@ -189,7 +192,7 @@ Q: How to install Magisk?
 6. Install Magisk-v23.0.apk using Android's built-in file manager/'adb install'/etc.
 
 Q: How to install Google apps?  
-*A: It's still very early days for Android 12 so OpenGApps are not available yet. You can probably find alternative gapps packages for Android 12 but I'm not making any recommendations.*
+*A: It's still very early days for Android 12 so OpenGApps are not available yet. Alternatives like [NikGApps](https://nikgapps.com/) and [BiTGApps](https://github.com/BiTGApps/BiTGApps-Release/releases) have been reported working.*
 
 1. Download open_gapps-arm64-12.0-pico-xxxxxxxx.zip and save it to your device's internal storage or use an external USB drive
 2. Boot to TWRP recovery (see FAQ)
@@ -200,6 +203,17 @@ Q: How to install Google apps?
 ----
 
 [Merged commits](https://review.lineageos.org/#/q/status:merged+branch:lineage-19.0+-project:%255E.*device.*+-project:%255E.*kernel.*) not mentioned in the changelog.
+
+**14.1. 2022 changelog:**
+
+- add new options to Raspberry Pi settings (force rotation & CPU governor)
+- fix GPS issue caused by incomplete location data
+- small improvements to HDMI audio support
+- prepare for OTAs
+- update to TWRP 3.6.0_11-1-KonstaKANG
+- update to Mesa 21.3.4
+- update to Linux 5.10.90 kernel and patch known vulnerabilities (CVE-xxxx-xxxx, and more)
+- Android security patch level: 5 January 2022 (merged)
 
 **16.12. changelog:**
 
