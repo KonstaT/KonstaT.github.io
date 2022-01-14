@@ -1,8 +1,8 @@
 ---
 layout: rom
-title: TWRP 3.6.0_11-0
+title: TWRP 3.6.0_11-1
 subtitle: for Raspberry Pi 4
-date: 2021-11-23
+date: 2022-01-14
 tags: [rpi4, TWRP]
 social-share: true
 comments: true
@@ -15,6 +15,11 @@ This is my build of [Team Win Recovery Project](https://twrp.me) (TWRP) for Rasp
 - [lineage-rpi](https://github.com/lineage-rpi/android_local_manifest/tree/twrp-11)
 
 ----
+
+**14.1. 2022 changelog:**
+
+- TWRP 3.6.0_11-1
+- add support for flashing OTA packages
 
 **23.11. changelog:**
 
