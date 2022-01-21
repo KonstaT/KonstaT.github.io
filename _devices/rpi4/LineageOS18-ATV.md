@@ -2,7 +2,7 @@
 layout: rom
 title: LineageOS 18.1 Android TV (Android 11)
 subtitle: for Raspberry Pi 4
-date: 2021-11-23
+date: 2022-01-21
 tags: [rpi4, LineageOS, LOS18, AndroidTV]
 social-share: true
 comments: true
@@ -16,9 +16,9 @@ Here's my build of LineageOS 18.1 Android TV for Raspberry Pi 4 Model B and Pi 4
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
-**lineage-18.1-20211123-UNOFFICIAL-KonstaKANG-rpi4-atv.zip**  
-[https://www.androidfilehost.com/?fid=7161016148664844938](https://www.androidfilehost.com/?fid=7161016148664844938)  
-md5:38d6684bd6d73344856178ed179e4be4
+**lineage-18.1-20220121-UNOFFICIAL-KonstaKANG-rpi4-atv.zip**  
+[https://www.androidfilehost.com/?fid=17825722713688273838](https://www.androidfilehost.com/?fid=17825722713688273838)  
+md5:d0a76a303a3134250e4ad45124611c1c
 
 **Working:**
 
@@ -74,6 +74,11 @@ md5:38d6684bd6d73344856178ed179e4be4
 
 **FAQ:**
 
+Q: How to find several Raspberry Pi specific settings options?  
+*A: Settings -> System -> Raspberry Pi settings*
+
+*Most options in this menu require you to reboot your device for the setting to take effect.*
+
 Q: How to enable developer options?  
 *A: Settings -> System -> About -> Click 'Build number' several times.*
 
@@ -82,11 +87,6 @@ Q: How to enable root access?
 
 Q: How to enable advanced reboot options?  
 *A: Settings -> System -> Buttons -> Advanced reboot*
-
-Q: How to find several Raspberry Pi specific settings options?  
-*A: Settings -> System -> Raspberry Pi settings*
-
-*Most options in this menu require you to reboot your device for the setting to take effect.*
 
 Q: My display is not working. I can only see the rainbow screen but no Android boot animation. What should I do?  
 *A: This build only supports HDMI displays that report supported resolutions using EDID. 1920x1080 resolution is used by default with this build. You can change value in /boot/resolution.txt to use a different resolution that your display supports. Removing /boot/resolution.txt will use the preferred resolution of your display.*
@@ -200,6 +200,17 @@ Q: How to install Google apps?
 ----
 
 [Merged commits](https://review.lineageos.org/#/q/status:merged+branch:lineage-18.1+-project:%255E.*device.*+-project:%255E.*kernel.*) not mentioned in the changelog.
+
+**21.1. 2022 changelog:**
+
+- fix reboots related to Hotspot 2.0 networks/ANQP requests (see [issue #6](https://github.com/lineage-rpi/android_kernel_brcm_rpi/issues/6))
+- Vulkan 1.1 (thanks to people at Igalia for Vulkan 1.1 conformance and Roman Stratiienko for latest Mesa fixes)
+- add new options to Raspberry Pi settings (force rotation & CPU governor)
+- prepare for OTAs
+- update to TWRP 3.6.0_11-1-KonstaKANG
+- update to Mesa 21.3.4
+- update to Linux 5.4.173 kernel and patch known vulnerabilities (CVE-xxxx-xxxx, and more)
+- Android security patch level: 5 January 2022 (merged)
 
 **23.11. changelog:**
 
