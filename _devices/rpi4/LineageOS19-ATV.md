@@ -182,12 +182,12 @@ Q: How to update from previous LineageOS 19.0 build without losing data?
 Q: How to install Magisk?  
 *A:*
 
-1. Download [lineage-19.0-rpi-magisk.zip](https://www.androidfilehost.com/?fid=7161016148664832952) and save it to your device's internal storage or use an external USB drive
-2. Download [Magisk-v23.0.apk](https://github.com/topjohnwu/Magisk/releases/tag/v23.0)
+1. Download [lineage-19.0-rpi-magisk-v24.1.zip](https://www.androidfilehost.com/?fid=17825722713688277963) and save it to your device's internal storage or use an external USB drive
+2. Download [Magisk-v24.1.apk](https://github.com/topjohnwu/Magisk/releases/tag/v24.1)
 3. Boot to TWRP recovery (see FAQ)
-4. Install lineage-19.0-rpi-magisk.zip from your selected storage
+4. Install lineage-19.0-rpi-magisk-v24.1.zip from your selected storage
 5. Boot out of recovery (see FAQ)
-6. Install Magisk-v23.0.apk using Android's built-in file manager/'adb install'/etc.
+6. Install Magisk-v24.1.apk using Android's built-in file manager/'adb install'/etc.
 
 Q: How to install Google apps?  
 *A: It's still very early days for Android 12 so OpenGApps are not available yet. I'm not aware there currently being any GApps releases for Android TV 12.*
