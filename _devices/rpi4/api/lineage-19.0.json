@@ -1,4 +1,13 @@
 {
   "response": [
+    {
+      "datetime": 1644563878,
+      "filename": "lineage-19.0-20220211-UNOFFICIAL-KonstaKANG-rpi4-ota.zip",
+      "id": "8eac184d2658ade85db2b6e9a2525abbc89788d45d6f117eddbf8a2ed3ec0b68",
+      "romtype": "UNOFFICIAL",
+      "size": 642219877,
+      "url": "https://github.com/lineage-rpi/OTA/releases/download/lineage-19.0-20220211/lineage-19.0-20220211-UNOFFICIAL-KonstaKANG-rpi4-ota.zip",
+      "version": "19.0"
+    }
   ]
 }
