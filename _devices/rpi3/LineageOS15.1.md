@@ -29,6 +29,7 @@ md5:257ade2f567223cf792023e2d75e5b75
 - LineageOS team & everyone who's been working on LineageOS 15.1
 
 ----
+<!--block-->
 
 **How to install:**
 
@@ -82,6 +83,7 @@ Q: How to install Google apps?
 5. Boot out of recovery (see FAQ)
 
 ----
+<!--block-->
 
 [Merged commits](https://review.lineageos.org/#/q/status:merged++branch:lineage-15.1+-project:%255E.*device.*+-project:%255E.*kernel.*,n,z) not mentioned in the changelog.
 

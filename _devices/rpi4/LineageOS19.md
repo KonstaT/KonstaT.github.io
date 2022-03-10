@@ -71,6 +71,7 @@ md5:9f66affcf5044bb27e978ee4cde5cb1b
 - LineageOS team and everyone who has contributed to LineageOS 19.0
 
 ----
+<!--block-->
 
 **How to install:**
 
@@ -212,6 +213,7 @@ Q: How to install Google apps?
 5. Boot out of recovery (see FAQ)
 
 ----
+<!--block-->
 
 [Merged commits](https://review.lineageos.org/#/q/status:merged+branch:lineage-19.0+-project:%255E.*device.*+-project:%255E.*kernel.*) not mentioned in the changelog.
 

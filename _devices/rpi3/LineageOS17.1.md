@@ -64,6 +64,7 @@ md5:2f0d503a5bbea5a4e15fbec22d767aff
 - LineageOS team & everyone who has contributed to LineageOS 17.1
 
 ----
+<!--block-->
 
 **How to install:**
 
@@ -216,6 +217,7 @@ Q: How to install Google apps?
 5. Boot out of recovery (see FAQ)
 
 ----
+<!--block-->
 
 [Merged commits](https://review.lineageos.org/#/q/status:merged++branch:lineage-17.1+-project:%255E.*device.*+-project:%255E.*kernel.*,n,z) not mentioned in the changelog.
 
