@@ -4,22 +4,29 @@ layout: base
 
 {% include header.html type="page" %}
 
-<div class="container" role="main">
+<div class="container">
   <div class="row">
     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-      {{ content }}
+
+      {% if site.google_adsense %}
+        {% include ad.html %}
+      {% endif %}
+
+      <article role="main" class="blog-post">
+        {{ content }}
+      </article>
 
       {% include donate.html %}
 
       {% if site.google_adsense %}
-      {% include ad.html %}
+        {% include ad.html %}
       {% endif %}
 
-	    {% if page.comments %}
+      {% if page.comments %}
         <div class="disqus-comments">
-	        {% include disqus.html %}
+	  {% include disqus.html %}
         </div>
-	    {% endif %}
+      {% endif %}
     </div>
   </div>
 </div>

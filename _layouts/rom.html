@@ -9,7 +9,7 @@ layout: base
     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
 
       {% if site.google_adsense %}
-      {% include ad.html %}
+        {% include ad.html %}
       {% endif %}
 
       <article role="main" class="blog-post">
@@ -19,7 +19,7 @@ layout: base
       {% include donate.html %}
 
       {% if site.google_adsense %}
-      {% include ad.html %}
+        {% include ad.html %}
       {% endif %}
 
       {% if page.tags.size > 0 %}
@@ -43,6 +43,10 @@ layout: base
         <div class="disqus-comments">
           {% include disqus.html %}
         </div>
+      {% endif %}
+
+      {% if site.google_adsense %}
+        {% include ad.html %}
       {% endif %}
     </div>
   </div>

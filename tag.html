@@ -5,6 +5,10 @@ subtitle: Browse site by tag
 use-site-title: true
 ---
 
+{% if site.google_adsense %}
+  {% include ad.html %}
+{% endif %}
+
 <div class="home">
   <p class="post-meta" style="text-align: justify;">
   {% assign tags =  site.devices | map: 'tags' | join: ',' | split: ',' | sort %}
@@ -46,5 +50,5 @@ use-site-title: true
 {% include donate.html %}
 
 {% if site.google_adsense %}
-{% include ad.html %}
+  {% include ad.html %}
 {% endif %}

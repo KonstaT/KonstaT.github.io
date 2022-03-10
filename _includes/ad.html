@@ -1,12 +1,13 @@
 {% if site.google_adsense %}
-  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={{ site.google_adsense }}" crossorigin="anonymous"></script>
   <!-- Ad -->
   <ins class="adsbygoogle"
        style="display:block"
        data-ad-client="{{ site.google_adsense }}"
        data-ad-slot="1530678571"
-       data-ad-format="auto"></ins>
+       data-ad-format="auto"
+       data-full-width-responsive="true"></ins>
   <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
+    (adsbygoogle = window.adsbygoogle || []).push({});
   </script>
 {% endif %}

@@ -2,9 +2,15 @@
 layout: page
 ---
 
+{% if site.google_adsense %}
+  {% include ad.html %}
+{% endif %}
+
+{% assign sorted_devices = site.devices | sort: 'title' %}
+
 <h4>Devices:</h4>
 <ul>
-  {% for device in site.devices %}
+  {% for device in sorted_devices %}
     {% if device.permalink %}
       <li><a href="{{ site.baseurl }}{{ device.url }}">{{ device.title }} {{ device.subtitle }}</a></li>
     {% endif %}
@@ -16,5 +22,5 @@ layout: page
 {% include donate.html %}
 
 {% if site.google_adsense %}
-{% include ad.html %}
+  {% include ad.html %}
 {% endif %}

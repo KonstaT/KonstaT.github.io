@@ -2,15 +2,19 @@
 layout: page
 ---
 
+{% if site.google_adsense %}
+  {% include ad.html %}
+{% endif %}
+
 {% assign sorted_devices = site.devices | sort: 'date' | reverse %}
-{% assign tags =  site.devices | map: 'tags' | join: ',' | split: ',' | sort | uniq %}
+
 <h4>{{ page.tag }}:</h4>
 <ul>
-{% for devices in sorted_devices %}
-  {% if devices.tags contains page.tag %}
-    <li>{{ devices.date | date: "%B %-d, %Y" }}: <a href="{{ site.baseurl }}{{ devices.url }}">{{ devices.title }} {{ devices.subtitle }}</a></li>
-  {% endif %}
-{% endfor %}
+  {% for device in sorted_devices %}
+    {% if device.tags contains page.tag %}
+      <li>{{ device.date | date: "%B %-d, %Y" }}: <a href="{{ site.baseurl }}{{ device.url }}">{{ device.title }} {{ device.subtitle }}</a></li>
+    {% endif %}
+  {% endfor %}
 </ul>
 
 <hr>
@@ -18,5 +22,5 @@ layout: page
 {% include donate.html %}
 
 {% if site.google_adsense %}
-{% include ad.html %}
+  {% include ad.html %}
 {% endif %}
