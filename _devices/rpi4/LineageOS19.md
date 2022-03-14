@@ -1,28 +1,28 @@
 ---
 layout: rom
-title: LineageOS 19.0 (Android 12)
+title: LineageOS 19.1 (Android 12L)
 subtitle: for Raspberry Pi 4
-date: 2022-02-11
+date: 2022-03-14
 tags: [rpi4, LineageOS, LOS19]
 social-share: true
 comments: true
 ---
 
-Here's my build of LineageOS 19.0 for Raspberry Pi 4 Model B and Pi 400. It is unofficial and unsupported by the LineageOS team. It's for **advanced users** only. Pi 4 model with at least 2GB of RAM is required to run this build.
+Here's my build of LineageOS 19.1 for Raspberry Pi 4 Model B and Pi 400. It is unofficial and unsupported by the LineageOS team. It's for **advanced users** only. Pi 4 model with at least 2GB of RAM is required to run this build.
 
 <span style="color:#FF0000;">Important!</span> This image includes parts that are licensed under non-commercial license ([Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International](http://creativecommons.org/licenses/by-nc-sa/4.0/)). You may use this build freely in personal/educational/etc use. Commercial use is not allowed with this build!
 
-![screenshot]({{ site.url }}/img/rpi4/LineageOS19/Screenshot_20211103-211529.png)
+![screenshot]({{ site.url }}/img/rpi4/LineageOS19/Screenshot_20220313-200456_Settings.png)
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
-**lineage-19.0-20220211-UNOFFICIAL-KonstaKANG-rpi4.zip**  
-[https://www.androidfilehost.com/?fid=17825722713688284710](https://www.androidfilehost.com/?fid=17825722713688284710)  
-md5:b7a7b222ed964c423575864c37bfca8b
+**lineage-19.1-20220314-UNOFFICIAL-KonstaKANG-rpi4.zip**  
+[https://www.androidfilehost.com/?fid=2981970449027573975](https://www.androidfilehost.com/?fid=2981970449027573975)  
+md5:e00d10a238762757fd34cb6f8f766784
 
-**lineage-19.0-20220211-UNOFFICIAL-KonstaKANG-rpi4-ota.zip** (TWRP flashable OTA package)  
-[https://www.androidfilehost.com/?fid=17825722713688284706](https://www.androidfilehost.com/?fid=17825722713688284706)  
-md5:9f66affcf5044bb27e978ee4cde5cb1b
+**lineage-19.1-20220314-UNOFFICIAL-KonstaKANG-rpi4-ota.zip** (TWRP flashable OTA package)  
+[https://www.androidfilehost.com/?fid=2981970449027573970](https://www.androidfilehost.com/?fid=2981970449027573970)  
+md5:6091146eed142b3fa0b3cebfdc377184
 
 **Working:**
 
@@ -58,7 +58,7 @@ md5:9f66affcf5044bb27e978ee4cde5cb1b
 
 **Sources:**
 
-- [kernel](https://github.com/lineage-rpi/android_kernel_brcm_rpi/tree/lineage-19.0)
+- [kernel](https://github.com/lineage-rpi/android_kernel_brcm_rpi/tree/lineage-19.1)
 
 **Thanks:**
 
@@ -68,7 +68,7 @@ md5:9f66affcf5044bb27e978ee4cde5cb1b
 - E. Anholt for V3D graphics driver
 - Maxime Ripard for Pi 4 KMS driver
 - Android-x86 project
-- LineageOS team and everyone who has contributed to LineageOS 19.0
+- LineageOS team and everyone who has contributed to LineageOS 19
 
 ----
 <!--block-->
@@ -79,9 +79,9 @@ md5:9f66affcf5044bb27e978ee4cde5cb1b
 
 If you're running a recent build (20220114 or newer) you can also update to newer builds using TWRP flashable OTA packages. OTA updates pushed through the built-in Updater app are stored at /data/lineageos_updates/.
 
-1. Download lineage-19.0-xxxxxxxx-UNOFFICIAL-KonstaKANG-rpi4-ota.zip and save it to your device's internal storage or use an external USB drive
+1. Download lineage-19.1-xxxxxxxx-UNOFFICIAL-KonstaKANG-rpi4-ota.zip and save it to your device's internal storage or use an external USB drive
 2. Boot to TWRP recovery (see FAQ)
-3. Install lineage-19.0-xxxxxxxx-UNOFFICIAL-KonstaKANG-rpi4-ota.zip from your selected storage
+3. Install lineage-19.1-xxxxxxxx-UNOFFICIAL-KonstaKANG-rpi4-ota.zip from your selected storage
 4. (Flash Magisk/other add-ons you had previously installed)
 5. Boot out of recovery (see FAQ)
 
@@ -105,7 +105,7 @@ Q: How to find several Raspberry Pi specific settings options?
 *Most options in this menu require you to reboot your device for the setting to take effect.*
 
 Q: How to enable advanced reboot options?  
-*A: Settings -> System -> Gestures -> Press and hold power button -> Advanced restart*
+*A: Settings -> System -> Buttons -> Power menu -> Advanced restart*
 
 Q: How to enable developer options?  
 *A: Settings -> About tablet -> Click 'Build number' several times.*
@@ -142,7 +142,7 @@ Q: How to enable audio through HDMI?
 Q: How to use IR remote?  
 *A: You can enable the feature by using a settings option found in Settings -> System -> Raspberry Pi settings -> Infrared remote.*
 
-*You can place a keymap for your remote as /boot/rc_keymap.txt to be automatically loaded on boot (see [available keymaps](https://github.com/lineage-rpi/android_external_v4l-utils/tree/lineage-19.0/utils/keytable/rc_keymaps) for reference).*
+*You can place a keymap for your remote as /boot/rc_keymap.txt to be automatically loaded on boot (see [available keymaps](https://github.com/lineage-rpi/android_external_v4l-utils/tree/lineage-19.1/utils/keytable/rc_keymaps) for reference).*
 
 Q: How to use RTC?  
 *A: You can enable the feature by using a settings option found in Settings -> System -> Raspberry Pi settings -> Real time clock.*
@@ -161,10 +161,11 @@ Q: How to use SSH?
 ```
 adb connect 192.168.0.100
 adb root
-adb pull /data/ssh/ssh_host_rsa_key my_private_key
+adb pull /data/ssh/ssh_host_ed25519_key my_private_key
 ```
 
 ```
+chmod 600 my_private_key
 ssh -i my_private_key root@192.168.0.100
 ```
 
@@ -196,10 +197,10 @@ Q: My device keeps booting into TWRP recovery. What should I do?
 Q: How to install Magisk?  
 *A:*
 
-1. Download [lineage-19.0-rpi-magisk-v24.2.zip](https://www.androidfilehost.com/?fid=2981970449027571539) and save it to your device's internal storage or use an external USB drive
+1. Download [lineage-19.1-rpi-magisk-v24.2.zip](https://www.androidfilehost.com/?fid=2981970449027571539) and save it to your device's internal storage or use an external USB drive
 2. Download [Magisk-v24.2.apk](https://github.com/topjohnwu/Magisk/releases/tag/v24.2)
 3. Boot to TWRP recovery (see FAQ)
-4. Install lineage-19.0-rpi-magisk-v24.2.zip from your selected storage
+4. Install lineage-19.1-rpi-magisk-v24.2.zip from your selected storage
 5. Boot out of recovery (see FAQ)
 6. Install Magisk-v24.2.apk using Android's built-in file manager/'adb install'/etc.
 
@@ -215,7 +216,15 @@ Q: How to install Google apps?
 ----
 <!--block-->
 
-[Merged commits](https://review.lineageos.org/#/q/status:merged+branch:lineage-19.0+-project:%255E.*device.*+-project:%255E.*kernel.*) not mentioned in the changelog.
+[Merged commits](https://review.lineageos.org/#/q/status:merged+branch:lineage-19.1+-project:%255E.*device.*+-project:%255E.*kernel.*) not mentioned in the changelog.
+
+**14.3. changelog:**
+
+- Android 12L / LineageOS 19.1
+- update to TWRP 3.6.0_11-2-KonstaKANG
+- update to Mesa 22.0.0
+- update to Linux 5.10.102 kernel and patch known vulnerabilities (CVE-xxxx-xxxx, and more)
+- Android security patch level: 5 March 2022 (merged)
 
 **11.2. changelog:**
 
