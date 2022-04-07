@@ -1,20 +1,24 @@
 ---
 layout: rom
-title: TWRP 3.6.0_11-2
+title: TWRP 3.6.1_11-0
 subtitle: for Raspberry Pi 4
-date: 2022-03-14
+date: 2022-04-07
 tags: [rpi4, TWRP]
 social-share: true
 comments: true
 ---
 
-This is my build of [Team Win Recovery Project](https://twrp.me) (TWRP) for Raspberry Pi 4 Model B. It's included in my [LineageOS 19.1](/devices/rpi4/LineageOS19), [LineageOS 18.1](/devices/rpi4/LineageOS18), [LineageOS 17.1](/devices/rpi4/LineageOS17.1), and [LineageOS 16.0](/devices/rpi4/LineageOS16.0) images. Please read the FAQ on how to boot to recovery.
+This is my build of [Team Win Recovery Project](https://twrp.me) (TWRP) for Raspberry Pi 4 Model B. It's included in my [LineageOS 19](/devices/rpi4/LineageOS19), [LineageOS 18.1](/devices/rpi4/LineageOS18), [LineageOS 17.1](/devices/rpi4/LineageOS17.1), and [LineageOS 16.0](/devices/rpi4/LineageOS16.0) images. Please read the FAQ on how to boot to recovery.
 
 **Sources:**
 
 - [lineage-rpi](https://github.com/lineage-rpi/android_local_manifest/tree/twrp-11)
 
 ----
+
+**7.4. changelog:**
+
+- TWRP 3.6.1_11-0
 
 **14.3. changelog:**
 

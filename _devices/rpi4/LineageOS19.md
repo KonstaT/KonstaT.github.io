@@ -1,14 +1,14 @@
 ---
 layout: rom
-title: LineageOS 19.1 (Android 12L)
+title: LineageOS 19 (Android 12L)
 subtitle: for Raspberry Pi 4
-date: 2022-03-14
+date: 2022-04-07
 tags: [rpi4, LineageOS, LOS19]
 social-share: true
 comments: true
 ---
 
-Here's my build of LineageOS 19.1 for Raspberry Pi 4 Model B and Pi 400. It is unofficial and unsupported by the LineageOS team. It's for **advanced users** only. Pi 4 model with at least 2GB of RAM is required to run this build.
+Here's my build of LineageOS 19 for Raspberry Pi 4 Model B and Pi 400. It is unofficial and unsupported by the LineageOS team. It's for **advanced users** only. Pi 4 model with at least 2GB of RAM is required to run this build.
 
 <span style="color:#FF0000;">Important!</span> This image includes parts that are licensed under non-commercial license ([Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International](http://creativecommons.org/licenses/by-nc-sa/4.0/)). You may use this build freely in personal/educational/etc use. Commercial use is not allowed with this build!
 
@@ -16,13 +16,13 @@ Here's my build of LineageOS 19.1 for Raspberry Pi 4 Model B and Pi 400. It is u
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
-**lineage-19.1-20220314-UNOFFICIAL-KonstaKANG-rpi4.zip**  
-[https://www.androidfilehost.com/?fid=2981970449027573975](https://www.androidfilehost.com/?fid=2981970449027573975)  
-md5:e00d10a238762757fd34cb6f8f766784
+**lineage-19.1-20220407-UNOFFICIAL-KonstaKANG-rpi4.zip**  
+[https://www.androidfilehost.com/?fid=14655340768118450118](https://www.androidfilehost.com/?fid=14655340768118450118)  
+md5:7e58fa6f2f69c6897673ae3c3de90d35
 
-**lineage-19.1-20220314-UNOFFICIAL-KonstaKANG-rpi4-ota.zip** (TWRP flashable OTA package)  
-[https://www.androidfilehost.com/?fid=2981970449027573970](https://www.androidfilehost.com/?fid=2981970449027573970)  
-md5:6091146eed142b3fa0b3cebfdc377184
+**lineage-19.1-20220407-UNOFFICIAL-KonstaKANG-rpi4-ota.zip** (TWRP flashable OTA package)  
+[https://www.androidfilehost.com/?fid=14655340768118450116](https://www.androidfilehost.com/?fid=14655340768118450116)  
+md5:ffb2c9d6946e190389a83fb2991723d2
 
 **Working:**
 
@@ -217,6 +217,15 @@ Q: How to install Google apps?
 <!--block-->
 
 [Merged commits](https://review.lineageos.org/#/q/status:merged+branch:lineage-19.1+-project:%255E.*device.*+-project:%255E.*kernel.*) not mentioned in the changelog.
+
+**7.4. changelog:**
+
+- automatically set density based on display resolution (use 'ro.sf.force_lcd_density' property if you want to force specific density)
+- add option to disable tablet taskbar and show traditional navigation bar instead
+- update to TWRP 3.6.1_11-0-KonstaKANG
+- update to Mesa 22.0.1
+- update to Linux 5.10.109 kernel and patch known vulnerabilities (CVE-xxxx-xxxx, and more)
+- Android security patch level: 5 April 2022 (merged)
 
 **14.3. changelog:**
 

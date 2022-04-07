@@ -1,14 +1,14 @@
 ---
 layout: rom
-title: LineageOS 19.0 Android TV (Android 12)
+title: LineageOS 19 Android TV (Android 12L)
 subtitle: for Raspberry Pi 4
-date: 2022-01-14
+date: 2022-04-07
 tags: [rpi4, LineageOS, LOS19, AndroidTV]
 social-share: true
 comments: true
 ---
 
-Here's my build of LineageOS 19.0 Android TV for Raspberry Pi 4 Model B and Pi 400. It is unofficial and unsupported by the LineageOS team. It's for **advanced users** only. Pi 4 model with at least 2GB of RAM is required to run this build.
+Here's my build of LineageOS 19 Android TV for Raspberry Pi 4 Model B and Pi 400. It is unofficial and unsupported by the LineageOS team. It's for **advanced users** only. Pi 4 model with at least 2GB of RAM is required to run this build.
 
 <span style="color:#FF0000;">Important!</span> This image includes parts that are licensed under non-commercial license ([Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International](http://creativecommons.org/licenses/by-nc-sa/4.0/)). You may use this build freely in personal/educational/etc use. Commercial use is not allowed with this build!
 
@@ -16,9 +16,13 @@ Here's my build of LineageOS 19.0 Android TV for Raspberry Pi 4 Model B and Pi 4
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
-**lineage-19.0-20220114-UNOFFICIAL-KonstaKANG-rpi4-atv.zip**  
-[https://www.androidfilehost.com/?fid=17825722713688267130](https://www.androidfilehost.com/?fid=17825722713688267130)  
-md5:cbc6127524735ac518a8466e4b1066d2
+**lineage-19.1-20220407-UNOFFICIAL-KonstaKANG-rpi4-atv.zip**  
+[https://www.androidfilehost.com/?fid=14655340768118450092](https://www.androidfilehost.com/?fid=14655340768118450092)  
+md5:07a797f5dc43277af4bfc0dc6b0c3b02
+
+**lineage-19.1-20220407-UNOFFICIAL-KonstaKANG-rpi4-atv-ota.zip** (TWRP flashable OTA package)  
+[https://www.androidfilehost.com/?fid=14655340768118450090](https://www.androidfilehost.com/?fid=14655340768118450090)  
+md5:d316f75b20c139135e0b7d7f373f8fdf
 
 **Working:**
 
@@ -44,7 +48,7 @@ md5:cbc6127524735ac518a8466e4b1066d2
 
 **Not working:**
 
-- Hardware video decoding & encoding (software decoding & encoding works)
+- Hardware video decoding & encoding (software decoding & encoding works, option to test highly experimental H.264 hardware video decoding)
 
 **Issues:**
 
@@ -55,7 +59,7 @@ md5:cbc6127524735ac518a8466e4b1066d2
 
 **Sources:**
 
-- [kernel](https://github.com/lineage-rpi/android_kernel_brcm_rpi/tree/lineage-19.0)
+- [kernel](https://github.com/lineage-rpi/android_kernel_brcm_rpi/tree/lineage-19.1)
 
 **Thanks:**
 
@@ -65,7 +69,7 @@ md5:cbc6127524735ac518a8466e4b1066d2
 - E. Anholt for V3D graphics driver
 - Maxime Ripard for Pi 4 KMS driver
 - Android-x86 project
-- LineageOS team and everyone who has contributed to LineageOS 19.0
+- LineageOS team and everyone who has contributed to LineageOS 19
 
 ----
 <!--block-->
@@ -73,6 +77,26 @@ md5:cbc6127524735ac518a8466e4b1066d2
 **How to install:**
 
 1. Follow the official [Raspberry Pi instructions](https://www.raspberrypi.org/documentation/computers/getting-started.html#installing-the-operating-system) for writing the image to the SD card.
+
+If you're running a recent build (20220114 or newer) you can also update to newer builds using TWRP flashable OTA packages. OTA updates pushed through the built-in Updater app are stored at /data/lineageos_updates/.
+
+1. Download lineage-19.1-xxxxxxxx-UNOFFICIAL-KonstaKANG-rpi4-atv-ota.zip and save it to your device's internal storage or use an external USB drive
+2. Boot to TWRP recovery (see FAQ)
+3. Install lineage-19.1-xxxxxxxx-UNOFFICIAL-KonstaKANG-rpi4-atv-ota.zip from your selected storage
+4. (Flash Magisk/other add-ons you had previously installed)
+5. Boot out of recovery (see FAQ)
+
+Changes that are backed up and restored flashing OTAs:
+
+- Device specific settings changed using Settings -> System -> Raspberry Pi settings
+- Manual changes to /boot/resolution.txt and /boot/rc_keymap.txt
+- USB boot configuration in /boot/config.txt
+- GApps
+
+Changes that are not backed up and restored flashing OTAs:
+
+- Manual changes to /boot/config.txt (and any other manual changes to /boot partition)
+- Magisk
 
 **FAQ:**
 
@@ -116,7 +140,7 @@ Q: How to enable audio through HDMI?
 Q: How to use IR remote?  
 *A: You can enable the feature by using a settings option found in Settings -> System -> Raspberry Pi settings -> Infrared remote.*
 
-*You can place a keymap for your remote as /boot/rc_keymap.txt to be automatically loaded on boot (see [available keymaps](https://github.com/lineage-rpi/android_external_v4l-utils/tree/lineage-19.0/utils/keytable/rc_keymaps) for reference).*
+*You can place a keymap for your remote as /boot/rc_keymap.txt to be automatically loaded on boot (see [available keymaps](https://github.com/lineage-rpi/android_external_v4l-utils/tree/lineage-19.1/utils/keytable/rc_keymaps) for reference).*
 
 Q: How to use RTC?  
 *A: You can enable the feature by using a settings option found in Settings -> System -> Raspberry Pi settings -> Real time clock.*
@@ -135,10 +159,11 @@ Q: How to use SSH?
 ```
 adb connect 192.168.0.100
 adb root
-adb pull /data/ssh/ssh_host_rsa_key my_private_key
+adb pull /data/ssh/ssh_host_ed25519_key my_private_key
 ```
 
 ```
+chmod 600 my_private_key
 ssh -i my_private_key root@192.168.0.100
 ```
 
@@ -167,26 +192,13 @@ Q: How to boot out of TWRP recovery?
 Q: My device keeps booting into TWRP recovery. What should I do?  
 *A: If you have GPIO21 connected to ground (or if you have something drawing power from it) your device will always boot to TWRP recovery (see FAQ section about DIY power button). If you have a hardware failure on GPIO21 you can edit /boot/config.txt to remove the GPIO21 related logic (see 'Ramdisk' and 'Graphics acceleration' sections).*
 
-Q: How to update from previous LineageOS 19.0 build without losing data?  
-*A:*
-
-1. Boot to TWRP recovery with the build you want to keep the data (see FAQ)
-2. Plug in an external USB storage device and select 'Backup'
-3. Use 'Select Storage' to choose the USB device and 'Swipe to backup' (it's only necessary to backup the data partition so you can uncheck other partitions to speed up the process)
-4. Write new LineageOS 19.0 image to the sdcard following installation instructions
-5. Boot to TWRP recovery with the new build (see FAQ)
-6. Select 'Restore' and find the backup you created from the USB device ('Select Storage')
-7. Make sure you only have data selected as partitions to restore (uncheck other partitions if available) and select 'Swipe to Restore'
-8. (Flash Google apps package/other add-ons you had previously installed)
-9. Boot out of recovery (see FAQ)
-
 Q: How to install Magisk?  
 *A:*
 
-1. Download [lineage-19.0-rpi-magisk-v24.3.zip](https://www.androidfilehost.com/?fid=2981970449027577732) and save it to your device's internal storage or use an external USB drive
+1. Download [lineage-19.1-rpi-magisk-v24.3.zip](https://www.androidfilehost.com/?fid=2981970449027577732) and save it to your device's internal storage or use an external USB drive
 2. Download [Magisk-v24.3.apk](https://github.com/topjohnwu/Magisk/releases/tag/v24.3)
 3. Boot to TWRP recovery (see FAQ)
-4. Install lineage-19.0-rpi-magisk-v24.3.zip from your selected storage
+4. Install lineage-19.1-rpi-magisk-v24.3.zip from your selected storage
 5. Boot out of recovery (see FAQ)
 6. Install Magisk-v24.3.apk using Android's built-in file manager/'adb install'/etc.
 
@@ -202,7 +214,20 @@ Q: How to install Google apps?
 ----
 <!--block-->
 
-[Merged commits](https://review.lineageos.org/#/q/status:merged+branch:lineage-19.0+-project:%255E.*device.*+-project:%255E.*kernel.*) not mentioned in the changelog.
+[Merged commits](https://review.lineageos.org/#/q/status:merged+branch:lineage-19.1+-project:%255E.*device.*+-project:%255E.*kernel.*) not mentioned in the changelog.
+
+**7.4. changelog:**
+
+- Android 12L / LineageOS 19.1
+- also available as OTA package
+- automatically set density based on display resolution (use 'ro.sf.force_lcd_density' property if you want to force specific density)
+- various drm_hwcomposer updates e.g. support for dual-HDMI displays and headless mode (thanks to Roman Stratiienko)
+- switch to codec2 software decoders/encoders
+- add option to enable currently very WIP H.264 hardware video decoding using v4l2_codec2 (enable experimental feature from the settings)
+- update to TWRP 3.6.1_11-0-KonstaKANG
+- update to Mesa 22.0.1
+- update to Linux 5.10.109 kernel and patch known vulnerabilities (CVE-xxxx-xxxx, and more)
+- Android security patch level: 5 April 2022 (merged)
 
 **14.1. changelog:**
 
