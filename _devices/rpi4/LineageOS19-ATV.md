@@ -2,27 +2,27 @@
 layout: rom
 title: LineageOS 19 Android TV (Android 12L)
 subtitle: for Raspberry Pi 4
-date: 2022-04-07
+date: 2022-05-11
 tags: [rpi4, LineageOS, LOS19, AndroidTV]
 social-share: true
 comments: true
 ---
 
-Here's my build of LineageOS 19 Android TV for Raspberry Pi 4 Model B and Pi 400. It is unofficial and unsupported by the LineageOS team. It's for **advanced users** only. Pi 4 model with at least 2GB of RAM is required to run this build.
+Here's my build of LineageOS 19 Android TV for Raspberry Pi 4 Model B, Pi 400, and Compute Module 4. It is unofficial and unsupported by the LineageOS team. It's for **advanced users** only. Pi 4 model with at least 2GB of RAM is required to run this build.
 
-<span style="color:#FF0000;">Important!</span> This image includes parts that are licensed under non-commercial license ([Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International](http://creativecommons.org/licenses/by-nc-sa/4.0/)). You may use this build freely in personal/educational/etc use. Commercial use is not allowed with this build!
+<span style="color:#FF0000;">Important!</span> This image includes parts that are licensed under non-commercial license ([Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International](http://creativecommons.org/licenses/by-nc-sa/4.0/)). You may use this build freely in personal/educational/etc use. Commercial use is not allowed with this build! You can contact me by email to discuss creating customized Android builds for commercial purposes.
 
 ![screenshot]({{ site.url }}/img/rpi4/LineageOS19/Screenshot_20220114-084413_Settings.png)
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
-**lineage-19.1-20220407-UNOFFICIAL-KonstaKANG-rpi4-atv.zip**  
-[https://www.androidfilehost.com/?fid=14655340768118450092](https://www.androidfilehost.com/?fid=14655340768118450092)  
-md5:07a797f5dc43277af4bfc0dc6b0c3b02
+**lineage-19.1-20220511-UNOFFICIAL-KonstaKANG-rpi4-atv.zip**  
+[https://www.androidfilehost.com/?fid=14655340768118472564](https://www.androidfilehost.com/?fid=14655340768118472564)  
+md5:fe4eb8d87086485e4662f750b2dc44e5
 
-**lineage-19.1-20220407-UNOFFICIAL-KonstaKANG-rpi4-atv-ota.zip** (TWRP flashable OTA package)  
-[https://www.androidfilehost.com/?fid=14655340768118450090](https://www.androidfilehost.com/?fid=14655340768118450090)  
-md5:d316f75b20c139135e0b7d7f373f8fdf
+**lineage-19.1-20220511-UNOFFICIAL-KonstaKANG-rpi4-atv-ota.zip** (TWRP flashable OTA package)  
+[https://www.androidfilehost.com/?fid=14655340768118472560](https://www.androidfilehost.com/?fid=14655340768118472560)  
+md5:ea97f92e3a4120cf81b91e78b859ad2b
 
 **Working:**
 
@@ -38,7 +38,7 @@ md5:d316f75b20c139135e0b7d7f373f8fdf
 - I2C
 - IR remotes (using external GPIO IR modules e.g. TSOP4838)
 - RTC (using external GPIO I2C modules e.g. DS3231)
-- Sensors (using external GPIO I2C modules e.g. MPU6050, LSM6DS3, LSM303DLHC & BME280/BMP280 accelerometer/gyroscope/magnetometer/temperature/pressure/humidity)
+- Sensors (using external GPIO I2C modules e.g. MPU6050, LSM6DS3, LSM303DLHC, BME280/BMP280, and APDS9930 accelerometer, gyroscope, magnetometer, temperature, pressure, humidity, ambient light, and proximity)
 - Serial console (using external GPIO serial console adapters e.g. PL2303)
 - SPI
 - Touchscreen/multi-touch (official 7" touchscreen, USB touchscreens, Waveshare SPI touchscreens)
@@ -216,11 +216,25 @@ Q: How to install Google apps?
 
 [Merged commits](https://review.lineageos.org/#/q/status:merged+branch:lineage-19.1+-project:%255E.*device.*+-project:%255E.*kernel.*) not mentioned in the changelog.
 
+**11.5. changelog:**
+
+- add support for Compute Module 4
+  - fix HDMI/DAC audio device selection on CM4 & Pi 400 that don't have 3.5mm audio jack
+  - fix USB storage (Pi 400 as well?)
+  - fix issue with webview/browser
+  - add support for the RTC on the I/O board
+  - use OTG mode for USB to support ADB, MTP, PTP, USB tethering on the micro-USB port on the I/O board
+- add support for APDS9930 ambient light/proximity sensor
+- update to TWRP 3.6.1_11-1-KonstaKANG
+- update to Mesa 22.0.3
+- update to Linux 5.10.112 kernel and patch known vulnerabilities (CVE-xxxx-xxxx, and more)
+- Android security patch level: 5 May 2022 (merged)
+
 **7.4. changelog:**
 
 - Android 12L / LineageOS 19.1
 - also available as OTA package
-- automatically set density based on display resolution (use 'ro.sf.force_lcd_density' property if you want to force specific density)
+- automatically set density based on display resolution
 - various drm_hwcomposer updates e.g. support for dual-HDMI displays and headless mode (thanks to Roman Stratiienko)
 - switch to codec2 software decoders/encoders
 - add option to enable currently very WIP H.264 hardware video decoding using v4l2_codec2 (enable experimental feature from the settings)

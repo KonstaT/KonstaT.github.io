@@ -2,7 +2,7 @@
 layout: rom
 title: TWRP 3.6.1_11-0
 subtitle: for Raspberry Pi 4
-date: 2022-04-07
+date: 2022-05-11
 tags: [rpi4, TWRP]
 social-share: true
 comments: true
@@ -15,6 +15,11 @@ This is my build of [Team Win Recovery Project](https://twrp.me) (TWRP) for Rasp
 - [lineage-rpi](https://github.com/lineage-rpi/android_local_manifest/tree/twrp-11)
 
 ----
+
+**11.5. changelog:**
+
+- TWRP 3.6.1_11-1
+- switch to v2 fstab
 
 **7.4. changelog:**
 

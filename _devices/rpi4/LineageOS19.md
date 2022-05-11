@@ -2,27 +2,27 @@
 layout: rom
 title: LineageOS 19 (Android 12L)
 subtitle: for Raspberry Pi 4
-date: 2022-04-07
+date: 2022-05-11
 tags: [rpi4, LineageOS, LOS19]
 social-share: true
 comments: true
 ---
 
-Here's my build of LineageOS 19 for Raspberry Pi 4 Model B and Pi 400. It is unofficial and unsupported by the LineageOS team. It's for **advanced users** only. Pi 4 model with at least 2GB of RAM is required to run this build.
+Here's my build of LineageOS 19 for Raspberry Pi 4 Model B, Pi 400, and Compute Module 4. It is unofficial and unsupported by the LineageOS team. It's for **advanced users** only. Pi 4 model with at least 2GB of RAM is required to run this build.
 
-<span style="color:#FF0000;">Important!</span> This image includes parts that are licensed under non-commercial license ([Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International](http://creativecommons.org/licenses/by-nc-sa/4.0/)). You may use this build freely in personal/educational/etc use. Commercial use is not allowed with this build!
+<span style="color:#FF0000;">Important!</span> This image includes parts that are licensed under non-commercial license ([Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International](http://creativecommons.org/licenses/by-nc-sa/4.0/)). You may use this build freely in personal/educational/etc use. Commercial use is not allowed with this build! You can contact me by email to discuss creating customized Android builds for commercial purposes.
 
 ![screenshot]({{ site.url }}/img/rpi4/LineageOS19/Screenshot_20220313-200456_Settings.png)
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
-**lineage-19.1-20220407-UNOFFICIAL-KonstaKANG-rpi4.zip**  
-[https://www.androidfilehost.com/?fid=14655340768118450118](https://www.androidfilehost.com/?fid=14655340768118450118)  
-md5:7e58fa6f2f69c6897673ae3c3de90d35
+**lineage-19.1-20220511-UNOFFICIAL-KonstaKANG-rpi4.zip**  
+[https://www.androidfilehost.com/?fid=14655340768118472584](https://www.androidfilehost.com/?fid=14655340768118472584)  
+md5:4e1e727e8d30168aff62e08fcf5aeb3a
 
-**lineage-19.1-20220407-UNOFFICIAL-KonstaKANG-rpi4-ota.zip** (TWRP flashable OTA package)  
-[https://www.androidfilehost.com/?fid=14655340768118450116](https://www.androidfilehost.com/?fid=14655340768118450116)  
-md5:ffb2c9d6946e190389a83fb2991723d2
+**lineage-19.1-20220511-UNOFFICIAL-KonstaKANG-rpi4-ota.zip** (TWRP flashable OTA package)  
+[https://www.androidfilehost.com/?fid=14655340768118472582](https://www.androidfilehost.com/?fid=14655340768118472582)  
+md5:7259f8cb11d6a1a1c2b7c47a3365e847
 
 **Working:**
 
@@ -38,7 +38,7 @@ md5:ffb2c9d6946e190389a83fb2991723d2
 - I2C
 - IR remotes (using external GPIO IR modules e.g. TSOP4838)
 - RTC (using external GPIO I2C modules e.g. DS3231)
-- Sensors (using external GPIO I2C modules e.g. MPU6050, LSM6DS3, LSM303DLHC & BME280/BMP280 accelerometer/gyroscope/magnetometer/temperature/pressure/humidity)
+- Sensors (using external GPIO I2C modules e.g. MPU6050, LSM6DS3, LSM303DLHC, BME280/BMP280, and APDS9930 accelerometer, gyroscope, magnetometer, temperature, pressure, humidity, ambient light, and proximity)
 - Serial console (using external GPIO serial console adapters e.g. PL2303)
 - SPI
 - Touchscreen/multi-touch (official 7" touchscreen, USB touchscreens, Waveshare SPI touchscreens)
@@ -205,11 +205,11 @@ Q: How to install Magisk?
 6. Install Magisk-v24.3.apk using Android's built-in file manager/'adb install'/etc.
 
 Q: How to install Google apps?  
-*A: It's still very early days for Android 12 so OpenGApps are not available yet. Alternatives like [NikGApps](https://nikgapps.com/) and [BiTGApps](https://github.com/BiTGApps/BiTGApps-Release/releases) have been reported working.*
+*A:*
 
-1. Download open_gapps-arm64-12.0-pico-xxxxxxxx.zip and save it to your device's internal storage or use an external USB drive
+1. Download [MindTheGapps-12.1.0-arm64-xxxxxxxx_xxxxxx.zip](https://androidfilehost.com/?w=files&flid=322935) and save it to your device's internal storage or use an external USB drive
 2. Boot to TWRP recovery (see FAQ)
-3. Install open_gapps-arm64-12.0-pico-xxxxxxxx.zip from your selected storage
+3. Install MindTheGapps-12.1.0-arm64-xxxxxxxx_xxxxxx.zip from your selected storage
 4. Wipe -> Factory reset!
 5. Boot out of recovery (see FAQ)
 
@@ -218,9 +218,23 @@ Q: How to install Google apps?
 
 [Merged commits](https://review.lineageos.org/#/q/status:merged+branch:lineage-19.1+-project:%255E.*device.*+-project:%255E.*kernel.*) not mentioned in the changelog.
 
+**11.5. changelog:**
+
+- add support for Compute Module 4
+  - fix HDMI/DAC audio device selection on CM4 & Pi 400 that don't have 3.5mm audio jack
+  - fix USB storage (Pi 400 as well?)
+  - fix issue with webview/browser
+  - add support for the RTC on the I/O board
+  - use OTG mode for USB to support ADB, MTP, PTP, USB tethering on the micro-USB port on the I/O board
+- add support for APDS9930 ambient light/proximity sensor
+- update to TWRP 3.6.1_11-1-KonstaKANG
+- update to Mesa 22.0.3
+- update to Linux 5.10.112 kernel and patch known vulnerabilities (CVE-xxxx-xxxx, and more)
+- Android security patch level: 5 May 2022 (merged)
+
 **7.4. changelog:**
 
-- automatically set density based on display resolution (use 'ro.sf.force_lcd_density' property if you want to force specific density)
+- automatically set density based on display resolution
 - add option to disable tablet taskbar and show traditional navigation bar instead
 - update to TWRP 3.6.1_11-0-KonstaKANG
 - update to Mesa 22.0.1
