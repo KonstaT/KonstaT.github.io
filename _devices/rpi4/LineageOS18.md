@@ -2,23 +2,27 @@
 layout: rom
 title: LineageOS 18.1 (Android 11)
 subtitle: for Raspberry Pi 4
-date: 2022-01-21
+date: 2022-05-12
 tags: [rpi4, LineageOS, LOS18]
 social-share: true
 comments: true
 ---
 
-Here's my build of LineageOS 18.1 for Raspberry Pi 4 Model B and Pi 400. It is unofficial and unsupported by the LineageOS team. It's for **advanced users** only. Pi 4 model with at least 2GB of RAM is required to run this build.
+Here's my build of LineageOS 18.1 for Raspberry Pi 4 Model B, Pi 400, and Compute Module 4. It is unofficial and unsupported by the LineageOS team. It's for **advanced users** only. Pi 4 model with at least 2GB of RAM is required to run this build.
 
-<span style="color:#FF0000;">Important!</span> This image includes parts that are licensed under non-commercial license ([Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International](http://creativecommons.org/licenses/by-nc-sa/4.0/)). You may use this build freely in personal/educational/etc use. Commercial use is not allowed with this build!
+<span style="color:#FF0000;">Important!</span> This image includes parts that are licensed under non-commercial license ([Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International](http://creativecommons.org/licenses/by-nc-sa/4.0/)). You may use this build freely in personal/educational/etc use. Commercial use is not allowed with this build! You can contact me by email to discuss creating customized Android builds for commercial purposes.
 
 ![screenshot]({{ site.url }}/img/rpi4/LineageOS18/Screenshot_20210104-104810_Settings.png)
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
-**lineage-18.1-20220121-UNOFFICIAL-KonstaKANG-rpi4.zip**  
-[https://www.androidfilehost.com/?fid=17825722713688273839](https://www.androidfilehost.com/?fid=17825722713688273839)  
-md5:1f821e7dcb59ea9d3c7ccf5c8f1819e7
+**lineage-18.1-20220512-UNOFFICIAL-KonstaKANG-rpi4.zip**  
+[https://www.androidfilehost.com/?fid=14655340768118473198](https://www.androidfilehost.com/?fid=14655340768118473198)  
+md5:3dd4513a1cd331921b782aa493aa390f
+
+**lineage-18.1-20220512-UNOFFICIAL-KonstaKANG-rpi4-ota.zip** (TWRP flashable OTA package)  
+[https://www.androidfilehost.com/?fid=14655340768118473193](https://www.androidfilehost.com/?fid=14655340768118473193)  
+md5:d617203e085fe3f09ded3e926de27a93
 
 **Working:**
 
@@ -34,7 +38,7 @@ md5:1f821e7dcb59ea9d3c7ccf5c8f1819e7
 - I2C
 - IR remotes (using external GPIO IR modules e.g. TSOP4838)
 - RTC (using external GPIO I2C modules e.g. DS3231)
-- Sensors (using external GPIO I2C modules e.g. MPU6050, LSM6DS3, LSM303DLHC & BME280/BMP280 accelerometer/gyroscope/magnetometer/temperature/pressure/humidity)
+- Sensors (using external GPIO I2C modules e.g. MPU6050, LSM6DS3, LSM303DLHC, BME280/BMP280, and APDS9930 accelerometer, gyroscope, magnetometer, temperature, pressure, humidity, ambient light, and proximity)
 - Serial console (using external GPIO serial console adapters e.g. PL2303)
 - SPI
 - Touchscreen/multi-touch (USB touchscreens, Waveshare SPI touchscreens)
@@ -72,6 +76,26 @@ md5:1f821e7dcb59ea9d3c7ccf5c8f1819e7
 **How to install:**
 
 1. Follow the official [Raspberry Pi instructions](https://www.raspberrypi.org/documentation/computers/getting-started.html#installing-the-operating-system) for writing the image to the SD card.
+
+If you're running a recent build (20220121 or newer) you can also update to newer builds using TWRP flashable OTA packages. OTA updates pushed through the built-in Updater app are stored at /data/lineageos_updates/.
+
+1. Download lineage-18.1-xxxxxxxx-UNOFFICIAL-KonstaKANG-rpi4-ota.zip and save it to your device's internal storage or use an external USB drive
+2. Boot to TWRP recovery (see FAQ)
+3. Install lineage-18.1-xxxxxxxx-UNOFFICIAL-KonstaKANG-rpi4-ota.zip from your selected storage
+4. (Flash Magisk/other add-ons you had previously installed)
+5. Boot out of recovery (see FAQ)
+
+Changes that are backed up and restored flashing OTAs:
+
+- Device specific settings changed using Settings -> System -> Raspberry Pi settings
+- Manual changes to /boot/resolution.txt and /boot/rc_keymap.txt
+- USB boot configuration in /boot/config.txt
+- GApps
+
+Changes that are not backed up and restored flashing OTAs:
+
+- Manual changes to /boot/config.txt (and any other manual changes to /boot partition)
+- Magisk
 
 **FAQ:**
 
@@ -134,10 +158,11 @@ Q: How to use SSH?
 ```
 adb connect 192.168.0.100
 adb root
-adb pull /data/ssh/ssh_host_rsa_key my_private_key
+adb pull /data/ssh/ssh_host_ed25519_key my_private_key
 ```
 
 ```
+chmod 600 my_private_key
 ssh -i my_private_key root@192.168.0.100
 ```
 
@@ -166,19 +191,6 @@ Q: How to boot out of TWRP recovery?
 Q: My device keeps booting into TWRP recovery. What should I do?  
 *A: If you have GPIO21 connected to ground (or if you have something drawing power from it) your device will always boot to TWRP recovery (see FAQ section about DIY power button). If you have a hardware failure on GPIO21 you can edit /boot/config.txt to remove the GPIO21 related logic (see 'Ramdisk' and 'Graphics acceleration' sections).*
 
-Q: How to update from previous LineageOS 18.1 build without losing data?  
-*A:*
-
-1. Boot to TWRP recovery with the build you want to keep the data (see FAQ)
-2. Plug in an external USB storage device and select 'Backup'
-3. Use 'Select Storage' to choose the USB device and 'Swipe to backup' (it's only necessary to backup the data partition so you can uncheck other partitions to speed up the process)
-4. Write new LineageOS 18.1 image to the sdcard following installation instructions
-5. Boot to TWRP recovery with the new build (see FAQ)
-6. Select 'Restore' and find the backup you created from the USB device ('Select Storage')
-7. Make sure you only have data selected as partitions to restore (uncheck other partitions if available) and select 'Swipe to Restore'
-8. (Flash Google apps package/other add-ons you had previously installed)
-9. Boot out of recovery (see FAQ)
-
 Q: How to install Magisk?  
 *A:*
 
@@ -202,6 +214,23 @@ Q: How to install Google apps?
 <!--block-->
 
 [Merged commits](https://review.lineageos.org/#/q/status:merged+branch:lineage-18.1+-project:%255E.*device.*+-project:%255E.*kernel.*) not mentioned in the changelog.
+
+**12.5. changelog:**
+
+- also available as OTA package
+- add support for Compute Module 4
+  - fix DAC audio device selection on CM4 & Pi 400 that don't have 3.5mm audio jack
+  - fix USB storage (Pi 400 as well?)
+  - add support for the RTC on the I/O board
+  - use OTG mode for USB to support ADB, MTP, PTP, USB tethering on the micro-USB port on the I/O board
+- update boot firmware for newer Pi 4 hardware revisions
+- various drm_hwcomposer updates e.g. support for headless mode (thanks to Roman Stratiienko)
+- automatically set density based on display resolution
+- add support for APDS9930 ambient light/proximity sensor
+- update to TWRP 3.6.1_11-1-KonstaKANG
+- update to Mesa 21.3.8
+- update to Linux 5.4.191 kernel and patch known vulnerabilities (CVE-xxxx-xxxx, and more)
+- Android security patch level: 5 May 2022 (merged)
 
 **21.1. 2022 changelog:**
 
