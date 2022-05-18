@@ -104,14 +104,14 @@ Q: How to find several Raspberry Pi specific settings options?
 
 *Most options in this menu require you to reboot your device for the setting to take effect.*
 
+Q: How to enable advanced reboot options?  
+*A: Settings -> System -> Gestures -> Power menu -> Advanced restart*
+
 Q: How to enable developer options?  
 *A: Settings -> About tablet -> Click 'Build number' several times.*
 
 Q: How to enable root access?  
 *A: LineageOS no longer has built-in root management for applications. You can have root access via ADB after enabling Settings -> System -> Developer options -> Rooted debugging, SSH (see FAQ below), or serial console. It is also possible to install Magisk following instructions later in the FAQ.*
-
-Q: How to enable advanced reboot options?  
-*A: Settings -> System -> Gestures -> Power menu -> Advanced restart*
 
 Q: My display is not working. I can only see the rainbow screen but no Android boot animation. What should I do?  
 *A: This build only supports HDMI displays that report supported resolutions using EDID. 1920x1080 resolution is used by default with this build. You can change value in /boot/resolution.txt to use a different resolution that your display supports. Removing /boot/resolution.txt will use the preferred resolution of your display.*
@@ -139,7 +139,7 @@ Q: How to enable audio through 3.5mm jack?
 Q: How to use IR remote?  
 *A: You can enable the feature by using a settings option found in Settings -> System -> Raspberry Pi settings -> Infrared remote.*
 
-*You can place a keymap for your remote as /boot/rc_keymap.txt to be automatically loaded on boot (see [available keymaps](https://github.com/lineage-rpi/android_external_ir-keytable/tree/lineage-18.1/rc_keymaps) for reference).*
+*You can place a keymap for your remote as /boot/rc_keymap.txt to be automatically loaded on boot. See [available keymaps](https://github.com/lineage-rpi/android_external_ir-keytable/tree/lineage-18.1/rc_keymaps) for reference. You can use ```ir-keytable -p all -t``` in rooted shell to figure out the keycodes for the remote you're using.*
 
 Q: How to use RTC?  
 *A: You can enable the feature by using a settings option found in Settings -> System -> Raspberry Pi settings -> Real time clock.*
@@ -199,7 +199,7 @@ Q: How to install Magisk?
 3. Boot to TWRP recovery (see FAQ)
 4. Install lineage-18.1-rpi-magisk-v24.3.zip from your selected storage
 5. Boot out of recovery (see FAQ)
-6. Install Magisk-v24.3.apk using Android's built-in file manager/'adb install'/etc.
+6. Install Magisk-v24.3.apk using Android's built-in file manager/```adb install```/etc.
 
 Q: How to install Google apps?  
 *A:*
