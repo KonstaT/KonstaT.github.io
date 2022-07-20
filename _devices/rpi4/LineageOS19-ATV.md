@@ -195,12 +195,12 @@ Q: My device keeps booting into TWRP recovery. What should I do?
 Q: How to install Magisk?  
 *A:*
 
-1. Download [lineage-19.1-rpi-magisk-v24.3.zip](https://www.androidfilehost.com/?fid=2981970449027577732) and save it to your device's internal storage or use an external USB drive
-2. Download [Magisk-v24.3.apk](https://github.com/topjohnwu/Magisk/releases/tag/v24.3)
+1. Download [lineage-19.1-rpi-magisk-v25.1.zip](https://www.androidfilehost.com/?fid=15664248565197191716) and save it to your device's internal storage or use an external USB drive
+2. Download [Magisk-v25.1.apk](https://github.com/topjohnwu/Magisk/releases/tag/v25.1)
 3. Boot to TWRP recovery (see FAQ)
-4. Install lineage-19.1-rpi-magisk-v24.3.zip from your selected storage
+4. Install lineage-19.1-rpi-magisk-v25.1.zip from your selected storage
 5. Boot out of recovery (see FAQ)
-6. Install Magisk-v24.3.apk using Android's built-in file manager/```adb install```/etc.
+6. Install Magisk-v25.1.apk using Android's built-in file manager/```adb install```/etc.
 
 Q: How to install Google apps?  
 *A: It's still very early days for Android 12 so OpenGApps are not available yet. I'm not aware there currently being any GApps releases for Android TV 12.*
