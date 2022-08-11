@@ -2,7 +2,7 @@
 layout: rom
 title: LineageOS 19 (Android 12L)
 subtitle: for Raspberry Pi 4
-date: 2022-05-11
+date: 2022-08-11
 tags: [rpi4, LineageOS, LOS19]
 social-share: true
 comments: true
@@ -16,13 +16,13 @@ Here's my build of LineageOS 19 for Raspberry Pi 4 Model B, Pi 400, and Compute 
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
-**lineage-19.1-20220511-UNOFFICIAL-KonstaKANG-rpi4.zip**  
-[https://www.androidfilehost.com/?fid=14655340768118472584](https://www.androidfilehost.com/?fid=14655340768118472584)  
-md5:4e1e727e8d30168aff62e08fcf5aeb3a
+**lineage-19.1-20220811-UNOFFICIAL-KonstaKANG-rpi4.zip**  
+[https://www.androidfilehost.com/?fid=15664248565197202901](https://www.androidfilehost.com/?fid=15664248565197202901)  
+md5:7fc396ef9944e85763534f95d5d6e58f
 
-**lineage-19.1-20220511-UNOFFICIAL-KonstaKANG-rpi4-ota.zip** (TWRP flashable OTA package)  
-[https://www.androidfilehost.com/?fid=14655340768118472582](https://www.androidfilehost.com/?fid=14655340768118472582)  
-md5:7259f8cb11d6a1a1c2b7c47a3365e847
+**lineage-19.1-20220811-UNOFFICIAL-KonstaKANG-rpi4-ota.zip** (TWRP flashable OTA package)  
+[https://www.androidfilehost.com/?fid=15664248565197202894](https://www.androidfilehost.com/?fid=15664248565197202894)  
+md5:d9695b112e329fe8dfa28aa38492a51e
 
 **Working:**
 
@@ -217,6 +217,14 @@ Q: How to install Google apps?
 <!--block-->
 
 [Merged commits](https://review.lineageos.org/#/q/status:merged+branch:lineage-19.1+-project:%255E.*device.*+-project:%255E.*kernel.*) not mentioned in the changelog.
+
+**11.8. changelog:**
+
+- add option to restrict new USB connections
+- add option for left-handed mouse
+- include Raspberry Pi userland tools (vcgencmd, etc) and libdrm modetest
+- update to Linux 5.10.135 kernel and patch known vulnerabilities (CVE-xxxx-xxxx, and more)
+- Android security patch level: 5 August 2022 (merged)
 
 **11.5. changelog:**
 
