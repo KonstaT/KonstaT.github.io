@@ -7,6 +7,7 @@ permalink: /devices/rpi4/
 
 #### ROM:
 
+- [AOSP - KonstaKANG (Android 13)](/devices/rpi4/AOSP13)
 - [LineageOS 19 - KonstaKANG (Android 12L)](/devices/rpi4/LineageOS19)
 - [LineageOS 19 Android TV - KonstaKANG (Android 12L)](/devices/rpi4/LineageOS19-ATV)
 - [LineageOS 18.1 - KonstaKANG (Android 11)](/devices/rpi4/LineageOS18)
