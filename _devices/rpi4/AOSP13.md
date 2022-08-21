@@ -2,7 +2,7 @@
 layout: rom
 title: AOSP (Android 13)
 subtitle: for Raspberry Pi 4
-date: 2022-08-19
+date: 2022-08-21
 tags: [rpi4, AOSP]
 social-share: true
 comments: true
@@ -16,9 +16,13 @@ Here’s my build of AOSP (Android 13) for Raspberry Pi 4 Model B, Pi 400, and C
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
-**AOSP13-20220819-KonstaKANG-rpi4.zip**  
-[https://www.androidfilehost.com/?fid=15664248565197206146](https://www.androidfilehost.com/?fid=15664248565197206146)  
-md5:92c5a204c3304e920d4e980481902109
+**AOSP13-20220821-KonstaKANG-rpi4.zip**  
+[https://www.androidfilehost.com/?fid=15664248565197206650](https://www.androidfilehost.com/?fid=15664248565197206650)  
+md5:373007c6a8abf9deeaaf21deaf21b77b
+
+**AOSP13-20220821-KonstaKANG-rpi4-ota.zip** (TWRP flashable OTA package)  
+[https://www.androidfilehost.com/?fid=15664248565197206648](https://www.androidfilehost.com/?fid=15664248565197206648)  
+md5:10d1b63fbbb251896379adf5aebde6cc
 
 **Working:**
 
@@ -49,8 +53,6 @@ md5:92c5a204c3304e920d4e980481902109
 **Issues:**
 
 - Camcorder & some third party camera apps don't work with official Pi camera modules
-- Bluetooth can be toggled on only once per reboot
-- AOSP Calendar app crashes
 - SELinux is in permissive mode
 - Encrypting userdata is not supported
 - and more...
@@ -72,6 +74,26 @@ md5:92c5a204c3304e920d4e980481902109
 **How to install:**
 
 1. Follow the official [Raspberry Pi instructions](https://www.raspberrypi.org/documentation/computers/getting-started.html#installing-the-operating-system) for writing the image to the SD card.
+
+You can also update to newer builds using TWRP flashable OTA packages.
+
+1. Download AOSP13-xxxxxxxx-KonstaKANG-rpi4-ota.zip and save it to your device's internal storage or use an external USB drive
+2. Boot to TWRP recovery (see FAQ)
+3. Install lineage-19.1-xxxxxxxx-UNOFFICIAL-KonstaKANG-rpi4-ota.zip from your selected storage
+4. (Flash GApps/Magisk/other add-ons you had previously installed)
+5. Boot out of recovery (see FAQ)
+
+Changes that are backed up and restored flashing OTAs:
+
+- Device specific settings changed using Settings -> System -> Raspberry Pi settings
+- Manual changes to /boot/resolution.txt and /boot/rc_keymap.txt
+- USB boot configuration in /boot/config.txt
+
+Changes that are not backed up and restored flashing OTAs:
+
+- Manual changes to /boot/config.txt (and any other manual changes to /boot partition)
+- GApps
+- Magisk
 
 **FAQ:**
 
@@ -189,6 +211,15 @@ Q: How to install Google apps?
 ----
 <!--block-->
 
+**21.8. changelog:**
+
+- also available as OTA package
+- fix issue with toggling bluetooth
+- add built-in VNC server
+- allow VNC input to wake the device
+- fix AOSP Calendar app crash
+- fix long press on power button behavior
+- minor brightness fixes for the official 7" display
 
 **19.8. changelog:**
 
