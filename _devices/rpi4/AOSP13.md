@@ -2,7 +2,7 @@
 layout: rom
 title: AOSP (Android 13)
 subtitle: for Raspberry Pi 4
-date: 2022-08-21
+date: 2022-08-26
 tags: [rpi4, AOSP]
 social-share: true
 comments: true
@@ -16,13 +16,13 @@ Here’s my build of AOSP (Android 13) for Raspberry Pi 4 Model B, Pi 400, and C
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
-**AOSP13-20220821-KonstaKANG-rpi4.zip**  
-[https://www.androidfilehost.com/?fid=15664248565197206650](https://www.androidfilehost.com/?fid=15664248565197206650)  
-md5:373007c6a8abf9deeaaf21deaf21b77b
+**AOSP13-20220826-KonstaKANG-rpi4.zip**  
+[https://www.androidfilehost.com/?fid=15664248565197208072](https://www.androidfilehost.com/?fid=15664248565197208072)  
+md5:c016b9b04ea9ec317898c6b8074f59b9
 
-**AOSP13-20220821-KonstaKANG-rpi4-ota.zip** (TWRP flashable OTA package)  
-[https://www.androidfilehost.com/?fid=15664248565197206648](https://www.androidfilehost.com/?fid=15664248565197206648)  
-md5:10d1b63fbbb251896379adf5aebde6cc
+**AOSP13-20220826-KonstaKANG-rpi4-ota.zip** (TWRP flashable OTA package)  
+[https://www.androidfilehost.com/?fid=15664248565197208069](https://www.androidfilehost.com/?fid=15664248565197208069)  
+md5:68f727b1f635a0d6ec089628500517f6
 
 **Working:**
 
@@ -210,6 +210,12 @@ Q: How to install Google apps?
 
 ----
 <!--block-->
+
+**26.8. changelog:**
+
+- update to Mesa main (22.3.0-devel)
+- Vulkan 1.2 (thanks to people at Igalia for Vulkan 1.2 conformance and Roman Stratiienko for latest Mesa fixes)
+- fix Vulkan related issue on Chromium-based browsers
 
 **21.8. changelog:**
 
