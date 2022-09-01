@@ -2,7 +2,7 @@
 layout: rom
 title: AOSP (Android 13)
 subtitle: for Raspberry Pi 4
-date: 2022-08-26
+date: 2022-09-01
 tags: [rpi4, AOSP]
 social-share: true
 comments: true
@@ -16,13 +16,13 @@ Here’s my build of AOSP (Android 13) for Raspberry Pi 4 Model B, Pi 400, and C
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
-**AOSP13-20220826-KonstaKANG-rpi4.zip**  
-[https://www.androidfilehost.com/?fid=15664248565197208072](https://www.androidfilehost.com/?fid=15664248565197208072)  
-md5:c016b9b04ea9ec317898c6b8074f59b9
+**AOSP13-20220901-KonstaKANG-rpi4.zip**  
+[https://www.androidfilehost.com/?fid=14871746926876819798](https://www.androidfilehost.com/?fid=14871746926876819798)  
+md5:7ebea8c339ff7e8cc95949ea6a4732de
 
-**AOSP13-20220826-KonstaKANG-rpi4-ota.zip** (TWRP flashable OTA package)  
-[https://www.androidfilehost.com/?fid=15664248565197208069](https://www.androidfilehost.com/?fid=15664248565197208069)  
-md5:68f727b1f635a0d6ec089628500517f6
+**AOSP13-20220901-KonstaKANG-rpi4-ota.zip** (TWRP flashable OTA package)  
+[https://www.androidfilehost.com/?fid=14871746926876819796](https://www.androidfilehost.com/?fid=14871746926876819796)  
+md5:9982042a15f5e8bdef4bcb87dc70aa2a
 
 **Working:**
 
@@ -59,7 +59,7 @@ md5:68f727b1f635a0d6ec089628500517f6
 
 **Sources:**
 
-- [kernel](https://github.com/lineage-rpi/android_kernel_brcm_rpi/tree/lineage-19.1)
+- [kernel](https://github.com/lineage-rpi/android_kernel_brcm_rpi/tree/lineage-20.0)
 
 **Thanks:**
 
@@ -210,6 +210,11 @@ Q: How to install Google apps?
 
 ----
 <!--block-->
+
+**1.9. changelog:**
+
+- new Raspberry Pi Android kernel bring-up based on AOSP android13-5.15-lts
+- update to Linux 5.15.63 kernel and patch known vulnerabilities (CVE-xxxx-xxxx, and more)
 
 **26.8. changelog:**
 
