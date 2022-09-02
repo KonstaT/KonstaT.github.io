@@ -203,11 +203,11 @@ Q: How to install Magisk?
 6. Install Magisk-v25.2.apk using Android's built-in file manager/```adb install```/etc.
 
 Q: How to install Google apps?  
-*A: It's still very early days for Android 12 so OpenGApps are not available yet. I'm not aware there currently being any GApps releases for Android TV 12.*
+*A:*
 
-1. Download open_gapps-arm64-12.0-tvstock-xxxxxxxx.zip and save it to your device's internal storage or use an external USB drive
+1. Download [MindTheGapps-12.1.0-arm64-ATV-xxxxxxxx_xxxxxx.zip](https://androidfilehost.com/?w=files&flid=334254) and save it to your device's internal storage or use an external USB drive
 2. Boot to TWRP recovery (see FAQ)
-3. Install open_gapps-arm64-12.0-tvstock-xxxxxxxx.zip from your selected storage
+3. Install MindTheGapps-12.1.0-arm64-ATV-xxxxxxxx_xxxxxx.zip from your selected storage
 4. Wipe -> Factory reset!
 5. Boot out of recovery (see FAQ)
 
