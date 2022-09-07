@@ -52,7 +52,7 @@ md5:09063ab5dc38664a681bd8ce7c97e468
 
 **Issues:**
 
-- Camcorder & some third party camera apps don't work with official Pi camera modules
+- Camcorder (i.e. recording videos) & some third party camera apps don't work with official Pi camera modules (works with UVC USB webcams)
 - SELinux is in permissive mode
 - Encrypting userdata is not supported
 - and more...

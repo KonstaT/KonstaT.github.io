@@ -53,7 +53,7 @@ md5:ea97f92e3a4120cf81b91e78b859ad2b
 **Issues:**
 
 - Chromecast functionality is not supported on uncertified Android TV devices
-- Camcorder & some third party camera apps don't work with official Pi camera modules
+- Camcorder (i.e. recording videos) & some third party camera apps don't work with official Pi camera modules (works with UVC USB webcams)
 - SELinux is in permissive mode
 - and more...
 
