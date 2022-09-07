@@ -2,7 +2,7 @@
 layout: rom
 title: AOSP (Android 13)
 subtitle: for Raspberry Pi 4
-date: 2022-09-01
+date: 2022-09-07
 tags: [rpi4, AOSP]
 social-share: true
 comments: true
@@ -16,13 +16,13 @@ Here’s my build of AOSP (Android 13) for Raspberry Pi 4 Model B, Pi 400, and C
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
-**AOSP13-20220901-KonstaKANG-rpi4.zip**  
-[https://www.androidfilehost.com/?fid=14871746926876819798](https://www.androidfilehost.com/?fid=14871746926876819798)  
-md5:7ebea8c339ff7e8cc95949ea6a4732de
+**AOSP13-20220907-KonstaKANG-rpi4.zip**  
+[https://www.androidfilehost.com/?fid=14871746926876821021](https://www.androidfilehost.com/?fid=14871746926876821021)  
+md5:bfce818813587c39a0543eed68ce98f3
 
-**AOSP13-20220901-KonstaKANG-rpi4-ota.zip** (TWRP flashable OTA package)  
-[https://www.androidfilehost.com/?fid=14871746926876819796](https://www.androidfilehost.com/?fid=14871746926876819796)  
-md5:9982042a15f5e8bdef4bcb87dc70aa2a
+**AOSP13-20220907-KonstaKANG-rpi4-ota.zip** (TWRP flashable OTA package)  
+[https://www.androidfilehost.com/?fid=14871746926876821018](https://www.androidfilehost.com/?fid=14871746926876821018)  
+md5:09063ab5dc38664a681bd8ce7c97e468
 
 **Working:**
 
@@ -88,6 +88,7 @@ Changes that are backed up and restored flashing OTAs:
 - Device specific settings changed using Settings -> System -> Raspberry Pi settings
 - Manual changes to /boot/resolution.txt and /boot/rc_keymap.txt
 - USB boot configuration in /boot/config.txt
+- User specific options in /boot/config_user.txt
 
 Changes that are not backed up and restored flashing OTAs:
 
@@ -210,6 +211,15 @@ Q: How to install Google apps?
 
 ----
 <!--block-->
+
+**7.9. changelog:**
+
+- update to latest AOSP release (android-13.0.0_r4)
+- add support for virtualization
+- tweak Launcher3 default workspace
+- add /boot/config_user.txt for user specific options to backup/restore during OTAs
+- update to Linux 5.15.64 kernel and patch known vulnerabilities (CVE-xxxx-xxxx, and more)
+- Android security patch level: 5 September 2022
 
 **1.9. changelog:**
 
