@@ -95,7 +95,7 @@ Q: Raspberry Pi doesn't have power button, how do I power off/reboot my device?
 Q: How to create a DIY hardware power button?  
 *A: You can send power button events by connecting GPIO21 to ground.*
 
-![fritzing]({{ site.url }}/img/rpi4/LineageOS16.0/powerbutton.png)
+![fritzing]({{ site.url }}/img/rpi-common/powerbutton.png)
 
 *Execute following commands in 'adb shell'/serial console/terminal (you can enable built-in terminal app from Settings -> Device Preferences -> Developer options -> Local terminal) to enable the feature and reboot your device:*
 
