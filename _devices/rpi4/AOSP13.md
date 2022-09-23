@@ -79,7 +79,7 @@ You can also update to newer builds using TWRP flashable OTA packages.
 
 1. Download AOSP13-xxxxxxxx-KonstaKANG-rpi4-ota.zip and save it to your device's internal storage or use an external USB drive
 2. Boot to TWRP recovery (see FAQ)
-3. Install lineage-19.1-xxxxxxxx-UNOFFICIAL-KonstaKANG-rpi4-ota.zip from your selected storage
+3. Install AOSP13-xxxxxxxx-KonstaKANG-rpi4-ota.zip from your selected storage
 4. (Flash GApps/Magisk/other add-ons you had previously installed)
 5. Boot out of recovery (see FAQ)
 
@@ -116,7 +116,7 @@ Q: How to use official 7" touchscreen display?
 *A: You can enable required configurations using a settings option found in Settings -> System -> Raspberry Pi settings -> Touchscreen.*
 
 Q: Settings -> Storage shows total system size of 7 GB. There's unallocated space on my sdcard. What should I do?  
-*A: This is a 7 GB image, remaining space on your sdcard will remain unallocated. Easiest way to extend /data partition is to simply flash my [resize](https://www.androidfilehost.com/?fid=15664248565197206141) zip in TWRP.*
+*A: This is a 7 GB image, remaining space on your sdcard will remain unallocated. Easiest way to extend /data partition is to simply flash my [resize](https://www.androidfilehost.com/?fid=14871746926876826676) zip in TWRP.*
 
 *Alternative option is to use e.g. GParted and extend /data partition (/dev/block/mmcblk0p4) to cover the unallocated space.*
 
@@ -201,13 +201,14 @@ Q: How to install Magisk?
 6. Install Magisk-v25.2.apk using Android's built-in file manager/```adb install```/etc.
 
 Q: How to install Google apps?  
-*A: It's still very early days for Android 13 so GApps are not available yet.*
+*A:*
 
 1. Download GApps-13.0-arm64-xxxxxxxx.zip and save it to your device's internal storage or use an external USB drive
 2. Boot to TWRP recovery (see FAQ)
 3. Install GApps-13.0-arm64-xxxxxxxx.zip from your selected storage
 4. Wipe -> Factory reset!
 5. Boot out of recovery (see FAQ)
+6. [Register Google Services Framework Android ID](https://www.google.com/android/uncertified/) if/when prompted
 
 ----
 <!--block-->
@@ -246,7 +247,7 @@ Q: How to install Google apps?
 
 - initial release (android-13.0.0_r3)
 - Mesa 22.0.3
-- Linux 5.10.136
+- Linux 5.10.136 kernel
 - Android security patch level: 5 August 2022
 
 ----
