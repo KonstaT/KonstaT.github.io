@@ -8,6 +8,7 @@ permalink: /devices/rpi4/
 #### AOSP builds:
 
 - [AOSP - KonstaKANG (Android 13)](/devices/rpi4/AOSP13)
+- [AOSP - KonstaKANG (Android 12L)](/devices/rpi4/AOSP12)
 
 #### LineageOS builds:
 
