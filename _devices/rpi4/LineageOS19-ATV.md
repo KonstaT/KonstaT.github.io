@@ -2,7 +2,7 @@
 layout: rom
 title: LineageOS 19 Android TV (Android 12L)
 subtitle: for Raspberry Pi 4
-date: 2022-05-11
+date: 2022-09-23
 tags: [rpi4, LineageOS, LOS19, AndroidTV]
 social-share: true
 comments: true
@@ -16,13 +16,13 @@ Here's my build of LineageOS 19 Android TV for Raspberry Pi 4 Model B, Pi 400, a
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
-**lineage-19.1-20220511-UNOFFICIAL-KonstaKANG-rpi4-atv.zip**  
-[https://www.androidfilehost.com/?fid=14655340768118472564](https://www.androidfilehost.com/?fid=14655340768118472564)  
-md5:fe4eb8d87086485e4662f750b2dc44e5
+**lineage-19.1-20220923-UNOFFICIAL-KonstaKANG-rpi4-atv.zip**  
+[https://www.androidfilehost.com/?fid=14871746926876826697](https://www.androidfilehost.com/?fid=14871746926876826697)  
+md5:3671ee1510c4dbf2771fbd8ab0fbda29
 
-**lineage-19.1-20220511-UNOFFICIAL-KonstaKANG-rpi4-atv-ota.zip** (TWRP flashable OTA package)  
-[https://www.androidfilehost.com/?fid=14655340768118472560](https://www.androidfilehost.com/?fid=14655340768118472560)  
-md5:ea97f92e3a4120cf81b91e78b859ad2b
+**lineage-19.1-20220923-UNOFFICIAL-KonstaKANG-rpi4-atv-ota.zip** (TWRP flashable OTA package)  
+[https://www.androidfilehost.com/?fid=14871746926876826695](https://www.androidfilehost.com/?fid=14871746926876826695)  
+md5:da09a00d9cb9966ab4dd99c09b4ba813
 
 **Working:**
 
@@ -91,6 +91,7 @@ Changes that are backed up and restored flashing OTAs:
 - Device specific settings changed using Settings -> System -> Raspberry Pi settings
 - Manual changes to /boot/resolution.txt and /boot/rc_keymap.txt
 - USB boot configuration in /boot/config.txt
+- User specific options in /boot/config_user.txt
 - GApps
 
 Changes that are not backed up and restored flashing OTAs:
@@ -215,6 +216,18 @@ Q: How to install Google apps?
 <!--block-->
 
 [Merged commits](https://review.lineageos.org/#/q/status:merged+branch:lineage-19.1+-project:%255E.*device.*+-project:%255E.*kernel.*) not mentioned in the changelog.
+
+**23.9. changelog:**
+
+- add option to restrict new USB connections
+- add option for left-handed mouse
+- include Raspberry Pi userland tools (vcgencmd, etc) and libdrm modetest
+- switch to clang kernel build
+- allow VNC input to wake the device
+- add /boot/config_user.txt for user specific options to backup/restore during OTAs
+- update to Mesa 22.1.7
+- update to Linux 5.10.144 kernel and patch known vulnerabilities (CVE-xxxx-xxxx, and more)
+- Android security patch level: 5 September 2022 (merged)
 
 **11.5. changelog:**
 

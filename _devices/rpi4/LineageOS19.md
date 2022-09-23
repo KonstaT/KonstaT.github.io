@@ -2,7 +2,7 @@
 layout: rom
 title: LineageOS 19 (Android 12L)
 subtitle: for Raspberry Pi 4
-date: 2022-08-11
+date: 2022-09-23
 tags: [rpi4, LineageOS, LOS19]
 social-share: true
 comments: true
@@ -16,13 +16,13 @@ Here's my build of LineageOS 19 for Raspberry Pi 4 Model B, Pi 400, and Compute 
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
-**lineage-19.1-20220811-UNOFFICIAL-KonstaKANG-rpi4.zip**  
-[https://www.androidfilehost.com/?fid=15664248565197202901](https://www.androidfilehost.com/?fid=15664248565197202901)  
-md5:7fc396ef9944e85763534f95d5d6e58f
+**lineage-19.1-20220923-UNOFFICIAL-KonstaKANG-rpi4.zip**  
+[https://www.androidfilehost.com/?fid=14871746926876826721](https://www.androidfilehost.com/?fid=14871746926876826721)  
+md5:0c6e5b3918bf77ef49218709b2459e84
 
-**lineage-19.1-20220811-UNOFFICIAL-KonstaKANG-rpi4-ota.zip** (TWRP flashable OTA package)  
-[https://www.androidfilehost.com/?fid=15664248565197202894](https://www.androidfilehost.com/?fid=15664248565197202894)  
-md5:d9695b112e329fe8dfa28aa38492a51e
+**lineage-19.1-20220923-UNOFFICIAL-KonstaKANG-rpi4-ota.zip** (TWRP flashable OTA package)  
+[https://www.androidfilehost.com/?fid=14871746926876826719](https://www.androidfilehost.com/?fid=14871746926876826719)  
+md5:a3cb5cb075b14acd2974d5e2e2fac488
 
 **Working:**
 
@@ -90,6 +90,7 @@ Changes that are backed up and restored flashing OTAs:
 - Device specific settings changed using Settings -> System -> Raspberry Pi settings
 - Manual changes to /boot/resolution.txt and /boot/rc_keymap.txt
 - USB boot configuration in /boot/config.txt
+- User specific options in /boot/config_user.txt
 - GApps
 
 Changes that are not backed up and restored flashing OTAs:
@@ -218,11 +219,21 @@ Q: How to install Google apps?
 
 [Merged commits](https://review.lineageos.org/#/q/status:merged+branch:lineage-19.1+-project:%255E.*device.*+-project:%255E.*kernel.*) not mentioned in the changelog.
 
+**23.9. changelog:**
+
+- switch to clang kernel build
+- allow VNC input to wake the device
+- add /boot/config_user.txt for user specific options to backup/restore during OTAs
+- update to Mesa 22.1.7
+- update to Linux 5.10.144 kernel and patch known vulnerabilities (CVE-xxxx-xxxx, and more)
+- Android security patch level: 5 September 2022 (merged)
+
 **11.8. changelog:**
 
 - add option to restrict new USB connections
 - add option for left-handed mouse
 - include Raspberry Pi userland tools (vcgencmd, etc) and libdrm modetest
+- update to Mesa 22.0.5
 - update to Linux 5.10.135 kernel and patch known vulnerabilities (CVE-xxxx-xxxx, and more)
 - Android security patch level: 5 August 2022 (merged)
 
