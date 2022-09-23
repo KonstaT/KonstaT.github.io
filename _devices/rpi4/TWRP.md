@@ -8,7 +8,7 @@ social-share: true
 comments: true
 ---
 
-This is my build of [Team Win Recovery Project](https://twrp.me) (TWRP) for Raspberry Pi 4 Model B. It's included in my [LineageOS 19](/devices/rpi4/LineageOS19), [LineageOS 18.1](/devices/rpi4/LineageOS18), [LineageOS 17.1](/devices/rpi4/LineageOS17.1), and [LineageOS 16.0](/devices/rpi4/LineageOS16.0) images. Please read the FAQ on how to boot to recovery.
+This is my build of [Team Win Recovery Project](https://twrp.me) (TWRP) for Raspberry Pi 4 Model B. It's included in my [Android](/devices/rpi4) images. Please read the FAQ on how to boot to recovery.
 
 **Sources:**
 
