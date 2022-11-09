@@ -12,6 +12,8 @@ permalink: /devices/rpi4/
 
 #### LineageOS builds:
 
+- [LineageOS 20 - KonstaKANG (Android 13)](/devices/rpi4/LineageOS20)
+- [LineageOS 20 Android TV - KonstaKANG (Android 13)](/devices/rpi4/LineageOS20-ATV)
 - [LineageOS 19 - KonstaKANG (Android 12L)](/devices/rpi4/LineageOS19)
 - [LineageOS 19 Android TV - KonstaKANG (Android 12L)](/devices/rpi4/LineageOS19-ATV)
 - [LineageOS 18.1 - KonstaKANG (Android 11)](/devices/rpi4/LineageOS18)
@@ -23,7 +25,7 @@ permalink: /devices/rpi4/
 
 #### Recovery:
 
-- [TWRP 3.6.1_11-1](/devices/rpi4/TWRP)
+- [TWRP 3.7.0_11-0](/devices/rpi4/TWRP)
 
 #### Downloads:
 
