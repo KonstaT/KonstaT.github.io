@@ -172,7 +172,7 @@ ssh -i my_private_key root@192.168.0.100
 *It's recommended to disable adb after this.*
 
 Q: How to boot from USB device?  
-*A: <span style="color:#FF0000;">Warning</span>, this is still an experimental feature. Especially TWRP seems to have some issues with USB boot.*
+*A:*
 
 1. Install EEPROM that supports booting from USB
 2. Write image to your USB device as above
