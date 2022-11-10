@@ -207,9 +207,9 @@ Q: How to install Magisk?
 Q: How to install Google apps?  
 *A:*
 
-1. Download GApps-13.0-arm64-xxxxxxxx.zip and save it to your device's internal storage or use an external USB drive
+1. Download [MindTheGapps-13.0.0-arm64-xxxxxxxx_xxxxxx.zip](https://androidfilehost.com/?w=files&flid=322935) and save it to your device's internal storage or use an external USB drive
 2. Boot to TWRP recovery (see FAQ)
-3. Install GApps-13.0-arm64-xxxxxxxx.zip from your selected storage
+3. Install MindTheGapps-13.0.0-arm64-xxxxxxxx_xxxxxx.zip from your selected storage
 4. Wipe -> Factory reset!
 5. Boot out of recovery (see FAQ)
 
