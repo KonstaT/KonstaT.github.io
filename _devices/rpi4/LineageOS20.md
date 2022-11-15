@@ -18,7 +18,7 @@ Here's my build of LineageOS 20 for Raspberry Pi 4 Model B, Pi 400, and Compute 
 
 **lineage-20.0-20221109-UNOFFICIAL-KonstaKANG-rpi4.zip**  
 [https://drive.google.com/file/d/1YxLjPgLwqZp7Kz5ydJi4921StzHDjpJQ/view](https://drive.google.com/file/d/1YxLjPgLwqZp7Kz5ydJi4921StzHDjpJQ/view)  
-md5:44586c55ceb8d8d5e8c088421592aa62
+md5:05bf7c9e38009377ef1d2264cd6f0724
 
 **lineage-20.0-20221109-UNOFFICIAL-KonstaKANG-rpi4-ota.zip** (TWRP flashable OTA package)  
 [https://drive.google.com/file/d/1SwqaHxr2VDs_0e_O506yipm_w9d6aoWx/view](https://drive.google.com/file/d/1SwqaHxr2VDs_0e_O506yipm_w9d6aoWx/view)  
