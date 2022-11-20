@@ -17,11 +17,11 @@ Here's my build of LineageOS 20 for Raspberry Pi 4 Model B, Pi 400, and Compute 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
 **lineage-20.0-20221109-UNOFFICIAL-KonstaKANG-rpi4.zip**  
-[https://drive.google.com/file/d/1YxLjPgLwqZp7Kz5ydJi4921StzHDjpJQ/view](https://drive.google.com/file/d/1YxLjPgLwqZp7Kz5ydJi4921StzHDjpJQ/view)  
+[https://www.androidfilehost.com/?fid=14871746926876847046](https://www.androidfilehost.com/?fid=14871746926876847046) ([mirror](https://drive.google.com/file/d/1YxLjPgLwqZp7Kz5ydJi4921StzHDjpJQ/view))  
 md5:05bf7c9e38009377ef1d2264cd6f0724
 
 **lineage-20.0-20221109-UNOFFICIAL-KonstaKANG-rpi4-ota.zip** (TWRP flashable OTA package)  
-[https://drive.google.com/file/d/1SwqaHxr2VDs_0e_O506yipm_w9d6aoWx/view](https://drive.google.com/file/d/1SwqaHxr2VDs_0e_O506yipm_w9d6aoWx/view)  
+[https://www.androidfilehost.com/?fid=14871746926876847039](https://www.androidfilehost.com/?fid=14871746926876847039) ([mirror](https://drive.google.com/file/d/1SwqaHxr2VDs_0e_O506yipm_w9d6aoWx/view))  
 md5:44586c55ceb8d8d5e8c088421592aa62
 
 **Working:**
@@ -120,7 +120,7 @@ Q: How to use official 7" touchscreen display?
 *A: You can enable required configurations using a settings option found in Settings -> System -> Raspberry Pi settings -> Touchscreen.*
 
 Q: Settings -> Storage shows total system size of 7 GB. There's unallocated space on my sdcard. What should I do?  
-*A: This is a 7 GB image, remaining space on your sdcard will remain unallocated. Easiest way to extend /data partition is to simply flash my [resize](https://drive.google.com/file/d/11-ZGi4O0BBmxahbunkAYrV8EyvrAmjzY/view) zip in TWRP.*
+*A: This is a 7 GB image, remaining space on your sdcard will remain unallocated. Easiest way to extend /data partition is to simply flash my [resize](https://www.androidfilehost.com/?fid=14871746926876846666) zip in TWRP.*
 
 *Alternative option is to use e.g. GParted and extend /data partition (/dev/block/mmcblk0p4) to cover the unallocated space.*
 
@@ -197,7 +197,7 @@ Q: My device keeps booting into TWRP recovery. What should I do?
 Q: How to install Magisk?  
 *A:*
 
-1. Download [lineage-20.0-rpi-magisk-v25.2.zip](https://drive.google.com/file/d/15JPqlzauVvy9emo2_LhalVh6RAGOWNXn/view) and save it to your device's internal storage or use an external USB drive
+1. Download [lineage-20.0-rpi-magisk-v25.2.zip](https://www.androidfilehost.com/?fid=14871746926876846664) and save it to your device's internal storage or use an external USB drive
 2. Download [Magisk-v25.2.apk](https://github.com/topjohnwu/Magisk/releases/tag/v25.2)
 3. Boot to TWRP recovery (see FAQ)
 4. Install lineage-20.0-rpi-magisk-v25.2.zip from your selected storage
@@ -235,6 +235,6 @@ Q: How to install Google apps?
 
 **Previous builds:**
 
-- [Google Drive](https://drive.google.com/drive/folders/1U6nfBZmKNpLNsH7cHEWBcmhPghlIXkGH)
+- [AndroidFileHost](https://www.androidfilehost.com/?w=files&flid=336751)
 
 ----

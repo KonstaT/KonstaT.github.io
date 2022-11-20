@@ -17,11 +17,11 @@ Here's my build of LineageOS 20 Android TV for Raspberry Pi 4 Model B, Pi 400, a
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
 **lineage-20.0-20221109-UNOFFICIAL-KonstaKANG-rpi4-atv.zip**  
-[https://drive.google.com/file/d/1ErvEnzpYtu-gefmjKuiqDly26my5z2uB/view](https://drive.google.com/file/d/1ErvEnzpYtu-gefmjKuiqDly26my5z2uB/view)  
+[https://www.androidfilehost.com/?fid=14871746926876847030](https://www.androidfilehost.com/?fid=14871746926876847030) ([mirror](https://drive.google.com/file/d/1ErvEnzpYtu-gefmjKuiqDly26my5z2uB/view))  
 md5:7097eb629980e4d84fffb95a5eb8410c
 
 **lineage-20.0-20221109-UNOFFICIAL-KonstaKANG-rpi4-atv-ota.zip** (TWRP flashable OTA package)  
-[https://drive.google.com/file/d/1YfVNcHYDTbszch5Xj4y0P2Ah6VtSKzym/view](https://drive.google.com/file/d/1YfVNcHYDTbszch5Xj4y0P2Ah6VtSKzym/view)  
+[https://www.androidfilehost.com/?fid=14871746926876847026](https://www.androidfilehost.com/?fid=14871746926876847026) ([mirror](https://drive.google.com/file/d/1YfVNcHYDTbszch5Xj4y0P2Ah6VtSKzym/view))  
 md5:931987c0d8545a3eafb990ecd3d50d3b
 
 **Working:**
@@ -118,7 +118,7 @@ Q: My display is not working. I can only see the rainbow screen but no Android b
 *A: This build only supports HDMI displays that report supported resolutions using EDID. 1920x1080 resolution is used by default with this build. You can change value in /boot/resolution.txt to use a different resolution that your display supports. Removing /boot/resolution.txt will use the preferred resolution of your display.*
 
 Q: Settings -> System -> Storage shows total system size of 7 GB. There's unallocated space on my sdcard. What should I do?  
-*A: This is a 7 GB image, remaining space on your sdcard will remain unallocated. Easiest way to extend /data partition is to simply flash my [resize](https://drive.google.com/file/d/11-ZGi4O0BBmxahbunkAYrV8EyvrAmjzY/view) zip in TWRP.*
+*A: This is a 7 GB image, remaining space on your sdcard will remain unallocated. Easiest way to extend /data partition is to simply flash my [resize](https://www.androidfilehost.com/?fid=14871746926876846666) zip in TWRP.*
 
 *Alternative option is to use e.g. GParted and extend /data partition (/dev/block/mmcblk0p4) to cover the unallocated space.*
 
@@ -195,7 +195,7 @@ Q: My device keeps booting into TWRP recovery. What should I do?
 Q: How to install Magisk?  
 *A:*
 
-1. Download [lineage-20.0-rpi-magisk-v25.2.zip](https://drive.google.com/file/d/15JPqlzauVvy9emo2_LhalVh6RAGOWNXn/view) and save it to your device's internal storage or use an external USB drive
+1. Download [lineage-20.0-rpi-magisk-v25.2.zip](https://www.androidfilehost.com/?fid=14871746926876846664) and save it to your device's internal storage or use an external USB drive
 2. Download [Magisk-v25.2.apk](https://github.com/topjohnwu/Magisk/releases/tag/v25.2)
 3. Boot to TWRP recovery (see FAQ)
 4. Install lineage-20.0-rpi-magisk-v25.2.zip from your selected storage
@@ -233,6 +233,6 @@ Q: How to install Google apps?
 
 **Previous builds:**
 
-- [Google Drive](https://drive.google.com/drive/folders/1U6nfBZmKNpLNsH7cHEWBcmhPghlIXkGH)
+- [AndroidFileHost](https://www.androidfilehost.com/?w=files&flid=336751)
 
 ----
