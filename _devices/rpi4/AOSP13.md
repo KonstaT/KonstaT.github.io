@@ -10,7 +10,7 @@ comments: true
 
 Here's my build of AOSP (Android 13) for Raspberry Pi 4 Model B, Pi 400, and Compute Module 4. It's for **advanced users** only. Pi 4 model with at least 2GB of RAM is required to run this build.
 
-<span style="color:#FF0000;">Important!</span> This image includes parts that are licensed under non-commercial license ([Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International](http://creativecommons.org/licenses/by-nc-sa/4.0/)). You may use this build freely in personal/educational/etc use. Commercial use is not allowed with this build! You can contact me by email to discuss creating customized Android builds for commercial purposes.
+<span style="color:#FF0000;">Important!</span> Raspberry Pi hardware specific implementation in this build is based on source code released on my [Raspberry Vanilla](https://github.com/raspberry-vanilla) project but this build still offers various additional features and enhancements over that. This image includes parts that are licensed under non-commercial license ([Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International](http://creativecommons.org/licenses/by-nc-sa/4.0/)). You may use this build freely in personal/educational/etc use. Commercial use is not allowed with this build! You can contact me by email to discuss creating customized Android builds for commercial purposes.
 
 ![screenshot]({{ site.url }}/img/rpi4/AOSP13/Screenshot_20220819-154849.png)
 
@@ -59,7 +59,8 @@ md5:09063ab5dc38664a681bd8ce7c97e468
 
 **Sources:**
 
-- [kernel](https://github.com/lineage-rpi/android_kernel_brcm_rpi/tree/lineage-20.0)
+- [Android](https://github.com/raspberry-vanilla/android_local_manifest/tree/android-13.0)
+- [Linux kernel](https://github.com/raspberry-vanilla/android_kernel_manifest/tree/android-13.0)
 
 **Thanks:**
 
