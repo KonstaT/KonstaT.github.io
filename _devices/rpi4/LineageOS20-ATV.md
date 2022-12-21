@@ -203,7 +203,7 @@ Q: How to install Magisk?
 6. Install Magisk-v25.2.apk using Android's built-in file manager/```adb install```/etc.
 
 Q: How to install Google apps?  
-*A:*
+*A: It's still very early days for Android TV 13 so I'm not aware there is currently any compatible GApps releases available.*
 
 1. Download GApps-13.0-arm64-ATV-xxxxxxxx.zip and save it to your device's internal storage or use an external USB drive
 2. Boot to TWRP recovery (see FAQ)
