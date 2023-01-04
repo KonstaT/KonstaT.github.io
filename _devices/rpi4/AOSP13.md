@@ -2,7 +2,7 @@
 layout: rom
 title: AOSP (Android 13)
 subtitle: for Raspberry Pi 4
-date: 2022-09-07
+date: 2023-01-04
 tags: [rpi4, AOSP]
 social-share: true
 comments: true
@@ -16,13 +16,17 @@ Here's my build of AOSP (Android 13) for Raspberry Pi 4 Model B, Pi 400, and Com
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
-**AOSP13-20220907-KonstaKANG-rpi4.zip**  
-[https://www.androidfilehost.com/?fid=14871746926876821021](https://www.androidfilehost.com/?fid=14871746926876821021)  
-md5:bfce818813587c39a0543eed68ce98f3
+**AOSP13-20230104-KonstaKANG-rpi4.zip**  
+[https://www.androidfilehost.com/?fid=4279422670115707516](https://www.androidfilehost.com/?fid=4279422670115707516)  
+md5:e82650238362906478d411c70560ae64
 
-**AOSP13-20220907-KonstaKANG-rpi4-ota.zip** (TWRP flashable OTA package)  
-[https://www.androidfilehost.com/?fid=14871746926876821018](https://www.androidfilehost.com/?fid=14871746926876821018)  
-md5:09063ab5dc38664a681bd8ce7c97e468
+**AOSP13-20230104-KonstaKANG-rpi4-ota.zip** (TWRP flashable OTA package)  
+[https://www.androidfilehost.com/?fid=4279422670115707507](https://www.androidfilehost.com/?fid=4279422670115707507)  
+md5:9b19553add1ef8acfad550be47b13665
+
+**AOSP13-20230104-KonstaKANG-rpi4-6.1-kernel.zip** (optional add-on)  
+[https://www.androidfilehost.com/?fid=4279422670115707505](https://www.androidfilehost.com/?fid=4279422670115707505)  
+md5:2c64163f585867dd04238d41dc21cd84
 
 **Working:**
 
@@ -213,6 +217,19 @@ Q: How to install Google apps?
 
 ----
 <!--block-->
+
+**4.1. 2023 changelog:**
+
+- update to latest AOSP release (Android 13 QPR1 - android-13.0.0_r24)
+- enable multi-gen LRU
+- update to TWRP 3.7.0_11-0-KonstaKANG
+- update to Mesa 22.3.2
+- update to Linux 5.15.78 kernel and patch known vulnerabilities (CVE-xxxx-xxxx, and more)
+- Android security patch level: 5 January 2023
+
+Linux 6.1 kernel: (optional add-on)
+- new Raspberry Pi Android kernel bring-up based on AOSP android14-6.1
+- update to Linux 6.1.1 kernel and patch known vulnerabilities (CVE-xxxx-xxxx, and more)
 
 **7.9. changelog:**
 
