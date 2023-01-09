@@ -2,7 +2,7 @@
 layout: rom
 title: LineageOS 20 (Android 13)
 subtitle: for Raspberry Pi 4
-date: 2022-11-09
+date: 2023-01-09
 tags: [rpi4, LineageOS, LOS20]
 social-share: true
 comments: true
@@ -16,13 +16,13 @@ Here's my build of LineageOS 20 for Raspberry Pi 4 Model B, Pi 400, and Compute 
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
-**lineage-20.0-20221109-UNOFFICIAL-KonstaKANG-rpi4.zip**  
-[https://www.androidfilehost.com/?fid=14871746926876847046](https://www.androidfilehost.com/?fid=14871746926876847046) ([mirror](https://drive.google.com/file/d/1YxLjPgLwqZp7Kz5ydJi4921StzHDjpJQ/view))  
-md5:05bf7c9e38009377ef1d2264cd6f0724
+**lineage-20.0-20230109-UNOFFICIAL-KonstaKANG-rpi4.zip**  
+[https://www.androidfilehost.com/?fid=4279422670115708605](https://www.androidfilehost.com/?fid=4279422670115708605)  
+md5:5c64d8e46089aab4affc1ad73b8be9e8
 
-**lineage-20.0-20221109-UNOFFICIAL-KonstaKANG-rpi4-ota.zip** (TWRP flashable OTA package)  
-[https://www.androidfilehost.com/?fid=14871746926876847039](https://www.androidfilehost.com/?fid=14871746926876847039) ([mirror](https://drive.google.com/file/d/1SwqaHxr2VDs_0e_O506yipm_w9d6aoWx/view))  
-md5:44586c55ceb8d8d5e8c088421592aa62
+**lineage-20.0-20230109-UNOFFICIAL-KonstaKANG-rpi4-ota.zip** (TWRP flashable OTA package)  
+[https://www.androidfilehost.com/?fid=4279422670115708603](https://www.androidfilehost.com/?fid=4279422670115708603)  
+md5:6c48fb593d0ab8cf7d77eb2d5a32c6b8
 
 **Working:**
 
@@ -34,6 +34,7 @@ md5:44586c55ceb8d8d5e8c088421592aa62
 - GPS (using external USB modules e.g. U-Blox 7)
 - Ethernet
 - Hardware accelerated graphics (V3D, OpenGL & Vulkan)
+- Hardware video decoding & encoding (H.264)
 - HDMI display (and HDMI-CEC)
 - I2C
 - IR remotes (using external GPIO IR modules e.g. TSOP4838)
@@ -48,10 +49,11 @@ md5:44586c55ceb8d8d5e8c088421592aa62
 
 **Not working:**
 
-- Hardware video decoding & encoding (software decoding & encoding works, option to test highly experimental H.264 hardware video decoding)
+- Hardware video decoding & encoding (H.265, software decoding & encoding works)
 
 **Issues:**
 
+- H.264 hardware video decoding is still glitchy (encoder seems to perform better)
 - Camcorder (i.e. recording videos) & some third party camera apps don't work with official Pi camera modules (works with UVC USB webcams)
 - SELinux is in permissive mode
 - Encrypting userdata is not supported
@@ -217,6 +219,15 @@ Q: How to install Google apps?
 <!--block-->
 
 [Merged commits](https://review.lineageos.org/#/q/status:merged+branch:lineage-20.0+-project:%255E.*device.*+-project:%255E.*kernel.*) not mentioned in the changelog.
+
+**9.1. 2023 changelog:**
+
+- Android 13 QPR1
+- fix pixel format on H.264 hardware video decoding
+- enable H.264 hardware video encoding
+- update to Mesa 22.3.2
+- update to Linux 5.15.78 kernel and patch known vulnerabilities (CVE-xxxx-xxxx, and more)
+- Android security patch level: 5 January 2023 (merged)
 
 **9.11. changelog:**
 

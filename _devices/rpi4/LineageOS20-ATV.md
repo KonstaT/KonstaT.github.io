@@ -2,7 +2,7 @@
 layout: rom
 title: LineageOS 20 Android TV (Android 13)
 subtitle: for Raspberry Pi 4
-date: 2022-11-09
+date: 2023-01-09
 tags: [rpi4, LineageOS, LOS20, AndroidTV]
 social-share: true
 comments: true
@@ -16,13 +16,13 @@ Here's my build of LineageOS 20 Android TV for Raspberry Pi 4 Model B, Pi 400, a
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
-**lineage-20.0-20221109-UNOFFICIAL-KonstaKANG-rpi4-atv.zip**  
-[https://www.androidfilehost.com/?fid=14871746926876847030](https://www.androidfilehost.com/?fid=14871746926876847030) ([mirror](https://drive.google.com/file/d/1ErvEnzpYtu-gefmjKuiqDly26my5z2uB/view))  
-md5:7097eb629980e4d84fffb95a5eb8410c
+**lineage-20.0-20230109-UNOFFICIAL-KonstaKANG-rpi4-atv.zip**  
+[https://www.androidfilehost.com/?fid=4279422670115708601](https://www.androidfilehost.com/?fid=4279422670115708601)  
+md5:b1cfabc8dcedb7217e0be96c98531e6d
 
-**lineage-20.0-20221109-UNOFFICIAL-KonstaKANG-rpi4-atv-ota.zip** (TWRP flashable OTA package)  
-[https://www.androidfilehost.com/?fid=14871746926876847026](https://www.androidfilehost.com/?fid=14871746926876847026) ([mirror](https://drive.google.com/file/d/1YfVNcHYDTbszch5Xj4y0P2Ah6VtSKzym/view))  
-md5:931987c0d8545a3eafb990ecd3d50d3b
+**lineage-20.0-20230109-UNOFFICIAL-KonstaKANG-rpi4-atv-ota.zip** (TWRP flashable OTA package)  
+[https://www.androidfilehost.com/?fid=4279422670115708599](https://www.androidfilehost.com/?fid=4279422670115708599)  
+md5:badad280932a632157efd634dec84777
 
 **Working:**
 
@@ -34,6 +34,7 @@ md5:931987c0d8545a3eafb990ecd3d50d3b
 - GPS (using external USB modules e.g. U-Blox 7)
 - Ethernet
 - Hardware accelerated graphics (V3D, OpenGL & Vulkan)
+- Hardware video decoding & encoding (H.264)
 - HDMI display (and HDMI-CEC)
 - I2C
 - IR remotes (using external GPIO IR modules e.g. TSOP4838)
@@ -48,10 +49,11 @@ md5:931987c0d8545a3eafb990ecd3d50d3b
 
 **Not working:**
 
-- Hardware video decoding & encoding (software decoding & encoding works, option to test highly experimental H.264 hardware video decoding)
+- Hardware video decoding & encoding (H.265, software decoding & encoding works)
 
 **Issues:**
 
+- H.264 hardware video decoding is still glitchy (encoder seems to perform better)
 - Chromecast functionality is not supported on uncertified Android TV devices
 - Camcorder (i.e. recording videos) & some third party camera apps don't work with official Pi camera modules (works with UVC USB webcams)
 - SELinux is in permissive mode
@@ -215,6 +217,15 @@ Q: How to install Google apps?
 <!--block-->
 
 [Merged commits](https://review.lineageos.org/#/q/status:merged+branch:lineage-20.0+-project:%255E.*device.*+-project:%255E.*kernel.*) not mentioned in the changelog.
+
+**9.1. 2023 changelog:**
+
+- Android 13 QPR1
+- fix pixel format on H.264 hardware video decoding
+- enable H.264 hardware video encoding
+- update to Mesa 22.3.2
+- update to Linux 5.15.78 kernel and patch known vulnerabilities (CVE-xxxx-xxxx, and more)
+- Android security patch level: 5 January 2023 (merged)
 
 **9.11. changelog:**
 
