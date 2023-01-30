@@ -2,7 +2,7 @@
 layout: rom
 title: AOSP (Android 13)
 subtitle: for Raspberry Pi 4
-date: 2023-01-04
+date: 2023-01-30
 tags: [rpi4, AOSP]
 social-share: true
 comments: true
@@ -16,17 +16,17 @@ Here's my build of AOSP (Android 13) for Raspberry Pi 4 Model B, Pi 400, and Com
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
-**AOSP13-20230104-KonstaKANG-rpi4.zip**  
-[https://www.androidfilehost.com/?fid=4279422670115707516](https://www.androidfilehost.com/?fid=4279422670115707516)  
-md5:e82650238362906478d411c70560ae64
+**AOSP13-20230130-KonstaKANG-rpi4.zip**  
+[https://www.androidfilehost.com/?fid=4279422670115712940](https://www.androidfilehost.com/?fid=4279422670115712940)  
+md5:ca497c7a9729c294c31d71c6926734d8
 
-**AOSP13-20230104-KonstaKANG-rpi4-ota.zip** (TWRP flashable OTA package)  
-[https://www.androidfilehost.com/?fid=4279422670115707507](https://www.androidfilehost.com/?fid=4279422670115707507)  
-md5:9b19553add1ef8acfad550be47b13665
+**AOSP13-20230130-KonstaKANG-rpi4-ota.zip** (TWRP flashable OTA package)  
+[https://www.androidfilehost.com/?fid=4279422670115712938](https://www.androidfilehost.com/?fid=4279422670115712938)  
+md5:021797e680b949c7904f48c36014dbc7
 
-**AOSP13-20230104-KonstaKANG-rpi4-6.1-kernel.zip** (optional add-on)  
-[https://www.androidfilehost.com/?fid=4279422670115707505](https://www.androidfilehost.com/?fid=4279422670115707505)  
-md5:2c64163f585867dd04238d41dc21cd84
+**AOSP13-20230130-KonstaKANG-rpi4-6.1-kernel.zip** (optional add-on)  
+[https://www.androidfilehost.com/?fid=4279422670115712936](https://www.androidfilehost.com/?fid=4279422670115712936)  
+md5:c36c94c05b4afee397b758f68c786e1b
 
 **Working:**
 
@@ -38,6 +38,7 @@ md5:2c64163f585867dd04238d41dc21cd84
 - GPS (using external USB modules e.g. U-Blox 7)
 - Ethernet
 - Hardware accelerated graphics (V3D, OpenGL & Vulkan)
+- Hardware video decoding & encoding (H.265 decoding, H.264 decoding & encoding)
 - HDMI display (and HDMI-CEC)
 - I2C
 - IR remotes (using external GPIO IR modules e.g. TSOP4838)
@@ -50,12 +51,9 @@ md5:2c64163f585867dd04238d41dc21cd84
 - USB-C (ADB, MTP, PTP, USB tethering)
 - Wifi (and wifi tethering)
 
-**Not working:**
-
-- Hardware video decoding & encoding (software decoding & encoding works, option to test highly experimental H.264 hardware video decoding)
-
 **Issues:**
 
+- Hardware video decoding performance varies depending on the selected decoder option and video resolution/bitrate/profile/container/etc
 - Camcorder (i.e. recording videos) & some third party camera apps don't work with official Pi camera modules (works with UVC USB webcams)
 - SELinux is in permissive mode
 - Encrypting userdata is not supported
@@ -217,6 +215,21 @@ Q: How to install Google apps?
 
 ----
 <!--block-->
+
+**30.1. changelog:**
+
+- H.265 hardware video decoding, H.264 hardware video decoding and encoding
+  - FFmpeg 5.1.2 (thanks to John Cox for Raspberry Pi hw codecs support and Android-x86 for AOSP build patches)
+  - implement codec2 plugin to integrate FFmpeg into Android multimedia framework (thanks to Michael Goffioul)
+  - FFmpeg hevc_v4l2request hwaccel H.265 hw decoding (default), h264_v4l2m2m H.264 hw decoding (optional)
+  - v4l2_codec2 H.264 hardware video decoding and encoding (default)
+  - FFmpeg software decoders support
+- update to Mesa 22.3.4
+- update to Linux 5.15.81 kernel and patch known vulnerabilities (CVE-xxxx-xxxx, and more)
+
+Linux 6.1 kernel: (optional add-on)
+- forward port ion memory allocator
+- update to Linux 6.1.8 kernel and patch known vulnerabilities (CVE-xxxx-xxxx, and more)
 
 **4.1. 2023 changelog:**
 
