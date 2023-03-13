@@ -49,8 +49,8 @@ md5:ee25a4cf4bb7a5ca4bf03141bf1bf4ed
 
 **Issues:**
 
-- Hardware video decoding performance varies depending on the selected decoder option and video resolution/bitrate/profile/container/etc
 - Chromecast functionality is not supported on uncertified Android TV devices
+- Hardware video decoding performance varies depending on the selected decoder option and video resolution/bitrate/profile/container/etc
 - Camcorder (i.e. recording videos) & some third party camera apps don't work with official Pi camera modules (works with UVC USB webcams)
 - SELinux is in permissive mode
 - Encrypting userdata is not supported

@@ -2,7 +2,7 @@
 layout: rom
 title: LineageOS 19 (Android 12L)
 subtitle: for Raspberry Pi 4
-date: 2022-09-23
+date: 2023-03-13
 tags: [rpi4, LineageOS, LOS19]
 social-share: true
 comments: true
@@ -16,13 +16,13 @@ Here's my build of LineageOS 19 for Raspberry Pi 4 Model B, Pi 400, and Compute 
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
-**lineage-19.1-20220923-UNOFFICIAL-KonstaKANG-rpi4.zip**  
-[https://www.androidfilehost.com/?fid=14871746926876826721](https://www.androidfilehost.com/?fid=14871746926876826721)  
-md5:0c6e5b3918bf77ef49218709b2459e84
+**lineage-19.1-20230313-UNOFFICIAL-KonstaKANG-rpi4.zip**  
+[https://www.androidfilehost.com/?fid=4279422670115728040](https://www.androidfilehost.com/?fid=4279422670115728040)  
+md5:9fa07f1e3f8063f291e5546e26e424e3
 
-**lineage-19.1-20220923-UNOFFICIAL-KonstaKANG-rpi4-ota.zip** (TWRP flashable OTA package)  
-[https://www.androidfilehost.com/?fid=14871746926876826719](https://www.androidfilehost.com/?fid=14871746926876826719)  
-md5:a3cb5cb075b14acd2974d5e2e2fac488
+**lineage-19.1-20230313-UNOFFICIAL-KonstaKANG-rpi4-ota.zip** (TWRP flashable OTA package)  
+[https://www.androidfilehost.com/?fid=4279422670115728038](https://www.androidfilehost.com/?fid=4279422670115728038)  
+md5:bbf64fc8d278c9ce78daf367f0bd062d
 
 **Working:**
 
@@ -34,6 +34,7 @@ md5:a3cb5cb075b14acd2974d5e2e2fac488
 - GPS (using external USB modules e.g. U-Blox 7)
 - Ethernet
 - Hardware accelerated graphics (V3D, OpenGL & Vulkan)
+- Hardware video decoding & encoding (H.265 decoding, H.264 decoding & encoding)
 - HDMI display (and HDMI-CEC)
 - I2C
 - IR remotes (using external GPIO IR modules e.g. TSOP4838)
@@ -46,12 +47,9 @@ md5:a3cb5cb075b14acd2974d5e2e2fac488
 - USB-C (ADB, MTP, PTP, USB tethering)
 - Wifi (and wifi tethering)
 
-**Not working:**
-
-- Hardware video decoding & encoding (software decoding & encoding works, option to test highly experimental H.264 hardware video decoding)
-
 **Issues:**
 
+- Hardware video decoding performance varies depending on the selected decoder option and video resolution/bitrate/profile/container/etc
 - Camcorder (i.e. recording videos) & some third party camera apps don't work with official Pi camera modules (works with UVC USB webcams)
 - SELinux is in permissive mode
 - and more...
@@ -218,6 +216,21 @@ Q: How to install Google apps?
 <!--block-->
 
 [Merged commits](https://review.lineageos.org/#/q/status:merged+branch:lineage-19.1+-project:%255E.*device.*+-project:%255E.*kernel.*) not mentioned in the changelog.
+
+**13.3. 2023 changelog:**
+
+- H.265 hardware video decoding, H.264 hardware video decoding and encoding
+  - FFmpeg 5.1.2 (thanks to John Cox for Raspberry Pi hw codecs support and Android-x86 for AOSP build patches)
+  - implement codec2 plugin to integrate FFmpeg into Android multimedia framework (thanks to Michael Goffioul)
+  - FFmpeg hevc_v4l2request hwaccel H.265 hw decoding (default), h264_v4l2m2m H.264 hw decoding (optional)
+  - v4l2_codec2 H.264 hardware video decoding and encoding (default)
+  - FFmpeg software decoders support
+- HDMI audio improvements
+  - implement audio HAL that uses alsa directly to get rid off using alsa loopback for HDMI audio (thanks to nename0)
+  - update alsa-lib and alsa-utils to v1.2.8
+- update to TWRP 3.7.0_11-0-KonstaKANG
+- update to Linux 5.10.169 kernel and patch known vulnerabilities (CVE-xxxx-xxxx, and more)
+- Android security patch level: 5 February 2023 (merged)
 
 **23.9. changelog:**
 
