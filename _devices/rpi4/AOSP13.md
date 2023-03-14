@@ -2,7 +2,7 @@
 layout: rom
 title: AOSP (Android 13)
 subtitle: for Raspberry Pi 4
-date: 2023-01-30
+date: 2023-03-14
 tags: [rpi4, AOSP]
 social-share: true
 comments: true
@@ -16,17 +16,17 @@ Here's my build of AOSP (Android 13) for Raspberry Pi 4 Model B, Pi 400, and Com
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
-**AOSP13-20230130-KonstaKANG-rpi4.zip**  
-[https://www.androidfilehost.com/?fid=4279422670115712940](https://www.androidfilehost.com/?fid=4279422670115712940)  
-md5:ca497c7a9729c294c31d71c6926734d8
+**AOSP13-20230314-KonstaKANG-rpi4.zip**  
+[https://www.androidfilehost.com/?fid=4279422670115728390](https://www.androidfilehost.com/?fid=4279422670115728390)  
+md5:7390bc560ecfa9d5634d1a82939bea26
 
-**AOSP13-20230130-KonstaKANG-rpi4-ota.zip** (TWRP flashable OTA package)  
-[https://www.androidfilehost.com/?fid=4279422670115712938](https://www.androidfilehost.com/?fid=4279422670115712938)  
-md5:021797e680b949c7904f48c36014dbc7
+**AOSP13-20230314-KonstaKANG-rpi4-ota.zip** (TWRP flashable OTA package)  
+[https://www.androidfilehost.com/?fid=4279422670115728388](https://www.androidfilehost.com/?fid=4279422670115728388)  
+md5:8f4b77d5162c7beee0f517c9f4571fd5
 
-**AOSP13-20230130-KonstaKANG-rpi4-6.1-kernel.zip** (optional add-on)  
-[https://www.androidfilehost.com/?fid=4279422670115712936](https://www.androidfilehost.com/?fid=4279422670115712936)  
-md5:c36c94c05b4afee397b758f68c786e1b
+**AOSP13-20230314-KonstaKANG-rpi4-6.1-kernel.zip** (optional add-on)  
+[https://www.androidfilehost.com/?fid=4279422670115728385](https://www.androidfilehost.com/?fid=4279422670115728385)  
+md5:fec3f9bb784408cd04e4ed59d4f61f36
 
 **Working:**
 
@@ -54,7 +54,7 @@ md5:c36c94c05b4afee397b758f68c786e1b
 **Issues:**
 
 - Hardware video decoding performance varies depending on the selected decoder option and video resolution/bitrate/profile/container/etc
-- Camcorder (i.e. recording videos) & some third party camera apps don't work with official Pi camera modules (works with UVC USB webcams)
+- Some third party camera apps don't work with official Pi camera modules (works with UVC USB webcams)
 - SELinux is in permissive mode
 - Encrypting userdata is not supported
 - and more...
@@ -215,6 +215,23 @@ Q: How to install Google apps?
 
 ----
 <!--block-->
+
+**14.3. changelog:**
+
+- update to latest AOSP release (Android 13 QPR2 - android-13.0.0_r35)
+- HDMI audio improvements
+  - implement audio HAL that uses alsa directly to get rid off using alsa loopback for HDMI audio (thanks to nename0)
+  - update alsa-lib and alsa-utils to v1.2.8
+- update to libcamera master/v0.0.4
+  - fix camcorder (i.e. recording videos) with Pi camera modules
+  - add support for Pi camera module v3 (untested)
+- fix H.265 hardware decoding on HEVC Main 10 profile videos
+- update to Mesa 22.3.7
+- update to Linux 5.15.94 kernel and patch known vulnerabilities (CVE-xxxx-xxxx, and more)
+- Android security patch level: 5 March 2023
+
+Linux 6.1 kernel: (optional add-on)
+- update to Linux 6.1.15 kernel and patch known vulnerabilities (CVE-xxxx-xxxx, and more)
 
 **30.1. changelog:**
 
