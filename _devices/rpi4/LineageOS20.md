@@ -2,7 +2,7 @@
 layout: rom
 title: LineageOS 20 (Android 13)
 subtitle: for Raspberry Pi 4
-date: 2023-02-14
+date: 2023-03-21
 tags: [rpi4, LineageOS, LOS20]
 social-share: true
 comments: true
@@ -16,13 +16,13 @@ Here's my build of LineageOS 20 for Raspberry Pi 4 Model B, Pi 400, and Compute 
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
-**lineage-20.0-20230214-UNOFFICIAL-KonstaKANG-rpi4.zip**  
-[https://www.androidfilehost.com/?fid=4279422670115718569](https://www.androidfilehost.com/?fid=4279422670115718569)  
-md5:966fdc0959bd47c5739f59b9de9e3f7c
+**lineage-20.0-20230321-UNOFFICIAL-KonstaKANG-rpi4.zip**  
+[https://www.androidfilehost.com/?fid=4279422670115729758](https://www.androidfilehost.com/?fid=4279422670115729758)  
+md5:fcb14615826e521ca4a8420ad955dfa6
 
-**lineage-20.0-20230214-UNOFFICIAL-KonstaKANG-rpi4-ota.zip** (TWRP flashable OTA package)  
-[https://www.androidfilehost.com/?fid=4279422670115718567](https://www.androidfilehost.com/?fid=4279422670115718567)  
-md5:16f206a48afeaea03b5b48c5e19c8ef7
+**lineage-20.0-20230321-UNOFFICIAL-KonstaKANG-rpi4-ota.zip** (TWRP flashable OTA package)  
+[https://www.androidfilehost.com/?fid=4279422670115729756](https://www.androidfilehost.com/?fid=4279422670115729756)  
+md5:e8129c07e558de6e1b0006b34f53d32b
 
 **Working:**
 
@@ -50,7 +50,7 @@ md5:16f206a48afeaea03b5b48c5e19c8ef7
 **Issues:**
 
 - Hardware video decoding performance varies depending on the selected decoder option and video resolution/bitrate/profile/container/etc
-- Camcorder (i.e. recording videos) & some third party camera apps don't work with official Pi camera modules (works with UVC USB webcams)
+- Some third party camera apps don't work with official Pi camera modules (works with UVC USB webcams)
 - SELinux is in permissive mode
 - Encrypting userdata is not supported
 - and more...
@@ -215,6 +215,21 @@ Q: How to install Google apps?
 <!--block-->
 
 [Merged commits](https://review.lineageos.org/#/q/status:merged+branch:lineage-20.0+-project:%255E.*device.*+-project:%255E.*kernel.*) not mentioned in the changelog.
+
+**21.3. changelog:**
+
+- Android 13 QPR2
+- HDMI audio improvements
+  - implement audio HAL that uses alsa directly to get rid off using alsa loopback for HDMI audio (thanks to nename0)
+  - update alsa-lib and alsa-utils to v1.2.8
+- update to libcamera master/v0.0.4
+  - fix camcorder (i.e. recording videos) with Pi camera modules
+  - add support for Pi camera module v3 (untested)
+- use USB audio input for camcorder videos with the built-in camera application
+- update to FFmpeg 5.1.3
+- update to Mesa 22.3.7
+- update to Linux 5.15.94 kernel and patch known vulnerabilities (CVE-xxxx-xxxx, and more)
+- Android security patch level: 5 March 2023 (merged)
 
 **14.2. changelog:**
 

@@ -2,7 +2,7 @@
 layout: rom
 title: LineageOS 20 Android TV (Android 13)
 subtitle: for Raspberry Pi 4
-date: 2023-02-14
+date: 2023-03-21
 tags: [rpi4, LineageOS, LOS20, AndroidTV]
 social-share: true
 comments: true
@@ -16,13 +16,13 @@ Here's my build of LineageOS 20 Android TV for Raspberry Pi 4 Model B, Pi 400, a
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
-**lineage-20.0-20230214-UNOFFICIAL-KonstaKANG-rpi4-atv.zip**  
-[https://www.androidfilehost.com/?fid=4279422670115718565](https://www.androidfilehost.com/?fid=4279422670115718565)  
-md5:f4b66ca541793f5fe354805121d5d945
+**lineage-20.0-20230321-UNOFFICIAL-KonstaKANG-rpi4-atv.zip**  
+[https://www.androidfilehost.com/?fid=4279422670115729753](https://www.androidfilehost.com/?fid=4279422670115729753)  
+md5:48c6da39cde80f3894690099ceba1696
 
-**lineage-20.0-20230214-UNOFFICIAL-KonstaKANG-rpi4-atv-ota.zip** (TWRP flashable OTA package)  
-[https://www.androidfilehost.com/?fid=4279422670115718562](https://www.androidfilehost.com/?fid=4279422670115718562)  
-md5:ee25a4cf4bb7a5ca4bf03141bf1bf4ed
+**lineage-20.0-20230321-UNOFFICIAL-KonstaKANG-rpi4-atv-ota.zip** (TWRP flashable OTA package)  
+[https://www.androidfilehost.com/?fid=4279422670115729751](https://www.androidfilehost.com/?fid=4279422670115729751)  
+md5:580cb88ad88e0f032fd233d04abb4c48
 
 **Working:**
 
@@ -51,7 +51,7 @@ md5:ee25a4cf4bb7a5ca4bf03141bf1bf4ed
 
 - Chromecast functionality is not supported on uncertified Android TV devices
 - Hardware video decoding performance varies depending on the selected decoder option and video resolution/bitrate/profile/container/etc
-- Camcorder (i.e. recording videos) & some third party camera apps don't work with official Pi camera modules (works with UVC USB webcams)
+- Some third party camera apps don't work with official Pi camera modules (works with UVC USB webcams)
 - SELinux is in permissive mode
 - Encrypting userdata is not supported
 - and more...
@@ -201,11 +201,11 @@ Q: How to install Magisk?
 6. Install Magisk-v25.2.apk using Android's built-in file manager/```adb install```/etc.
 
 Q: How to install Google apps?  
-*A: It's still very early days for Android TV 13 so I'm not aware there is currently any compatible GApps releases available.*
+*A:*
 
-1. Download GApps-13.0-arm64-ATV-xxxxxxxx.zip and save it to your device's internal storage or use an external USB drive
+1. Download [MindTheGapps-13.0.0-arm64-ATV-xxxxxxxx_xxxxxx.zip](https://androidfilehost.com/?w=files&flid=334254) and save it to your device's internal storage or use an external USB drive
 2. Boot to TWRP recovery (see FAQ)
-3. Install GApps-13.0-arm64-ATV-xxxxxxxx.zip from your selected storage
+3. Install MindTheGapps-13.0.0-arm64-ATV-xxxxxxxx_xxxxxx.zip from your selected storage
 4. Wipe -> Factory reset!
 5. Boot out of recovery (see FAQ)
 
@@ -213,6 +213,20 @@ Q: How to install Google apps?
 <!--block-->
 
 [Merged commits](https://review.lineageos.org/#/q/status:merged+branch:lineage-20.0+-project:%255E.*device.*+-project:%255E.*kernel.*) not mentioned in the changelog.
+
+**21.3. changelog:**
+
+- Android 13 QPR2
+- HDMI audio improvements
+  - implement audio HAL that uses alsa directly to get rid off using alsa loopback for HDMI audio (thanks to nename0)
+  - update alsa-lib and alsa-utils to v1.2.8
+- update to libcamera master/v0.0.4
+  - fix camcorder (i.e. recording videos) with Pi camera modules
+  - add support for Pi camera module v3 (untested)
+- update to FFmpeg 5.1.3
+- update to Mesa 22.3.7
+- update to Linux 5.15.94 kernel and patch known vulnerabilities (CVE-xxxx-xxxx, and more)
+- Android security patch level: 5 March 2023 (merged)
 
 **14.2. changelog:**
 
