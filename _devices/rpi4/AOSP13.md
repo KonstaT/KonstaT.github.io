@@ -2,7 +2,7 @@
 layout: rom
 title: AOSP (Android 13)
 subtitle: for Raspberry Pi 4
-date: 2023-03-14
+date: 2023-04-12
 tags: [rpi4, AOSP]
 social-share: true
 comments: true
@@ -16,17 +16,17 @@ Here's my build of AOSP (Android 13) for Raspberry Pi 4 Model B, Pi 400, and Com
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
-**AOSP13-20230314-KonstaKANG-rpi4.zip**  
-[https://www.androidfilehost.com/?fid=4279422670115728390](https://www.androidfilehost.com/?fid=4279422670115728390)  
-md5:7390bc560ecfa9d5634d1a82939bea26
+**AOSP13-20230412-KonstaKANG-rpi4.zip**  
+[https://www.androidfilehost.com/?fid=4279422670115735134](https://www.androidfilehost.com/?fid=4279422670115735134)  
+md5:2b183824bf3ffbdb03bb146e334e78de
 
-**AOSP13-20230314-KonstaKANG-rpi4-ota.zip** (TWRP flashable OTA package)  
-[https://www.androidfilehost.com/?fid=4279422670115728388](https://www.androidfilehost.com/?fid=4279422670115728388)  
-md5:8f4b77d5162c7beee0f517c9f4571fd5
+**AOSP13-20230412-KonstaKANG-rpi4-ota.zip** (TWRP flashable OTA package)  
+[https://www.androidfilehost.com/?fid=4279422670115735132](https://www.androidfilehost.com/?fid=4279422670115735132)  
+md5:387f3797b86a9a466226e79c4d48771d
 
-**AOSP13-20230314-KonstaKANG-rpi4-6.1-kernel.zip** (optional add-on)  
-[https://www.androidfilehost.com/?fid=4279422670115728385](https://www.androidfilehost.com/?fid=4279422670115728385)  
-md5:fec3f9bb784408cd04e4ed59d4f61f36
+**AOSP13-20230412-KonstaKANG-rpi4-6.1-kernel.zip** (optional add-on)  
+[https://www.androidfilehost.com/?fid=4279422670115735130](https://www.androidfilehost.com/?fid=4279422670115735130)  
+md5:9d26d0f7dfa058f1f9de5c690154b2a6
 
 **Working:**
 
@@ -215,6 +215,18 @@ Q: How to install Google apps?
 
 ----
 <!--block-->
+
+**12.4. changelog:**
+
+- update to latest AOSP release (android-13.0.0_r41)
+- use USB audio input for camcorder videos with the built-in camera application
+- add support for AV1 software video decoding using FFmpeg and dav1d
+- update to FFmpeg 6.0
+- update to Linux 5.15.98 kernel and patch known vulnerabilities (CVE-xxxx-xxxx, and more)
+- Android security patch level: 5 April 2023
+
+Linux 6.1 kernel: (optional add-on)
+- update to Linux 6.1.23 kernel and patch known vulnerabilities (CVE-xxxx-xxxx, and more)
 
 **14.3. changelog:**
 
