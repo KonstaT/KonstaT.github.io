@@ -2,7 +2,7 @@
 layout: rom
 title: LineageOS 20 Android TV (Android 13)
 subtitle: for Raspberry Pi 4
-date: 2023-03-21
+date: 2023-05-05
 tags: [rpi4, LineageOS, LOS20, AndroidTV]
 social-share: true
 comments: true
@@ -16,13 +16,13 @@ Here's my build of LineageOS 20 Android TV for Raspberry Pi 4 Model B, Pi 400, a
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
-**lineage-20.0-20230321-UNOFFICIAL-KonstaKANG-rpi4-atv.zip**  
-[https://www.androidfilehost.com/?fid=4279422670115729753](https://www.androidfilehost.com/?fid=4279422670115729753)  
-md5:48c6da39cde80f3894690099ceba1696
+**lineage-20.0-20230505-UNOFFICIAL-KonstaKANG-rpi4-atv.zip**  
+[https://www.androidfilehost.com/?fid=10620683726822051673](https://www.androidfilehost.com/?fid=10620683726822051673)  
+md5:ad9ce7d7911e60ed182fdd188ff1300c
 
-**lineage-20.0-20230321-UNOFFICIAL-KonstaKANG-rpi4-atv-ota.zip** (TWRP flashable OTA package)  
-[https://www.androidfilehost.com/?fid=4279422670115729751](https://www.androidfilehost.com/?fid=4279422670115729751)  
-md5:580cb88ad88e0f032fd233d04abb4c48
+**lineage-20.0-20230505-UNOFFICIAL-KonstaKANG-rpi4-atv-ota.zip** (TWRP flashable OTA package)  
+[https://www.androidfilehost.com/?fid=10620683726822051671](https://www.androidfilehost.com/?fid=10620683726822051671)  
+md5:9aa7e14fd458826a8d46c13f4c7f13af
 
 **Working:**
 
@@ -213,6 +213,16 @@ Q: How to install Google apps?
 <!--block-->
 
 [Merged commits](https://review.lineageos.org/#/q/status:merged+branch:lineage-20.0+-project:%255E.*device.*+-project:%255E.*kernel.*) not mentioned in the changelog.
+
+**5.5. changelog:**
+
+- add support for AV1 software video decoding using FFmpeg and dav1d
+- update to FFmpeg 6.0
+- update to libcamera master/v0.0.5
+- update to alsa-lib/alsa-utils v1.2.9
+- update to Mesa 23.0.3
+- update to Linux 5.15.106 kernel and patch known vulnerabilities (CVE-xxxx-xxxx, and more)
+- Android security patch level: 5 May 2023 (merged)
 
 **21.3. changelog:**
 
