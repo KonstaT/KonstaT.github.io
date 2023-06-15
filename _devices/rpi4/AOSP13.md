@@ -2,7 +2,7 @@
 layout: rom
 title: AOSP (Android 13)
 subtitle: for Raspberry Pi 4
-date: 2023-04-12
+date: 2023-06-15
 tags: [rpi4, AOSP]
 social-share: true
 comments: true
@@ -16,17 +16,17 @@ Here's my build of AOSP (Android 13) for Raspberry Pi 4 Model B, Pi 400, and Com
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
-**AOSP13-20230412-KonstaKANG-rpi4.zip**  
-[https://www.androidfilehost.com/?fid=4279422670115735134](https://www.androidfilehost.com/?fid=4279422670115735134)  
-md5:2b183824bf3ffbdb03bb146e334e78de
+**AOSP13-20230615-KonstaKANG-rpi4.zip**  
+[https://www.androidfilehost.com/?fid=10620683726822060099](https://www.androidfilehost.com/?fid=10620683726822060099)  
+md5:cb2cd4dfe0a656d7e5459ed6374e1fb3
 
-**AOSP13-20230412-KonstaKANG-rpi4-ota.zip** (TWRP flashable OTA package)  
-[https://www.androidfilehost.com/?fid=4279422670115735132](https://www.androidfilehost.com/?fid=4279422670115735132)  
-md5:387f3797b86a9a466226e79c4d48771d
+**AOSP13-20230615-KonstaKANG-rpi4-ota.zip** (TWRP flashable OTA package)  
+[https://www.androidfilehost.com/?fid=10620683726822060095](https://www.androidfilehost.com/?fid=10620683726822060095)  
+md5:e728d72eb0986d5c8d1fd9e1e0b694c3
 
-**AOSP13-20230412-KonstaKANG-rpi4-6.1-kernel.zip** (optional add-on)  
-[https://www.androidfilehost.com/?fid=4279422670115735130](https://www.androidfilehost.com/?fid=4279422670115735130)  
-md5:9d26d0f7dfa058f1f9de5c690154b2a6
+**AOSP13-20230615-KonstaKANG-rpi4-6.1-kernel.zip** (optional add-on)  
+[https://www.androidfilehost.com/?fid=10620683726822060093](https://www.androidfilehost.com/?fid=10620683726822060093)  
+md5:bab23ac0092cae252760033d9c74fbd4
 
 **Working:**
 
@@ -215,6 +215,20 @@ Q: How to install Google apps?
 
 ----
 <!--block-->
+
+**15.6. changelog:**
+
+- update to latest AOSP release (Android 13 QPR3 - android-13.0.0_r52)
+- update to libcamera master/v0.0.5
+- update to dav1d 1.2.0
+- update to alsa-lib/alsa-utils v1.2.9
+- update to Mesa 23.1.2
+- update to Linux 5.15.106 kernel and patch known vulnerabilities (CVE-xxxx-xxxx, and more)
+- Android security patch level: 5 June 2023
+
+Linux 6.1 kernel: (optional add-on)
+- add support for Waveshare DSI touchscreens
+- update to Linux 6.1.31 kernel and patch known vulnerabilities (CVE-xxxx-xxxx, and more)
 
 **12.4. changelog:**
 
