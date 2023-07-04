@@ -120,7 +120,7 @@ disqus: "konstakang"
 gtag: "G-5V569RZF4Z"
 
 # Fill in your Google Analytics ID to track your website using GA
-google_analytics: "UA-89785842-1"
+#google_analytics: ""
 
 # Fill in your Google AdSense ID
 google_adsense: "ca-pub-2525301408566801"
