@@ -2,7 +2,7 @@
 layout: rom
 title: LineageOS 20 (Android 13)
 subtitle: for Raspberry Pi 4
-date: 2023-05-05
+date: 2023-08-14
 tags: [rpi4, LineageOS, LOS20]
 social-share: true
 comments: true
@@ -16,13 +16,13 @@ Here's my build of LineageOS 20 for Raspberry Pi 4 Model B, Pi 400, and Compute 
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
-**lineage-20.0-20230505-UNOFFICIAL-KonstaKANG-rpi4.zip**  
-[https://www.androidfilehost.com/?fid=10620683726822051678](https://www.androidfilehost.com/?fid=10620683726822051678)  
-md5:e1cd1936734ac949ece2447f24054af6
+**lineage-20.0-20230814-UNOFFICIAL-KonstaKANG-rpi4.zip**  
+[https://www.androidfilehost.com/?fid=10620683726822071421](https://www.androidfilehost.com/?fid=10620683726822071421)  
+md5:37358116be94f1ed24c5ea9592b4ad89
 
-**lineage-20.0-20230505-UNOFFICIAL-KonstaKANG-rpi4-ota.zip** (TWRP flashable OTA package)  
-[https://www.androidfilehost.com/?fid=10620683726822051675](https://www.androidfilehost.com/?fid=10620683726822051675)  
-md5:49b7951f11628d0f16853b490639fc9f
+**lineage-20.0-20230814-UNOFFICIAL-KonstaKANG-rpi4-ota.zip** (TWRP flashable OTA package)  
+[https://www.androidfilehost.com/?fid=10620683726822071419](https://www.androidfilehost.com/?fid=10620683726822071419)  
+md5:71b0371e7439560449ec366a3a9a68b3
 
 **Working:**
 
@@ -215,6 +215,16 @@ Q: How to install Google apps?
 <!--block-->
 
 [Merged commits](https://review.lineageos.org/#/q/status:merged+branch:lineage-20.0+-project:%255E.*device.*+-project:%255E.*kernel.*) not mentioned in the changelog.
+
+**14.8. changelog:**
+
+- Android 13 QPR3
+- switch to btlinux bluetooth stack
+- update bluetooth firmware to fix connecting BLE devices
+- convert light and health HALs to AIDL
+- update to Mesa 23.1.5
+- update to Linux 5.15.122 kernel and patch known vulnerabilities (CVE-xxxx-xxxx, and more)
+- Android security patch level: 5 August 2023 (merged)
 
 **5.5. changelog:**
 
