@@ -49,7 +49,6 @@ md5:bbf64fc8d278c9ce78daf367f0bd062d
 
 **Issues:**
 
-- Hardware video decoding performance varies depending on the selected decoder option and video resolution/bitrate/profile/container/etc
 - Camcorder (i.e. recording videos) & some third party camera apps don't work with official Pi camera modules (works with UVC USB webcams)
 - SELinux is in permissive mode
 - and more...

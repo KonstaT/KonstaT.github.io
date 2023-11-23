@@ -53,7 +53,6 @@ md5:bab23ac0092cae252760033d9c74fbd4
 
 **Issues:**
 
-- Hardware video decoding performance varies depending on the selected decoder option and video resolution/bitrate/profile/container/etc
 - Some third party camera apps don't work with official Pi camera modules (works with UVC USB webcams)
 - SELinux is in permissive mode
 - Encrypting userdata is not supported

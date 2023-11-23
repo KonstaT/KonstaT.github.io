@@ -50,7 +50,6 @@ md5:3bccc8ebee4741de8fcdf4c5290cd82a
 **Issues:**
 
 - Connecting to protected wifi networks doesn't work - connecting to open networks does (WPA2/WPA3 authentication issue?, wifi keystore issue?) - TWRP flashable patch with a quick fix [available here!](https://www.androidfilehost.com/?fid=10620683726822086435)
-- Hardware video decoding performance varies depending on the selected decoder option and video resolution/bitrate/profile/container/etc
 - Some third party camera apps don't work with official Pi camera modules (works with UVC USB webcams)
 - SELinux is in permissive mode
 - Encrypting userdata is not supported
