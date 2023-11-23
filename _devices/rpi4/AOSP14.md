@@ -2,7 +2,7 @@
 layout: rom
 title: AOSP (Android 14)
 subtitle: for Raspberry Pi 4
-date: 2023-10-11
+date: 2023-11-23
 tags: [rpi4, AOSP]
 social-share: true
 comments: true
@@ -16,13 +16,13 @@ Here's my build of AOSP (Android 14) for Raspberry Pi 4 Model B, Pi 400, and Com
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
-**AOSP14-20231011-KonstaKANG-rpi4.zip**  
-[https://www.androidfilehost.com/?fid=10620683726822086705](https://www.androidfilehost.com/?fid=10620683726822086705)  
-md5:465d46ebb3dc45a5a413958a76f26366
+**AOSP14-20231123-KonstaKANG-rpi4.zip**  
+[https://www.androidfilehost.com/?fid=16385555061192796680](https://www.androidfilehost.com/?fid=16385555061192796680)  
+md5:f7a78da90e7522d33c531c511921ee74
 
-**AOSP14-20231011-KonstaKANG-rpi4-ota.zip** (TWRP flashable OTA package)  
-[https://www.androidfilehost.com/?fid=10620683726822086703](https://www.androidfilehost.com/?fid=10620683726822086703)  
-md5:3bccc8ebee4741de8fcdf4c5290cd82a
+**AOSP14-20231123-KonstaKANG-rpi4-ota.zip** (TWRP flashable OTA package)  
+[https://www.androidfilehost.com/?fid=16385555061192796678](https://www.androidfilehost.com/?fid=16385555061192796678)  
+md5:1ec2070831d1839dd71b856fbf7835d2
 
 **Working:**
 
@@ -49,8 +49,8 @@ md5:3bccc8ebee4741de8fcdf4c5290cd82a
 
 **Issues:**
 
-- Connecting to protected wifi networks doesn't work - connecting to open networks does (WPA2/WPA3 authentication issue?, wifi keystore issue?) - TWRP flashable patch with a quick fix [available here!](https://www.androidfilehost.com/?fid=10620683726822086435)
-- Some third party camera apps don't work with official Pi camera modules (works with UVC USB webcams)
+- Various issues with CSI camera modules
+- DSI displays not currently working due to HDMI-CEC ([Issue#37](https://github.com/raspberry-vanilla/android_local_manifest/issues/37))
 - SELinux is in permissive mode
 - Encrypting userdata is not supported
 - and more...
@@ -171,13 +171,14 @@ Q: How to boot from USB device?
 *A:*
 
 1. Install EEPROM that supports booting from USB
-2. Write image to your USB device as above
-3. Mount the USB device on your computer and make following changes to /boot/config.txt under 'Boot device' section:
+2. Write image to your USB/NVME storage device as above
+3. Mount the USB/NVME device on your computer and modify /boot/config.txt under 'Boot device' section (e.g. for USB boot):
 ```
 #dtoverlay=android-sdcard
 dtoverlay=android-usb
+#dtoverlay=android-nvme
 ```
-4. Plug in the USB device to your Raspberry Pi, remove any sdcard, and boot
+4. Connect the USB/NVME device to your Raspberry Pi, remove any sdcard, and boot
 
 Q: How to boot to TWRP recovery?  
 *A: AOSP doesn't have reboot to recovery option in power menu. You can boot to TWRP by selecting option in Settings -> System -> Raspberry Pi settings -> Reboot to recovery.*
@@ -220,6 +221,23 @@ Q: How to install Google apps?
 
 ----
 <!--block-->
+
+**23.11. changelog:**
+
+- update to latest AOSP release (android-14.0.0_r14)
+- include AOSP13 wpa_supplicant to fix connecting to protected networks
+- add support for booting from NVME (custom CM4 I/O boards with M.2 slot)
+- improve audio DAC detection
+- improve CPU overclocking option (Pi 4B R1.4+ and Pi 400 clocked at 1800MHz by default)
+- fix native screen recording
+- update to TWRP 3.7.0_11-1-KonstaKANG
+- update to new Raspberry Pi utils (vcgencmd, pinctrl, etc)
+- update to v4l-utils master/1.25.0
+- update to FFmpeg 6.0.1, AOSP dav1d 1.3.0
+- update to libcamera master/v0.1.0
+- update to Mesa 23.3.0-rc4
+- update to Linux 6.1.61 kernel and patch known vulnerabilities (CVE-xxxx-xxxx, and more)
+- Android security patch level: 1 November 2023
 
 **11.10. changelog:**
 
