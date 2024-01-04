@@ -2,7 +2,7 @@
 layout: rom
 title: AOSP (Android 14)
 subtitle: for Raspberry Pi 5
-date: 2023-11-23
+date: 2024-01-04
 tags: [rpi5, AOSP]
 social-share: true
 comments: true
@@ -16,13 +16,13 @@ Here's my build of AOSP (Android 14) for Raspberry Pi 5. It's for **advanced use
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
-**AOSP14-20231123-KonstaKANG-rpi5.zip**  
-[https://www.androidfilehost.com/?fid=16385555061192796717](https://www.androidfilehost.com/?fid=16385555061192796717)  
-md5:f33e45519ab9836f938615951ee79ec2
+**AOSP14-20240104-KonstaKANG-rpi5.zip**  
+[https://drive.google.com/file/d/1vlY-cW4HPLrrYhSnqLJ8yEQBSR2Nzxdq](https://drive.google.com/file/d/1vlY-cW4HPLrrYhSnqLJ8yEQBSR2Nzxdq)  
+md5:4be19b1abded3c6075b5b29a78ecdc93
 
-**AOSP14-20231123-KonstaKANG-rpi5-ota.zip** (TWRP flashable OTA package)  
-[https://www.androidfilehost.com/?fid=16385555061192796715](https://www.androidfilehost.com/?fid=16385555061192796715)  
-md5:4b17fa793848f6725190cefd3c19827b
+**AOSP14-20240104-KonstaKANG-rpi5-ota.zip** (TWRP flashable OTA package)  
+[https://drive.google.com/file/d/1Nz1kBiuPfWbuvY5v2YR6Y2hW9R8UKWQX](https://drive.google.com/file/d/1Nz1kBiuPfWbuvY5v2YR6Y2hW9R8UKWQX)  
+md5:60292af1860b4f7e4d88bf5316ccc732
 
 **Working:**
 
@@ -45,17 +45,13 @@ md5:4b17fa793848f6725190cefd3c19827b
 - SPI
 - Touchscreen/multi-touch (official 7" touchscreen, USB touchscreens, Waveshare SPI touchscreens)
 - USB (mouse, keyboard, storage, etc)
+- USB-C (ADB, MTP, PTP, USB tethering)
 - Wifi (and wifi tethering)
-
-**Not working:**
-
-- USB-C (ADB, MTP, PTP, USB tethering) - dwc2 not yet supported on Pi 5 firmware ([Issue#77](https://github.com/raspberrypi/bookworm-feedback/issues/77))
 
 **Issues:**
 
 - Various issues with CSI camera modules
-- Some audio DACs need additional configuration ([Issue#5724](https://github.com/raspberrypi/linux/issues/5724))
-- DSI displays not currently working due to HDMI-CEC ([Issue#37](https://github.com/raspberry-vanilla/android_local_manifest/issues/37))
+- Some audio DACs need additional configuration ([Issue#5743](https://github.com/raspberrypi/linux/issues/5743))
 - SELinux is in permissive mode
 - Encrypting userdata is not supported
 - and more...
@@ -213,6 +209,15 @@ Q: How to install Google apps?
 
 ----
 <!--block-->
+
+**4.1. 2024 changelog:**
+
+- update to latest AOSP release (Android 14 QPR1 - android-14.0.0_r20)
+- fix HDMI-CEC issue (affected DSI displays, displays on secondary HDMI port, and headless mode)
+- fix USB-C (requires EEPROM update to 2023-12-06 or newer)
+- update to Mesa 23.3.2
+- update to Linux 6.1.65 kernel and patch known vulnerabilities (CVE-xxxx-xxxx, and more)
+- Android security patch level: 5 January 2024
 
 **23.11. changelog:**
 

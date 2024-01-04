@@ -2,7 +2,7 @@
 layout: rom
 title: AOSP (Android 14)
 subtitle: for Raspberry Pi 4
-date: 2023-11-23
+date: 2024-01-04
 tags: [rpi4, AOSP]
 social-share: true
 comments: true
@@ -16,13 +16,13 @@ Here's my build of AOSP (Android 14) for Raspberry Pi 4 Model B, Pi 400, and Com
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
-**AOSP14-20231123-KonstaKANG-rpi4.zip**  
-[https://www.androidfilehost.com/?fid=16385555061192796680](https://www.androidfilehost.com/?fid=16385555061192796680)  
-md5:f7a78da90e7522d33c531c511921ee74
+**AOSP14-20240104-KonstaKANG-rpi4.zip**  
+[https://drive.google.com/file/d/1oby4-GwvaXnSA2Pu4xfjvMqf8lgaWzme](https://drive.google.com/file/d/1oby4-GwvaXnSA2Pu4xfjvMqf8lgaWzme)  
+md5:678cb0e21140280baf5a970b65e37070
 
-**AOSP14-20231123-KonstaKANG-rpi4-ota.zip** (TWRP flashable OTA package)  
-[https://www.androidfilehost.com/?fid=16385555061192796678](https://www.androidfilehost.com/?fid=16385555061192796678)  
-md5:1ec2070831d1839dd71b856fbf7835d2
+**AOSP14-20240104-KonstaKANG-rpi4-ota.zip** (TWRP flashable OTA package)  
+[https://drive.google.com/file/d/16LG7IY2bLSroyihX8MhomfxGqtKgyWGk](https://drive.google.com/file/d/16LG7IY2bLSroyihX8MhomfxGqtKgyWGk)  
+md5:59320735f192bb2dbd34128a9e196d4c
 
 **Working:**
 
@@ -50,7 +50,6 @@ md5:1ec2070831d1839dd71b856fbf7835d2
 **Issues:**
 
 - Various issues with CSI camera modules
-- DSI displays not currently working due to HDMI-CEC ([Issue#37](https://github.com/raspberry-vanilla/android_local_manifest/issues/37))
 - SELinux is in permissive mode
 - Encrypting userdata is not supported
 - and more...
@@ -221,6 +220,14 @@ Q: How to install Google apps?
 
 ----
 <!--block-->
+
+**4.1. 2024 changelog:**
+
+- update to latest AOSP release (Android 14 QPR1 - android-14.0.0_r20)
+- fix HDMI-CEC issue (affected DSI displays, displays on secondary HDMI port, and headless mode)
+- update to Mesa 23.3.2
+- update to Linux 6.1.65 kernel and patch known vulnerabilities (CVE-xxxx-xxxx, and more)
+- Android security patch level: 5 January 2024
 
 **23.11. changelog:**
 
