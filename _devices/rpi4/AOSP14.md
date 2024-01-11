@@ -17,11 +17,11 @@ Here's my build of AOSP (Android 14) for Raspberry Pi 4 Model B, Pi 400, and Com
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
 **AOSP14-20240104-KonstaKANG-rpi4.zip**  
-[https://drive.google.com/file/d/1oby4-GwvaXnSA2Pu4xfjvMqf8lgaWzme](https://drive.google.com/file/d/1oby4-GwvaXnSA2Pu4xfjvMqf8lgaWzme)  
+[https://dlupload.com/filedetail/1138405769](https://dlupload.com/filedetail/1138405769) [(mirror)](https://drive.google.com/file/d/1oby4-GwvaXnSA2Pu4xfjvMqf8lgaWzme)  
 md5:678cb0e21140280baf5a970b65e37070
 
 **AOSP14-20240104-KonstaKANG-rpi4-ota.zip** (TWRP flashable OTA package)  
-[https://drive.google.com/file/d/16LG7IY2bLSroyihX8MhomfxGqtKgyWGk](https://drive.google.com/file/d/16LG7IY2bLSroyihX8MhomfxGqtKgyWGk)  
+[https://dlupload.com/filedetail/1112104078](https://dlupload.com/filedetail/1112104078) [(mirror)](https://drive.google.com/file/d/16LG7IY2bLSroyihX8MhomfxGqtKgyWGk)  
 md5:59320735f192bb2dbd34128a9e196d4c
 
 **Working:**

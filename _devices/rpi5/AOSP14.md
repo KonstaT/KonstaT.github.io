@@ -17,11 +17,11 @@ Here's my build of AOSP (Android 14) for Raspberry Pi 5. It's for **advanced use
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
 **AOSP14-20240104-KonstaKANG-rpi5.zip**  
-[https://drive.google.com/file/d/1vlY-cW4HPLrrYhSnqLJ8yEQBSR2Nzxdq](https://drive.google.com/file/d/1vlY-cW4HPLrrYhSnqLJ8yEQBSR2Nzxdq)  
+[https://dlupload.com/filedetail/259058375](https://dlupload.com/filedetail/259058375) [(mirror)](https://drive.google.com/file/d/1vlY-cW4HPLrrYhSnqLJ8yEQBSR2Nzxdq)  
 md5:4be19b1abded3c6075b5b29a78ecdc93
 
 **AOSP14-20240104-KonstaKANG-rpi5-ota.zip** (TWRP flashable OTA package)  
-[https://drive.google.com/file/d/1Nz1kBiuPfWbuvY5v2YR6Y2hW9R8UKWQX](https://drive.google.com/file/d/1Nz1kBiuPfWbuvY5v2YR6Y2hW9R8UKWQX)  
+[https://dlupload.com/filedetail/1897156052](https://dlupload.com/filedetail/1897156052) [(mirror)](https://drive.google.com/file/d/1Nz1kBiuPfWbuvY5v2YR6Y2hW9R8UKWQX)  
 md5:60292af1860b4f7e4d88bf5316ccc732
 
 **Working:**
