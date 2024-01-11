@@ -2,7 +2,7 @@
 layout: rom
 title: LineageOS 20 (Android 13)
 subtitle: for Raspberry Pi 4
-date: 2023-08-14
+date: 2024-01-11
 tags: [rpi4, LineageOS, LOS20]
 social-share: true
 comments: true
@@ -16,13 +16,13 @@ Here's my build of LineageOS 20 for Raspberry Pi 4 Model B, Pi 400, and Compute 
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
-**lineage-20.0-20230814-UNOFFICIAL-KonstaKANG-rpi4.zip**  
-[https://www.androidfilehost.com/?fid=10620683726822071421](https://www.androidfilehost.com/?fid=10620683726822071421)  
-md5:37358116be94f1ed24c5ea9592b4ad89
+**lineage-20.0-20240111-UNOFFICIAL-KonstaKANG-rpi4.zip**  
+[https://dlupload.com/filedetail/258184573](https://dlupload.com/filedetail/258184573)  
+md5:c62e9819c43679f106801fcec2864b75
 
-**lineage-20.0-20230814-UNOFFICIAL-KonstaKANG-rpi4-ota.zip** (TWRP flashable OTA package)  
-[https://www.androidfilehost.com/?fid=10620683726822071419](https://www.androidfilehost.com/?fid=10620683726822071419)  
-md5:71b0371e7439560449ec366a3a9a68b3
+**lineage-20.0-20240111-UNOFFICIAL-KonstaKANG-rpi4-ota.zip** (TWRP flashable OTA package)  
+[https://dlupload.com/filedetail/1845859356](https://dlupload.com/filedetail/1845859356)  
+md5:39681da49807e993a6c585f7cc0fbb05
 
 **Working:**
 
@@ -172,13 +172,14 @@ Q: How to boot from USB device?
 *A:*
 
 1. Install EEPROM that supports booting from USB
-2. Write image to your USB device as above
-3. Mount the USB device on your computer and make following changes to /boot/config.txt under 'Boot device' section:
+2. Write image to your USB/NVME storage device as above
+3. Mount the USB/NVME device on your computer and modify /boot/config.txt under 'Boot device' section (e.g. for USB boot):
 ```
 #dtoverlay=android-sdcard
 dtoverlay=android-usb
+#dtoverlay=android-nvme
 ```
-4. Plug in the USB device to your Raspberry Pi, remove any sdcard, and boot
+4. Connect the USB/NVME device to your Raspberry Pi, remove any sdcard, and boot
 
 Q: How to boot to TWRP recovery?  
 *A: You can boot to TWRP by selecting recovery option in Android power menu after enabling advanced restart options.*
@@ -214,6 +215,21 @@ Q: How to install Google apps?
 <!--block-->
 
 [Merged commits](https://review.lineageos.org/#/q/status:merged+branch:lineage-20.0+-project:%255E.*device.*+-project:%255E.*kernel.*) not mentioned in the changelog.
+
+**11.1. 2024 changelog:**
+
+- implement USB gadget HAL
+- add support for booting from NVME (custom CM4 I/O boards with M.2 slot)
+- improve audio DAC detection
+- improve CPU overclocking option (Pi 4B R1.4+ and Pi 400 clocked at 1800MHz by default)
+- update to TWRP 3.7.0_11-1-KonstaKANG
+- update to new Raspberry Pi utils (vcgencmd, pinctrl, etc)
+- update to v4l-utils master/1.25.0
+- update to alsa-lib/alsa-utils v1.2.10
+- update to FFmpeg 6.0.1, AOSP dav1d 1.3.0
+- update to Mesa 23.3.2
+- update to Linux 5.15.145 kernel and patch known vulnerabilities (CVE-xxxx-xxxx, and more)
+- Android security patch level: 5 January 2024 (merged)
 
 **14.8. changelog:**
 
