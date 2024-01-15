@@ -185,7 +185,7 @@ Q: My device keeps booting into TWRP recovery. What should I do?
 Q: How to install Widevine L3?  
 *A:*
 
-1. Download [lineage-20.0-rpi-widevine.zip](https://drive.google.com/file/d/1PA4DTCtIyq3ilPzQh3iTrK7YhD0lpbne) and save it to your device's internal storage or use an external USB drive
+1. Download [lineage-20.0-rpi-widevine.zip](https://androidfilehost.com/?fid=11701882489785033173) and save it to your device's internal storage or use an external USB drive
 2. Boot to TWRP recovery (see FAQ)
 3. Install lineage-20.0-rpi-widevine.zip from your selected storage
 4. Boot out of recovery (see FAQ)
@@ -229,6 +229,6 @@ Q: How to install Google apps?
 
 **Previous builds:**
 
-- [AndroidFileHost]()
+- [AndroidFileHost](https://androidfilehost.com/?w=files&flid=340887)
 
 ----
