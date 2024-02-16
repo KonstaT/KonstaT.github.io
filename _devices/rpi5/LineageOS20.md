@@ -217,7 +217,7 @@ Q: How to install Google apps?
 
 **12.1. changelog:**
 
-- initial release
+- initial LineageOS 20 release
 - Mesa 23.3.3
 - FFmpeg 6.0.1, AOSP dav1d 1.3.0
 - alsa-lib/alsa-utils v1.2.10

@@ -1,28 +1,28 @@
 ---
 layout: rom
-title: LineageOS 20 Android TV (Android 13)
+title: LineageOS 21 (Android 14)
 subtitle: for Raspberry Pi 5
-date: 2024-01-12
-tags: [rpi5, LineageOS, LOS20, AndroidTV]
+date: 2024-02-16
+tags: [rpi5, LineageOS, LOS21]
 social-share: true
 comments: true
 ---
 
-Here's my build of LineageOS 20 Android TV for Raspberry Pi 5. It is unofficial and unsupported by the LineageOS team. It's for **advanced users** only.
+Here's my build of LineageOS 21 for Raspberry Pi 5. It is unofficial and unsupported by the LineageOS team. It's for **advanced users** only.
 
 <span style="color:#FF0000;">Important!</span> This image includes parts that are licensed under non-commercial license ([Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International](http://creativecommons.org/licenses/by-nc-sa/4.0/)). You may use this build freely in personal/educational/etc use. Commercial use is not allowed with this build! You can contact me by email to discuss creating customized Android builds for commercial purposes.
 
-![screenshot]({{ site.url }}/img/rpi5/LineageOS20/Screenshot_20240112-163705_Settings.png)
+![screenshot]({{ site.url }}/img/rpi5/LineageOS21/Screenshot_20240215-181823_Settings.png)
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
-**lineage-20.0-20240112-UNOFFICIAL-KonstaKANG-rpi5-atv.zip**  
-[https://dlupload.com/filedetail/649103027](https://dlupload.com/filedetail/649103027)  
-md5:0f589bdc26da6f5202b0e3bf36e47eeb
+**lineage-21.0-20240216-UNOFFICIAL-KonstaKANG-rpi5.zip**  
+[https://dlupload.com/filedetail/41953514](https://dlupload.com/filedetail/41953514)  
+md5:efaa61f5bb2b9b6342c3bb5f71d376c4
 
-**lineage-20.0-20240112-UNOFFICIAL-KonstaKANG-rpi5-atv-ota.zip** (TWRP flashable OTA package)  
-[https://dlupload.com/filedetail/696676521](https://dlupload.com/filedetail/696676521)  
-md5:7e8f8d86a04d1da716d9ca0f85657eaa
+**lineage-21.0-20240216-UNOFFICIAL-KonstaKANG-rpi5-ota.zip** (TWRP flashable OTA package)  
+[https://dlupload.com/filedetail/773676217](https://dlupload.com/filedetail/773676217)  
+md5:c8a7f4fe26427a8ee46f0cbe327cd7ed
 
 **Working:**
 
@@ -52,7 +52,6 @@ md5:7e8f8d86a04d1da716d9ca0f85657eaa
 
 - Issues with DSI displays ([Issue#58](https://github.com/raspberry-vanilla/android_local_manifest/issues/58))
 - Some audio DACs need additional configuration ([Issue#5743](https://github.com/raspberrypi/linux/issues/5743))
-- Chromecast functionality is not supported on uncertified Android TV devices
 - Various issues with CSI camera modules
 - SELinux is in permissive mode
 - Encrypting userdata is not supported
@@ -68,7 +67,7 @@ md5:7e8f8d86a04d1da716d9ca0f85657eaa
 - Peter Yoon and android-rpi project
 - AOSP reference board developers (dragonboard, hikey, yukawa)
 - Android-x86 project
-- LineageOS team and everyone who has contributed to LineageOS 20
+- LineageOS team and everyone who has contributed to LineageOS 21
 
 ----
 <!--block-->
@@ -79,9 +78,9 @@ md5:7e8f8d86a04d1da716d9ca0f85657eaa
 
 You can also update to newer builds using TWRP flashable OTA packages. OTA updates pushed through the built-in Updater app are stored at /data/lineageos_updates/.
 
-1. Download lineage-20.0-xxxxxxxx-UNOFFICIAL-KonstaKANG-rpi5-atv-ota.zip and save it to your device's internal storage or use an external USB drive
+1. Download lineage-21.0-xxxxxxxx-UNOFFICIAL-KonstaKANG-rpi5-ota.zip and save it to your device's internal storage or use an external USB drive
 2. Boot to TWRP recovery (see FAQ)
-3. Install lineage-20.0-xxxxxxxx-UNOFFICIAL-KonstaKANG-rpi5-atv-ota.zip from your selected storage
+3. Install lineage-21.0-xxxxxxxx-UNOFFICIAL-KonstaKANG-rpi5-ota.zip from your selected storage
 4. (Flash Magisk/other add-ons you had previously installed)
 5. Boot out of recovery (see FAQ)
 
@@ -106,10 +105,10 @@ Q: How to find several Raspberry Pi specific settings options?
 *Most options in this menu require you to reboot your device for the setting to take effect.*
 
 Q: How to enable advanced reboot options?  
-*A: Settings -> System -> Buttons -> Advanced reboot*
+*A: Settings -> System -> Buttons -> Power menu -> Advanced restart*
 
 Q: How to enable developer options?  
-*A: Settings -> System -> About -> Click 'Build number' several times.*
+*A: Settings -> About tablet -> Click 'Build number' several times.*
 
 Q: How to enable root access?  
 *A: LineageOS no longer has built-in root management for applications. You can have root access via ADB after enabling Settings -> System -> Developer options -> Rooted debugging, SSH (see FAQ below), or serial console. It is also possible to install Magisk following instructions later in the FAQ.*
@@ -117,8 +116,11 @@ Q: How to enable root access?
 Q: My display is not working. I can only see the rainbow screen but no Android boot animation. What should I do?  
 *A: This build only supports HDMI displays that report supported resolutions using EDID. 1920x1080 resolution is used by default with this build. You can change value in /boot/resolution.txt to use a different resolution that your display supports. Removing /boot/resolution.txt will use the preferred resolution of your display.*
 
-Q: Settings -> System -> Storage shows total system size of 7 GB. There's unallocated space on my sdcard. What should I do?  
-*A: This is a 7 GB image, remaining space on your sdcard will remain unallocated. Easiest way to extend /data partition is to simply flash my [resize](https://www.androidfilehost.com/?fid=11701882489785035164) zip in TWRP.*
+Q: How to use the official 7" DSI touchscreen display?  
+*A: You can enable required configurations using a settings option found in Settings -> System -> Raspberry Pi settings -> Touchscreen. You need to disconnect any HDMI display when using the DSI display.*
+
+Q: Settings -> Storage shows total system size of 7 GB. There's unallocated space on my sdcard. What should I do?  
+*A: This is a 7 GB image, remaining space on your sdcard will remain unallocated. Easiest way to extend /data partition is to simply flash my [resize](https://androidfilehost.com/?fid=11701882489785035158) zip in TWRP.*
 
 *Alternative option is to use e.g. GParted and extend /data partition (/dev/block/mmcblk0p4) to cover the unallocated space.*
 
@@ -142,7 +144,7 @@ Q: How to use IR remote?
 Q: How to use SSH?  
 *A: You can start/stop the built-in SSH server by using a settings option found in Settings -> System -> Raspberry Pi settings -> SSH.*
 
-*Android doesn't have user accounts with passwords so key based authentication is used with SSH instead. Necessary keys are generated on the first boot and you need to pull the private key to your computer (or alternatively you can push your own previously generated keys to the device). See Settings -> System -> About -> Status -> IP address for your device's IP address (192.168.0.100 is assumed here). Enable Android debugging & Rooted debugging under Settings -> System -> Developer options.*
+*Android doesn't have user accounts with passwords so key based authentication is used with SSH instead. Necessary keys are generated on the first boot and you need to pull the private key to your computer (or alternatively you can push your own previously generated keys to the device). See Settings -> About tablet -> IP address for your device's IP address (192.168.0.100 is assumed here). Enable Android debugging & Rooted debugging under Settings -> System -> Developer options.*
 
 ```
 adb connect 192.168.0.100
@@ -170,7 +172,7 @@ dtoverlay=android-usb
 3. Connect the USB/NVME device to your Raspberry Pi, remove any sdcard, and boot
 
 Q: How to boot to TWRP recovery?  
-*A: You can boot to TWRP by selecting Settings -> System -> Reboot -> Recovery after enabling advanced restart options.*
+*A: You can boot to TWRP by selecting recovery option in Android power menu after enabling advanced restart options.*
 
 *If mouse cursor doesn't appear, try replugging your mouse.*
 
@@ -183,27 +185,27 @@ Q: My device keeps booting into TWRP recovery. What should I do?
 Q: How to install Widevine L3?  
 *A:*
 
-1. Download [lineage-20.0-rpi-widevine.zip](https://androidfilehost.com/?fid=11701882489785033173) and save it to your device's internal storage or use an external USB drive
+1. Download [lineage-21.0-rpi-widevine.zip](https://androidfilehost.com/?fid=11701882489785033183) and save it to your device's internal storage or use an external USB drive
 2. Boot to TWRP recovery (see FAQ)
-3. Install lineage-20.0-rpi-widevine.zip from your selected storage
+3. Install lineage-21.0-rpi-widevine.zip from your selected storage
 4. Boot out of recovery (see FAQ)
 
 Q: How to install Magisk?  
 *A:*
 
-1. Download [lineage-20.0-rpi-magisk-v25.2.zip](https://www.androidfilehost.com/?fid=14871746926876846664) and save it to your device's internal storage or use an external USB drive
+1. Download [lineage-21.0-rpi-magisk-v25.2.zip](https://androidfilehost.com/?fid=11701882489785033181) and save it to your device's internal storage or use an external USB drive
 2. Download [Magisk-v25.2.apk](https://github.com/topjohnwu/Magisk/releases/tag/v25.2)
 3. Boot to TWRP recovery (see FAQ)
-4. Install lineage-20.0-rpi-magisk-v25.2.zip from your selected storage
+4. Install lineage-21.0-rpi-magisk-v25.2.zip from your selected storage
 5. Boot out of recovery (see FAQ)
 6. Install Magisk-v25.2.apk using Android's built-in file manager/```adb install```/etc.
 
 Q: How to install Google apps?  
 *A:*
 
-1. Download [MindTheGapps-13.0.0-arm64-ATV-xxxxxxxx_xxxxxx.zip](https://github.com/MindTheGapps/13.0.0-arm64-ATV/releases/latest) and save it to your device's internal storage or use an external USB drive
+1. Download [MindTheGapps-14.0.0-arm64-xxxxxxxx_xxxxxx.zip](https://github.com/MindTheGapps/14.0.0-arm64/releases/latest) and save it to your device's internal storage or use an external USB drive
 2. Boot to TWRP recovery (see FAQ)
-3. Install MindTheGapps-13.0.0-arm64-ATV-xxxxxxxx_xxxxxx.zip from your selected storage
+3. Install MindTheGapps-14.0.0-arm64-xxxxxxxx_xxxxxx.zip from your selected storage
 4. Wipe -> Factory reset!
 5. Boot out of recovery (see FAQ)
 6. [Register Google Services Framework Android ID](https://www.google.com/android/uncertified/) if/when prompted
@@ -211,22 +213,22 @@ Q: How to install Google apps?
 ----
 <!--block-->
 
-[Merged commits](https://review.lineageos.org/#/q/status:merged+branch:lineage-20.0+-project:%255E.*device.*+-project:%255E.*kernel.*) not mentioned in the changelog.
+[Merged commits](https://review.lineageos.org/#/q/status:merged+branch:lineage-21.0+-project:%255E.*device.*+-project:%255E.*kernel.*) not mentioned in the changelog.
 
-**12.1. changelog:**
+**16.2. changelog:**
 
-- initial LineageOS 20 Android TV release
-- Mesa 23.3.3
-- FFmpeg 6.0.1, AOSP dav1d 1.3.0
-- alsa-lib/alsa-utils v1.2.10
-- libcamera master/v0.1.0
-- Linux 6.1.68 kernel
-- Android security patch level: 5 January 2024
+- initial LineageOS 21 release
+- move serial console to the UART connector
+- switch external camera HAL to AIDL (improves boot time)
+- update to alsa-lib/alsa-utils v1.2.11
+- update to Mesa 24.0.1
+- update to Linux 6.1.74 kernel and patch known vulnerabilities (CVE-xxxx-xxxx, and more)
+- Android security patch level: 5 February 2024
 
 ----
 
 **Previous builds:**
 
-- [AndroidFileHost](https://androidfilehost.com/?w=files&flid=340887)
+- [AndroidFileHost](https://androidfilehost.com/?w=files&flid=340888)
 
 ----

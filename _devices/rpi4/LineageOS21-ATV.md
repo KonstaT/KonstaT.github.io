@@ -1,32 +1,32 @@
 ---
 layout: rom
-title: LineageOS 20 Android TV (Android 13)
-subtitle: for Raspberry Pi 5
-date: 2024-01-12
-tags: [rpi5, LineageOS, LOS20, AndroidTV]
+title: LineageOS 21 Android TV (Android 14)
+subtitle: for Raspberry Pi 4
+date: 2024-02-16
+tags: [rpi4, LineageOS, LOS21, AndroidTV]
 social-share: true
 comments: true
 ---
 
-Here's my build of LineageOS 20 Android TV for Raspberry Pi 5. It is unofficial and unsupported by the LineageOS team. It's for **advanced users** only.
+Here's my build of LineageOS 21 Android TV for Raspberry Pi 4 Model B, Pi 400, and Compute Module 4. It is unofficial and unsupported by the LineageOS team. It's for **advanced users** only. Pi 4 model with at least 2GB of RAM is required to run this build.
 
 <span style="color:#FF0000;">Important!</span> This image includes parts that are licensed under non-commercial license ([Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International](http://creativecommons.org/licenses/by-nc-sa/4.0/)). You may use this build freely in personal/educational/etc use. Commercial use is not allowed with this build! You can contact me by email to discuss creating customized Android builds for commercial purposes.
 
-![screenshot]({{ site.url }}/img/rpi5/LineageOS20/Screenshot_20240112-163705_Settings.png)
+![screenshot]({{ site.url }}/img/rpi4/LineageOS21/Screenshot_20240215-135058_Settings.png)
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
-**lineage-20.0-20240112-UNOFFICIAL-KonstaKANG-rpi5-atv.zip**  
-[https://dlupload.com/filedetail/649103027](https://dlupload.com/filedetail/649103027)  
-md5:0f589bdc26da6f5202b0e3bf36e47eeb
+**lineage-21.0-20240216-UNOFFICIAL-KonstaKANG-rpi4-atv.zip**  
+[https://dlupload.com/filedetail/184768254](https://dlupload.com/filedetail/184768254)  
+md5:9b5223d5c79c0d3628f5e5889a37486a
 
-**lineage-20.0-20240112-UNOFFICIAL-KonstaKANG-rpi5-atv-ota.zip** (TWRP flashable OTA package)  
-[https://dlupload.com/filedetail/696676521](https://dlupload.com/filedetail/696676521)  
-md5:7e8f8d86a04d1da716d9ca0f85657eaa
+**lineage-21.0-20240216-UNOFFICIAL-KonstaKANG-rpi4-atv-ota.zip** (TWRP flashable OTA package)  
+[https://dlupload.com/filedetail/315782937](https://dlupload.com/filedetail/315782937)  
+md5:764213778b2d30b5093df4612de1bd8b
 
 **Working:**
 
-- Audio (HDMI, USB microphones, bluetooth speakers/headphones, etc)
+- Audio (HDMI, 3.5mm jack, USB microphones, bluetooth speakers/headphones, etc)
 - Audio DAC (using GPIO DACs e.g. Hifiberry DAC+)
 - Bluetooth (and bluetooth tethering)
 - Camera (using official Pi camera modules & UVC USB webcams)
@@ -34,12 +34,11 @@ md5:7e8f8d86a04d1da716d9ca0f85657eaa
 - GPS (using external USB modules e.g. U-Blox 7)
 - Ethernet
 - Hardware accelerated graphics (V3D, OpenGL & Vulkan)
-- Hardware video decoding (H.265 decoding)
+- Hardware video decoding & encoding (H.265 decoding, H.264 decoding & encoding)
 - HDMI display (and HDMI-CEC)
 - I2C
 - IR remotes (using external GPIO IR modules e.g. TSOP4838)
-- Power button
-- RTC
+- RTC (using external GPIO I2C modules e.g. DS3231)
 - Sensors (using external GPIO I2C modules e.g. MPU6050, LSM6DS3, LSM303DLHC, BME280/BMP280, and APDS9930 accelerometer, gyroscope, magnetometer, temperature, pressure, humidity, ambient light, and proximity)
 - Serial console (using external GPIO serial console adapters e.g. PL2303)
 - SPI
@@ -50,8 +49,6 @@ md5:7e8f8d86a04d1da716d9ca0f85657eaa
 
 **Issues:**
 
-- Issues with DSI displays ([Issue#58](https://github.com/raspberry-vanilla/android_local_manifest/issues/58))
-- Some audio DACs need additional configuration ([Issue#5743](https://github.com/raspberrypi/linux/issues/5743))
 - Chromecast functionality is not supported on uncertified Android TV devices
 - Various issues with CSI camera modules
 - SELinux is in permissive mode
@@ -68,7 +65,7 @@ md5:7e8f8d86a04d1da716d9ca0f85657eaa
 - Peter Yoon and android-rpi project
 - AOSP reference board developers (dragonboard, hikey, yukawa)
 - Android-x86 project
-- LineageOS team and everyone who has contributed to LineageOS 20
+- LineageOS team and everyone who has contributed to LineageOS 21
 
 ----
 <!--block-->
@@ -79,9 +76,9 @@ md5:7e8f8d86a04d1da716d9ca0f85657eaa
 
 You can also update to newer builds using TWRP flashable OTA packages. OTA updates pushed through the built-in Updater app are stored at /data/lineageos_updates/.
 
-1. Download lineage-20.0-xxxxxxxx-UNOFFICIAL-KonstaKANG-rpi5-atv-ota.zip and save it to your device's internal storage or use an external USB drive
+1. Download lineage-21.0-xxxxxxxx-UNOFFICIAL-KonstaKANG-rpi4-atv-ota.zip and save it to your device's internal storage or use an external USB drive
 2. Boot to TWRP recovery (see FAQ)
-3. Install lineage-20.0-xxxxxxxx-UNOFFICIAL-KonstaKANG-rpi5-atv-ota.zip from your selected storage
+3. Install lineage-21.0-xxxxxxxx-UNOFFICIAL-KonstaKANG-rpi4-atv-ota.zip from your selected storage
 4. (Flash Magisk/other add-ons you had previously installed)
 5. Boot out of recovery (see FAQ)
 
@@ -118,12 +115,12 @@ Q: My display is not working. I can only see the rainbow screen but no Android b
 *A: This build only supports HDMI displays that report supported resolutions using EDID. 1920x1080 resolution is used by default with this build. You can change value in /boot/resolution.txt to use a different resolution that your display supports. Removing /boot/resolution.txt will use the preferred resolution of your display.*
 
 Q: Settings -> System -> Storage shows total system size of 7 GB. There's unallocated space on my sdcard. What should I do?  
-*A: This is a 7 GB image, remaining space on your sdcard will remain unallocated. Easiest way to extend /data partition is to simply flash my [resize](https://www.androidfilehost.com/?fid=11701882489785035164) zip in TWRP.*
+*A: This is a 7 GB image, remaining space on your sdcard will remain unallocated. Easiest way to extend /data partition is to simply flash my [resize](https://androidfilehost.com/?fid=11701882489785035158) zip in TWRP.*
 
 *Alternative option is to use e.g. GParted and extend /data partition (/dev/block/mmcblk0p4) to cover the unallocated space.*
 
-Q: Is there any keyboard shortcuts for Android system functions?  
-*A: Following keyboard keys work as Android buttons: F1 = Home, F2 = Back, F3 = Multi-tasking, F4 = Menu, F5 = Power, F11 = Volume down, and F12 = Volume up.*
+Q: Raspberry Pi doesn't have a power button. How to power off/reboot device?  
+*A: Following keyboard keys work as Android buttons: F1 = Home, F2 = Back, F3 = Multi-tasking, F4 = Menu, F5 = Power, F11 = Volume down, and F12 = Volume up. You can also use one of many third party reboot applications.*
 
 Q: How to create a DIY hardware power button?  
 *A: You can send power button events by connecting GPIO21 to ground.*
@@ -134,10 +131,22 @@ Q: How to create a DIY hardware power button?
 
 *You can also use the DIY power button to boot the device to TWRP recovery. Press and hold the button while powering on the device until you see the TWRP screen.*
 
+Q: How to enable audio through HDMI?  
+*A: 3.5mm jack is used for audio by default. You can select the audio device you want to use by using a settings option found in Settings -> System -> Raspberry Pi settings -> Audio device.*
+
 Q: How to use IR remote?  
 *A: You can enable the feature by using a settings option found in Settings -> System -> Raspberry Pi settings -> Infrared remote.*
 
 *You can place a keymap for your remote as /boot/rc_keymap.txt to be automatically loaded on boot. See [available keymaps](https://github.com/lineage-rpi/android_external_ir-keytable/tree/lineage-18.1/rc_keymaps) for reference. You can use ```ir-keytable -p all -t``` in rooted shell to figure out the keycodes for the remote you're using.*
+
+Q: How to use RTC?  
+*A: You can enable the feature by using a settings option found in Settings -> System -> Raspberry Pi settings -> Real time clock.*
+
+*System time is automatically read and set from the RTC on boot once you've enabled the feature. You need to write the system time you want to use to the RTC in rooted shell:*
+
+```
+hwclock -w -f /dev/rtc0
+```
 
 Q: How to use SSH?  
 *A: You can start/stop the built-in SSH server by using a settings option found in Settings -> System -> Raspberry Pi settings -> SSH.*
@@ -157,17 +166,18 @@ ssh -i my_private_key root@192.168.0.100
 
 *It's recommended to disable adb after this.*
 
-Q: How to boot from USB or NVME device?  
+Q: How to boot from USB device?  
 *A:*
 
-1. Write image to your USB/NVME storage device as above
-2. Mount the USB/NVME device on your computer and modify /boot/config.txt under 'Boot device' section (e.g. for USB boot):
+1. Install EEPROM that supports booting from USB
+2. Write image to your USB/NVME storage device as above
+3. Mount the USB/NVME device on your computer and modify /boot/config.txt under 'Boot device' section (e.g. for USB boot):
 ```
 #dtoverlay=android-sdcard
 dtoverlay=android-usb
 #dtoverlay=android-nvme
 ```
-3. Connect the USB/NVME device to your Raspberry Pi, remove any sdcard, and boot
+4. Connect the USB/NVME device to your Raspberry Pi, remove any sdcard, and boot
 
 Q: How to boot to TWRP recovery?  
 *A: You can boot to TWRP by selecting Settings -> System -> Reboot -> Recovery after enabling advanced restart options.*
@@ -183,50 +193,48 @@ Q: My device keeps booting into TWRP recovery. What should I do?
 Q: How to install Widevine L3?  
 *A:*
 
-1. Download [lineage-20.0-rpi-widevine.zip](https://androidfilehost.com/?fid=11701882489785033173) and save it to your device's internal storage or use an external USB drive
+1. Download [lineage-21.0-rpi-widevine.zip](https://androidfilehost.com/?fid=11701882489785033183) and save it to your device's internal storage or use an external USB drive
 2. Boot to TWRP recovery (see FAQ)
-3. Install lineage-20.0-rpi-widevine.zip from your selected storage
+3. Install lineage-21.0-rpi-widevine.zip from your selected storage
 4. Boot out of recovery (see FAQ)
 
 Q: How to install Magisk?  
 *A:*
 
-1. Download [lineage-20.0-rpi-magisk-v25.2.zip](https://www.androidfilehost.com/?fid=14871746926876846664) and save it to your device's internal storage or use an external USB drive
+1. Download [lineage-21.0-rpi-magisk-v25.2.zip](https://androidfilehost.com/?fid=11701882489785033181) and save it to your device's internal storage or use an external USB drive
 2. Download [Magisk-v25.2.apk](https://github.com/topjohnwu/Magisk/releases/tag/v25.2)
 3. Boot to TWRP recovery (see FAQ)
-4. Install lineage-20.0-rpi-magisk-v25.2.zip from your selected storage
+4. Install lineage-21.0-rpi-magisk-v25.2.zip from your selected storage
 5. Boot out of recovery (see FAQ)
 6. Install Magisk-v25.2.apk using Android's built-in file manager/```adb install```/etc.
 
 Q: How to install Google apps?  
 *A:*
 
-1. Download [MindTheGapps-13.0.0-arm64-ATV-xxxxxxxx_xxxxxx.zip](https://github.com/MindTheGapps/13.0.0-arm64-ATV/releases/latest) and save it to your device's internal storage or use an external USB drive
+1. Download MindTheGapps-14.0.0-arm64-ATV-xxxxxxxx_xxxxxx.zip (not available yet) and save it to your device's internal storage or use an external USB drive
 2. Boot to TWRP recovery (see FAQ)
-3. Install MindTheGapps-13.0.0-arm64-ATV-xxxxxxxx_xxxxxx.zip from your selected storage
+3. Install MindTheGapps-14.0.0-arm64-ATV-xxxxxxxx_xxxxxx.zip from your selected storage
 4. Wipe -> Factory reset!
 5. Boot out of recovery (see FAQ)
-6. [Register Google Services Framework Android ID](https://www.google.com/android/uncertified/) if/when prompted
 
 ----
 <!--block-->
 
-[Merged commits](https://review.lineageos.org/#/q/status:merged+branch:lineage-20.0+-project:%255E.*device.*+-project:%255E.*kernel.*) not mentioned in the changelog.
+[Merged commits](https://review.lineageos.org/#/q/status:merged+branch:lineage-21.0+-project:%255E.*device.*+-project:%255E.*kernel.*) not mentioned in the changelog.
 
-**12.1. changelog:**
+**16.2. changelog:**
 
-- initial LineageOS 20 Android TV release
-- Mesa 23.3.3
-- FFmpeg 6.0.1, AOSP dav1d 1.3.0
-- alsa-lib/alsa-utils v1.2.10
-- libcamera master/v0.1.0
-- Linux 6.1.68 kernel
-- Android security patch level: 5 January 2024
+- initial LineageOS 21 Android TV release
+- switch external camera HAL to AIDL (improves boot time)
+- update to alsa-lib/alsa-utils v1.2.11
+- update to Mesa 24.0.1
+- update to Linux 6.1.74 kernel and patch known vulnerabilities (CVE-xxxx-xxxx, and more)
+- Android security patch level: 5 February 2024
 
 ----
 
 **Previous builds:**
 
-- [AndroidFileHost](https://androidfilehost.com/?w=files&flid=340887)
+- [AndroidFileHost](https://androidfilehost.com/?w=files&flid=340889)
 
 ----

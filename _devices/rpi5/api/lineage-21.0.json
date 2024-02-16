@@ -1,0 +1,13 @@
+{
+  "response": [
+    {
+      "datetime": 1708079963,
+      "filename": "lineage-21.0-20240216-UNOFFICIAL-KonstaKANG-rpi5-ota.zip",
+      "id": "14d071e7227c46e72ce1a5b44a7cc224e2844401543c6b30724fce0d74d57e8d",
+      "romtype": "UNOFFICIAL",
+      "size": 726199618,
+      "url": "https://github.com/lineage-rpi/OTA/releases/download/lineage-21.0-20240216/lineage-21.0-20240216-UNOFFICIAL-KonstaKANG-rpi5-ota.zip",
+      "version": "21.0"
+    }
+  ]
+}
