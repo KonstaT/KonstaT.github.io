@@ -193,12 +193,12 @@ Q: How to install Widevine L3?
 Q: How to install Magisk?  
 *A:*
 
-1. Download [lineage-21.0-rpi-magisk-v25.2.zip](https://androidfilehost.com/?fid=11701882489785033181) and save it to your device's internal storage or use an external USB drive
-2. Download [Magisk-v25.2.apk](https://github.com/topjohnwu/Magisk/releases/tag/v25.2)
+1. Download [KonstaKANG-rpi-magisk-v27.0.zip](https://dlupload.com/filedetail/1539729598) and save it to your device's internal storage or use an external USB drive
+2. Download [Magisk-v27.0.apk](https://github.com/topjohnwu/Magisk/releases/tag/v27.0)
 3. Boot to TWRP recovery (see FAQ)
-4. Install lineage-21.0-rpi-magisk-v25.2.zip from your selected storage
+4. Install KonstaKANG-rpi-magisk-v27.0.zip from your selected storage
 5. Boot out of recovery (see FAQ)
-6. Install Magisk-v25.2.apk using Android's built-in file manager/```adb install```/etc.
+6. Install Magisk-v27.0.apk using Android's built-in file manager/```adb install```/etc.
 
 Q: How to install Google apps?  
 *A:*
