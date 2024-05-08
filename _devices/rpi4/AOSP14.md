@@ -2,7 +2,7 @@
 layout: rom
 title: AOSP (Android 14)
 subtitle: for Raspberry Pi 4
-date: 2024-01-04
+date: 2024-05-08
 tags: [rpi4, AOSP]
 social-share: true
 comments: true
@@ -16,13 +16,17 @@ Here's my build of AOSP (Android 14) for Raspberry Pi 4 Model B, Pi 400, and Com
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
-**AOSP14-20240104-KonstaKANG-rpi4.zip**  
-[https://dlupload.com/filedetail/1138405769](https://dlupload.com/filedetail/1138405769)  
-md5:678cb0e21140280baf5a970b65e37070
+**AOSP14-20240508-KonstaKANG-rpi4.zip**  
+[https://dlupload.com/filedetail/631147552](https://dlupload.com/filedetail/631147552)  
+md5:b5ba7ca410dd158d1bd20ce85cfa2609
 
-**AOSP14-20240104-KonstaKANG-rpi4-ota.zip** (TWRP flashable OTA package)  
-[https://dlupload.com/filedetail/1112104078](https://dlupload.com/filedetail/1112104078)  
-md5:59320735f192bb2dbd34128a9e196d4c
+**AOSP14-20240508-KonstaKANG-rpi4-ota.zip** (TWRP flashable OTA package)  
+[https://dlupload.com/filedetail/1500109417](https://dlupload.com/filedetail/1500109417)  
+md5:da5b46517004a5714e1721fe7f0908c0
+
+**AOSP14-20240508-KonstaKANG-rpi4-6.6-kernel.zip** (optional add-on)  
+[https://dlupload.com/filedetail/2051014010](https://dlupload.com/filedetail/2051014010)  
+md5:614a39404e8dc38feb369e4f2380b6a1
 
 **Working:**
 
@@ -220,6 +224,23 @@ Q: How to install Google apps?
 
 ----
 <!--block-->
+
+**8.5. changelog:**
+
+- update to latest AOSP release (Android 14 QPR2 - android-14.0.0_r34)
+- move serial console to the UART connector
+- switch external camera HAL to AIDL (improves boot time)
+- sensor HAL fixes (thanks to Kethen)
+- update to libcamera master/v0.2.0, libpisp v1.0.5
+- update to FFmpeg 6.0.2, AOSP dav1d 1.4.1
+- update to alsa-lib/alsa-utils v1.2.11
+- update to Mesa 24.0.6
+- update to Linux 6.1.80 kernel and patch known vulnerabilities (CVE-xxxx-xxxx, and more)
+- Android security patch level: 5 May 2024
+
+Linux 6.6 kernel: (optional add-on)
+- new Raspberry Pi Android kernel bring-up based on AOSP android15-6.6
+- update to Linux 6.6.29 kernel and patch known vulnerabilities (CVE-xxxx-xxxx, and more)
 
 **4.1. 2024 changelog:**
 
