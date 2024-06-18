@@ -115,7 +115,7 @@ Q: My display is not working. I can only see the rainbow screen but no Android b
 *A: This build only supports HDMI displays that report supported resolutions using EDID. 1920x1080 resolution is used by default with this build. You can change value in /boot/resolution.txt to use a different resolution that your display supports. Removing /boot/resolution.txt will use the preferred resolution of your display.*
 
 Q: Settings -> System -> Storage shows total system size of 7 GB. There's unallocated space on my sdcard. What should I do?  
-*A: This is a 7 GB image, remaining space on your sdcard will remain unallocated. Easiest way to extend /data partition is to simply flash my [resize](https://www.androidfilehost.com/?fid=11701882489785035164) zip in TWRP.*
+*A: This is a 7 GB image, remaining space on your sdcard will remain unallocated. Easiest way to extend /data partition is to simply flash my [resize](https://dlupload.com/filedetail/1485615052) zip in TWRP.*
 
 *Alternative option is to use e.g. GParted and extend /data partition (/dev/block/mmcblk0p4) to cover the unallocated space.*
 

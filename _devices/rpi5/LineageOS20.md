@@ -120,7 +120,7 @@ Q: How to use the official 7" DSI touchscreen display?
 *A: You can enable required configurations using a settings option found in Settings -> System -> Raspberry Pi settings -> Touchscreen. You need to disconnect any HDMI display when using the DSI display.*
 
 Q: Settings -> Storage shows total system size of 7 GB. There's unallocated space on my sdcard. What should I do?  
-*A: This is a 7 GB image, remaining space on your sdcard will remain unallocated. Easiest way to extend /data partition is to simply flash my [resize](https://www.androidfilehost.com/?fid=11701882489785035164) zip in TWRP.*
+*A: This is a 7 GB image, remaining space on your sdcard will remain unallocated. Easiest way to extend /data partition is to simply flash my [resize](https://dlupload.com/filedetail/1485615052) zip in TWRP.*
 
 *Alternative option is to use e.g. GParted and extend /data partition (/dev/block/mmcblk0p4) to cover the unallocated space.*
 
@@ -185,9 +185,9 @@ Q: My device keeps booting into TWRP recovery. What should I do?
 Q: How to install Widevine L3?  
 *A:*
 
-1. Download [lineage-20.0-rpi-widevine.zip](https://androidfilehost.com/?fid=11701882489785033173) and save it to your device's internal storage or use an external USB drive
+1. Download [KonstaKANG-rpi-widevine-13.zip](https://dlupload.com/filedetail/1700988707) and save it to your device's internal storage or use an external USB drive
 2. Boot to TWRP recovery (see FAQ)
-3. Install lineage-20.0-rpi-widevine.zip from your selected storage
+3. Install KonstaKANG-rpi-widevine-13.zip from your selected storage
 4. Boot out of recovery (see FAQ)
 
 Q: How to install Magisk?  
