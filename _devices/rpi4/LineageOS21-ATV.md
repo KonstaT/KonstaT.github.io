@@ -2,7 +2,7 @@
 layout: rom
 title: LineageOS 21 Android TV (Android 14)
 subtitle: for Raspberry Pi 4
-date: 2024-02-16
+date: 2024-06-18
 tags: [rpi4, LineageOS, LOS21, AndroidTV]
 social-share: true
 comments: true
@@ -16,13 +16,13 @@ Here's my build of LineageOS 21 Android TV for Raspberry Pi 4 Model B, Pi 400, a
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
-**lineage-21.0-20240216-UNOFFICIAL-KonstaKANG-rpi4-atv.zip**  
-[https://dlupload.com/filedetail/184768254](https://dlupload.com/filedetail/184768254)  
-md5:9b5223d5c79c0d3628f5e5889a37486a
+**lineage-21.0-20240618-UNOFFICIAL-KonstaKANG-rpi4-atv.zip**  
+[https://dlupload.com/filedetail/985930649](https://dlupload.com/filedetail/985930649)  
+md5:7f4f7aefe376df7dbc39f418bff6fe24
 
-**lineage-21.0-20240216-UNOFFICIAL-KonstaKANG-rpi4-atv-ota.zip** (TWRP flashable OTA package)  
-[https://dlupload.com/filedetail/315782937](https://dlupload.com/filedetail/315782937)  
-md5:764213778b2d30b5093df4612de1bd8b
+**lineage-21.0-20240618-UNOFFICIAL-KonstaKANG-rpi4-atv-ota.zip** (TWRP flashable OTA package)  
+[https://dlupload.com/filedetail/770800656](https://dlupload.com/filedetail/770800656)  
+md5:a50f22be869e7d23c3ba28c02298afb2
 
 **Working:**
 
@@ -103,7 +103,7 @@ Q: How to find several Raspberry Pi specific settings options?
 *Most options in this menu require you to reboot your device for the setting to take effect.*
 
 Q: How to enable advanced reboot options?  
-*A: Settings -> System -> Buttons -> Advanced reboot*
+*A: Settings -> System -> Buttons -> Advanced restart*
 
 Q: How to enable developer options?  
 *A: Settings -> System -> About -> Click 'Build number' several times.*
@@ -180,7 +180,7 @@ dtoverlay=android-usb
 4. Connect the USB/NVME device to your Raspberry Pi, remove any sdcard, and boot
 
 Q: How to boot to TWRP recovery?  
-*A: You can boot to TWRP by selecting Settings -> System -> Reboot -> Recovery after enabling advanced restart options.*
+*A: You can boot to TWRP by selecting Settings -> System -> Power and Energy -> Restart -> Recovery after enabling advanced restart options.*
 
 *If mouse cursor doesn't appear, try replugging your mouse.*
 
@@ -221,6 +221,17 @@ Q: How to install Google apps?
 <!--block-->
 
 [Merged commits](https://review.lineageos.org/#/q/status:merged+branch:lineage-21.0+-project:%255E.*device.*+-project:%255E.*kernel.*) not mentioned in the changelog.
+
+**18.6. changelog:**
+
+- Android 14 QPR2
+- microG support (merged)
+- sensor HAL fixes (thanks to Kethen)
+- update to libcamera master/v0.2.0, libpisp v1.0.5
+- update to FFmpeg 7.0.1, AOSP dav1d 1.4.2
+- update to Mesa 24.1.1
+- update to Linux 6.1.84 kernel and patch known vulnerabilities (CVE-xxxx-xxxx, and more)
+- Android security patch level: 5 May 2024 (merged)
 
 **16.2. changelog:**
 

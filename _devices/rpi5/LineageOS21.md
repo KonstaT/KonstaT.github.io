@@ -2,7 +2,7 @@
 layout: rom
 title: LineageOS 21 (Android 14)
 subtitle: for Raspberry Pi 5
-date: 2024-02-16
+date: 2024-06-18
 tags: [rpi5, LineageOS, LOS21]
 social-share: true
 comments: true
@@ -16,13 +16,13 @@ Here's my build of LineageOS 21 for Raspberry Pi 5. It is unofficial and unsuppo
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
-**lineage-21.0-20240216-UNOFFICIAL-KonstaKANG-rpi5.zip**  
-[https://dlupload.com/filedetail/41953514](https://dlupload.com/filedetail/41953514)  
-md5:efaa61f5bb2b9b6342c3bb5f71d376c4
+**lineage-21.0-20240618-UNOFFICIAL-KonstaKANG-rpi5.zip**  
+[https://dlupload.com/filedetail/1461679046](https://dlupload.com/filedetail/1461679046)  
+md5:eeebe2686d7a10a5f471f3c70791a22f
 
-**lineage-21.0-20240216-UNOFFICIAL-KonstaKANG-rpi5-ota.zip** (TWRP flashable OTA package)  
-[https://dlupload.com/filedetail/773676217](https://dlupload.com/filedetail/773676217)  
-md5:c8a7f4fe26427a8ee46f0cbe327cd7ed
+**lineage-21.0-20240618-UNOFFICIAL-KonstaKANG-rpi5-ota.zip** (TWRP flashable OTA package)  
+[https://dlupload.com/filedetail/1094321884](https://dlupload.com/filedetail/1094321884)  
+md5:ddb66e18e53bae937d0a527686df0958
 
 **Working:**
 
@@ -51,7 +51,6 @@ md5:c8a7f4fe26427a8ee46f0cbe327cd7ed
 **Issues:**
 
 - Issues with DSI displays ([Issue#58](https://github.com/raspberry-vanilla/android_local_manifest/issues/58))
-- Some audio DACs need additional configuration ([Issue#5743](https://github.com/raspberrypi/linux/issues/5743))
 - Various issues with CSI camera modules
 - SELinux is in permissive mode
 - Encrypting userdata is not supported
@@ -208,12 +207,22 @@ Q: How to install Google apps?
 3. Install MindTheGapps-14.0.0-arm64-xxxxxxxx_xxxxxx.zip from your selected storage
 4. Wipe -> Factory reset!
 5. Boot out of recovery (see FAQ)
-6. [Register Google Services Framework Android ID](https://www.google.com/android/uncertified/) if/when prompted
 
 ----
 <!--block-->
 
 [Merged commits](https://review.lineageos.org/#/q/status:merged+branch:lineage-21.0+-project:%255E.*device.*+-project:%255E.*kernel.*) not mentioned in the changelog.
+
+**18.6. changelog:**
+
+- Android 14 QPR2
+- microG support (merged)
+- sensor HAL fixes (thanks to Kethen)
+- update to libcamera master/v0.2.0, libpisp v1.0.5
+- update to FFmpeg 7.0.1, AOSP dav1d 1.4.2
+- update to Mesa 24.1.1
+- update to Linux 6.1.84 kernel and patch known vulnerabilities (CVE-xxxx-xxxx, and more)
+- Android security patch level: 5 May 2024 (merged)
 
 **16.2. changelog:**
 

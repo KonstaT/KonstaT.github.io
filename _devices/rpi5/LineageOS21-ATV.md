@@ -2,7 +2,7 @@
 layout: rom
 title: LineageOS 21 Android TV (Android 14)
 subtitle: for Raspberry Pi 5
-date: 2024-02-16
+date: 2024-06-18
 tags: [rpi5, LineageOS, LOS21, AndroidTV]
 social-share: true
 comments: true
@@ -16,13 +16,13 @@ Here's my build of LineageOS 21 Android TV for Raspberry Pi 5. It is unofficial 
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
-**lineage-21.0-20240216-UNOFFICIAL-KonstaKANG-rpi5-atv.zip**  
-[https://dlupload.com/filedetail/986122110](https://dlupload.com/filedetail/986122110)  
-md5:79a011a55ad5da8c485b651e848bf5eb
+**lineage-21.0-20240618-UNOFFICIAL-KonstaKANG-rpi5-atv.zip**  
+[https://dlupload.com/filedetail/1620844472](https://dlupload.com/filedetail/1620844472)  
+md5:e6d65d898437d1e072951f666ff95579
 
-**lineage-21.0-20240216-UNOFFICIAL-KonstaKANG-rpi5-atv-ota.zip** (TWRP flashable OTA package)  
-[https://dlupload.com/filedetail/730648710](https://dlupload.com/filedetail/730648710)  
-md5:e7b1badee13723e3523597b0c2a1d9e1
+**lineage-21.0-20240618-UNOFFICIAL-KonstaKANG-rpi5-atv-ota.zip** (TWRP flashable OTA package)  
+[https://dlupload.com/filedetail/1494379743](https://dlupload.com/filedetail/1494379743)  
+md5:a2e9028327da06682f2a74d117f465ec
 
 **Working:**
 
@@ -51,7 +51,6 @@ md5:e7b1badee13723e3523597b0c2a1d9e1
 **Issues:**
 
 - Issues with DSI displays ([Issue#58](https://github.com/raspberry-vanilla/android_local_manifest/issues/58))
-- Some audio DACs need additional configuration ([Issue#5743](https://github.com/raspberrypi/linux/issues/5743))
 - Chromecast functionality is not supported on uncertified Android TV devices
 - Various issues with CSI camera modules
 - SELinux is in permissive mode
@@ -106,7 +105,7 @@ Q: How to find several Raspberry Pi specific settings options?
 *Most options in this menu require you to reboot your device for the setting to take effect.*
 
 Q: How to enable advanced reboot options?  
-*A: Settings -> System -> Buttons -> Advanced reboot*
+*A: Settings -> System -> Buttons -> Advanced restart*
 
 Q: How to enable developer options?  
 *A: Settings -> System -> About -> Click 'Build number' several times.*
@@ -170,7 +169,7 @@ dtoverlay=android-usb
 3. Connect the USB/NVME device to your Raspberry Pi, remove any sdcard, and boot
 
 Q: How to boot to TWRP recovery?  
-*A: You can boot to TWRP by selecting Settings -> System -> Reboot -> Recovery after enabling advanced restart options.*
+*A: You can boot to TWRP by selecting Settings -> System -> Power and Energy -> Restart -> Recovery after enabling advanced restart options.*
 
 *If mouse cursor doesn't appear, try replugging your mouse.*
 
@@ -206,12 +205,22 @@ Q: How to install Google apps?
 3. Install MindTheGapps-14.0.0-arm64-ATV-xxxxxxxx_xxxxxx.zip from your selected storage
 4. Wipe -> Factory reset!
 5. Boot out of recovery (see FAQ)
-6. [Register Google Services Framework Android ID](https://www.google.com/android/uncertified/) if/when prompted
 
 ----
 <!--block-->
 
 [Merged commits](https://review.lineageos.org/#/q/status:merged+branch:lineage-21.0+-project:%255E.*device.*+-project:%255E.*kernel.*) not mentioned in the changelog.
+
+**18.6. changelog:**
+
+- Android 14 QPR2
+- microG support (merged)
+- sensor HAL fixes (thanks to Kethen)
+- update to libcamera master/v0.2.0, libpisp v1.0.5
+- update to FFmpeg 7.0.1, AOSP dav1d 1.4.2
+- update to Mesa 24.1.1
+- update to Linux 6.1.84 kernel and patch known vulnerabilities (CVE-xxxx-xxxx, and more)
+- Android security patch level: 5 May 2024 (merged)
 
 **16.2. changelog:**
 

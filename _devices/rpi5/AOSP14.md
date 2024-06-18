@@ -55,7 +55,6 @@ md5:df10f25d624400d475ebf402db708ff9
 **Issues:**
 
 - Issues with DSI displays ([Issue#58](https://github.com/raspberry-vanilla/android_local_manifest/issues/58))
-- Some audio DACs need additional configuration ([Issue#5743](https://github.com/raspberrypi/linux/issues/5743))
 - Various issues with CSI camera modules
 - SELinux is in permissive mode
 - Encrypting userdata is not supported

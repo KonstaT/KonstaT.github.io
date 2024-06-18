@@ -2,7 +2,7 @@
 layout: rom
 title: LineageOS 21 (Android 14)
 subtitle: for Raspberry Pi 4
-date: 2024-02-16
+date: 2024-06-18
 tags: [rpi4, LineageOS, LOS21]
 social-share: true
 comments: true
@@ -16,13 +16,13 @@ Here's my build of LineageOS 21 for Raspberry Pi 4 Model B, Pi 400, and Compute 
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
-**lineage-21.0-20240216-UNOFFICIAL-KonstaKANG-rpi4.zip**  
-[https://dlupload.com/filedetail/2035009531](https://dlupload.com/filedetail/2035009531)  
-md5:241f451497f737a9551aa891a33fe2c8
+**lineage-21.0-20240618-UNOFFICIAL-KonstaKANG-rpi4.zip**  
+[https://dlupload.com/filedetail/942332962](https://dlupload.com/filedetail/942332962)  
+md5:cf772965e0a7cf80cb78dc88a6b763a2
 
-**lineage-21.0-20240216-UNOFFICIAL-KonstaKANG-rpi4-ota.zip** (TWRP flashable OTA package)  
-[https://dlupload.com/filedetail/1322159608](https://dlupload.com/filedetail/1322159608)  
-md5:08be562e2f8f82ade59edba1e4f74e66
+**lineage-21.0-20240618-UNOFFICIAL-KonstaKANG-rpi4-ota.zip** (TWRP flashable OTA package)  
+[https://dlupload.com/filedetail/1199311591](https://dlupload.com/filedetail/1199311591)  
+md5:13f072f60f20f7a07caab4f74666fc1a
 
 **Working:**
 
@@ -223,6 +223,17 @@ Q: How to install Google apps?
 <!--block-->
 
 [Merged commits](https://review.lineageos.org/#/q/status:merged+branch:lineage-21.0+-project:%255E.*device.*+-project:%255E.*kernel.*) not mentioned in the changelog.
+
+**18.6. changelog:**
+
+- Android 14 QPR2
+- microG support (merged)
+- sensor HAL fixes (thanks to Kethen)
+- update to libcamera master/v0.2.0, libpisp v1.0.5
+- update to FFmpeg 7.0.1, AOSP dav1d 1.4.2
+- update to Mesa 24.1.1
+- update to Linux 6.1.84 kernel and patch known vulnerabilities (CVE-xxxx-xxxx, and more)
+- Android security patch level: 5 May 2024 (merged)
 
 **16.2. changelog:**
 
