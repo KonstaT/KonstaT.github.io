@@ -2,7 +2,7 @@
 layout: rom
 title: AOSP (Android 14)
 subtitle: for Raspberry Pi 4
-date: 2024-05-08
+date: 2024-07-04
 tags: [rpi4, AOSP]
 social-share: true
 comments: true
@@ -16,17 +16,17 @@ Here's my build of AOSP (Android 14) for Raspberry Pi 4 Model B, Pi 400, and Com
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
-**AOSP14-20240508-KonstaKANG-rpi4.zip**  
-[https://dlupload.com/filedetail/631147552](https://dlupload.com/filedetail/631147552)  
-md5:b5ba7ca410dd158d1bd20ce85cfa2609
+**AOSP14-20240704-KonstaKANG-rpi4.zip**  
+[https://dlupload.com/filedetail/1366255115](https://dlupload.com/filedetail/1366255115)  
+md5:3a5f95a59ead384d6f998c3b0dc0367c
 
-**AOSP14-20240508-KonstaKANG-rpi4-ota.zip** (TWRP flashable OTA package)  
-[https://dlupload.com/filedetail/1500109417](https://dlupload.com/filedetail/1500109417)  
-md5:da5b46517004a5714e1721fe7f0908c0
+**AOSP14-20240704-KonstaKANG-rpi4-ota.zip** (TWRP flashable OTA package)  
+[https://dlupload.com/filedetail/927348720](https://dlupload.com/filedetail/927348720)  
+md5:afbd9cd711f5abf05807a3569614afe0
 
-**AOSP14-20240508-KonstaKANG-rpi4-6.6-kernel.zip** (optional add-on)  
-[https://dlupload.com/filedetail/2051014010](https://dlupload.com/filedetail/2051014010)  
-md5:614a39404e8dc38feb369e4f2380b6a1
+**AOSP14-20240704-KonstaKANG-rpi4-6.6-kernel.zip** (optional add-on)  
+[https://dlupload.com/filedetail/377203177](https://dlupload.com/filedetail/377203177)  
+md5:c5b3cd0aae4be30c56da46377f6e0ac7
 
 **Working:**
 
@@ -224,6 +224,19 @@ Q: How to install Google apps?
 
 ----
 <!--block-->
+
+**4.7. changelog:**
+
+- update to latest AOSP release (Android 14 QPR3 - android-14.0.0_r52)
+- update to libcamera master/v0.3.0, libpisp v1.0.6
+- update to FFmpeg 7.0.1, AOSP dav1d 1.4.2
+- update to alsa-lib/alsa-utils v1.2.12
+- update to Mesa 24.1.3
+- update to Linux 6.1.90 kernel and patch known vulnerabilities (CVE-xxxx-xxxx, and more)
+- Android security patch level: 5 July 2024
+
+Linux 6.6 kernel: (optional add-on)
+- update to Linux 6.6.36 kernel and patch known vulnerabilities (CVE-xxxx-xxxx, and more)
 
 **8.5. changelog:**
 

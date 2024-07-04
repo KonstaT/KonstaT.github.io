@@ -2,7 +2,7 @@
 layout: rom
 title: AOSP (Android 14)
 subtitle: for Raspberry Pi 5
-date: 2024-05-08
+date: 2024-07-04
 tags: [rpi5, AOSP]
 social-share: true
 comments: true
@@ -16,17 +16,17 @@ Here's my build of AOSP (Android 14) for Raspberry Pi 5. It's for **advanced use
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
-**AOSP14-20240508-KonstaKANG-rpi5.zip**  
-[https://dlupload.com/filedetail/2098729460](https://dlupload.com/filedetail/2098729460)  
-md5:626ee0f7dc4661a074aa4722923f6d3e
+**AOSP14-20240704-KonstaKANG-rpi5.zip**  
+[https://dlupload.com/filedetail/21217967](https://dlupload.com/filedetail/21217967)  
+md5:53a953fee635382e6792c3d9ba7459ae
 
-**AOSP14-20240508-KonstaKANG-rpi5-ota.zip** (TWRP flashable OTA package)  
-[https://dlupload.com/filedetail/461208469](https://dlupload.com/filedetail/461208469)  
-md5:add6e03731b56348f6302169913d2bb6
+**AOSP14-20240704-KonstaKANG-rpi5-ota.zip** (TWRP flashable OTA package)  
+[https://dlupload.com/filedetail/1422079931](https://dlupload.com/filedetail/1422079931)  
+md5:088c423e2acba00009d28bfddcb7cb63
 
-**AOSP14-20240508-KonstaKANG-rpi5-6.6-kernel.zip** (optional add-on)  
-[https://dlupload.com/filedetail/1388611532](https://dlupload.com/filedetail/1388611532)  
-md5:df10f25d624400d475ebf402db708ff9
+**AOSP14-20240704-KonstaKANG-rpi5-6.6-kernel.zip** (optional add-on)  
+[https://dlupload.com/filedetail/497036195](https://dlupload.com/filedetail/497036195)  
+md5:ef229899d568b532c4bd03a55a1cddc1
 
 **Working:**
 
@@ -213,6 +213,19 @@ Q: How to install Google apps?
 
 ----
 <!--block-->
+
+**4.7. changelog:**
+
+- update to latest AOSP release (Android 14 QPR3 - android-14.0.0_r52)
+- update to libcamera master/v0.3.0, libpisp v1.0.6
+- update to FFmpeg 7.0.1, AOSP dav1d 1.4.2
+- update to alsa-lib/alsa-utils v1.2.12
+- update to Mesa 24.1.3
+- update to Linux 6.1.90 kernel and patch known vulnerabilities (CVE-xxxx-xxxx, and more)
+- Android security patch level: 5 July 2024
+
+Linux 6.6 kernel: (optional add-on)
+- update to Linux 6.6.36 kernel and patch known vulnerabilities (CVE-xxxx-xxxx, and more)
 
 **8.5. changelog:**
 
