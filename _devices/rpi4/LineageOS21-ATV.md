@@ -2,7 +2,7 @@
 layout: rom
 title: LineageOS 21 Android TV (Android 14)
 subtitle: for Raspberry Pi 4
-date: 2024-06-18
+date: 2024-08-16
 tags: [rpi4, LineageOS, LOS21, AndroidTV]
 social-share: true
 comments: true
@@ -16,13 +16,13 @@ Here's my build of LineageOS 21 Android TV for Raspberry Pi 4 Model B, Pi 400, a
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
-**lineage-21.0-20240618-UNOFFICIAL-KonstaKANG-rpi4-atv.zip**  
-[https://dlupload.com/filedetail/985930649](https://dlupload.com/filedetail/985930649)  
-md5:7f4f7aefe376df7dbc39f418bff6fe24
+**lineage-21.0-20240816-UNOFFICIAL-KonstaKANG-rpi4-atv.zip**  
+[https://dlupload.com/filedetail/692292141](https://dlupload.com/filedetail/692292141)  
+md5:19bcc416180f08b9d207dc8e94c4236a
 
-**lineage-21.0-20240618-UNOFFICIAL-KonstaKANG-rpi4-atv-ota.zip** (TWRP flashable OTA package)  
-[https://dlupload.com/filedetail/770800656](https://dlupload.com/filedetail/770800656)  
-md5:a50f22be869e7d23c3ba28c02298afb2
+**lineage-21.0-20240816-UNOFFICIAL-KonstaKANG-rpi4-atv-ota.zip** (TWRP flashable OTA package)  
+[https://dlupload.com/filedetail/1270902445](https://dlupload.com/filedetail/1270902445)  
+md5:e0085b41ac45ebb568a29a9b808b1603
 
 **Working:**
 
@@ -224,6 +224,17 @@ Q: How to install Google apps?
 <!--block-->
 
 [Merged commits](https://review.lineageos.org/#/q/status:merged+branch:lineage-21.0+-project:%255E.*device.*+-project:%255E.*kernel.*) not mentioned in the changelog.
+
+**16.8. changelog:**
+
+- Android 14 QPR3
+- Vulkan 1.3 (thanks to people at Igalia for Vulkan 1.3 conformance)
+- update to FFmpeg 7.0.2
+- update to libcamera master/v0.3.0, libpisp v1.0.6
+- update to alsa-lib/alsa-utils v1.2.12
+- update to Mesa 24.2.0
+- update to Linux 6.1.93 kernel and patch known vulnerabilities (CVE-xxxx-xxxx, and more)
+- Android security patch level: 5 August 2024 (merged)
 
 **18.6. changelog:**
 
