@@ -7,6 +7,7 @@ permalink: /devices/rpi5/
 
 #### AOSP builds:
 
+- [AOSP - KonstaKANG (Android 15)](/devices/rpi5/AOSP15)
 - [AOSP - KonstaKANG (Android 14)](/devices/rpi5/AOSP14)
 
 #### LineageOS builds:

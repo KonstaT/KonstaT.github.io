@@ -7,6 +7,7 @@ permalink: /devices/rpi4/
 
 #### AOSP builds:
 
+- [AOSP - KonstaKANG (Android 15)](/devices/rpi4/AOSP15)
 - [AOSP - KonstaKANG (Android 14)](/devices/rpi4/AOSP14)
 - [AOSP - KonstaKANG (Android 13)](/devices/rpi4/AOSP13)
 - [AOSP - KonstaKANG (Android 12L)](/devices/rpi4/AOSP12)
