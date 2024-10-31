@@ -195,12 +195,13 @@ Q: My device keeps booting into TWRP recovery. What should I do?
 Q: How to install Magisk?  
 *A:*
 
-1. Download [KonstaKANG-rpi-magisk-v27.0.zip](https://dlupload.com/filedetail/1539729598) (md5:8f30779aa302a6d053a721ffdfdcebce) and save it to your device's internal storage or use an external USB drive
-2. Download [Magisk-v27.0.apk](https://github.com/topjohnwu/Magisk/releases/tag/v27.0)
+1. Download [KonstaKANG-rpi-magisk-v28.0.zip](https://dlupload.com/filedetail/1971832604) (md5:754565dbf60e8527784a7676838b6a66) and save it to your device's internal storage or use an external USB drive
+2. Download [Magisk-v28.0.apk](https://github.com/topjohnwu/Magisk/releases/tag/v28.0)
 3. Boot to TWRP recovery (see FAQ)
-4. Install KonstaKANG-rpi-magisk-v27.0.zip from your selected storage
+4. Install KonstaKANG-rpi-magisk-v28.0.zip from your selected storage
 5. Boot out of recovery (see FAQ)
-6. Install Magisk-v27.0.apk using Android's built-in file manager/```adb install```/etc.
+6. Install Magisk-v28.0.apk using Android's built-in file manager/```adb install```/etc.
+7. Ignore suggestions to reinstall Magisk within the app and/or warning about the installation method
 
 Q: How to install Google apps?  
 *A:*
