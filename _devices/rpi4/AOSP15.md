@@ -2,7 +2,7 @@
 layout: rom
 title: AOSP (Android 15)
 subtitle: for Raspberry Pi 4
-date: 2024-09-05
+date: 2024-12-10
 tags: [rpi4, AOSP]
 social-share: true
 comments: true
@@ -16,13 +16,13 @@ Here's my build of AOSP (Android 15) for Raspberry Pi 4 Model B, Pi 400, and Com
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
-**AOSP15-20240905-KonstaKANG-rpi4.zip**  
-[https://dlupload.com/filedetail/1689266223](https://dlupload.com/filedetail/1689266223)  
-md5:7f9b66bb3c1be54085443d93b96292e0
+**AOSP15-20241210-KonstaKANG-rpi4.zip**  
+[https://dlupload.com/filedetail/1555443955](https://dlupload.com/filedetail/1555443955)  
+md5:06371b2d92acec0e89e63605d143273a
 
-**AOSP15-20240905-KonstaKANG-rpi4-ota.zip** (TWRP flashable OTA package)  
-[https://dlupload.com/filedetail/672038046](https://dlupload.com/filedetail/672038046)  
-md5:0adf34d77aa99e012f650a063e14cccd
+**AOSP15-20241210-KonstaKANG-rpi4-ota.zip** (TWRP flashable OTA package)  
+[https://dlupload.com/filedetail/595934725](https://dlupload.com/filedetail/595934725)  
+md5:d6a43c230a6421d2872daf2e1aa97544
 
 **Working:**
 
@@ -224,6 +224,19 @@ Q: How to install Google apps?
 
 ----
 <!--block-->
+
+**10.12. changelog:**
+
+- update to latest AOSP release (Android 15 QPR1 - android-15.0.0_r6)
+- switch to HWC3
+- switch to AIDL bluetooth HAL
+- switch to AIDL USB gadget HAL
+- update to libcamera master/v0.3.2, libpisp v1.0.7
+- update to alsa-lib/alsa-utils v1.2.13
+- update to dav1d 1.5.0
+- update to Mesa 24.3.1
+- update to Linux 6.6.58 kernel and patch known vulnerabilities (CVE-xxxx-xxxx, and more)
+- Android security patch level: 5 December 2024
 
 **5.9. changelog:**
 

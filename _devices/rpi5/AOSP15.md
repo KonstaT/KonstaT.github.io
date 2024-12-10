@@ -2,13 +2,13 @@
 layout: rom
 title: AOSP (Android 15)
 subtitle: for Raspberry Pi 5
-date: 2024-09-05
+date: 2024-12-10
 tags: [rpi5, AOSP]
 social-share: true
 comments: true
 ---
 
-Here's my build of AOSP (Android 15) for Raspberry Pi 5. It's for **advanced users** only.
+Here's my build of AOSP (Android 15) for Raspberry Pi 5, Pi 500, and Compute Module 5. It's for **advanced users** only.
 
 <span style="color:#FF0000;">Important!</span> Raspberry Pi hardware specific implementation in this build is based on source code released on my [Raspberry Vanilla](https://github.com/raspberry-vanilla) project but this build still offers various additional features and enhancements over that. This image includes parts that are licensed under non-commercial license ([Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International](http://creativecommons.org/licenses/by-nc-sa/4.0/)). You may use this build freely in personal/educational/etc use. Commercial use is not allowed with this build! You can contact me by email to discuss creating customized Android builds for commercial purposes.
 
@@ -16,13 +16,13 @@ Here's my build of AOSP (Android 15) for Raspberry Pi 5. It's for **advanced use
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
-**AOSP15-20240905-KonstaKANG-rpi5.zip**  
-[https://dlupload.com/filedetail/907181016](https://dlupload.com/filedetail/907181016)  
-md5:665101248a2cd24eba72ae72384a9248
+**AOSP15-20241210-KonstaKANG-rpi5.zip**  
+[https://dlupload.com/filedetail/1929812223](https://dlupload.com/filedetail/1929812223)  
+md5:b26361b7232f7c282bed3ea0e3c43226
 
-**AOSP15-20240905-KonstaKANG-rpi5-ota.zip** (TWRP flashable OTA package)  
-[https://dlupload.com/filedetail/736771502](https://dlupload.com/filedetail/736771502)  
-md5:3d4aa2789cf104503321962b17342e24
+**AOSP15-20241210-KonstaKANG-rpi5-ota.zip** (TWRP flashable OTA package)  
+[https://dlupload.com/filedetail/362687536](https://dlupload.com/filedetail/362687536)  
+md5:2f757b0246c74d23bd2279430cd9ce16
 
 **Working:**
 
@@ -212,6 +212,20 @@ Q: How to install Google apps?
 
 ----
 <!--block-->
+
+**10.12. changelog:**
+
+- update to latest AOSP release (Android 15 QPR1 - android-15.0.0_r6)
+- add initial support for Pi 5 with D0 stepping, Pi 500, and Compute Module 5 (untested)
+- switch to HWC3
+- switch to AIDL bluetooth HAL
+- switch to AIDL USB gadget HAL
+- update to libcamera master/v0.3.2, libpisp v1.0.7
+- update to alsa-lib/alsa-utils v1.2.13
+- update to dav1d 1.5.0
+- update to Mesa 24.3.1
+- update to Linux 6.6.58 kernel and patch known vulnerabilities (CVE-xxxx-xxxx, and more)
+- Android security patch level: 5 December 2024
 
 **5.9. changelog:**
 
