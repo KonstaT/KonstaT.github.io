@@ -67,7 +67,7 @@ md5:3b109cc72d3b272663190cfbb4a3fe62
 - Peter Yoon and android-rpi project
 - AOSP reference board developers (dragonboard, hikey, yukawa)
 - Android-x86 project
-- LineageOS team and everyone who has contributed to LineageOS 20
+- LineageOS team and everyone who has contributed to LineageOS 21
 
 ----
 <!--block-->
@@ -96,6 +96,7 @@ Changes that are not backed up and restored flashing OTAs:
 
 - Manual changes to /boot/config.txt (and any other manual changes to /boot partition)
 - Magisk
+- Widevine
 
 **FAQ:**
 

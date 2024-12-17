@@ -97,6 +97,7 @@ Changes that are not backed up and restored flashing OTAs:
 
 - Manual changes to /boot/config.txt (and any other manual changes to /boot partition)
 - Magisk
+- Widevine
 
 **FAQ:**
 

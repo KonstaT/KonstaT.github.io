@@ -1,28 +1,28 @@
 ---
 layout: rom
-title: LineageOS 20 (Android 13)
+title: LineageOS 22 (Android 15)
 subtitle: for Raspberry Pi 5
-date: 2024-01-12
-tags: [rpi5, LineageOS, LOS20]
+date: 2024-12-17
+tags: [rpi4, LineageOS, LOS22]
 social-share: true
 comments: true
 ---
 
-Here's my build of LineageOS 20 for Raspberry Pi 5. It is unofficial and unsupported by the LineageOS team. It's for **advanced users** only.
+Here's my build of LineageOS 22 for Raspberry Pi 5, Pi 500, and Compute Module 5. It is unofficial and unsupported by the LineageOS team. It's for **advanced users** only.
 
 <span style="color:#FF0000;">Important!</span> This image includes parts that are licensed under non-commercial license ([Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International](http://creativecommons.org/licenses/by-nc-sa/4.0/)). You may use this build freely in personal/educational/etc use. Commercial use is not allowed with this build! You can contact me by email to discuss creating customized Android builds for commercial purposes.
 
-![screenshot]({{ site.url }}/img/rpi5/LineageOS20/Screenshot_20240112-165309_Settings.png)
+![screenshot]({{ site.url }}/img/rpi5/LineageOS22/Screenshot_20241217-154615_Settings.png)
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
-**lineage-20.0-20240112-UNOFFICIAL-KonstaKANG-rpi5.zip**  
-[https://dlupload.com/filedetail/1619733696](https://dlupload.com/filedetail/1619733696)  
-md5:0bffbfef4f80f0231a527bd53094bec9
+**lineage-22.0-20241217-UNOFFICIAL-KonstaKANG-rpi5.zip**  
+[https://dlupload.com/filedetail/2055429851](https://dlupload.com/filedetail/2055429851)  
+md5:995a732b5c3edda18228aec2df44cf36
 
-**lineage-20.0-20240112-UNOFFICIAL-KonstaKANG-rpi5-ota.zip** (TWRP flashable OTA package)  
-[https://dlupload.com/filedetail/1699877845](https://dlupload.com/filedetail/1699877845)  
-md5:f388d2d0e97337200c335c21bbb66f6e
+**lineage-22.0-20241217-UNOFFICIAL-KonstaKANG-rpi5-ota.zip** (TWRP flashable OTA package)  
+[https://dlupload.com/filedetail/1160753092](https://dlupload.com/filedetail/1160753092)  
+md5:a2f57dcc89112f89a01e58282b7e4360
 
 **Working:**
 
@@ -50,8 +50,6 @@ md5:f388d2d0e97337200c335c21bbb66f6e
 
 **Issues:**
 
-- Issues with DSI displays ([Issue#58](https://github.com/raspberry-vanilla/android_local_manifest/issues/58))
-- Some audio DACs need additional configuration ([Issue#5743](https://github.com/raspberrypi/linux/issues/5743))
 - Various issues with CSI camera modules
 - SELinux is in permissive mode
 - Encrypting userdata is not supported
@@ -59,7 +57,7 @@ md5:f388d2d0e97337200c335c21bbb66f6e
 
 **Sources:**
 
-- [kernel](https://github.com/raspberry-vanilla/android_kernel_manifest/tree/android-14.0)
+- [kernel](https://github.com/raspberry-vanilla/android_kernel_manifest/tree/android-15.0)
 
 **Thanks:**
 
@@ -67,7 +65,7 @@ md5:f388d2d0e97337200c335c21bbb66f6e
 - Peter Yoon and android-rpi project
 - AOSP reference board developers (dragonboard, hikey, yukawa)
 - Android-x86 project
-- LineageOS team and everyone who has contributed to LineageOS 20
+- LineageOS team and everyone who has contributed to LineageOS 22
 
 ----
 <!--block-->
@@ -78,9 +76,9 @@ md5:f388d2d0e97337200c335c21bbb66f6e
 
 You can also update to newer builds using TWRP flashable OTA packages. OTA updates pushed through the built-in Updater app are stored at /data/lineageos_updates/.
 
-1. Download lineage-20.0-xxxxxxxx-UNOFFICIAL-KonstaKANG-rpi5-ota.zip and save it to your device's internal storage or use an external USB drive
+1. Download lineage-22.0-xxxxxxxx-UNOFFICIAL-KonstaKANG-rpi5-ota.zip and save it to your device's internal storage or use an external USB drive
 2. Boot to TWRP recovery (see FAQ)
-3. Install lineage-20.0-xxxxxxxx-UNOFFICIAL-KonstaKANG-rpi5-ota.zip from your selected storage
+3. Install lineage-22.0-xxxxxxxx-UNOFFICIAL-KonstaKANG-rpi5-ota.zip from your selected storage
 4. (Flash Magisk/other add-ons you had previously installed)
 5. Boot out of recovery (see FAQ)
 
@@ -117,8 +115,8 @@ Q: How to enable root access?
 Q: My display is not working. I can only see the rainbow screen but no Android boot animation. What should I do?  
 *A: This build only supports HDMI displays that report supported resolutions using EDID. 1920x1080 resolution is used by default with this build. You can change value in /boot/resolution.txt to use a different resolution that your display supports. Removing /boot/resolution.txt will use the preferred resolution of your display.*
 
-Q: How to use the official 7" DSI touchscreen display?  
-*A: You can enable required configurations using a settings option found in Settings -> System -> Raspberry Pi settings -> Touchscreen. You need to disconnect any HDMI display when using the DSI display.*
+Q: How to use DSI touchscreen displays?  
+*A: You can enable required configurations using a settings option found in Settings -> System -> Raspberry Pi settings -> DSI display. You need to disconnect any HDMI display when using the DSI display.*
 
 Q: Is there any keyboard shortcuts for Android system functions?  
 *A: Following keyboard keys work as Android buttons: F1 = Home, F2 = Back, F3 = Multi-tasking, F4 = Menu, F5 = Power, F11 = Volume down, and F12 = Volume up.*
@@ -189,9 +187,9 @@ Q: Settings -> Storage shows total system size of 7 GB. There's unallocated spac
 Q: How to install Widevine L3?  
 *A:*
 
-1. Download [KonstaKANG-rpi-widevine-13.zip](https://dlupload.com/filedetail/1700988707) (md5:8f3549991995076dc517b6a360bb3a14) and save it to your device's internal storage or use an external USB drive
+1. Download [KonstaKANG-rpi-widevine-15.zip](https://dlupload.com/filedetail/413405961) (md5:3de5b04da3262fd3e0aa382b30915591) and save it to your device's internal storage or use an external USB drive
 2. Boot to TWRP recovery (see FAQ)
-3. Install KonstaKANG-rpi-widevine-13.zip from your selected storage
+3. Install KonstaKANG-rpi-widevine-15.zip from your selected storage
 4. Boot out of recovery (see FAQ)
 
 Q: How to install Magisk?  
@@ -208,32 +206,39 @@ Q: How to install Magisk?
 Q: How to install Google apps?  
 *A:*
 
-1. Download [MindTheGapps-13.0.0-arm64-xxxxxxxx_xxxxxx.zip](https://github.com/MindTheGapps/13.0.0-arm64/releases/latest) and save it to your device's internal storage or use an external USB drive
+1. Download [MindTheGapps-15.0.0-arm64-xxxxxxxx_xxxxxx.zip](https://github.com/MindTheGapps/15.0.0-arm64/releases/latest) and save it to your device's internal storage or use an external USB drive
 2. Boot to TWRP recovery (see FAQ)
-3. Install MindTheGapps-13.0.0-arm64-xxxxxxxx_xxxxxx.zip from your selected storage
+3. Install MindTheGapps-15.0.0-arm64-xxxxxxxx_xxxxxx.zip from your selected storage
 4. Wipe -> Factory reset!
 5. Boot out of recovery (see FAQ)
-6. [Register Google Services Framework Android ID](https://www.google.com/android/uncertified/) if/when prompted
 
 ----
 <!--block-->
 
-[Merged commits](https://review.lineageos.org/#/q/status:merged+branch:lineage-20.0+-project:%255E.*device.*+-project:%255E.*kernel.*) not mentioned in the changelog.
+[Merged commits](https://review.lineageos.org/#/q/status:merged+branch:lineage-22.0+-project:%255E.*device.*+-project:%255E.*kernel.*) not mentioned in the changelog.
 
-**12.1. changelog:**
+**17.12. changelog:**
 
-- initial LineageOS 20 release
-- Mesa 23.3.3
-- FFmpeg 6.0.1, AOSP dav1d 1.3.0
-- alsa-lib/alsa-utils v1.2.10
-- libcamera master/v0.1.0
-- Linux 6.1.68 kernel
-- Android security patch level: 5 January 2024
+- initial LineageOS 22 release
+- Raspberry Pi settings improvements
+  - add support for more audio DACs
+  - add support for more DSI displays
+- add initial support for Pi 5 with D0 stepping, Pi 500, and Compute Module 5 (untested)
+- switch to AIDL graphics allocator HAL and gralloc5 mapper
+- switch to AIDL HWC3 graphics composer HAL
+- switch to AIDL bluetooth HAL
+- switch to AIDL USB gadget HAL
+- update to libcamera master/v0.3.2, libpisp v1.0.7
+- update to alsa-lib/alsa-utils v1.2.13
+- update to FFmpeg 7.0.2, AOSP dav1d 1.5.0
+- update to Mesa 24.3.1
+- update to Linux 6.6.60 kernel and patch known vulnerabilities (CVE-xxxx-xxxx, and more)
+- Android security patch level: 5 November 2024
 
 ----
 
 **Previous builds:**
 
-- [AndroidFileHost](https://androidfilehost.com/?w=files&flid=340887)
+- [AndroidFileHost]()
 
 ----
