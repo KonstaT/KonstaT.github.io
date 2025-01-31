@@ -16,12 +16,12 @@ Here's my build of LineageOS 18.1 for Raspberry Pi 4 Model B, Pi 400, and Comput
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
+<span style="color:#FF0000;">Note!</span> This release is discontinued from development, seriously outdated, and no longer available. Please use more recent Android releases instead.
+
 **lineage-18.1-20220512-UNOFFICIAL-KonstaKANG-rpi4.zip**  
-[https://www.androidfilehost.com/?fid=14655340768118473198](https://www.androidfilehost.com/?fid=14655340768118473198)  
 md5:3dd4513a1cd331921b782aa493aa390f
 
 **lineage-18.1-20220512-UNOFFICIAL-KonstaKANG-rpi4-ota.zip** (TWRP flashable OTA package)  
-[https://www.androidfilehost.com/?fid=14655340768118473193](https://www.androidfilehost.com/?fid=14655340768118473193)  
 md5:d617203e085fe3f09ded3e926de27a93
 
 **Working:**

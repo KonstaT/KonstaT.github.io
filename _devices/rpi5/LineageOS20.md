@@ -16,12 +16,12 @@ Here's my build of LineageOS 20 for Raspberry Pi 5. It is unofficial and unsuppo
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
+<span style="color:#FF0000;">Note!</span> This release is discontinued from development, seriously outdated, and no longer available. Please use more recent Android releases instead.
+
 **lineage-20.0-20240112-UNOFFICIAL-KonstaKANG-rpi5.zip**  
-[https://dlupload.com/filedetail/1619733696](https://dlupload.com/filedetail/1619733696)  
 md5:0bffbfef4f80f0231a527bd53094bec9
 
 **lineage-20.0-20240112-UNOFFICIAL-KonstaKANG-rpi5-ota.zip** (TWRP flashable OTA package)  
-[https://dlupload.com/filedetail/1699877845](https://dlupload.com/filedetail/1699877845)  
 md5:f388d2d0e97337200c335c21bbb66f6e
 
 **Working:**

@@ -16,12 +16,12 @@ Here's my build of AOSP (Android 12L) for Raspberry Pi 4 Model B, Pi 400, and Co
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
+<span style="color:#FF0000;">Note!</span> This release is discontinued from development, seriously outdated, and no longer available. Please use more recent Android releases instead.
+
 **AOSP12-20220923-KonstaKANG-rpi4.zip**  
-[https://www.androidfilehost.com/?fid=14871746926876826814](https://www.androidfilehost.com/?fid=14871746926876826814)  
 md5:bb8638d06659a3f3e34245c3a232a9c0
 
 **AOSP12-20220923-KonstaKANG-rpi4-ota.zip** (TWRP flashable OTA package)  
-[https://www.androidfilehost.com/?fid=14871746926876826812](https://www.androidfilehost.com/?fid=14871746926876826812)  
 md5:e4ea2e4485081f871041423e11d8bede
 
 **Working:**

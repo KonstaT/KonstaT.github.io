@@ -16,8 +16,9 @@ Here's my build of LineageOS 16.0 for Raspberry Pi 3 Model B and Model B+. It is
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
+<span style="color:#FF0000;">Note!</span> This release is discontinued from development, seriously outdated, and no longer available. Please consider updating to newer hardware to use more recent Android releases instead.
+
 **lineage-16.0-20200713-UNOFFICIAL-KonstaKANG-rpi3.zip**  
-[https://www.androidfilehost.com/?fid=8889791610682891697](https://www.androidfilehost.com/?fid=8889791610682891697)  
 md5:3689e767c41858bb53db20190b6542a5
 
 **Working:**

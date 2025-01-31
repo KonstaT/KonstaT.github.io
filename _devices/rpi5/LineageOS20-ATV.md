@@ -16,12 +16,12 @@ Here's my build of LineageOS 20 Android TV for Raspberry Pi 5. It is unofficial 
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
+<span style="color:#FF0000;">Note!</span> This release is discontinued from development, seriously outdated, and no longer available. Please use more recent Android releases instead.
+
 **lineage-20.0-20240112-UNOFFICIAL-KonstaKANG-rpi5-atv.zip**  
-[https://dlupload.com/filedetail/649103027](https://dlupload.com/filedetail/649103027)  
 md5:0f589bdc26da6f5202b0e3bf36e47eeb
 
 **lineage-20.0-20240112-UNOFFICIAL-KonstaKANG-rpi5-atv-ota.zip** (TWRP flashable OTA package)  
-[https://dlupload.com/filedetail/696676521](https://dlupload.com/filedetail/696676521)  
 md5:7e8f8d86a04d1da716d9ca0f85657eaa
 
 **Working:**

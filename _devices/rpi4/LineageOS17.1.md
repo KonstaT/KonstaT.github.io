@@ -16,8 +16,9 @@ Here's my build of LineageOS 17.1 for Raspberry Pi 4 Model B and Pi 400. It is u
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
+<span style="color:#FF0000;">Note!</span> This release is discontinued from development, seriously outdated, and no longer available. Please use more recent Android releases instead.
+
 **lineage-17.1-20210122-UNOFFICIAL-KonstaKANG-rpi4.zip**  
-[https://www.androidfilehost.com/?fid=17248734326145720259](https://www.androidfilehost.com/?fid=17248734326145720259)  
 md5:55cd5eb5eda5f9e33ce20cc763ef668c
 
 **Working:**

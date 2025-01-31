@@ -16,16 +16,15 @@ Here's my build of AOSP (Android 13) for Raspberry Pi 4 Model B, Pi 400, and Com
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
+<span style="color:#FF0000;">Note!</span> This release is discontinued from development, seriously outdated, and no longer available. Please use more recent Android releases instead.
+
 **AOSP13-20230615-KonstaKANG-rpi4.zip**  
-[https://www.androidfilehost.com/?fid=10620683726822060099](https://www.androidfilehost.com/?fid=10620683726822060099)  
 md5:cb2cd4dfe0a656d7e5459ed6374e1fb3
 
 **AOSP13-20230615-KonstaKANG-rpi4-ota.zip** (TWRP flashable OTA package)  
-[https://www.androidfilehost.com/?fid=10620683726822060095](https://www.androidfilehost.com/?fid=10620683726822060095)  
 md5:e728d72eb0986d5c8d1fd9e1e0b694c3
 
 **AOSP13-20230615-KonstaKANG-rpi4-6.1-kernel.zip** (optional add-on)  
-[https://www.androidfilehost.com/?fid=10620683726822060093](https://www.androidfilehost.com/?fid=10620683726822060093)  
 md5:bab23ac0092cae252760033d9c74fbd4
 
 **Working:**

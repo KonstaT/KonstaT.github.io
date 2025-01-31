@@ -16,8 +16,9 @@ Here's my build of LineageOS 17.1 for Raspberry Pi 3 Model B and Model B+. It is
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
+<span style="color:#FF0000;">Note!</span> This release is discontinued from development, seriously outdated, and no longer available. Please consider updating to newer hardware to use more recent Android releases instead.
+
 **lineage-17.1-20201108-UNOFFICIAL-KonstaKANG-rpi3.zip**  
-[https://www.androidfilehost.com/?fid=10763459528675579938](https://www.androidfilehost.com/?fid=10763459528675579938)  
 md5:2f0d503a5bbea5a4e15fbec22d767aff
 
 **Working:**

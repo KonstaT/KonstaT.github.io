@@ -16,12 +16,12 @@ Here's my build of LineageOS 19 for Raspberry Pi 4 Model B, Pi 400, and Compute 
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
+<span style="color:#FF0000;">Note!</span> This release is discontinued from development, seriously outdated, and no longer available. Please use more recent Android releases instead.
+
 **lineage-19.1-20230313-UNOFFICIAL-KonstaKANG-rpi4.zip**  
-[https://www.androidfilehost.com/?fid=4279422670115728040](https://www.androidfilehost.com/?fid=4279422670115728040)  
 md5:9fa07f1e3f8063f291e5546e26e424e3
 
 **lineage-19.1-20230313-UNOFFICIAL-KonstaKANG-rpi4-ota.zip** (TWRP flashable OTA package)  
-[https://www.androidfilehost.com/?fid=4279422670115728038](https://www.androidfilehost.com/?fid=4279422670115728038)  
 md5:bbf64fc8d278c9ce78daf367f0bd062d
 
 **Working:**

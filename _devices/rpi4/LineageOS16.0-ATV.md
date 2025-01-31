@@ -16,8 +16,9 @@ Here's my build of LineageOS 16.0 Android TV for Raspberry Pi 4 Model B. It is u
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
+<span style="color:#FF0000;">Note!</span> This release is discontinued from development, seriously outdated, and no longer available. Please use more recent Android releases instead.
+
 **lineage-16.0-20200714-UNOFFICIAL-KonstaKANG-rpi4-atv.zip**  
-[https://www.androidfilehost.com/?fid=8889791610682892519](https://www.androidfilehost.com/?fid=8889791610682892519)  
 md5:9596253ce6ae8623fdd3c68fc633488f
 
 **Working:**

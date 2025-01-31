@@ -16,12 +16,12 @@ Here's my build of LineageOS 20 for Raspberry Pi 4 Model B, Pi 400, and Compute 
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
+<span style="color:#FF0000;">Note!</span> This release is discontinued from development, seriously outdated, and no longer available. Please use more recent Android releases instead.
+
 **lineage-20.0-20240111-UNOFFICIAL-KonstaKANG-rpi4.zip**  
-[https://dlupload.com/filedetail/258184573](https://dlupload.com/filedetail/258184573)  
 md5:c62e9819c43679f106801fcec2864b75
 
 **lineage-20.0-20240111-UNOFFICIAL-KonstaKANG-rpi4-ota.zip** (TWRP flashable OTA package)  
-[https://dlupload.com/filedetail/1845859356](https://dlupload.com/filedetail/1845859356)  
 md5:39681da49807e993a6c585f7cc0fbb05
 
 **Working:**

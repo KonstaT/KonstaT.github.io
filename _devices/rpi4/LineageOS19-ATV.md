@@ -16,12 +16,12 @@ Here's my build of LineageOS 19 Android TV for Raspberry Pi 4 Model B, Pi 400, a
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
+<span style="color:#FF0000;">Note!</span> This release is discontinued from development, seriously outdated, and no longer available. Please use more recent Android releases instead.
+
 **lineage-19.1-20230313-UNOFFICIAL-KonstaKANG-rpi4-atv.zip**  
-[https://www.androidfilehost.com/?fid=4279422670115728036](https://www.androidfilehost.com/?fid=4279422670115728036)  
 md5:410faa278b80be14d0b229454b4b33c1
 
 **lineage-19.1-20230313-UNOFFICIAL-KonstaKANG-rpi4-atv-ota.zip** (TWRP flashable OTA package)  
-[https://www.androidfilehost.com/?fid=4279422670115728034](https://www.androidfilehost.com/?fid=4279422670115728034)  
 md5:40bacf6fff1a25fd0a66f0b417204e83
 
 **Working:**
