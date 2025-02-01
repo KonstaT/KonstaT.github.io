@@ -5,14 +5,14 @@ subtitle: Pi 4
 permalink: /devices/rpi4/
 ---
 
-#### AOSP builds:
+#### AOSP:
 
 - [AOSP - KonstaKANG (Android 15)](/devices/rpi4/AOSP15)
 - [AOSP - KonstaKANG (Android 14)](/devices/rpi4/AOSP14)
 - [AOSP - KonstaKANG (Android 13)](/devices/rpi4/AOSP13)
 - [AOSP - KonstaKANG (Android 12L)](/devices/rpi4/AOSP12)
 
-#### LineageOS builds:
+#### LineageOS:
 
 - [LineageOS 22 - KonstaKANG (Android 15)](/devices/rpi4/LineageOS22)
 - [LineageOS 22 Android TV - KonstaKANG (Android 15)](/devices/rpi4/LineageOS22-ATV)

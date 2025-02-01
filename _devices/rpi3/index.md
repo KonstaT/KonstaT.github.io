@@ -5,7 +5,7 @@ subtitle: Pi 3
 permalink: /devices/rpi3/
 ---
 
-#### LineageOS builds:
+#### LineageOS:
 
 - [LineageOS 17.1 - KonstaKANG (Android 10)](/devices/rpi3/LineageOS17.1)
 - [LineageOS 16.0 - KonstaKANG (Android 9)](/devices/rpi3/LineageOS16.0)

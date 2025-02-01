@@ -5,12 +5,12 @@ subtitle: Pi 5
 permalink: /devices/rpi5/
 ---
 
-#### AOSP builds:
+#### AOSP:
 
 - [AOSP - KonstaKANG (Android 15)](/devices/rpi5/AOSP15)
 - [AOSP - KonstaKANG (Android 14)](/devices/rpi5/AOSP14)
 
-#### LineageOS builds:
+#### LineageOS:
 
 - [LineageOS 22 - KonstaKANG (Android 15)](/devices/rpi5/LineageOS22)
 - [LineageOS 22 Android TV - KonstaKANG (Android 15)](/devices/rpi5/LineageOS22-ATV)
