@@ -3,7 +3,7 @@ layout: rom
 title: LineageOS 22 Android TV (Android 15)
 subtitle: for Raspberry Pi 5
 date: 2024-12-17
-tags: [rpi4, LineageOS, LOS22, AndroidTV]
+tags: [rpi5, LineageOS, LOS22, AndroidTV]
 social-share: true
 comments: true
 ---
