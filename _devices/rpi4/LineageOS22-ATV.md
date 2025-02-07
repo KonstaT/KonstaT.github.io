@@ -17,11 +17,11 @@ Here's my build of LineageOS 22 Android TV for Raspberry Pi 4 Model B, Pi 400, a
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
 **lineage-22.0-20241217-UNOFFICIAL-KonstaKANG-rpi4-atv.zip**  
-[https://dlupload.com/filedetail/88945361](https://dlupload.com/filedetail/88945361)  
+[Download](https://app.filen.io/#/d/3da41af1-eae6-447b-a18d-e8f7dd906036%23B3YD2FDUzYnomXhndNjLURRuHHVQJsL1) [(mirror)](https://dlupload.com/filedetail/88945361)  
 md5:49765b2e9dd7628d85363b346858c543
 
 **lineage-22.0-20241217-UNOFFICIAL-KonstaKANG-rpi4-atv-ota.zip** (TWRP flashable OTA package)  
-[https://dlupload.com/filedetail/1051359819](https://dlupload.com/filedetail/1051359819)  
+[Download](https://app.filen.io/#/d/760063a1-093b-4d46-bb05-bb030fa9200d%23IgWDZVYfcGtQNEdK8lduD99R90YJlAef) [(mirror)](https://dlupload.com/filedetail/1051359819)  
 md5:f7b6399d4502fa7d2f26d7029d031749
 
 **Working:**
@@ -252,6 +252,6 @@ Q: How to install Google apps?
 
 **Previous builds:**
 
-- [AndroidFileHost]()
+- [Download](https://app.filen.io/#/f/e29905db-0904-4e4c-8442-11690f842871%235lrELVyuygfsucrgeLg5DxfQNDqrPVnO)
 
 ----

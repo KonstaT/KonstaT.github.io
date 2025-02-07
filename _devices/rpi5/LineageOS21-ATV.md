@@ -17,11 +17,11 @@ Here's my build of LineageOS 21 Android TV for Raspberry Pi 5. It is unofficial 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
 **lineage-21.0-20240816-UNOFFICIAL-KonstaKANG-rpi5-atv.zip**  
-[https://dlupload.com/filedetail/2140493148](https://dlupload.com/filedetail/2140493148)  
+[Download](https://app.filen.io/#/d/5c859ce0-44c5-42d5-a7c6-e636478c6ec3%23xOx8h7maMleodDIUTisZtkVuRBo62zeO) [(mirror)](https://dlupload.com/filedetail/2140493148)  
 md5:e41a5da0a9355989e42c22ffc3cfdd4c
 
 **lineage-21.0-20240816-UNOFFICIAL-KonstaKANG-rpi5-atv-ota.zip** (TWRP flashable OTA package)  
-[https://dlupload.com/filedetail/1626390962](https://dlupload.com/filedetail/1626390962)  
+[Download](https://app.filen.io/#/d/8c46ae00-6ce2-48da-abdd-3ffe10ed097a%23pBW8x9oenr1sNY4JVEJcLcMB3p07D9Yz) [(mirror)](https://dlupload.com/filedetail/1626390962)  
 md5:3b109cc72d3b272663190cfbb4a3fe62
 
 **Working:**
@@ -252,6 +252,6 @@ Q: How to install Google apps?
 
 **Previous builds:**
 
-- [AndroidFileHost](https://androidfilehost.com/?w=files&flid=340888)
+- [Download](https://app.filen.io/#/f/bb5e8a9b-fd55-4070-a881-2bb14141ff51%23xb0WkDXF0nVMGNniaI5WtOvyHfyymIbu)
 
 ----

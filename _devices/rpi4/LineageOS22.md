@@ -17,11 +17,11 @@ Here's my build of LineageOS 22 for Raspberry Pi 4 Model B, Pi 400, and Compute 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
 **lineage-22.0-20241217-UNOFFICIAL-KonstaKANG-rpi4.zip**  
-[https://dlupload.com/filedetail/354393271](https://dlupload.com/filedetail/354393271)  
+[Download](https://app.filen.io/#/d/8aaaaa8e-0d8b-47a4-8148-3db7af31b315%23E0bRu0WBTOe4JGUGtowxut8HdNWXE3Ba) [(mirror)](https://dlupload.com/filedetail/354393271)  
 md5:39e9828b3bcfd0216139a9fa82dcc066
 
 **lineage-22.0-20241217-UNOFFICIAL-KonstaKANG-rpi4-ota.zip** (TWRP flashable OTA package)  
-[https://dlupload.com/filedetail/1264762189](https://dlupload.com/filedetail/1264762189)  
+[Download](https://app.filen.io/#/d/fa414030-4337-4039-81f9-b8e81ba4830e%23zqcHArSl1k2StDfsCgu3UlvQAyZHKUAV) [(mirror)](https://dlupload.com/filedetail/1264762189)  
 md5:c805a0c2879606d37b5a717cbac8720c
 
 **Working:**
@@ -250,6 +250,6 @@ Q: How to install Google apps?
 
 **Previous builds:**
 
-- [AndroidFileHost]()
+- [Download](https://app.filen.io/#/f/e29905db-0904-4e4c-8442-11690f842871%235lrELVyuygfsucrgeLg5DxfQNDqrPVnO)
 
 ----

@@ -17,11 +17,11 @@ Here's my build of AOSP (Android 15) for Raspberry Pi 4 Model B, Pi 400, and Com
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
 **AOSP15-20241210-KonstaKANG-rpi4.zip**  
-[https://dlupload.com/filedetail/1555443955](https://dlupload.com/filedetail/1555443955)  
+[Download](https://app.filen.io/#/d/d7b02717-a924-4308-87ea-9db6a8db24ff%23IQAxvb7YPbHpX5JaXqPNS0D938GHUmY5) [(mirror)](https://dlupload.com/filedetail/1555443955)  
 md5:06371b2d92acec0e89e63605d143273a
 
 **AOSP15-20241210-KonstaKANG-rpi4-ota.zip** (TWRP flashable OTA package)  
-[https://dlupload.com/filedetail/595934725](https://dlupload.com/filedetail/595934725)  
+[Download](https://app.filen.io/#/d/a2f68dd2-98cf-49be-a52e-3cf495248154%234oRbt2yEZCszmalyUMCpzGKK9BI64I1Y) [(mirror)](https://dlupload.com/filedetail/595934725)  
 md5:d6a43c230a6421d2872daf2e1aa97544
 
 **Working:**
@@ -252,6 +252,6 @@ Q: How to install Google apps?
 
 **Previous builds:**
 
-- [AndroidFileHost](https://www.androidfilehost.com/?w=files&flid=341457)
+- [Download](https://app.filen.io/#/f/678c7563-5f44-42d8-a652-2a9edd5d1fa8%23kdlwGFwK1eWsn2ScZE4bfTqyeDlg01N1)
 
 ----

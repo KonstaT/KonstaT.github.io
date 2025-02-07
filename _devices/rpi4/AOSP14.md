@@ -17,15 +17,15 @@ Here's my build of AOSP (Android 14) for Raspberry Pi 4 Model B, Pi 400, and Com
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
 **AOSP14-20240704-KonstaKANG-rpi4.zip**  
-[https://dlupload.com/filedetail/1366255115](https://dlupload.com/filedetail/1366255115)  
+[Download](https://app.filen.io/#/d/12a448cb-0fe7-41e9-b1af-e0b18ee69c11%23IJMeofr1VRr5DX7MEfSJQ1kzIOXtNmaQ) [(mirror)](https://dlupload.com/filedetail/1366255115)  
 md5:3a5f95a59ead384d6f998c3b0dc0367c
 
 **AOSP14-20240704-KonstaKANG-rpi4-ota.zip** (TWRP flashable OTA package)  
-[https://dlupload.com/filedetail/927348720](https://dlupload.com/filedetail/927348720)  
+[Download](https://app.filen.io/#/d/ef39b7a2-7d9a-45f8-9d95-0d3d711d6546%23JhgcyArZphXeBs1ZLkUTlXsaLXg9hbPl) [(mirror)](https://dlupload.com/filedetail/927348720)  
 md5:afbd9cd711f5abf05807a3569614afe0
 
 **AOSP14-20240704-KonstaKANG-rpi4-6.6-kernel.zip** (optional add-on)  
-[https://dlupload.com/filedetail/377203177](https://dlupload.com/filedetail/377203177)  
+[Download](https://app.filen.io/#/d/30a52c7b-0d2e-4cfb-b43e-00b34c3efb82%23Ky2Jjxj8tiwLoQdQrzzcAdSwQO4KaLXw) [(mirror)](https://dlupload.com/filedetail/377203177)  
 md5:c5b3cd0aae4be30c56da46377f6e0ac7
 
 **Working:**
@@ -302,6 +302,6 @@ Linux 6.6 kernel: (optional add-on)
 
 **Previous builds:**
 
-- [AndroidFileHost](https://androidfilehost.com/?w=files&flid=340048)
+- [Download](https://app.filen.io/#/f/4825235d-9d16-40b2-9fde-b9a63a09b63f%230CrW0HgomTBCGMgIF9Apje2aEYLi8bvl)
 
 ----

@@ -17,15 +17,15 @@ Here's my build of AOSP (Android 14) for Raspberry Pi 5. It's for **advanced use
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
 **AOSP14-20240704-KonstaKANG-rpi5.zip**  
-[https://dlupload.com/filedetail/21217967](https://dlupload.com/filedetail/21217967)  
+[Download](https://app.filen.io/#/d/c44b1c68-7eac-4e09-8f80-d5c8ef2077cd%23gywbrLAPGA8VdZZzr5cN18kkg7PnSV0v) [(mirror)](https://dlupload.com/filedetail/21217967)  
 md5:53a953fee635382e6792c3d9ba7459ae
 
 **AOSP14-20240704-KonstaKANG-rpi5-ota.zip** (TWRP flashable OTA package)  
-[https://dlupload.com/filedetail/1422079931](https://dlupload.com/filedetail/1422079931)  
+[Download](https://app.filen.io/#/d/71efb507-fa4f-412c-91cc-b16b7f9aad2e%23FMo3vSVq5ePwqGEzJZLI9b5foQe6vm1J) [(mirror)](https://dlupload.com/filedetail/1422079931)  
 md5:088c423e2acba00009d28bfddcb7cb63
 
 **AOSP14-20240704-KonstaKANG-rpi5-6.6-kernel.zip** (optional add-on)  
-[https://dlupload.com/filedetail/497036195](https://dlupload.com/filedetail/497036195)  
+[Download](https://app.filen.io/#/d/8d894d8c-e615-4ab0-bb3b-c8e3d83ecebe%23urWTu6GBed6p0bBQlGcTF6SDwVlPDaSC) [(mirror)](https://dlupload.com/filedetail/497036195)  
 md5:ef229899d568b532c4bd03a55a1cddc1
 
 **Working:**
@@ -271,6 +271,6 @@ Linux 6.6 kernel: (optional add-on)
 
 **Previous builds:**
 
-- [AndroidFileHost](https://androidfilehost.com/?w=files&flid=340542)
+- [Download](https://app.filen.io/#/f/41665b1b-5219-4e2d-be29-a76513781ca7%23ODBUchxPILc2xstSoaVYLpmxb8xpqyP9)
 
 ----

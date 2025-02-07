@@ -35,6 +35,6 @@ permalink: /devices/rpi4/
 
 #### Downloads:
 
-- [AndroidFileHost](https://www.androidfilehost.com/?w=files&flid=303981)
+- [Download](https://app.filen.io/#/f/c290bd9a-53a7-469f-8890-45d90cb82551%231hHHm4ng6GKgK9CFmDr4mMQirfm5Y90k)
 
 ----

@@ -17,11 +17,11 @@ Here's my build of LineageOS 22 for Raspberry Pi 5, Pi 500, and Compute Module 5
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
 **lineage-22.0-20241217-UNOFFICIAL-KonstaKANG-rpi5.zip**  
-[https://dlupload.com/filedetail/2055429851](https://dlupload.com/filedetail/2055429851)  
+[Download](https://app.filen.io/#/d/469ac41a-1aed-42e3-b005-3391779de514%23Gkdthdem5LeUFzotFF5pO3CxtkwTC4t4) [(mirror)](https://dlupload.com/filedetail/2055429851)  
 md5:995a732b5c3edda18228aec2df44cf36
 
 **lineage-22.0-20241217-UNOFFICIAL-KonstaKANG-rpi5-ota.zip** (TWRP flashable OTA package)  
-[https://dlupload.com/filedetail/1160753092](https://dlupload.com/filedetail/1160753092)  
+[Download](https://app.filen.io/#/d/ed862da6-ea43-4892-9f0b-ee5a1d27443b%23SCpKqRA7p1v8gphhmsnVUVhmuUYd1HJv) [(mirror)](https://dlupload.com/filedetail/1160753092)  
 md5:a2f57dcc89112f89a01e58282b7e4360
 
 **Working:**
@@ -239,6 +239,6 @@ Q: How to install Google apps?
 
 **Previous builds:**
 
-- [AndroidFileHost]()
+- [Download](https://app.filen.io/#/f/ec684b30-2099-437e-9386-704c718b008f%23FKyO1qekF6lR6e1fwtZquUPb1GF6FeOb)
 
 ----

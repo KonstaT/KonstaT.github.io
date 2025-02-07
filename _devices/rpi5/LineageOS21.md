@@ -17,11 +17,11 @@ Here's my build of LineageOS 21 for Raspberry Pi 5. It is unofficial and unsuppo
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
 **lineage-21.0-20240816-UNOFFICIAL-KonstaKANG-rpi5.zip**  
-[https://dlupload.com/filedetail/298504167](https://dlupload.com/filedetail/298504167)  
+[Download](https://app.filen.io/#/d/542aa4fc-67f7-42d9-8a97-8e5a78de88d5%23WgO16b5KpWgX4lr083PIsT4d9MelRdcj) [(mirror)](https://dlupload.com/filedetail/298504167)  
 md5:38978cbeae58da85c06ae98365d40677
 
 **lineage-21.0-20240816-UNOFFICIAL-KonstaKANG-rpi5-ota.zip** (TWRP flashable OTA package)  
-[https://dlupload.com/filedetail/175970532](https://dlupload.com/filedetail/175970532)  
+[Download](https://app.filen.io/#/d/c11419de-a17d-4270-a222-189ef6d69fd0%23sWb2KwY6l9hwMilcfSugJKgfkKpgnOuv) [(mirror)](https://dlupload.com/filedetail/175970532)  
 md5:a4bf7c3f11a6ab8d14787d4cc1a513d2
 
 **Working:**
@@ -254,6 +254,6 @@ Q: How to install Google apps?
 
 **Previous builds:**
 
-- [AndroidFileHost](https://androidfilehost.com/?w=files&flid=340888)
+- [Download](https://app.filen.io/#/f/bb5e8a9b-fd55-4070-a881-2bb14141ff51%23xb0WkDXF0nVMGNniaI5WtOvyHfyymIbu)
 
 ----

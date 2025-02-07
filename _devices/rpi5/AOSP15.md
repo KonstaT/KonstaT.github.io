@@ -17,11 +17,11 @@ Here's my build of AOSP (Android 15) for Raspberry Pi 5, Pi 500, and Compute Mod
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
 **AOSP15-20241210-KonstaKANG-rpi5.zip**  
-[https://dlupload.com/filedetail/1929812223](https://dlupload.com/filedetail/1929812223)  
+[Download](https://app.filen.io/#/d/384e04cc-1409-497e-9827-0e9987cd3831%232nvKgALHNqr5w8AxSI5a7xnrWGbBxAPO) [(mirror)](https://dlupload.com/filedetail/1929812223)  
 md5:b26361b7232f7c282bed3ea0e3c43226
 
 **AOSP15-20241210-KonstaKANG-rpi5-ota.zip** (TWRP flashable OTA package)  
-[https://dlupload.com/filedetail/362687536](https://dlupload.com/filedetail/362687536)  
+[Download](https://app.filen.io/#/d/7824101c-6d29-46a3-a6d3-23c129189ab2%23hnZQ8iERCgZVKTn1ZbXB6HCqCO3O6RGz) [(mirror)](https://dlupload.com/filedetail/362687536)  
 md5:2f757b0246c74d23bd2279430cd9ce16
 
 **Working:**
@@ -241,6 +241,6 @@ Q: How to install Google apps?
 
 **Previous builds:**
 
-- [AndroidFileHost](https://www.androidfilehost.com/?w=files&flid=341458)
+- [Download](https://app.filen.io/#/f/bd4c5685-489e-4d85-b868-02f1bb6345c5%23vbppfNFZ02gk66ZiXmTkcJICbNbCLpp7)
 
 ----
