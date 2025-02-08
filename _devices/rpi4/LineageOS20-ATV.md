@@ -19,10 +19,10 @@ Here's my build of LineageOS 20 Android TV for Raspberry Pi 4 Model B, Pi 400, a
 <span style="color:#FF0000;">Note!</span> This release is discontinued from development, seriously outdated, and no longer available. Please use more recent Android releases instead.
 
 **lineage-20.0-20240111-UNOFFICIAL-KonstaKANG-rpi4-atv.zip**  
-md5:fc0722e087a37c76b80afe9077574395
+sha256:40fbaed5bac7061afa5fa9b8a1f8da6107fd89e529737f4815896f296b6bdc9a
 
 **lineage-20.0-20240111-UNOFFICIAL-KonstaKANG-rpi4-atv-ota.zip** (TWRP flashable OTA package)  
-md5:03feee82795f0230b23243d64970706a
+sha256:4b7816dfedd4c2e2776d5525e5740fc95da89571934144e5cb7415fa58a71d1c
 
 **Working:**
 
@@ -188,7 +188,7 @@ Q: My device keeps booting into TWRP recovery. What should I do?
 Q: Settings -> Storage shows total system size of 7 GB. There's unallocated space on my sdcard. What should I do?  
 *A: This is a 7 GB image, remaining space on your sdcard will remain unallocated.*
 
-1. Download [KonstaKANG-rpi-resize.zip](https://app.filen.io/#/d/359e14ab-fe03-4fa5-8382-d8bab79de308%23OcYCkizytCC8RXhUGHoeP1c3ejocPZDr) (md5:31a1d26e80cf4544a1fcd689e8799d7b) and save it to your device's internal storage or use an external USB drive
+1. Download [KonstaKANG-rpi-resize.zip](https://app.filen.io/#/d/359e14ab-fe03-4fa5-8382-d8bab79de308%23OcYCkizytCC8RXhUGHoeP1c3ejocPZDr) (sha256:851d67e03b5c290c3a223d0322f80fa1afba8ee4cb136938a743b1db7c95894e) and save it to your device's internal storage or use an external USB drive
 2. Boot to TWRP recovery (see FAQ)
 3. Install KonstaKANG-rpi-resize.zip from your selected storage
 4. Boot out of recovery (see FAQ)
@@ -196,7 +196,7 @@ Q: Settings -> Storage shows total system size of 7 GB. There's unallocated spac
 Q: How to install Magisk?  
 *A:*
 
-1. Download [KonstaKANG-rpi-magisk-v28.0.zip](https://app.filen.io/#/d/d74dc693-9ee2-40ee-9fa4-5a8849e775c8%238apHUATWC2xwkdPII1gnayb8zcoO0bde) (md5:754565dbf60e8527784a7676838b6a66) and save it to your device's internal storage or use an external USB drive
+1. Download [KonstaKANG-rpi-magisk-v28.0.zip](https://app.filen.io/#/d/d74dc693-9ee2-40ee-9fa4-5a8849e775c8%238apHUATWC2xwkdPII1gnayb8zcoO0bde) (sha256:41be2439544777942432b968be66ae48c523b6649bc3b5e7c57b189c7cee0c15) and save it to your device's internal storage or use an external USB drive
 2. Download [Magisk-v28.0.apk](https://github.com/topjohnwu/Magisk/releases/tag/v28.0)
 3. Boot to TWRP recovery (see FAQ)
 4. Install KonstaKANG-rpi-magisk-v28.0.zip from your selected storage

@@ -18,11 +18,11 @@ Here's my build of AOSP (Android 15) for Raspberry Pi 5, Pi 500, and Compute Mod
 
 **AOSP15-20241210-KonstaKANG-rpi5.zip**  
 [Download](https://app.filen.io/#/d/384e04cc-1409-497e-9827-0e9987cd3831%232nvKgALHNqr5w8AxSI5a7xnrWGbBxAPO) [(mirror)](https://dlupload.com/filedetail/1929812223)  
-md5:b26361b7232f7c282bed3ea0e3c43226
+sha256:153fa99cca699cc6ec98b2c8a515c6f6da6f90a57d7738ae3f19a8493af7d94f
 
 **AOSP15-20241210-KonstaKANG-rpi5-ota.zip** (TWRP flashable OTA package)  
 [Download](https://app.filen.io/#/d/7824101c-6d29-46a3-a6d3-23c129189ab2%23hnZQ8iERCgZVKTn1ZbXB6HCqCO3O6RGz) [(mirror)](https://dlupload.com/filedetail/362687536)  
-md5:2f757b0246c74d23bd2279430cd9ce16
+sha256:097bb3b7a378ad7aca68c658932d8d790f18fa108966ea1912e4ac38f390ef46
 
 **Working:**
 
@@ -176,7 +176,7 @@ Q: My device keeps booting into TWRP recovery. What should I do?
 Q: Settings -> Storage shows total system size of 7 GB. There's unallocated space on my sdcard. What should I do?  
 *A: This is a 7 GB image, remaining space on your sdcard will remain unallocated.*
 
-1. Download [KonstaKANG-rpi-resize.zip](https://app.filen.io/#/d/359e14ab-fe03-4fa5-8382-d8bab79de308%23OcYCkizytCC8RXhUGHoeP1c3ejocPZDr) (md5:31a1d26e80cf4544a1fcd689e8799d7b) and save it to your device's internal storage or use an external USB drive
+1. Download [KonstaKANG-rpi-resize.zip](https://app.filen.io/#/d/359e14ab-fe03-4fa5-8382-d8bab79de308%23OcYCkizytCC8RXhUGHoeP1c3ejocPZDr) (sha256:851d67e03b5c290c3a223d0322f80fa1afba8ee4cb136938a743b1db7c95894e) and save it to your device's internal storage or use an external USB drive
 2. Boot to TWRP recovery (see FAQ)
 3. Install KonstaKANG-rpi-resize.zip from your selected storage
 4. Boot out of recovery (see FAQ)
@@ -184,7 +184,7 @@ Q: Settings -> Storage shows total system size of 7 GB. There's unallocated spac
 Q: How to install Widevine L3?  
 *A:*
 
-1. Download [KonstaKANG-rpi-widevine-15.zip](https://app.filen.io/#/d/46c3e9e7-a0d0-4248-aa2e-9a7646e77176%233yBNf8wSfI4HOrrdK8APuC2eF4Mjz3A3) (md5:3de5b04da3262fd3e0aa382b30915591) and save it to your device's internal storage or use an external USB drive
+1. Download [KonstaKANG-rpi-widevine-15.zip](https://app.filen.io/#/d/46c3e9e7-a0d0-4248-aa2e-9a7646e77176%233yBNf8wSfI4HOrrdK8APuC2eF4Mjz3A3) (sha256:1d42fbddfef6d74813f35084b67723c3b73a2adca754cee0aebbcecbcd5c74c4) and save it to your device's internal storage or use an external USB drive
 2. Boot to TWRP recovery (see FAQ)
 3. Install KonstaKANG-rpi-widevine-15.zip from your selected storage
 4. Boot out of recovery (see FAQ)
@@ -192,7 +192,7 @@ Q: How to install Widevine L3?
 Q: How to install Magisk?  
 *A:*
 
-1. Download [KonstaKANG-rpi-magisk-v28.0.zip](https://app.filen.io/#/d/d74dc693-9ee2-40ee-9fa4-5a8849e775c8%238apHUATWC2xwkdPII1gnayb8zcoO0bde) (md5:754565dbf60e8527784a7676838b6a66) and save it to your device's internal storage or use an external USB drive
+1. Download [KonstaKANG-rpi-magisk-v28.0.zip](https://app.filen.io/#/d/d74dc693-9ee2-40ee-9fa4-5a8849e775c8%238apHUATWC2xwkdPII1gnayb8zcoO0bde) (sha256:41be2439544777942432b968be66ae48c523b6649bc3b5e7c57b189c7cee0c15) and save it to your device's internal storage or use an external USB drive
 2. Download [Magisk-v28.0.apk](https://github.com/topjohnwu/Magisk/releases/tag/v28.0)
 3. Boot to TWRP recovery (see FAQ)
 4. Install KonstaKANG-rpi-magisk-v28.0.zip from your selected storage

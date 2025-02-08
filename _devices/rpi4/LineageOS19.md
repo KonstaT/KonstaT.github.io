@@ -195,7 +195,7 @@ Q: My device keeps booting into TWRP recovery. What should I do?
 Q: How to install Magisk?  
 *A:*
 
-1. Download [KonstaKANG-rpi-magisk-v28.0.zip](https://app.filen.io/#/d/d74dc693-9ee2-40ee-9fa4-5a8849e775c8%238apHUATWC2xwkdPII1gnayb8zcoO0bde) (md5:754565dbf60e8527784a7676838b6a66) and save it to your device's internal storage or use an external USB drive
+1. Download [KonstaKANG-rpi-magisk-v28.0.zip](https://app.filen.io/#/d/d74dc693-9ee2-40ee-9fa4-5a8849e775c8%238apHUATWC2xwkdPII1gnayb8zcoO0bde) (sha256:41be2439544777942432b968be66ae48c523b6649bc3b5e7c57b189c7cee0c15) and save it to your device's internal storage or use an external USB drive
 2. Download [Magisk-v28.0.apk](https://github.com/topjohnwu/Magisk/releases/tag/v28.0)
 3. Boot to TWRP recovery (see FAQ)
 4. Install KonstaKANG-rpi-magisk-v28.0.zip from your selected storage
