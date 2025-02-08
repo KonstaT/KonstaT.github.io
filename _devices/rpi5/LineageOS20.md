@@ -234,6 +234,6 @@ Q: How to install Google apps?
 
 **Previous builds:**
 
-- [AndroidFileHost](https://androidfilehost.com/?w=files&flid=340887)
+- [Download](https://app.filen.io/#/f/9f333f3b-164a-4353-ad55-0f913bf47063%23u3twQQD2BYCxBJBJlxyDHNYFHvSLnG02)
 
 ----
