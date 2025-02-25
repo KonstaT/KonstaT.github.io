@@ -16,12 +16,10 @@ Here's my build of AOSP (Android 15) for Raspberry Pi 5, Pi 500, and Compute Mod
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
-**AOSP15-20241210-KonstaKANG-rpi5.zip**  
-[Download](https://app.filen.io/#/d/384e04cc-1409-497e-9827-0e9987cd3831%232nvKgALHNqr5w8AxSI5a7xnrWGbBxAPO) [(mirror)](https://dlupload.com/filedetail/1929812223)  
+[**AOSP15-20241210-KonstaKANG-rpi5.zip**](https://app.filen.io/#/d/384e04cc-1409-497e-9827-0e9987cd3831%232nvKgALHNqr5w8AxSI5a7xnrWGbBxAPO)  
 sha256:153fa99cca699cc6ec98b2c8a515c6f6da6f90a57d7738ae3f19a8493af7d94f
 
-**AOSP15-20241210-KonstaKANG-rpi5-ota.zip** (TWRP flashable OTA package)  
-[Download](https://app.filen.io/#/d/7824101c-6d29-46a3-a6d3-23c129189ab2%23hnZQ8iERCgZVKTn1ZbXB6HCqCO3O6RGz) [(mirror)](https://dlupload.com/filedetail/362687536)  
+[**AOSP15-20241210-KonstaKANG-rpi5-ota.zip**](https://app.filen.io/#/d/7824101c-6d29-46a3-a6d3-23c129189ab2%23hnZQ8iERCgZVKTn1ZbXB6HCqCO3O6RGz) (TWRP flashable OTA package)  
 sha256:097bb3b7a378ad7aca68c658932d8d790f18fa108966ea1912e4ac38f390ef46
 
 **Working:**

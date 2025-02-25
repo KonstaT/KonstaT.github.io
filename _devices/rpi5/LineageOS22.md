@@ -16,12 +16,10 @@ Here's my build of LineageOS 22 for Raspberry Pi 5, Pi 500, and Compute Module 5
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
-**lineage-22.0-20241217-UNOFFICIAL-KonstaKANG-rpi5.zip**  
-[Download](https://app.filen.io/#/d/469ac41a-1aed-42e3-b005-3391779de514%23Gkdthdem5LeUFzotFF5pO3CxtkwTC4t4) [(mirror)](https://dlupload.com/filedetail/2055429851)  
+[**lineage-22.0-20241217-UNOFFICIAL-KonstaKANG-rpi5.zip**](https://app.filen.io/#/d/469ac41a-1aed-42e3-b005-3391779de514%23Gkdthdem5LeUFzotFF5pO3CxtkwTC4t4)  
 sha256:fbd2104a40d883dfc7e849276c379abff7a73d697d9d8aab842b767445c4bfd2
 
-**lineage-22.0-20241217-UNOFFICIAL-KonstaKANG-rpi5-ota.zip** (TWRP flashable OTA package)  
-[Download](https://app.filen.io/#/d/ed862da6-ea43-4892-9f0b-ee5a1d27443b%23SCpKqRA7p1v8gphhmsnVUVhmuUYd1HJv) [(mirror)](https://dlupload.com/filedetail/1160753092)  
+[**lineage-22.0-20241217-UNOFFICIAL-KonstaKANG-rpi5-ota.zip**](https://app.filen.io/#/d/ed862da6-ea43-4892-9f0b-ee5a1d27443b%23SCpKqRA7p1v8gphhmsnVUVhmuUYd1HJv) (TWRP flashable OTA package)  
 sha256:e90688795e0f88135802e50270592ed5f61ecfc380c72129fc5ca3226e0c4848
 
 **Working:**

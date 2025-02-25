@@ -16,16 +16,13 @@ Here's my build of AOSP (Android 14) for Raspberry Pi 5. It's for **advanced use
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
-**AOSP14-20240704-KonstaKANG-rpi5.zip**  
-[Download](https://app.filen.io/#/d/c44b1c68-7eac-4e09-8f80-d5c8ef2077cd%23gywbrLAPGA8VdZZzr5cN18kkg7PnSV0v) [(mirror)](https://dlupload.com/filedetail/21217967)  
+[**AOSP14-20240704-KonstaKANG-rpi5.zip**](https://app.filen.io/#/d/c44b1c68-7eac-4e09-8f80-d5c8ef2077cd%23gywbrLAPGA8VdZZzr5cN18kkg7PnSV0v)  
 sha256:ddd5ea92ad10e4b216e97e82f39c8190404efcb47ab4e3b38da91b97782e29e4
 
-**AOSP14-20240704-KonstaKANG-rpi5-ota.zip** (TWRP flashable OTA package)  
-[Download](https://app.filen.io/#/d/71efb507-fa4f-412c-91cc-b16b7f9aad2e%23FMo3vSVq5ePwqGEzJZLI9b5foQe6vm1J) [(mirror)](https://dlupload.com/filedetail/1422079931)  
+[**AOSP14-20240704-KonstaKANG-rpi5-ota.zip**](https://app.filen.io/#/d/71efb507-fa4f-412c-91cc-b16b7f9aad2e%23FMo3vSVq5ePwqGEzJZLI9b5foQe6vm1J) (TWRP flashable OTA package)  
 sha256:f925271e3eeb314ca8b5bfc9593b8ea518ef70b554607e0bc69b9d90eb754c7f
 
-**AOSP14-20240704-KonstaKANG-rpi5-6.6-kernel.zip** (optional add-on)  
-[Download](https://app.filen.io/#/d/8d894d8c-e615-4ab0-bb3b-c8e3d83ecebe%23urWTu6GBed6p0bBQlGcTF6SDwVlPDaSC) [(mirror)](https://dlupload.com/filedetail/497036195)  
+[**AOSP14-20240704-KonstaKANG-rpi5-6.6-kernel.zip**](https://app.filen.io/#/d/8d894d8c-e615-4ab0-bb3b-c8e3d83ecebe%23urWTu6GBed6p0bBQlGcTF6SDwVlPDaSC) (optional add-on)  
 sha256:2ae6febc290430a1084e657ee009404698cc613f9418126faadb7d36f38d1e3a
 
 **Working:**

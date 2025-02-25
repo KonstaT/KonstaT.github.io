@@ -16,12 +16,10 @@ Here's my build of AOSP (Android 15) for Raspberry Pi 4 Model B, Pi 400, and Com
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
-**AOSP15-20241210-KonstaKANG-rpi4.zip**  
-[Download](https://app.filen.io/#/d/d7b02717-a924-4308-87ea-9db6a8db24ff%23IQAxvb7YPbHpX5JaXqPNS0D938GHUmY5) [(mirror)](https://dlupload.com/filedetail/1555443955)  
+[**AOSP15-20241210-KonstaKANG-rpi4.zip**](https://app.filen.io/#/d/d7b02717-a924-4308-87ea-9db6a8db24ff%23IQAxvb7YPbHpX5JaXqPNS0D938GHUmY5)  
 sha256:eacc65a3492402e658d246d399de30a5300855cd995d5ecaa035e82ff813ef8d
 
-**AOSP15-20241210-KonstaKANG-rpi4-ota.zip** (TWRP flashable OTA package)  
-[Download](https://app.filen.io/#/d/a2f68dd2-98cf-49be-a52e-3cf495248154%234oRbt2yEZCszmalyUMCpzGKK9BI64I1Y) [(mirror)](https://dlupload.com/filedetail/595934725)  
+[**AOSP15-20241210-KonstaKANG-rpi4-ota.zip**](https://app.filen.io/#/d/a2f68dd2-98cf-49be-a52e-3cf495248154%234oRbt2yEZCszmalyUMCpzGKK9BI64I1Y) (TWRP flashable OTA package)  
 sha256:18a18e980de96abfa09d67cdaa099ac0cc577a4b0593319e59552a76cd0fc9bf
 
 **Working:**

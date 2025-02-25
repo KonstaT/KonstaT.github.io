@@ -16,12 +16,10 @@ Here's my build of LineageOS 22 Android TV for Raspberry Pi 5, Pi 500, and Compu
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
-**lineage-22.0-20241217-UNOFFICIAL-KonstaKANG-rpi5-atv.zip**  
-[Download](https://app.filen.io/#/d/452cd215-9c5e-4b18-a20f-09d505a251f0%23BvW61m5Jr2LtHMlC9LdBhvlUfmgr0b0R) [(mirror)](https://dlupload.com/filedetail/736075137)  
+[**lineage-22.0-20241217-UNOFFICIAL-KonstaKANG-rpi5-atv.zip**](https://app.filen.io/#/d/452cd215-9c5e-4b18-a20f-09d505a251f0%23BvW61m5Jr2LtHMlC9LdBhvlUfmgr0b0R)  
 sha256:a95e7f85fa41ef573c88ffd4c0e3ec2c38fe1455595ab59326046ba72cbb325d
 
-**lineage-22.0-20241217-UNOFFICIAL-KonstaKANG-rpi5-atv-ota.zip** (TWRP flashable OTA package)  
-[Download](https://app.filen.io/#/d/e8759e53-d506-4806-9f8c-44030f8b7687%23egv7z0RhtVxdIwgsz4JgFNYUra3rYEdX) [(mirror)](https://dlupload.com/filedetail/1291250955)  
+[**lineage-22.0-20241217-UNOFFICIAL-KonstaKANG-rpi5-atv-ota.zip**](https://app.filen.io/#/d/e8759e53-d506-4806-9f8c-44030f8b7687%23egv7z0RhtVxdIwgsz4JgFNYUra3rYEdX) (TWRP flashable OTA package)  
 sha256:0489946a2cb03d6b86deb1cab2cf7783d9db8f6b0ce8532c4e4ca1499b564cb8
 
 **Working:**

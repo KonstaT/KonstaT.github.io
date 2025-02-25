@@ -16,12 +16,10 @@ Here's my build of LineageOS 21 for Raspberry Pi 4 Model B, Pi 400, and Compute 
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
-**lineage-21.0-20240816-UNOFFICIAL-KonstaKANG-rpi4.zip**  
-[Download](https://app.filen.io/#/d/e8fa324c-98c6-4bb7-a4b1-9754b9720c56%230R5dWe5pBa2nXc5qyQCyjqu2yKkfmtoj) [(mirror)](https://dlupload.com/filedetail/2099151521)  
+[**lineage-21.0-20240816-UNOFFICIAL-KonstaKANG-rpi4.zip**](https://app.filen.io/#/d/e8fa324c-98c6-4bb7-a4b1-9754b9720c56%230R5dWe5pBa2nXc5qyQCyjqu2yKkfmtoj)  
 sha256:4899501f9a0613591547d2907bdd037fbf9de6ed49439cd10addcf0599be4b29
 
-**lineage-21.0-20240816-UNOFFICIAL-KonstaKANG-rpi4-ota.zip** (TWRP flashable OTA package)  
-[Download](https://app.filen.io/#/d/2959978e-1c24-47f8-b8c6-f46199b2639d%23crOj23LfufaRC109IqKnFfNfv6jdeIFa) [(mirror)](https://dlupload.com/filedetail/1575870955)  
+[**lineage-21.0-20240816-UNOFFICIAL-KonstaKANG-rpi4-ota.zip**](https://app.filen.io/#/d/2959978e-1c24-47f8-b8c6-f46199b2639d%23crOj23LfufaRC109IqKnFfNfv6jdeIFa) (TWRP flashable OTA package)  
 sha256:02682b2169846c1f6b3a6774a2fc128c4231be2d5b09872ffeafd70ad0027888
 
 **Working:**

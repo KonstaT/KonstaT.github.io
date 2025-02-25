@@ -16,12 +16,10 @@ Here's my build of LineageOS 21 Android TV for Raspberry Pi 4 Model B, Pi 400, a
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
-**lineage-21.0-20240816-UNOFFICIAL-KonstaKANG-rpi4-atv.zip**  
-[Download](https://app.filen.io/#/d/744d83ec-a1c2-46bf-b89a-8b4869690712%23OqsXOQZKIGBjB3xi4j76A5jkLLaGKqF9) [(mirror)](https://dlupload.com/filedetail/692292141)  
+[**lineage-21.0-20240816-UNOFFICIAL-KonstaKANG-rpi4-atv.zip**](https://app.filen.io/#/d/744d83ec-a1c2-46bf-b89a-8b4869690712%23OqsXOQZKIGBjB3xi4j76A5jkLLaGKqF9)  
 sha256:70eeb6a8fd3e91c8583e491440c98ee5cce85f99ca0bf2ed647891e345a3dfde
 
-**lineage-21.0-20240816-UNOFFICIAL-KonstaKANG-rpi4-atv-ota.zip** (TWRP flashable OTA package)  
-[Download](https://app.filen.io/#/d/a753d847-afc3-44b3-8c13-7a1c6c9e5006%23JQgnjxx2vFx9pvqHI6gvqUthuEBHsRDA) [(mirror)](https://dlupload.com/filedetail/1270902445)  
+[**lineage-21.0-20240816-UNOFFICIAL-KonstaKANG-rpi4-atv-ota.zip**](https://app.filen.io/#/d/a753d847-afc3-44b3-8c13-7a1c6c9e5006%23JQgnjxx2vFx9pvqHI6gvqUthuEBHsRDA) (TWRP flashable OTA package)  
 sha256:694bfa046199833dee549bb8a1bf8bab51a7b0e238043ac7fc167ac88d80cc45
 
 **Working:**
