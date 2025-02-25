@@ -1,14 +1,14 @@
 ---
 layout: rom
-title: LineageOS 22 (Android 15)
+title: LineageOS 22.1 (Android 15)
 subtitle: for Raspberry Pi 5
-date: 2024-12-17
+date: 2025-02-25
 tags: [rpi5, LineageOS, LOS22]
 social-share: true
 comments: true
 ---
 
-Here's my build of LineageOS 22 for Raspberry Pi 5, Pi 500, and Compute Module 5. It is unofficial and unsupported by the LineageOS team. It's for **advanced users** only.
+Here's my build of LineageOS 22.1 for Raspberry Pi 5, Pi 500, and Compute Module 5. It is unofficial and unsupported by the LineageOS team. It's for **advanced users** only.
 
 <span style="color:#FF0000;">Important!</span> Raspberry Pi hardware specific implementation in this build is based on source code released on my [Raspberry Vanilla](https://github.com/raspberry-vanilla) project but this build offers various additional features and enhancements. This image includes parts that are licensed under non-commercial license ([Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International](http://creativecommons.org/licenses/by-nc-sa/4.0/)). You may use this build freely in personal/educational/etc use. Commercial use is not allowed with this build! You can contact me by email to discuss creating customized Android builds for commercial purposes.
 
@@ -16,11 +16,11 @@ Here's my build of LineageOS 22 for Raspberry Pi 5, Pi 500, and Compute Module 5
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
-[**lineage-22.0-20241217-UNOFFICIAL-KonstaKANG-rpi5.zip**](https://app.filen.io/#/d/469ac41a-1aed-42e3-b005-3391779de514%23Gkdthdem5LeUFzotFF5pO3CxtkwTC4t4)  
-sha256:fbd2104a40d883dfc7e849276c379abff7a73d697d9d8aab842b767445c4bfd2
+[**lineage-22.1-20250225-UNOFFICIAL-KonstaKANG-rpi5.zip**](https://app.filen.io/#/d/f4269273-a492-4a8e-9328-4710655b8821%23Y06MIxURf9CP9FOhIJ8wHua83VGAGEzX)  
+sha256:f03517eb4751fc229a0a723e6d12e0db10c15409e84682f00e33a3b282ca1c54
 
-[**lineage-22.0-20241217-UNOFFICIAL-KonstaKANG-rpi5-ota.zip**](https://app.filen.io/#/d/ed862da6-ea43-4892-9f0b-ee5a1d27443b%23SCpKqRA7p1v8gphhmsnVUVhmuUYd1HJv) (TWRP flashable OTA package)  
-sha256:e90688795e0f88135802e50270592ed5f61ecfc380c72129fc5ca3226e0c4848
+[**lineage-22.1-20250225-UNOFFICIAL-KonstaKANG-rpi5-ota.zip**](https://app.filen.io/#/d/10c97978-aa83-4dcc-981d-f698ea777a00%23XdwPCFoQJ7RaAsUUFM5bwsXavu7lYslp) (TWRP flashable OTA package)  
+sha256:2183192aa9a8b7afb978334ff485622e1e7c6598098c013a6536472ac9008eaf
 
 **Working:**
 
@@ -74,9 +74,9 @@ sha256:e90688795e0f88135802e50270592ed5f61ecfc380c72129fc5ca3226e0c4848
 
 You can also update to newer builds using TWRP flashable OTA packages. OTA updates pushed through the built-in Updater app are stored at /data/lineageos_updates/.
 
-1. Download lineage-22.0-xxxxxxxx-UNOFFICIAL-KonstaKANG-rpi5-ota.zip and save it to your device's internal storage or use an external USB drive
+1. Download lineage-22.1-xxxxxxxx-UNOFFICIAL-KonstaKANG-rpi5-ota.zip and save it to your device's internal storage or use an external USB drive
 2. Boot to TWRP recovery (see FAQ)
-3. Install lineage-22.0-xxxxxxxx-UNOFFICIAL-KonstaKANG-rpi5-ota.zip from your selected storage
+3. Install lineage-22.1-xxxxxxxx-UNOFFICIAL-KonstaKANG-rpi5-ota.zip from your selected storage
 4. (Flash Magisk/other add-ons you had previously installed)
 5. Boot out of recovery (see FAQ)
 
@@ -151,6 +151,11 @@ ssh -i my_private_key root@192.168.0.100
 
 *It's recommended to disable adb after this.*
 
+Q: How to use VNC?  
+*A: You can start/stop the built-in VNC server by using a settings option found in Settings -> System -> Raspberry Pi settings -> VNC.*
+
+*Default password for VNC is 'KonstaKANG'. You can change the password and create additional view-only password by using ```vncpasswd``` in rooted shell.*
+
 Q: How to boot from USB or NVME device?  
 *A:*
 
@@ -174,8 +179,8 @@ Q: How to boot out of TWRP recovery?
 Q: My device keeps booting into TWRP recovery. What should I do?  
 *A: If you have GPIO21 connected to ground (or if you have something drawing power from it) your device will always boot to TWRP recovery (see FAQ section about DIY power button). If you have a hardware failure on GPIO21 you can edit /boot/config.txt to remove the GPIO21 related logic (see 'Ramdisk' and 'Graphics acceleration' sections).*
 
-Q: Settings -> Storage shows total system size of 7 GB. There's unallocated space on my sdcard. What should I do?  
-*A: This is a 7 GB image, remaining space on your sdcard will remain unallocated.*
+Q: Settings -> Storage shows total system size of 15.5 GB. There's unallocated space on my sdcard. What should I do?  
+*A: This is a 15.5 GB image, remaining space on your sdcard will remain unallocated.*
 
 1. Download [KonstaKANG-rpi-resize.zip](https://app.filen.io/#/d/359e14ab-fe03-4fa5-8382-d8bab79de308%23OcYCkizytCC8RXhUGHoeP1c3ejocPZDr) (sha256:851d67e03b5c290c3a223d0322f80fa1afba8ee4cb136938a743b1db7c95894e) and save it to your device's internal storage or use an external USB drive
 2. Boot to TWRP recovery (see FAQ)
@@ -213,7 +218,19 @@ Q: How to install Google apps?
 ----
 <!--block-->
 
-[Merged commits](https://review.lineageos.org/#/q/status:merged+branch:lineage-22.0+-project:%255E.*device.*+-project:%255E.*kernel.*) not mentioned in the changelog.
+[Merged commits](https://review.lineageos.org/#/q/status:merged+branch:lineage-22.1+-project:%255E.*device.*+-project:%255E.*kernel.*) not mentioned in the changelog.
+
+**25.2. 2025 changelog:**
+
+- LineageOS 22.1 (Android 15 QPR1)
+- increase flashable image size to fit 16GB storage device
+- update HDMI-CEC HAL
+- fix adjusting brightness on official 7" DSI Touch Display & Touch Display 2
+- add password protection to VNC server
+- update to libcamera master/v0.4.0, libpisp v1.1.0
+- update to Mesa 25.0.0
+- update to Linux 6.6.78 kernel and patch known vulnerabilities (CVE-xxxx-xxxx, and more)
+- Android security patch level: 5 February 2025
 
 **17.12. changelog:**
 
