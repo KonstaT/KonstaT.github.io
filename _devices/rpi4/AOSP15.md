@@ -2,7 +2,7 @@
 layout: rom
 title: AOSP (Android 15)
 subtitle: for Raspberry Pi 4
-date: 2024-12-10
+date: 2025-03-06
 tags: [rpi4, AOSP]
 social-share: true
 comments: true
@@ -16,11 +16,14 @@ Here's my build of AOSP (Android 15) for Raspberry Pi 4 Model B, Pi 400, and Com
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
-[**AOSP15-20241210-KonstaKANG-rpi4.zip**](https://app.filen.io/#/d/d7b02717-a924-4308-87ea-9db6a8db24ff%23IQAxvb7YPbHpX5JaXqPNS0D938GHUmY5)  
-sha256:eacc65a3492402e658d246d399de30a5300855cd995d5ecaa035e82ff813ef8d
+[**AOSP15-20250306-KonstaKANG-rpi4.zip**](https://app.filen.io/#/d/5301a938-01cb-469e-aaf8-36a4eea378ff%23LgIij9eZ3NcTBpJ05AnYDG1L2TsHufnr)  
+sha256:f29f1e5820dd65b7dfb8e9ccb1612f78efaf0d691af27530346ba732f3b94797
 
-[**AOSP15-20241210-KonstaKANG-rpi4-ota.zip**](https://app.filen.io/#/d/a2f68dd2-98cf-49be-a52e-3cf495248154%234oRbt2yEZCszmalyUMCpzGKK9BI64I1Y) (TWRP flashable OTA package)  
-sha256:18a18e980de96abfa09d67cdaa099ac0cc577a4b0593319e59552a76cd0fc9bf
+[**AOSP15-20250306-KonstaKANG-rpi4-ota.zip**](https://app.filen.io/#/d/c8c51895-356f-4bb4-bd75-3b04bae5bf6a%23uWjoPEwhethesIrwpGzDsCmCMAaGU0mH) (TWRP flashable OTA package)  
+sha256:d7ede4fcf9e6b91feddfd66b19eb09310b4beeb2b94a5ddb36ab4e3c37d29ae6
+
+[**AOSP15-20250306-KonstaKANG-rpi4-6.12-kernel.zip**](https://app.filen.io/#/d/2c51f25f-aeaa-4f73-828e-f29a3eb6ace5%239T0nJ03atxLYxzY1gfghUh63x8ictJPp) (optional add-on)  
+sha256:ff6681534876175ca2f82405e83849c62acb09a99e42046e44fedb899ccb1c05
 
 **Working:**
 
@@ -159,6 +162,11 @@ ssh -i my_private_key root@192.168.0.100
 
 *It's recommended to disable adb after this.*
 
+Q: How to use VNC?  
+*A: You can start/stop the built-in VNC server by using a settings option found in Settings -> System -> Raspberry Pi settings -> VNC.*
+
+*Default password for VNC is 'KonstaKANG'. You can change the password and create additional view-only password by using ```vncpasswd``` in rooted shell.*
+
 Q: How to boot from USB device?  
 *A:*
 
@@ -183,8 +191,8 @@ Q: How to boot out of TWRP recovery?
 Q: My device keeps booting into TWRP recovery. What should I do?  
 *A: If you have GPIO21 connected to ground (or if you have something drawing power from it) your device will always boot to TWRP recovery (see FAQ section about DIY power button). If you have a hardware failure on GPIO21 you can edit /boot/config.txt to remove the GPIO21 related logic (see 'Ramdisk' and 'Graphics acceleration' sections).*
 
-Q: Settings -> Storage shows total system size of 7 GB. There's unallocated space on my sdcard. What should I do?  
-*A: This is a 7 GB image, remaining space on your sdcard will remain unallocated.*
+Q: Settings -> Storage shows total system size of 15.5 GB. There's unallocated space on my sdcard. What should I do?  
+*A: This is a 15.5 GB image, remaining space on your sdcard will remain unallocated.*
 
 1. Download [KonstaKANG-rpi-resize.zip](https://app.filen.io/#/d/359e14ab-fe03-4fa5-8382-d8bab79de308%23OcYCkizytCC8RXhUGHoeP1c3ejocPZDr) (sha256:851d67e03b5c290c3a223d0322f80fa1afba8ee4cb136938a743b1db7c95894e) and save it to your device's internal storage or use an external USB drive
 2. Boot to TWRP recovery (see FAQ)
@@ -222,6 +230,29 @@ Q: How to install Google apps?
 
 ----
 <!--block-->
+
+**6.3. 2025 changelog:**
+
+- update to latest AOSP release (Android 15 QPR2 - android-15.0.0_r20)
+- Raspberry Pi settings improvements
+  - add support for more audio DACs
+  - add support for more DSI displays
+  - add zRAM options
+- switch to AIDL graphics allocator HAL and gralloc5 mapper
+- increase flashable image size to fit 16GB storage device
+- update HDMI-CEC HAL
+- fix adjusting brightness on official 7" DSI Touch Display & Touch Display 2
+- add password protection to VNC server
+- enable bluetooth A2DP sink
+- enable NUMA
+- update to libcamera master/v0.4.0, libpisp v1.1.0
+- update to Mesa 25.0.1
+- update to Linux 6.6.78 kernel and patch known vulnerabilities (CVE-xxxx-xxxx, and more)
+- Android security patch level: 5 March 2025
+
+Linux 6.12 kernel: (optional add-on)
+- new Raspberry Pi Android kernel bring-up based on AOSP android16-6.12
+- update to Linux 6.12.17 kernel and patch known vulnerabilities (CVE-xxxx-xxxx, and more)
 
 **10.12. changelog:**
 
