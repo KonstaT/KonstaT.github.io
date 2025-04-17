@@ -1,14 +1,14 @@
 ---
 layout: rom
-title: LineageOS 22.1 (Android 15)
+title: LineageOS 22.2 (Android 15)
 subtitle: for Raspberry Pi 4
-date: 2025-02-25
+date: 2025-04-17
 tags: [rpi4, LineageOS, LOS22]
 social-share: true
 comments: true
 ---
 
-Here's my build of LineageOS 22.1 for Raspberry Pi 4 Model B, Pi 400, and Compute Module 4. It is unofficial and unsupported by the LineageOS team. It's for **advanced users** only. Pi 4 model with at least 2GB of RAM is required to run this build.
+Here's my build of LineageOS 22.2 for Raspberry Pi 4 Model B, Pi 400, and Compute Module 4. It is unofficial and unsupported by the LineageOS team. It's for **advanced users** only. Pi 4 model with at least 2GB of RAM is required to run this build.
 
 <span style="color:#FF0000;">Important!</span> Raspberry Pi hardware specific implementation in this build is based on source code released on my [Raspberry Vanilla](https://github.com/raspberry-vanilla) project but this build offers various additional features and enhancements. This image includes parts that are licensed under non-commercial license ([Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International](http://creativecommons.org/licenses/by-nc-sa/4.0/)). You may use this build freely in personal/educational/etc use. Commercial use is not allowed with this build! You can contact me by email to discuss creating customized Android builds for commercial purposes.
 
@@ -16,11 +16,13 @@ Here's my build of LineageOS 22.1 for Raspberry Pi 4 Model B, Pi 400, and Comput
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
-[**lineage-22.1-20250225-UNOFFICIAL-KonstaKANG-rpi4.zip**](https://app.filen.io/#/d/556a8280-9b3c-4771-84d9-697cd11c9534%23NQz105Jal4Rd7cNIuzeApEN77MsnfsUg)  
-sha256:68c86b746a0a293c3b4e19e68658b2f2cab902aa3c595b16e4079ab82a260970
+[**lineage-22.2-20250417-UNOFFICIAL-KonstaKANG-rpi4.zip**](https://app.filen.io/#/d/b9fef9e8-e2f0-4c75-add3-758cc669c225%23x9f4SZPQQsZeN9NIc1LjW9U9p8lpERC7)  
+sha256:58a64b5bd64e1f086e8ee5335bdd9bffadd114a63a0f34d38d07fcb80ca6a9a6
 
-[**lineage-22.1-20250225-UNOFFICIAL-KonstaKANG-rpi4-ota.zip**](https://app.filen.io/#/d/6476a697-1b51-4899-a580-a919c819e5d3%23sKJwCLGR4ZvmuVK8DhsyzQrefrdXfZZt) (TWRP flashable OTA package)  
-sha256:0056ae958ae98e31e11da64d8e4f7d77d5ce1d363f5b1ba2f39389d513c5644d
+<span style="color:#FF0000;">Note!</span> It's not possible to OTA update from builds older than 20250417. Clean installation is required!
+
+[**lineage-22.2-20250417-UNOFFICIAL-KonstaKANG-rpi4-ota.zip**](https://app.filen.io/#/d/18d5e7a0-bb16-4c2f-aadf-4ebce5a65950%23epOy602LtwE4f9TH1pCGX73WQRie18GS) (TWRP flashable OTA package)  
+sha256:145acb0dcafe339a33dfa112808c0b1201e6d1a243df0009865d45d336d99480
 
 **Working:**
 
@@ -73,9 +75,11 @@ sha256:0056ae958ae98e31e11da64d8e4f7d77d5ce1d363f5b1ba2f39389d513c5644d
 
 You can also update to newer builds using TWRP flashable OTA packages. OTA updates pushed through the built-in Updater app are stored at /data/lineageos_updates/.
 
-1. Download lineage-22.1-xxxxxxxx-UNOFFICIAL-KonstaKANG-rpi4-ota.zip and save it to your device's internal storage or use an external USB drive
+<span style="color:#FF0000;">Note!</span> It's not possible to OTA update from builds older than 20250417. Clean installation is required!
+
+1. Download lineage-22.2-xxxxxxxx-UNOFFICIAL-KonstaKANG-rpi4-ota.zip and save it to your device's internal storage or use an external USB drive
 2. Boot to TWRP recovery (see FAQ)
-3. Install lineage-22.1-xxxxxxxx-UNOFFICIAL-KonstaKANG-rpi4-ota.zip from your selected storage
+3. Install lineage-22.2-xxxxxxxx-UNOFFICIAL-KonstaKANG-rpi4-ota.zip from your selected storage
 4. (Flash Magisk/other add-ons you had previously installed)
 5. Boot out of recovery (see FAQ)
 
@@ -230,7 +234,27 @@ Q: How to install Google apps?
 ----
 <!--block-->
 
-[Merged commits](https://review.lineageos.org/#/q/status:merged+branch:lineage-22.1+-project:%255E.*device.*+-project:%255E.*kernel.*) not mentioned in the changelog.
+[Merged commits](https://review.lineageos.org/#/q/status:merged+branch:lineage-22.2+-project:%255E.*device.*+-project:%255E.*kernel.*) not mentioned in the changelog.
+
+**17.4. changelog:**
+
+- LineageOS 22.2 (Android 15 QPR2)
+- switch to 64-bit only build
+- increase system partition size
+- switch to APEX HALs where possible
+- convert HDMI-CEC HAL to AIDL
+- enable bluetooth A2DP sink
+- enable 5GHz wifi hotspot
+- add zRAM options to Raspberry Pi settings
+- enable NUMA
+- update to FFmpeg 7.1.1
+- update to alsa-lib/alsa-utils v1.2.14, build more ALSA utils
+- update to v4l-utils master/1.29.0, build 'media-ctl'
+- update Raspberry Pi utils
+- update to TWRP 3.7.0_11-2-KonstaKANG
+- update to Mesa 25.0.4
+- update to Linux 6.6.87 kernel and patch known vulnerabilities (CVE-xxxx-xxxx, and more)
+- Android security patch level: 5 April 2025
 
 **25.2. 2025 changelog:**
 

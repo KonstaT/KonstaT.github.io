@@ -12,8 +12,8 @@ permalink: /devices/rpi5/
 
 #### LineageOS:
 
-- [LineageOS 22.1 - KonstaKANG (Android 15)](/devices/rpi5/LineageOS22)
-- [LineageOS 22.1 Android TV - KonstaKANG (Android 15)](/devices/rpi5/LineageOS22-ATV)
+- [LineageOS 22.2 - KonstaKANG (Android 15)](/devices/rpi5/LineageOS22)
+- [LineageOS 22.2 Android TV - KonstaKANG (Android 15)](/devices/rpi5/LineageOS22-ATV)
 - [LineageOS 21 - KonstaKANG (Android 14)](/devices/rpi5/LineageOS21)
 - [LineageOS 21 Android TV - KonstaKANG (Android 14)](/devices/rpi5/LineageOS21-ATV)
 - [LineageOS 20 - KonstaKANG (Android 13)](/devices/rpi5/LineageOS20)
@@ -21,7 +21,7 @@ permalink: /devices/rpi5/
 
 #### Recovery:
 
-- [TWRP 3.7.0_11-1](/devices/rpi5/TWRP)
+- [TWRP 3.7.0_11-2](/devices/rpi5/TWRP)
 
 #### Downloads:
 
