@@ -190,7 +190,7 @@ Q: Settings -> Storage shows total system size of 15.5 GB. There's unallocated s
 Q: How to install Widevine L3?  
 *A:*
 
-1. Download [KonstaKANG-rpi-widevine-15.zip](https://app.filen.io/#/d/46c3e9e7-a0d0-4248-aa2e-9a7646e77176%233yBNf8wSfI4HOrrdK8APuC2eF4Mjz3A3) (sha256:1d42fbddfef6d74813f35084b67723c3b73a2adca754cee0aebbcecbcd5c74c4) and save it to your device's internal storage or use an external USB drive
+1. Download [KonstaKANG-rpi-widevine-15.zip](https://app.filen.io/#/d/8693f72d-5699-4183-99b3-ac3370b212d2%23FgXDdgZlW7DxjZ5F81V55jFxV7tV2bBS) (sha256:5d5b37d546028acc5c22ad72a45b8bf0b7928919ef5f91e6d1f4c34493ba5b2a) and save it to your device's internal storage or use an external USB drive
 2. Boot to TWRP recovery (see FAQ)
 3. Install KonstaKANG-rpi-widevine-15.zip from your selected storage
 4. Boot out of recovery (see FAQ)
