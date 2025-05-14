@@ -2,7 +2,7 @@
 layout: rom
 title: LineageOS 22.2 Android TV (Android 15)
 subtitle: for Raspberry Pi 5
-date: 2025-04-17
+date: 2025-05-14
 tags: [rpi5, LineageOS, LOS22, AndroidTV]
 social-share: true
 comments: true
@@ -16,13 +16,13 @@ Here's my build of LineageOS 22.2 Android TV for Raspberry Pi 5, Pi 500, and Com
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
-[**lineage-22.2-20250417-UNOFFICIAL-KonstaKANG-rpi5-atv.zip**](https://app.filen.io/#/d/3a368a6d-5d3e-47f1-87dd-6aeec0b06cc8%23aBk2zNRVhX1N5IYYekTqsYuRyUI1rUyi)  
-sha256:bb9e0a15e0ae065364bc17809ac9e047efe484ff1673153ee096d508f2747bd9
+[**lineage-22.2-20250514-UNOFFICIAL-KonstaKANG-rpi5-atv.zip**](https://app.filen.io/#/d/07746e09-bf20-43be-9472-11b869721895%23vc2fyCtieCU3efpxmtUfAGJQJUB5Szvl)  
+sha256:cae3299cf870c467627639ada2c4a1b2df37c173f7452f101f612dca94c1e440
 
 <span style="color:#FF0000;">Note!</span> It's not possible to OTA update from builds older than 20250417. Clean installation is required!
 
-[**lineage-22.2-20250417-UNOFFICIAL-KonstaKANG-rpi5-atv-ota.zip**](https://app.filen.io/#/d/b809c0bd-0ee5-4e4d-a049-68990550f60e%23m13U71Fevg69YpWMOpd4ZjWlrQwpgaua) (TWRP flashable OTA package)  
-sha256:ede333b2763bd7bafb082dd875a0d29b07864dca8546390289154820c84ae43c
+[**lineage-22.2-20250514-UNOFFICIAL-KonstaKANG-rpi5-atv-ota.zip**](https://app.filen.io/#/d/e58cebd5-a391-4637-a5a7-5018e34022ca%236Q9CQG00L13sufdDJJgFywlOvyXRl20g) (TWRP flashable OTA package)  
+sha256:598c3fd8dc55dc6d1bc611a0e5c8e9d3eb68f70eefeabaa6b0288cadaa829426
 
 **Working:**
 
@@ -224,6 +224,13 @@ Q: How to install Google apps?
 <!--block-->
 
 [Merged commits](https://review.lineageos.org/#/q/status:merged+branch:lineage-22.2+-project:%255E.*device.*+-project:%255E.*kernel.*) not mentioned in the changelog.
+
+**14.5. changelog:**
+
+- minor bugfixes (drm_hwcomposer, Mesa Vulkan, light HAL, TvSettings)
+- update to Mesa 25.1.0
+- update to Linux 6.6.89 kernel and patch known vulnerabilities (CVE-xxxx-xxxx, and more)
+- Android security patch level: 5 May 2025
 
 **17.4. changelog:**
 

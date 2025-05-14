@@ -2,7 +2,7 @@
 layout: rom
 title: LineageOS 22.2 (Android 15)
 subtitle: for Raspberry Pi 4
-date: 2025-04-17
+date: 2025-05-14
 tags: [rpi4, LineageOS, LOS22]
 social-share: true
 comments: true
@@ -16,13 +16,13 @@ Here's my build of LineageOS 22.2 for Raspberry Pi 4 Model B, Pi 400, and Comput
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
-[**lineage-22.2-20250417-UNOFFICIAL-KonstaKANG-rpi4.zip**](https://app.filen.io/#/d/b9fef9e8-e2f0-4c75-add3-758cc669c225%23x9f4SZPQQsZeN9NIc1LjW9U9p8lpERC7)  
-sha256:58a64b5bd64e1f086e8ee5335bdd9bffadd114a63a0f34d38d07fcb80ca6a9a6
+[**lineage-22.2-20250514-UNOFFICIAL-KonstaKANG-rpi4.zip**](https://app.filen.io/#/d/93f32930-7c70-40d7-9869-b3aa6003cd60%23UznN17K7WXHTw4qQ1LPw3bhaMoo9XbUF)  
+sha256:f807942775c78b98b0620e591cd5bb51764ee202f538b31dd075c24f5e5c8d96
 
 <span style="color:#FF0000;">Note!</span> It's not possible to OTA update from builds older than 20250417. Clean installation is required!
 
-[**lineage-22.2-20250417-UNOFFICIAL-KonstaKANG-rpi4-ota.zip**](https://app.filen.io/#/d/18d5e7a0-bb16-4c2f-aadf-4ebce5a65950%23epOy602LtwE4f9TH1pCGX73WQRie18GS) (TWRP flashable OTA package)  
-sha256:145acb0dcafe339a33dfa112808c0b1201e6d1a243df0009865d45d336d99480
+[**lineage-22.2-20250514-UNOFFICIAL-KonstaKANG-rpi4-ota.zip**](https://app.filen.io/#/d/c59e735a-f1a1-43e6-8475-1752cbec541f%23udG1Ct57yQ2asIv2SgP15962jBknIanp) (TWRP flashable OTA package)  
+sha256:44ec538aa91c87e091bee67ea4725cedf3b605bdc7c46571f7a4508aac62d861
 
 **Working:**
 
@@ -235,6 +235,13 @@ Q: How to install Google apps?
 <!--block-->
 
 [Merged commits](https://review.lineageos.org/#/q/status:merged+branch:lineage-22.2+-project:%255E.*device.*+-project:%255E.*kernel.*) not mentioned in the changelog.
+
+**14.5. changelog:**
+
+- minor bugfixes (drm_hwcomposer, Mesa Vulkan, light HAL)
+- update to Mesa 25.1.0
+- update to Linux 6.6.89 kernel and patch known vulnerabilities (CVE-xxxx-xxxx, and more)
+- Android security patch level: 5 May 2025
 
 **17.4. changelog:**
 
