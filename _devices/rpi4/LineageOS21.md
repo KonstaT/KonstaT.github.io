@@ -16,6 +16,8 @@ Here's my build of LineageOS 21 for Raspberry Pi 4 Model B, Pi 400, and Compute 
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
+<span style="color:#FF0000;">Note!</span> This release is discontinued from development. Please use more recent Android releases instead.
+
 [**lineage-21.0-20240816-UNOFFICIAL-KonstaKANG-rpi4.zip**](https://app.filen.io/#/d/e8fa324c-98c6-4bb7-a4b1-9754b9720c56%230R5dWe5pBa2nXc5qyQCyjqu2yKkfmtoj)  
 sha256:4899501f9a0613591547d2907bdd037fbf9de6ed49439cd10addcf0599be4b29
 

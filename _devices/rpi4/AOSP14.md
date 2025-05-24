@@ -16,6 +16,8 @@ Here's my build of AOSP (Android 14) for Raspberry Pi 4 Model B, Pi 400, and Com
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
+<span style="color:#FF0000;">Note!</span> This release is discontinued from development. Please use more recent Android releases instead.
+
 [**AOSP14-20240704-KonstaKANG-rpi4.zip**](https://app.filen.io/#/d/12a448cb-0fe7-41e9-b1af-e0b18ee69c11%23IJMeofr1VRr5DX7MEfSJQ1kzIOXtNmaQ)  
 sha256:70baa434d8dc4397c27c9f33fc7dbca3c0204c4ec0cedf5b6eb3c98ab8bb0211
 

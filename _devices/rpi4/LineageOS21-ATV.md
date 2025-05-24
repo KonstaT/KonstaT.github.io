@@ -16,6 +16,8 @@ Here's my build of LineageOS 21 Android TV for Raspberry Pi 4 Model B, Pi 400, a
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
+<span style="color:#FF0000;">Note!</span> This release is discontinued from development. Please use more recent Android releases instead.
+
 [**lineage-21.0-20240816-UNOFFICIAL-KonstaKANG-rpi4-atv.zip**](https://app.filen.io/#/d/744d83ec-a1c2-46bf-b89a-8b4869690712%23OqsXOQZKIGBjB3xi4j76A5jkLLaGKqF9)  
 sha256:70eeb6a8fd3e91c8583e491440c98ee5cce85f99ca0bf2ed647891e345a3dfde
 
