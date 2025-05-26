@@ -37,6 +37,15 @@
     </a>
   {% endif %}
 
+  {% if site.share-links-active.reddit %}
+  <!--- Share on Reddit -->
+    <a href="https://www.reddit.com/submit?url={{ site.url }}{{ page.url }}"
+      class="btn btn-social-icon btn-reddit" title="Share on Reddit">
+      <span class="fa fa-fw fa-brands fa-reddit" aria-hidden="true"></span>
+      <span class="sr-only">Reddit</span>
+    </a>
+  {% endif %}
+
 </section>
 
 {% endif %}
