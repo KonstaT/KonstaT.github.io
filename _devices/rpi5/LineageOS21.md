@@ -6,13 +6,14 @@ date: 2024-08-16
 tags: [rpi5, LineageOS, LOS21]
 social-share: true
 comments: true
+screenshot: /img/rpi5/LineageOS21/Screenshot_20240215-181823_Settings.png
 ---
 
 Here's my build of LineageOS 21 for Raspberry Pi 5. It is unofficial and unsupported by the LineageOS team. It's for **advanced users** only.
 
 <span style="color:#FF0000;">Important!</span> Raspberry Pi hardware specific implementation in this build is based on source code released on my [Raspberry Vanilla](https://github.com/raspberry-vanilla) project but this build offers various additional features and enhancements. This image includes parts that are licensed under non-commercial license ([Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International](http://creativecommons.org/licenses/by-nc-sa/4.0/)). You may use this build freely in personal/educational/etc use. Commercial use is not allowed with this build! You can contact me by email to discuss creating customized Android builds for commercial purposes.
 
-![screenshot]({{ site.url }}/img/rpi5/LineageOS21/Screenshot_20240215-181823_Settings.png)
+![screenshot]({{ site.url }}{{ page.screenshot }})
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 

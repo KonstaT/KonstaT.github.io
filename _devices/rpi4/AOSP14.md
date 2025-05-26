@@ -6,13 +6,14 @@ date: 2024-07-04
 tags: [rpi4, AOSP]
 social-share: true
 comments: true
+screenshot: /img/rpi4/AOSP14/Screenshot_20231010-170711.png
 ---
 
 Here's my build of AOSP (Android 14) for Raspberry Pi 4 Model B, Pi 400, and Compute Module 4. It's for **advanced users** only. Pi 4 model with at least 2GB of RAM is required to run this build.
 
 <span style="color:#FF0000;">Important!</span> Raspberry Pi hardware specific implementation in this build is based on source code released on my [Raspberry Vanilla](https://github.com/raspberry-vanilla) project but this build offers various additional features and enhancements. This image includes parts that are licensed under non-commercial license ([Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International](http://creativecommons.org/licenses/by-nc-sa/4.0/)). You may use this build freely in personal/educational/etc use. Commercial use is not allowed with this build! You can contact me by email to discuss creating customized Android builds for commercial purposes.
 
-![screenshot]({{ site.url }}/img/rpi4/AOSP14/Screenshot_20231010-170711.png)
+![screenshot]({{ site.url }}{{ page.screenshot }})
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 

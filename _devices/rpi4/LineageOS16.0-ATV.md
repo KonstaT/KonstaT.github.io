@@ -6,13 +6,14 @@ date: 2020-07-14
 tags: [rpi4, LineageOS, LOS16.0, AndroidTV]
 social-share: true
 comments: true
+screenshot: /img/rpi4/LineageOS16.0/Screenshot_20200714-163900_Settings.png
 ---
 
 Here's my build of LineageOS 16.0 Android TV for Raspberry Pi 4 Model B. It is unofficial and unsupported by the LineageOS team. It's for **advanced users** only. This build currently uses Google's SwiftShader software renderer so graphics performance is probably not what you'd expect. Pi 4 model with at least 2GB of RAM is required to run this build.
 
 <span style="color:#FF0000;">Important!</span> This image includes parts that are licensed under non-commercial license ([Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International](http://creativecommons.org/licenses/by-nc-sa/4.0/)). You may use this build freely in personal/educational/etc use. Commercial use is not allowed with this build!
 
-![screenshot]({{ site.url }}/img/rpi4/LineageOS16.0/Screenshot_20200714-163900_Settings.png)
+![screenshot]({{ site.url }}{{ page.screenshot }})
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 

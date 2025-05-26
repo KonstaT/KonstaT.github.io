@@ -6,13 +6,14 @@ date: 2021-01-22
 tags: [rpi4, LineageOS, LOS17.1, AndroidTV]
 social-share: true
 comments: true
+screenshot: /img/rpi4/LineageOS17.1/Screenshot_20200815-143204_Settings.png
 ---
 
 Here's my build of LineageOS 17.1 Android TV for Raspberry Pi 4 Model B and Pi 400. It is unofficial and unsupported by the LineageOS team. It's for **advanced users** only. Pi 4 model with at least 2GB of RAM is required to run this build.
 
 <span style="color:#FF0000;">Important!</span> This image includes parts that are licensed under non-commercial license ([Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International](http://creativecommons.org/licenses/by-nc-sa/4.0/)). You may use this build freely in personal/educational/etc use. Commercial use is not allowed with this build!
 
-![screenshot]({{ site.url }}/img/rpi4/LineageOS17.1/Screenshot_20200815-143204_Settings.png)
+![screenshot]({{ site.url }}{{ page.screenshot }})
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
