@@ -26,9 +26,9 @@ layout: base
         <div class="blog-tags">
           Tags:
           {% if site.link-tags %}
-          {% for tag in page.tags %}
-            <a href="/tag/{{ tag }}">{{ tag }}</a>
-          {% endfor %}
+            {% for tag in page.tags %}
+              <a href="{{ site.baseurl }}/tags/{{ tag }}">{{ tag }}</a>
+            {% endfor %}
           {% else %}
             {{ page.tags | join: ", " }}
           {% endif %}

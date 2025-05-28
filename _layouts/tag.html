@@ -1,24 +1,34 @@
 ---
-layout: page
+layout: base
 ---
 
-{% if site.google_adsense %}
-  {% include ad.html %}
-{% endif %}
+{% include header.html %}
 
-{% assign sorted_devices = site.devices | sort: 'date' | reverse %}
+<div class="container">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
 
-<h4>{{ page.tag }}:</h4>
-<ul>
-  {% for device in sorted_devices %}
-    {% if device.tags contains page.tag %}
-      <li>{{ device.date | date: "%B %-d, %Y" }}: <a href="{{ site.baseurl }}{{ device.url }}">{{ device.title }} {{ device.subtitle }}</a></li>
-    {% endif %}
-  {% endfor %}
-</ul>
+      {% if site.google_adsense %}
+        {% include ad.html %}
+      {% endif %}
 
-<hr>
+      {% assign sorted_devices = site.devices | sort: 'date' | reverse %}
 
-{% if site.google_adsense %}
-  {% include ad.html %}
-{% endif %}
+      <h4>{{ page.tag }}:</h4>
+      <ul>
+        {% for device in sorted_devices %}
+          {% if device.tags contains page.tag %}
+            <li>{{ device.date | date: "%B %-d, %Y" }}: <a href="{{ site.baseurl }}{{ device.url }}">{{ device.title }} {{ device.subtitle }}</a></li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+
+      <hr>
+
+      {% if site.google_adsense %}
+        {% include ad.html %}
+      {% endif %}
+
+    </div>
+  </div>
+</div>

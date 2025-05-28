@@ -34,7 +34,7 @@ navbar-links:
     - ZTE Blade: "devices/blade"
     - ZTE Blade III: "devices/atlas40"
     - ZTE Open C / Kis 3: "devices/kis3"
-  Tags: "tag"
+  Tags: "tags"
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
@@ -138,6 +138,9 @@ collections:
   devices:
     output: true
     permalink: devices/:path/
+  tags:
+    output: true
+    permalink: tags/:path/
 
 # --- Don't need to touch anything below here (but you can if you want) --- #
 
@@ -169,6 +172,13 @@ defaults:
       layout: "post"
       social-share: true
       comments: true
+  -
+    scope:
+      path: ""
+      type: "tags"
+    values:
+      layout: "tag"
+      use-site-title: true
   -
     scope:
       path: ""
