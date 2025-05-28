@@ -61,7 +61,7 @@ avatar: "/img/konsta.png"
 # Change all these values or delete the ones you don't want.
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
-  name: © KonstaKANG
+  name: KonstaKANG
   email: "konstakang@gmail.com"
   facebook: yourname  # eg. daattali
   github: KonstaT    # eg. daattali
@@ -108,7 +108,7 @@ share-links-active:
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "KonstaKANG.com"  # eg. "deanattali.com/beautiful-jekyll"
+#url-pretty: "KonstaKANG.com"
 
 # --- Misc --- #
 # Fill in your Disqus shortname (NOT the userid) if you want to support Disqus comments
