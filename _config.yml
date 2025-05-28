@@ -64,7 +64,7 @@ author:
   name: KonstaKANG
   email: "konstakang@gmail.com"
   github: KonstaT
-  twitter: KonstaKANG
+  x-twitter: KonstaKANG
   #facebook: yourname
   #reddit: yourname
   #linkedin: yourname
@@ -84,7 +84,7 @@ footer-links-active:
   rss: true
   email: true
   github: true
-  twitter: true
+  x-twitter: true
   #facebook: false
   #reddit: false
   #linkedin: false
