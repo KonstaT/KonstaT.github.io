@@ -1,11 +1,8 @@
 ---
-layout: rom
 title: LineageOS 16.0 (Android 9)
 subtitle: for Raspberry Pi 4
 date: 2020-07-13
 tags: [rpi4, LineageOS, LOS16.0]
-social-share: true
-comments: true
 screenshot: /img/rpi4/LineageOS16.0/Screenshot_20200105-125543_Settings.png
 ---
 

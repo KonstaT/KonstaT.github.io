@@ -1,11 +1,8 @@
 ---
-layout: rom
 title: AOSP (Android 15)
 subtitle: for Raspberry Pi 4
 date: 2025-03-06
 tags: [rpi4, AOSP]
-social-share: true
-comments: true
 screenshot: /img/rpi4/AOSP15/Screenshot_20240904-142031.png
 ---
 

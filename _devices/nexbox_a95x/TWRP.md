@@ -1,11 +1,8 @@
 ---
-layout: rom
 title: TWRP 3.0.2-0
 subtitle: for Nexbox A95X
 date: 2016-07-24
 tags: [nexbox_a95x, TWRP]
-social-share: true
-comments: true
 ---
 
 This is my build of Dees-Troy's [Team Win Recovery Project](https://twrp.me) (TWRP) 3.0.2-0 for Nexbox A95X (Amlogic S905 with Android 5.1) TV box. You need to connect a mouse to your device to use this recovery.

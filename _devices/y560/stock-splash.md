@@ -1,11 +1,8 @@
 ---
-layout: rom
 title: How to change splash screen
 subtitle: for Huawei Y5
 date: 2016-02-07
 tags: [y560, stockmod]
-social-share: true
-comments: true
 ---
 
 **How to create your own splash screen:**

@@ -156,14 +156,22 @@ defaults:
   -
     scope:
       path: ""
+      type: "devices"
+    values:
+      layout: "rom"
+      social-share: true
+      comments: true
+  -
+    scope:
+      path: ""
       type: "posts"
     values:
       layout: "post"
-      comments: true  # add comments to all blog posts
-      social-share: true # add social media sharing buttons to all blog posts
+      social-share: true
+      comments: true
   -
     scope:
-      path: "" # all files
+      path: ""
     values:
       layout: "page"
       show-avatar: true

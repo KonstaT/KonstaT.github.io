@@ -1,11 +1,8 @@
 ---
-layout: rom
 title: CAF Firefox OS - B2G
 subtitle: for ZTE Open C / Kis 3
 date: 2015-08-02
 tags: [kis3, CAF, FirefoxOS]
-social-share: true
-comments: true
 ---
 
 This is my build of [Firefox OS](https://www.mozilla.org/en-US/firefox/os/) for ZTE Open C / Kis 3 (Beeline Smart2, Moche/MEO Smart A16, <s>ZTE V811W</s>, ZTE V811, Skinny V811, Optus Hop Smart, <s>ZTE Blade M</s>, etc). This is not meant for daily use (or any use really), it's just something for **advanced users** to play with.

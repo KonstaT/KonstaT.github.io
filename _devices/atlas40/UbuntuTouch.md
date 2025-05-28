@@ -1,11 +1,8 @@
 ---
-layout: rom
 title: Ubuntu Touch
 subtitle: for ZTE Blade III
 date: 2013-06-25
 tags: [atlas40, UbuntuTouch]
-social-share: true
-comments: true
 ---
 
 This is my port of [Ubuntu Touch](http://www.ubuntu.com/phone) for ZTE Blade III. Ubuntu for phones is still in very early development and almost nothing works! This **developer preview** is only to give you some idea what Ubuntu Touch will feel like in a mobile device.

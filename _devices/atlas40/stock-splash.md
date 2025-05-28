@@ -1,11 +1,8 @@
 ---
-layout: rom
 title: How to change splash screen
 subtitle: for ZTE Blade III
 date: 2013-02-13
 tags: [atlas40, stockmod]
-social-share: true
-comments: true
 ---
 
 This is a ClockWorkMod flashable tool that allows you to change images found on the splash partition. Splash partition contains splash image, that is the first image that is displayed on every boot, and seven offline charging images, that are displayed when device is being charged while power off.

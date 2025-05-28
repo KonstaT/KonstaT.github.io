@@ -1,11 +1,8 @@
 ---
-layout: rom
 title: TWRP 2.6.3.0
 subtitle: for ZTE Blade III
 date: 2014-06-07
 tags: [atlas40, TWRP]
-social-share: true
-comments: true
 ---
 
 This is my build of Dees-Troy's [Team Win Recovery Project](https://twrp.me) (TWRP) 2.6.3.0. This recovery is common to all ZTE devices with board name atlas40 (e.g. ZTE Blade III, ZTE Acqua, V889D, V880E etc). TWRP is a popular touch based recovery and everything should be working in this build.

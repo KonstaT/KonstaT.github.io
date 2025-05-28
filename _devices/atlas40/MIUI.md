@@ -1,11 +1,8 @@
 ---
-layout: rom
 title: MIUI v5 (Android 4.1.2)
 subtitle: for ZTE Blade III
 date: 2013-04-04
 tags: [atlas40, MIUI]
-social-share: true
-comments: true
 ---
 
 This ROM is based on official [ZTE N880E MIUI](http://www.miui.com/getrom.php?r=49). Funny thing is that N880E MIUI builds are based on the CM10 device sources that I've released, so thanks to me. ;)

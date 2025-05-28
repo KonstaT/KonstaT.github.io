@@ -1,11 +1,8 @@
 ---
-layout: rom
 title: CAF Android (Android 4.4.2)
 subtitle: for ZTE Open C / Kis 3
 date: 2014-11-04
 tags: [kis3, CAF]
-social-share: true
-comments: true
 ---
 
 This is my build of CAF Android for ZTE Open C / Kis 3 (Beeline Smart2, Moche/MEO Smart A16, ZTE V811W, ZTE V811, Skinny V811, Optus Hop Smart, ZTE Blade M, etc). It's for **advanced users** only.

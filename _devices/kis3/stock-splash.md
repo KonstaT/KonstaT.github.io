@@ -1,11 +1,8 @@
 ---
-layout: rom
 title: How to change splash screen
 subtitle: for ZTE Open C / Kis 3
 date: 2014-08-16
 tags: [kis3, stockmod]
-social-share: true
-comments: true
 ---
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.

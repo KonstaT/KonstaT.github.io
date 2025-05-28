@@ -1,11 +1,8 @@
 ---
-layout: rom
 title: OmniROM (Android 4.3)
 subtitle: for ZTE Blade III
 date: 2013-10-20
 tags: [atlas40, OmniROM]
-social-share: true
-comments: true
 ---
 
 This is my port of [OmniROM](https://omnirom.org/) for ZTE Blade III. It is unofficial and **unsupported** by the Omni team (or anyone else for that matter :P). It's for **advanced users** and for **testing purposes** only.

@@ -1,11 +1,8 @@
 ---
-layout: rom
 title: Firefox OS - B2G
 subtitle: for ZTE Blade III
 date: 2014-05-21
 tags: [atlas40, FirefoxOS]
-social-share: true
-comments: true
 ---
 
 This is my build of [Firefox OS](https://www.mozilla.org/en-US/firefoxos/) for ZTE Blade III. This is not meant for daily use (or any use really), it's just something to play with.

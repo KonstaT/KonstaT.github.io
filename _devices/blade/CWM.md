@@ -1,11 +1,8 @@
 ---
-layout: rom
 title: ClockWorkMod 6.0.2.7
 subtitle: for ZTE Blade
 date: 2013-01-11
 tags: [blade, CWM]
-social-share: true
-comments: true
 ---
 
 Here's a fresh ClockWorkMod build with working adb sideload.

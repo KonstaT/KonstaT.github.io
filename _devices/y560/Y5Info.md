@@ -1,11 +1,8 @@
 ---
-layout: rom
 title: Y5 Hardware Info
 subtitle: for Huawei Y5
 date: 2016-08-05
 tags: [y560, hwinfo]
-social-share: true
-comments: true
 ---
 
 Here's a small app I wrote that pulls some useful hardware information.

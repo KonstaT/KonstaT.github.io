@@ -1,11 +1,8 @@
 ---
-layout: rom
 title: LineageOS 20 (Android 13)
 subtitle: for Raspberry Pi 4
 date: 2024-01-11
 tags: [rpi4, LineageOS, LOS20]
-social-share: true
-comments: true
 screenshot: /img/rpi4/LineageOS20/Screenshot_20221109-122731_Settings.png
 ---
 

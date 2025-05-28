@@ -1,11 +1,8 @@
 ---
-layout: rom
 title: ZTE Aqcua compatibility patch
 subtitle: for ZTE Acqua
 date: 2013-10-11
 tags: [atlas40]
-social-share: true
-comments: true
 ---
 
 Here is a compatibility patch that will convert **any** [ZTE Blade III ROM](/devices/atlas40) to work on ZTE Acqua.

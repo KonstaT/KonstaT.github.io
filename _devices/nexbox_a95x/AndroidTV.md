@@ -1,11 +1,8 @@
 ---
-layout: rom
 title: Android TV (Android 5.1.1)
 subtitle: for Nexbox A95X
 date: 2017-01-22
 tags: [nexbox_a95x, AndroidTV]
-social-share: true
-comments: true
 ---
 
 This is my port of Android TV for Nexbox A95X (Amlogic S905 with Android 5.1) TV box. This ROM is based on Ugoos AM1 official Android TV release build V0.0.7.tv.

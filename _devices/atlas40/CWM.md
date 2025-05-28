@@ -1,11 +1,8 @@
 ---
-layout: rom
 title: ClockWorkMod 6.0.4.9
 subtitle: for ZTE Blade III
 date: 2014-06-06
 tags: [atlas40, CWM]
-social-share: true
-comments: true
 ---
 
 This is my build of Koush's [ClockWorkMod](https://www.clockworkmod.com/) Recovery 6.0.4.9. This recovery is common to all ZTE devices with board name atlas40 (e.g. ZTE Blade III, ZTE Acqua, V889D, V880E etc).

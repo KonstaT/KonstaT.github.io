@@ -1,11 +1,8 @@
 ---
-layout: rom
 title: Swedish Snow RLS7 (Android 2.3.5)
 subtitle: for ZTE Blade
 date: 2012-04-13
 tags: [blade]
-social-share: true
-comments: true
 ---
 
 This ROM is based on official Comviq/Tele2 ZTE Blade Gingerbread GB_TELE2_P729VV1.0.0B03 Android 2.3.5 (built Fri Nov 11 01:55:47 HKT 2011). This ROM will continue where I left with Moldovan Mile-High-Mountain-Pie.

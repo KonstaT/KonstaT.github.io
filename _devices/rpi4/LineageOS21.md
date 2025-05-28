@@ -1,11 +1,8 @@
 ---
-layout: rom
 title: LineageOS 21 (Android 14)
 subtitle: for Raspberry Pi 4
 date: 2024-08-16
 tags: [rpi4, LineageOS, LOS21]
-social-share: true
-comments: true
 screenshot: /img/rpi4/LineageOS21/Screenshot_20240215-173858_Settings.png
 ---
 

@@ -1,11 +1,8 @@
 ---
-layout: rom
 title: AOSP (Android 13)
 subtitle: for Raspberry Pi 4
 date: 2023-06-15
 tags: [rpi4, AOSP]
-social-share: true
-comments: true
 screenshot: /img/rpi4/AOSP13/Screenshot_20220819-154849.png
 ---
 

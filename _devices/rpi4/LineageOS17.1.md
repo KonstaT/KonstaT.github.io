@@ -1,11 +1,8 @@
 ---
-layout: rom
 title: LineageOS 17.1 (Android 10)
 subtitle: for Raspberry Pi 4
 date: 2021-01-22
 tags: [rpi4, LineageOS, LOS17.1]
-social-share: true
-comments: true
 screenshot: /img/rpi4/LineageOS17.1/Screenshot_20200727-114321_Settings.png
 ---
 

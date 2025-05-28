@@ -1,11 +1,8 @@
 ---
-layout: rom
 title: TWRP 3.4.0-1
 subtitle: for Raspberry Pi 3
 date: 2020-11-08
 tags: [rpi3, TWRP]
-social-share: true
-comments: true
 ---
 
 This is my build of Dees-Troy's [Team Win Recovery Project](https://twrp.me) (TWRP) for Raspberry Pi 3 Model B and Model B+. It's included in my [Android](/devices/rpi3) images. Please read the FAQ on how to boot to recovery.

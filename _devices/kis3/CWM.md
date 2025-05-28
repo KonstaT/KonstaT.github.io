@@ -1,11 +1,8 @@
 ---
-layout: rom
 title: ClockWorkMod 6.0.5.1
 subtitle: for ZTE Open C / Kis 3
 date: 2016-04-20
 tags: [kis3, CWM]
-social-share: true
-comments: true
 ---
 
 This is my build of Koush's [ClockWorkMod](https://www.clockworkmod.com/) Recovery 6.0.5.1 for ZTE Open C / Kis 3 (Beeline Smart2, Moche/MEO Smart A16, ZTE V811W, ZTE V811, Skinny V811, Optus Hop Smart, ZTE Blade M, etc).

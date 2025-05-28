@@ -1,11 +1,8 @@
 ---
-layout: rom
 title: TWRP 3.7.0_11-2
 subtitle: for Raspberry Pi 4
 date: 2025-04-17
 tags: [rpi4, TWRP]
-social-share: true
-comments: true
 ---
 
 This is my build of [Team Win Recovery Project](https://twrp.me) (TWRP) for Raspberry Pi 4 Model B, Pi 400, and Compute Module 4. It's included in my [Android](/devices/rpi4) images. Please read the FAQ on how to boot to recovery.

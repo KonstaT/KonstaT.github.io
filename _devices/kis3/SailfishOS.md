@@ -1,11 +1,8 @@
 ---
-layout: rom
 title: Sailfish OS
 subtitle: for ZTE Open C / Kis 3
 date: 2016-01-23
 tags: [kis3, SailfishOS]
-social-share: true
-comments: true
 ---
 
 This is my build of [Sailfish OS](https://sailfishos.org/) for ZTE Open C / Kis 3 (Beeline Smart2, Moche/MEO Smart A16, <s>ZTE V811W</s>, ZTE V811, Skinny V811, Optus Hop Smart, <s>ZTE Blade M</s>, etc). This is an early alpha build and it's not meant for daily use (or any use really), it's just something for **advanced users** to play with.

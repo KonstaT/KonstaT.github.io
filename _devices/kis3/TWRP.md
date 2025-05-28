@@ -1,11 +1,8 @@
 ---
-layout: rom
 title: TWRP 3.0.2-0
 subtitle: for ZTE Open C / Kis 3
 date: 2016-04-20
 tags: [kis3, TWRP]
-social-share: true
-comments: true
 ---
 
 This is my build of Dees-Troy's [Team Win Recovery Project](https://twrp.me) (TWRP) 3.0.2-0 for ZTE Open C / Kis 3 (Beeline Smart2, Moche/MEO Smart A16, ZTE V811W, ZTE V811, Skinny V811, Optus Hop Smart, ZTE Blade M, etc). TWRP is a popular touch based recovery and everything should be working in this build. Internal sdcard is handled differently on Open C and Kis 3 so this recovery only supports external sdcard.

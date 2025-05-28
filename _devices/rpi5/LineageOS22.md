@@ -1,11 +1,8 @@
 ---
-layout: rom
 title: LineageOS 22.2 (Android 15)
 subtitle: for Raspberry Pi 5
 date: 2025-05-14
 tags: [rpi5, LineageOS, LOS22]
-social-share: true
-comments: true
 screenshot: /img/rpi5/LineageOS22/Screenshot_20241217-154615_Settings.png
 ---
 

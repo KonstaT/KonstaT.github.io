@@ -1,11 +1,8 @@
 ---
-layout: rom
 title: LineageOS 18.1 (Android 11)
 subtitle: for Raspberry Pi 4
 date: 2022-05-12
 tags: [rpi4, LineageOS, LOS18]
-social-share: true
-comments: true
 screenshot: /img/rpi4/LineageOS18/Screenshot_20210104-104810_Settings.png
 ---
 

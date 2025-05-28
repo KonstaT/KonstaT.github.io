@@ -1,11 +1,8 @@
 ---
-layout: rom
 title: LineageOS 16.0 (Android 9)
 subtitle: for Raspberry Pi 3
 date: 2020-07-13
 tags: [rpi3, LineageOS, LOS16.0]
-social-share: true
-comments: true
 ---
 
 Here's my build of LineageOS 16.0 for Raspberry Pi 3 Model B and Model B+. It is unofficial and unsupported by the LineageOS team. It's for **advanced users** only.

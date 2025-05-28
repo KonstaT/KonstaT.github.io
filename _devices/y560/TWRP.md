@@ -1,11 +1,8 @@
 ---
-layout: rom
 title: TWRP 3.0.2-0
 subtitle: for Huawei Y5
 date: 2016-11-13
 tags: [y560, TWRP]
-social-share: true
-comments: true
 ---
 
 This is my build of Dees-Troy's [Team Win Recovery Project](https://twrp.me) (TWRP) 3.0.2-0 for Huawei Y5 (Y560-L01/L02/L03/L23/U23).

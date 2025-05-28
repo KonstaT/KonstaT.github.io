@@ -1,11 +1,8 @@
 ---
-layout: rom
 title: Kis3 Hardware Info
 subtitle: for ZTE Open C / Kis 3
 date: 2015-03-17
 tags: [kis3, hwinfo]
-social-share: true
-comments: true
 ---
 
 Here's a small app I wrote that pulls some useful hardware information.

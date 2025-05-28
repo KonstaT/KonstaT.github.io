@@ -1,11 +1,8 @@
 ---
-layout: rom
 title: LineageOS 17.1 (Android 10)
 subtitle: for Raspberry Pi 3
 date: 2020-11-08
 tags: [rpi3, LineageOS, LOS17.1]
-social-share: true
-comments: true
 ---
 
 Here's my build of LineageOS 17.1 for Raspberry Pi 3 Model B and Model B+. It is unofficial and unsupported by the LineageOS team. It's for **advanced users** only.

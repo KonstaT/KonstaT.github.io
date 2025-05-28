@@ -1,11 +1,8 @@
 ---
-layout: rom
 title: AOSP (Android 12L)
 subtitle: for Raspberry Pi 4
 date: 2022-09-23
 tags: [rpi4, AOSP]
-social-share: true
-comments: true
 screenshot: /img/rpi4/AOSP12/Screenshot_20220923-141248.png
 ---
 

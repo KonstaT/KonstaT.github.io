@@ -1,11 +1,8 @@
 ---
-layout: rom
 title: LineageOS 16.0 Android TV (Android 9)
 subtitle: for Raspberry Pi 4
 date: 2020-07-14
 tags: [rpi4, LineageOS, LOS16.0, AndroidTV]
-social-share: true
-comments: true
 screenshot: /img/rpi4/LineageOS16.0/Screenshot_20200714-163900_Settings.png
 ---
 

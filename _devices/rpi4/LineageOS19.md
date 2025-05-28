@@ -1,11 +1,8 @@
 ---
-layout: rom
 title: LineageOS 19 (Android 12L)
 subtitle: for Raspberry Pi 4
 date: 2023-03-13
 tags: [rpi4, LineageOS, LOS19]
-social-share: true
-comments: true
 screenshot: /img/rpi4/LineageOS19/Screenshot_20220313-200456_Settings.png
 ---
 

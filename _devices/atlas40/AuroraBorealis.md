@@ -1,11 +1,8 @@
 ---
-layout: rom
 title: Aurora Borealis RLS1 (Android 4.0.4)
 subtitle: for ZTE Blade III
 date: 2013-01-20
 tags: [atlas40]
-social-share: true
-comments: true
 ---
 
 This ROM is based on the latest generic update [ICS_P772N10V1.0.0B10](http://wwwen.zte.com.cn/endata/mobile/Macedonia/Macedonia_SoftWare/201212/P020121226586794303608.zip). ZTE apps have been removed or replaced with CM/AOSP apps where necessary. Most of the ZTE customizations have been removed to give this ROM a clean AOSP look.

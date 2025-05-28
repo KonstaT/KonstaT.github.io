@@ -1,11 +1,8 @@
 ---
-layout: rom
 title: AOSP (Android 14)
 subtitle: for Raspberry Pi 5
 date: 2024-07-04
 tags: [rpi5, AOSP]
-social-share: true
-comments: true
 screenshot: /img/rpi5/AOSP14/Screenshot_20231123-160251.png
 ---
 

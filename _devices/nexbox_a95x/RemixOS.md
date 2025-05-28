@@ -1,11 +1,8 @@
 ---
-layout: rom
 title: Remix OS 2.0 (Android 5.1.1)
 subtitle: for Nexbox A95X
 date: 2016-08-12
 tags: [nexbox_a95x, RemixOS]
-social-share: true
-comments: true
 ---
 
 This is my port of [Remix OS](http://www.jide.com/remixos) 2.0 for Nexbox A95X (Amlogic S905 with Android 5.1) TV box. This ROM is based on Vensmile U1 official Remix OS release build B2016062801.

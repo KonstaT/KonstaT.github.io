@@ -1,11 +1,8 @@
 ---
-layout: rom
 title: LineageOS 15.1 (Android 8.1.0)
 subtitle: for Raspberry Pi 3
 date: 2018-07-06
 tags: [rpi3, LineageOS, LOS15.1]
-social-share: true
-comments: true
 ---
 
 Here's my build of LineageOS 15.1 for Raspberry Pi 3 Model B and Model B+ (bluetooth does not currently work on the new plus model). It is unofficial and unsupported by the LineageOS team. It's for **advanced users** only. This build currently uses Google's SwiftShader software renderer so graphics performance is probably not what you'd expect. This build is not meant as a daily driver and it's certainly not suitable for media device use.
