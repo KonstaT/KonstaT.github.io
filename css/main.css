@@ -703,12 +703,6 @@ td.gutter {
   padding-top: 3px;
 }
 
-/* --- Social media sharing section --- */
-
-#social-share-section {
-  margin-bottom: 30px;
-}
-
 /* --- Notification boxes --- */
 .box-note, .box-warning, .box-error {
   padding: 15px 15px 15px 10px;

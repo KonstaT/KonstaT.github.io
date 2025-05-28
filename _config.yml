@@ -99,13 +99,6 @@ footer-links-active:
   #twitch: false
   #yelp: false
 
-# Select which share links to show in posts
-share-links-active:
-  twitter: true
-  facebook: true
-  linkedin: true
-  reddit: true
-
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
 #url-pretty: "KonstaKANG.com"
@@ -153,7 +146,6 @@ defaults:
       type: "devices"
     values:
       layout: "rom"
-      social-share: true
       comments: true
   -
     scope:
@@ -161,7 +153,6 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      social-share: true
       comments: true
   -
     scope:
