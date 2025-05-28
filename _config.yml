@@ -63,41 +63,41 @@ avatar: "/img/konsta.png"
 author:
   name: KonstaKANG
   email: "konstakang@gmail.com"
-  facebook: yourname  # eg. daattali
-  github: KonstaT    # eg. daattali
-  twitter: KonstaKANG   # eg. daattali
-  reddit: yourname    # eg. daattali
-  linkedin: yourname  # eg. daattali
-  xing: yourname      # eg. daattali
-  stackoverflow: yourlink  # eg. "3943160/daattali"
-  snapchat: yourname  # eg. daattali
-  instagram: yourname # eg. daattali
-  youtube: yourlink   # eg. user/daattali or channel/daattali
-  spotify: yourname   # eg. daattali
-  telephone: yourphone   # eg. +14159998888
-  steam: yourname     # eg. daattali
-  twitch: yourname    # eg. daattali
-  yelp: yourname      # eg. daattali
+  github: KonstaT
+  twitter: KonstaKANG
+  #facebook: yourname
+  #reddit: yourname
+  #linkedin: yourname
+  #xing: yourname
+  #stackoverflow: yourlink
+  #snapchat: yourname
+  #instagram: yourname
+  #youtube: yourlink
+  #spotify: yourname
+  #telephone: yourphone
+  #steam: yourname
+  #twitch: yourname
+  #yelp: yourname
 
 # Select which links to show in the footer
 footer-links-active:
   rss: true
-  facebook: false
   email: true
-  twitter: true
   github: true
-  reddit: false
-  linkedin: false
-  xing: false
-  stackoverflow: false
-  snapchat: false
-  instagram: false
-  youtube: false
-  spotify: false
-  telephone: false
-  steam: false
-  twitch: false
-  yelp: false
+  twitter: true
+  #facebook: false
+  #reddit: false
+  #linkedin: false
+  #xing: false
+  #stackoverflow: false
+  #snapchat: false
+  #instagram: false
+  #youtube: false
+  #spotify: false
+  #telephone: false
+  #steam: false
+  #twitch: false
+  #yelp: false
 
 # Select which share links to show in posts
 share-links-active:
