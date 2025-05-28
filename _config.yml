@@ -117,17 +117,8 @@ disqus: "konstakang"
 # Fill in your Google Analytics gtag.js ID to track your website using gtag
 gtag: "G-5V569RZF4Z"
 
-# Fill in your Google Analytics ID to track your website using GA
-#google_analytics: ""
-
 # Fill in your Google AdSense ID
 google_adsense: "ca-pub-2525301408566801"
-
-# Google Tag Manager ID
-#gtm: ""
-
-# Facebook App ID
-# fb_app_id: ""
 
 # Excerpt Word Length
 # Truncates the excerpt to the specified number of words on the index page
