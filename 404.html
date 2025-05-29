@@ -1,9 +1,26 @@
 ---
-layout: default
-title: 404 - Page not found
+layout: base
+title: 404 - Page not found!
 permalink: /404.html
 ---
 
-<div class="text-center">
-  <h1>Whoops, this page doesn't exist. (404 error)</h1>
+{% include header.html %}
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+
+      <div class="text-center error">
+        <h1>404</h1>
+        Oops, page not found!
+
+        <hr>
+
+        {% if site.google_adsense %}
+          {% include ad.html %}
+        {% endif %}
+      </div>
+
+    </div>
+  </div>
 </div>

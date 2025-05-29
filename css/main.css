@@ -800,3 +800,9 @@ td.gutter {
 .gist-file table tr td {
   border: unset;
 }
+
+/* --- 404 --- */
+
+.error h1 {
+  font-size: 600%;
+}
