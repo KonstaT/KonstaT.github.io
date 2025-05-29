@@ -11,9 +11,21 @@ layout: null
   --color-text: #17252a;
   --color-link: #2b7a78;
   --color-link-hover: #3aafa9;
-  --color-nav-footer: #f3f3f3;
-  --color-nav-footer-border: #dcdcdc;
-  --color-nav-footer-highligh: #e7e7e7;
+  --color-nav-footer: #eeeeee;
+  --color-nav-footer-border: #cccccc;
+  --color-nav-footer-highligh: #dddddd;
+  --fa-inverse: #feffff;
+}
+
+.darkmode {
+  --color-backgroud: #17252a;
+  --color-text: #feffff;
+  --color-link: #3aafa9;
+  --color-link-hover: #2b7a78;
+  --color-nav-footer: #111111;
+  --color-nav-footer-border: #333333;
+  --color-nav-footer-highligh: #222222;
+  --fa-inverse: #feffff;
 }
 
 /* --- General --- */
@@ -163,9 +175,6 @@ img {
 @media only screen and (min-width: 768px) {
   .navbar-custom {
     padding: 20px 0;
-    -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
-    -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
-    transition: background .5s ease-in-out, padding .5s ease-in-out;
   }
 
   .navbar-custom.top-nav-short {
@@ -812,4 +821,73 @@ td.gutter {
 
 .error h1 {
   font-size: 600%;
+}
+
+/* --- Dark mode --- */
+
+#theme-switch {
+  height: 30px;
+  width: 30px;
+  margin-top: 10px;
+  padding: 0;
+  float: left;
+  border-radius: 20%;
+  background-color: var(--color-text);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.darkmode #theme-switch {
+  background-color: var(--color-backgroud);
+}
+
+@media only screen and (max-width: 767px) {
+  #theme-switch {
+    margin-left: 15px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  #theme-switch {
+    margin-right: 15px;
+  }
+}
+
+#theme-switch:hover {
+  background-color: var(--color-link-hover);
+}
+
+#theme-switch i {
+  color: var(--color-backgroud);
+}
+
+.darkmode #theme-switch i {
+  color: var(--color-text);
+}
+
+#theme-switch i:last-child {
+  display: none;
+}
+
+.darkmode #theme-switch i:first-child {
+  display: none;
+}
+
+.darkmode #theme-switch i:last-child {
+  display: block;
+}
+
+.darkmode footer a {
+  color: var(--color-backgroud);
+}
+
+.darkmode footer a:hover,
+.darkmode footer a:focus {
+  color: var(--color-link-hover);
+}
+
+.darkmode .navbar-custom .avatar-container .avatar-img {
+  fill: var(--color-link-hover);
 }
