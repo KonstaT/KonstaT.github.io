@@ -7,13 +7,13 @@ layout: null
 /* --- Root --- */
 
 :root {
-  --color-backgroud: #fff;
-  --color-text: #404040;
-  --color-link: #008aff;
-  --color-link-hover: #0085a1;
-  --color-nav-footer: #f5f5f5;
-  --color-nav-footer-border: #eaeaea;
-  --color-nav-footer-highligh: #eee;
+  --color-backgroud: #feffff;
+  --color-text: #17252a;
+  --color-link: #2b7a78;
+  --color-link-hover: #3aafa9;
+  --color-nav-footer: #f3f3f3;
+  --color-nav-footer-border: #dcdcdc;
+  --color-nav-footer-highligh: #e7e7e7;
 }
 
 /* --- General --- */
