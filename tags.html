@@ -11,13 +11,13 @@ use-site-title: true
 
 <div class="home">
   <p class="post-meta" style="text-align: justify;">
+
   {% assign tags =  site.devices | map: 'tags' | join: ',' | split: ',' | sort %}
   {% assign tags_count =  site.devices | map: 'tags' | join: ',' | split: ',' | sort | uniq | size %}
   {% assign previousTag = "" %}
   {% assign counter = 0 %}
 
   {% for currentTag in tags %}
-
     {% if previousTag == "" %}
       {% assign previousTag = currentTag %}
     {% endif %}
@@ -40,8 +40,8 @@ use-site-title: true
     {% endif %}
 
     {% assign previousTag = currentTag %}
-
   {% endfor %}
+
   </p>
 </div>
 

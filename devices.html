@@ -12,10 +12,9 @@ layout: base
         {% include ad.html %}
       {% endif %}
 
-      {% assign sorted_devices = site.devices | sort: 'title' %}
-
       <h4>Devices:</h4>
       <ul>
+        {% assign sorted_devices = site.devices | sort: 'title' %}
         {% for device in sorted_devices %}
           {% if device.permalink %}
             <li><a href="{{ site.baseurl }}{{ device.url }}">{{ device.title }} {{ device.subtitle }}</a></li>

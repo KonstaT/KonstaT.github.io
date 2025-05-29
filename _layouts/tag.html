@@ -12,10 +12,9 @@ layout: base
         {% include ad.html %}
       {% endif %}
 
-      {% assign sorted_devices = site.devices | sort: 'date' | reverse %}
-
       <h4>{{ page.tag }}:</h4>
       <ul>
+        {% assign sorted_devices = site.devices | sort: 'date' | reverse %}
         {% for device in sorted_devices %}
           {% if device.tags contains page.tag %}
             <li>{{ device.date | date: "%B %-d, %Y" }}: <a href="{{ site.baseurl }}{{ device.url }}">{{ device.title }} {{ device.subtitle }}</a></li>
