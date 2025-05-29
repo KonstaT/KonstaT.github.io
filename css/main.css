@@ -24,6 +24,7 @@ body {
   color: var(--color-text);
   position: relative;
   background: var(--color-backgroud);
+  word-wrap: break-word;
 }
 p {
   line-height: 1.5;
