@@ -187,6 +187,7 @@ img {
 .navbar-custom .avatar-container .avatar-img {
   width: 100%;
   display: block;
+  fill: var(--color-text);
 }
 
 .navbar-custom.top-nav-short .avatar-container {
@@ -208,7 +209,7 @@ img {
   }
 
   .navbar-custom .avatar-container .avatar-img {
-    width: 100%;
+    width: 100px;
   }
 }
 
