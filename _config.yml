@@ -43,52 +43,37 @@ avatar-svg: true
 
 # --- Footer options --- #
 
-# Change all these values or delete the ones you don't want.
-# Important: you must keep the "name" parameter, everything else you can remove
-author:
-  name: KonstaKANG
-  email: "konstakang@gmail.com"
+# Your name to show in the footer
+author: KonstaKANG
+
+# Select the social network links that you want to show in the footer.
+# You can change the order that they show up on the page by changing the order here.
+# Uncomment the links you want to show and add your information to each one.
+social-network-links:
   github: KonstaT
   x-twitter: KonstaKANG
-  #facebook: yourname
-  #reddit: yourname
-  #linkedin: yourname
-  #xing: yourname
-  #stackoverflow: yourlink
-  #snapchat: yourname
-  #instagram: yourname
-  #youtube: yourlink
-  #spotify: yourname
-  #telephone: yourphone
-  #steam: yourname
-  #twitch: yourname
-  #yelp: yourname
-
-# Select which links to show in the footer
-footer-links-active:
+  email: "konstakang@gmail.com"
   rss: true
-  email: true
-  github: true
-  x-twitter: true
-  #facebook: false
-  #reddit: false
-  #linkedin: false
-  #xing: false
-  #stackoverflow: false
-  #snapchat: false
-  #instagram: false
-  #youtube: false
-  #spotify: false
-  #telephone: false
-  #steam: false
-  #twitch: false
-  #yelp: false
+  #facebook: yourname
+  #instagram: yourname
+  #linkedin: yourname
+  #reddit: yourname
+  #snapchat: yourname
+  #spotify: yourname
+  #stackoverflow: yourlink
+  #steam: yourname
+  #telephone: yourphone
+  #twitch: yourname
+  #xing: yourname
+  #yelp: yourname
+  #youtube: yourlink
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
 #url-pretty: "KonstaKANG.com"
 
 # --- Misc --- #
+
 # Fill in your Disqus shortname (NOT the userid) if you want to support Disqus comments
 disqus: "konstakang"
 

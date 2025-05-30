@@ -1,0 +1,211 @@
+{% if site.social-network-links %}
+  <ul class="list-inline text-center footer-links">
+    {% for network in site.social-network-links %}
+
+      {% if network[0] == "email" %}
+        <li>
+          <a href="mailto:{{ site.social-network-links.email }}" title="Email">
+            <span class="fa-stack fa-lg" aria-hidden="true">
+              <i class="fa fa-square fa-stack-2x"></i>
+              <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+            </span>
+            <span class="sr-only">Email me</span>
+          </a>
+        </li>
+      {% endif %}
+
+      {% if network[0] == "facebook" %}
+        <li>
+          <a href="https://www.facebook.com/{{ site.social-network-links.facebook }}" title="Facebook">
+            <span class="fa-stack fa-lg" aria-hidden="true">
+              <i class="fa fa-square fa-stack-2x"></i>
+              <i class="fa fa-brands fa-facebook fa-stack-1x fa-inverse"></i>
+            </span>
+            <span class="sr-only">Facebook</span>
+          </a>
+        </li>
+      {% endif %}
+
+      {% if network[0] == "github" %}
+        <li>
+          <a href="https://github.com/{{ site.social-network-links.github }}" title="GitHub">
+            <span class="fa-stack fa-lg" aria-hidden="true">
+              <i class="fa fa-square fa-stack-2x"></i>
+              <i class="fa fa-brands fa-github fa-stack-1x fa-inverse"></i>
+            </span>
+            <span class="sr-only">GitHub</span>
+          </a>
+        </li>
+      {% endif %}
+
+      {% if network[0] == "instagram" %}
+        <li>
+          <a href="https://www.instagram.com/{{ site.social-network-links.instagram }}" title="Instagram">
+            <span class="fa-stack fa-lg" aria-hidden="true">
+              <i class="fa fa-square fa-stack-2x"></i>
+              <i class="fa fa-brands fa-instagram fa-stack-1x fa-inverse"></i>
+            </span>
+            <span class="sr-only">Instagram</span>
+          </a>
+        </li>
+      {% endif %}
+
+      {% if network[0] == "linkedin" %}
+        <li>
+          <a href="https://linkedin.com/in/{{ site.social-network-links.linkedin }}" title="LinkedIn">
+            <span class="fa-stack fa-lg" aria-hidden="true">
+              <i class="fa fa-square fa-stack-2x"></i>
+              <i class="fa fa-brands fa-linkedin fa-stack-1x fa-inverse"></i>
+            </span>
+            <span class="sr-only">LinkedIn</span>
+          </a>
+        </li>
+      {% endif %}
+
+      {% if network[0] == "reddit" %}
+        <li>
+          <a href="https://reddit.com/u/{{ site.social-network-links.reddit }}" title="Reddit">
+            <span class="fa-stack fa-lg" aria-hidden="true">
+              <i class="fa fa-square fa-stack-2x"></i>
+              <i class="fa fa-brands fa-reddit fa-stack-1x fa-inverse"></i>
+            </span>
+            <span class="sr-only">Reddit</span>
+          </a>
+        </li>
+      {% endif %}
+
+      {% if network[0] == "rss" and network[1] %}
+        <li>
+          <a href="{{ '/feed.xml' | prepend: site.baseurl }}" title="RSS">
+            <span class="fa-stack fa-lg" aria-hidden="true">
+              <i class="fa fa-square fa-stack-2x"></i>
+              <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+            </span>
+            <span class="sr-only">RSS</span>
+          </a>
+        </li>
+      {% endif %}
+
+      {% if network[0] == "snapchat" %}
+        <li>
+          <a href="https://www.snapchat.com/add/{{ site.social-network-links.snapchat }}" title="Snapchat">
+            <span class="fa-stack fa-lg" aria-hidden="true">
+              <i class="fa fa-square fa-stack-2x"></i>
+              <i class="fa fa-brands fa-snapchat-ghost fa-stack-1x fa-inverse"></i>
+            </span>
+            <span class="sr-only">Snapchat</span>
+          </a>
+        </li>
+      {% endif %}
+
+      {% if network[0] == "spotify" %}
+        <li>
+          <a href="https://open.spotify.com/user/{{ site.social-network-links.spotify }}" title="Spotify">
+            <span class="fa-stack fa-lg" aria-hidden="true">
+              <i class="fa fa-square fa-stack-2x"></i>
+              <i class="fa fa-brands fa-spotify fa-stack-1x fa-inverse"></i>
+            </span>
+            <span class="sr-only">Spotify</span>
+          </a>
+        </li>
+      {% endif %}
+
+      {% if network[0] == "stackoverflow" %}
+        <li>
+          <a href="https://stackoverflow.com/users/{{ site.social-network-links.stackoverflow }}" title="StackOverflow">
+            <span class="fa-stack fa-lg" aria-hidden="true">
+              <i class="fa fa-square fa-stack-2x"></i>
+              <i class="fa fa-brands fa-stack-overflow fa-stack-1x fa-inverse"></i>
+            </span>
+            <span class="sr-only">StackOverflow</span>
+          </a>
+        </li>
+      {% endif %}
+
+      {% if network[0] == "steam" %}
+        <li>
+          <a href="https://steamcommunity.com/id/{{ site.social-network-links.steam }}" title="Steam">
+            <span class="fa-stack fa-lg" aria-hidden="true">
+              <i class="fa fa-square fa-stack-2x"></i>
+              <i class="fa fa-brands fa-steam fa-stack-1x fa-inverse"></i>
+            </span>
+            <span class="sr-only">Steam</span>
+          </a>
+        </li>
+      {% endif %}
+
+      {% if network[0] == "telephone" %}
+        <li>
+          <a href="tel:{{ site.social-network-links.telephone }}" title="Phone">
+            <span class="fa-stack fa-lg" aria-hidden="true">
+              <i class="fa fa-square fa-stack-2x"></i>
+              <i class="fa fa-phone fa-stack-1x fa-inverse"></i>
+            </span>
+            <span class="sr-only">Phone</span>
+          </a>
+        </li>
+      {% endif %}
+
+      {% if network[0] == "twitch" %}
+        <li>
+          <a href="https://www.twitch.tv/{{ site.social-network-links.twitch }}" title="Twitch">
+            <span class="fa-stack fa-lg" aria-hidden="true">
+              <i class="fa fa-square fa-stack-2x"></i>
+              <i class="fa fa-brands fa-twitch fa-stack-1x fa-inverse"></i>
+            </span>
+            <span class="sr-only">Twitch</span>
+          </a>
+        </li>
+      {% endif %}
+
+      {% if network[0] == "x-twitter" %}
+        <li>
+          <a href="https://x.com/{{ site.social-network-links.x-twitter }}" title="X (Twitter)">
+            <span class="fa-stack fa-lg" aria-hidden="true">
+              <i class="fa fa-square fa-stack-2x"></i>
+              <i class="fa fa-brands fa-x-twitter fa-stack-1x fa-inverse"></i>
+            </span>
+            <span class="sr-only">X (Twitter)</span>
+          </a>
+        </li>
+      {% endif %}
+
+      {% if network[0] == "xing" %}
+        <li>
+          <a href="https://www.xing.com/profile/{{ site.social-network-links.xing }}" title="Xing">
+            <span class="fa-stack fa-lg" aria-hidden="true">
+              <i class="fa fa-square fa-stack-2x"></i>
+              <i class="fa fa-brands fa-xing fa-stack-1x fa-inverse"></i>
+            </span>
+            <span class="sr-only">Xing</span>
+          </a>
+        </li>
+      {% endif %}
+
+      {% if network[0] == "yelp" %}
+        <li>
+          <a href="https://{{ site.social-network-links.yelp }}.yelp.com" title="Yelp">
+            <span class="fa-stack fa-lg" aria-hidden="true">
+              <i class="fa fa-square fa-stack-2x"></i>
+              <i class="fa fa-brands fa-yelp fa-stack-1x fa-inverse"></i>
+            </span>
+            <span class="sr-only">Yelp</span>
+          </a>
+        </li>
+      {% endif %}
+
+      {% if network[0] == "youtube" %}
+        <li>
+          <a href="https://www.youtube.com/{{ site.social-network-links.youtube }}" title="YouTube">
+            <span class="fa-stack fa-lg" aria-hidden="true">
+              <i class="fa fa-square fa-stack-2x"></i>
+              <i class="fa fa-brands fa-youtube fa-stack-1x fa-inverse"></i>
+            </span>
+            <span class="sr-only">YouTube</span>
+          </a>
+        </li>
+      {% endif %}
+
+    {% endfor %}
+  </ul>
+{% endif %}
