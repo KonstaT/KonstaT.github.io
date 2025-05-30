@@ -54,16 +54,30 @@ social-network-links:
   x-twitter: KonstaKANG
   email: "konstakang@gmail.com"
   rss: true
+  #bitcoin: youraddress
+  #bluesky: yourname
+  #discord: youruserid
   #facebook: yourname
+  #gitlab: yourname
   #instagram: yourname
   #linkedin: yourname
+  #medium: yourname
+  #patreon: yourname
+  #paypal: yourname
+  #pinterest: yourname
   #reddit: yourname
+  #signal: yourname
   #snapchat: yourname
   #spotify: yourname
   #stackoverflow: yourlink
   #steam: yourname
+  #strava: youruserid
+  #telegram: yourname
   #telephone: yourphone
+  #threads: yourname
+  #tiktok: yourname
   #twitch: yourname
+  #whatsapp: yourphone
   #xing: yourname
   #yelp: yourname
   #youtube: yourlink

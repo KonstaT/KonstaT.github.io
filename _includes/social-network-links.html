@@ -2,6 +2,42 @@
   <ul class="list-inline text-center footer-links">
     {% for network in site.social-network-links %}
 
+      {% if network[0] == "bitcoin" %}
+        <li>
+          <a href="bitcoin:{{ site.social-network-links.bitcoin }}" title="Bitcoin">
+            <span class="fa-stack fa-lg" aria-hidden="true">
+              <i class="fas fa-square fa-stack-2x"></i>
+              <i class="fab fa-brands fa-bitcoin fa-stack-1x fa-inverse"></i>
+            </span>
+            <span class="sr-only">Bitcoin</span>
+         </a>
+        </li>
+      {% endif %}
+
+      {% if network[0] == "bluesky" %}
+        <li>
+          <a href="https://bsky.app/profile/{{ site.social-network-links.bluesky }}" title="Bluesky">
+            <span class="fa-stack fa-lg" aria-hidden="true">
+              <i class="fas fa-square fa-stack-2x"></i>
+              <i class="fas fa-brands fa-bluesky fa-stack-1x fa-inverse"></i>
+            </span>
+            <span class="sr-only">Bluesky</span>
+          </a>
+        </li>
+      {% endif %}
+
+      {% if network[0] == "discord" %}
+        <li>
+          <a href="https://discord.com/users/{{ site.social-network-links.discord }}" title="Discord">
+            <span class="fa-stack fa-lg" aria-hidden="true">
+              <i class="fas fa-square fa-stack-2x"></i>
+              <i class="fab fa-brands fa-discord fa-stack-1x fa-inverse"></i>
+            </span>
+            <span class="sr-only">Discord</span>
+         </a>
+        </li>
+      {% endif %}
+
       {% if network[0] == "email" %}
         <li>
           <a href="mailto:{{ site.social-network-links.email }}" title="Email">
@@ -38,6 +74,18 @@
         </li>
       {% endif %}
 
+      {% if network[0] == "gitlab" %}
+        <li>
+          <a href="https://gitlab.com/{{ site.social-network-links.gitlab }}" title="GitLab">
+            <span class="fa-stack fa-lg" aria-hidden="true">
+              <i class="fas fa-square fa-stack-2x"></i>
+              <i class="fab fa-brands fa-gitlab fa-stack-1x fa-inverse"></i>
+            </span>
+            <span class="sr-only">GitLab</span>
+         </a>
+        </li>
+      {% endif %}
+
       {% if network[0] == "instagram" %}
         <li>
           <a href="https://www.instagram.com/{{ site.social-network-links.instagram }}" title="Instagram">
@@ -62,6 +110,54 @@
         </li>
       {% endif %}
 
+      {% if network[0] == "medium" %}
+        <li>
+          <a href="https://medium.com/@{{ site.social-network-links.medium }}" title="Medium">
+            <span class="fa-stack fa-lg" aria-hidden="true">
+              <i class="fas fa-square fa-stack-2x"></i>
+              <i class="fab fa-brands fa-medium fa-stack-1x fa-inverse"></i>
+            </span>
+            <span class="sr-only">Medium</span>
+          </a>
+        </li>
+      {% endif %}
+
+      {% if network[0] == "patreon" %}
+        <li>
+          <a href="https://patreon.com/{{ site.social-network-links.patreon }}" title="Patreon">
+            <span class="fa-stack fa-lg" aria-hidden="true">
+              <i class="fas fa-square fa-stack-2x"></i>
+              <i class="fab fa-brands fa-patreon fa-stack-1x fa-inverse"></i>
+            </span>
+            <span class="sr-only">Patreon</span>
+          </a>
+        </li>
+      {% endif %}
+
+      {% if network[0] == "paypal" %}
+        <li>
+          <a href="https://paypal.me/{{ site.social-network-links.paypal }}" title="PayPal">
+            <span class="fa-stack fa-lg" aria-hidden="true">
+              <i class="fas fa-square fa-stack-2x"></i>
+              <i class="fab fa-brands fa-paypal fa-stack-1x fa-inverse"></i>
+            </span>
+            <span class="sr-only">PayPal</span>
+         </a>
+        </li>
+      {% endif %}
+
+      {% if network[0] == "pinterest" %}
+        <li>
+          <a href="https://www.pinterest.com/{{ site.social-network-links.pinterest }}" title="Pinterest">
+            <span class="fa-stack fa-lg" aria-hidden="true">
+              <i class="fas fa-square fa-stack-2x"></i>
+              <i class="fab fa-brands fa-pinterest fa-stack-1x fa-inverse"></i>
+            </span>
+            <span class="sr-only">Pinterest</span>
+         </a>
+        </li>
+      {% endif %}
+
       {% if network[0] == "reddit" %}
         <li>
           <a href="https://reddit.com/u/{{ site.social-network-links.reddit }}" title="Reddit">
@@ -83,6 +179,18 @@
             </span>
             <span class="sr-only">RSS</span>
           </a>
+        </li>
+      {% endif %}
+
+      {% if network[0] == "signal" %}
+        <li>
+          <a href="https://signal.me/#eu/{{ site.social-network-links.signal }}" title="Signal">
+            <span class="fa-stack fa-lg" aria-hidden="true">
+              <i class="fas fa-square fa-stack-2x"></i>
+              <i class="fab fa-brands fa-signal-messenger fa-stack-1x fa-inverse"></i>
+            </span>
+            <span class="sr-only">Signal</span>
+         </a>
         </li>
       {% endif %}
 
@@ -134,6 +242,30 @@
         </li>
       {% endif %}
 
+      {% if network[0] == "strava" %}
+        <li>
+          <a href="https://www.strava.com/athletes/{{ site.social-network-links.strava }}" title="Strava">
+            <span class="fa-stack fa-lg" aria-hidden="true">
+              <i class="fas fa-square fa-stack-2x"></i>
+              <i class="fab fa-brands fa-strava fa-stack-1x fa-inverse"></i>
+            </span>
+            <span class="sr-only">Strava</span>
+         </a>
+        </li>
+      {% endif %}
+
+      {% if network[0] == "telegram" %}
+        <li>
+          <a href="https://t.me/{{ site.social-network-links.telegram }}" title="Telegram">
+            <span class="fa-stack fa-lg" aria-hidden="true">
+              <i class="fas fa-square fa-stack-2x"></i>
+              <i class="fab fa-brands fa-telegram-plane fa-stack-1x fa-inverse"></i>
+            </span>
+            <span class="sr-only">Telegram</span>
+          </a>
+        </li>
+      {% endif %}
+
       {% if network[0] == "telephone" %}
         <li>
           <a href="tel:{{ site.social-network-links.telephone }}" title="Phone">
@@ -146,6 +278,30 @@
         </li>
       {% endif %}
 
+      {% if network[0] == "threads" %}
+        <li>
+          <a href="https://www.threads.com/@{{ site.social-network-links.threads }}" title="Threads">
+            <span class="fa-stack fa-lg" aria-hidden="true">
+              <i class="fas fa-square fa-stack-2x"></i>
+              <i class="fab fa-brands fa-threads fa-stack-1x fa-inverse"></i>
+            </span>
+            <span class="sr-only">Threads</span>
+         </a>
+        </li>
+      {% endif %}
+
+      {% if network[0] == "tiktok" %}
+        <li>
+          <a href="https://www.tiktok.com/@{{ site.social-network-links.tiktok }}" title="TikTok">
+            <span class="fa-stack fa-lg" aria-hidden="true">
+              <i class="fas fa-square fa-stack-2x"></i>
+              <i class="fab fa-brands fa-tiktok fa-stack-1x fa-inverse"></i>
+            </span>
+            <span class="sr-only">TikTok</span>
+         </a>
+        </li>
+      {% endif %}
+
       {% if network[0] == "twitch" %}
         <li>
           <a href="https://www.twitch.tv/{{ site.social-network-links.twitch }}" title="Twitch">
@@ -155,6 +311,18 @@
             </span>
             <span class="sr-only">Twitch</span>
           </a>
+        </li>
+      {% endif %}
+
+      {% if network[0] == "whatsapp" %}
+        <li>
+          <a href="https://wa.me/{{ site.social-network-links.whatsapp }}" title="WhatsApp">
+            <span class="fa-stack fa-lg" aria-hidden="true">
+              <i class="fas fa-square fa-stack-2x"></i>
+              <i class="fab fa-brands fa-whatsapp fa-stack-1x fa-inverse"></i>
+            </span>
+            <span class="sr-only">WhatsApp</span>
+         </a>
         </li>
       {% endif %}
 
