@@ -154,6 +154,12 @@ img {
   color: var(--color-link-hover);
 }
 
+@media only screen and (max-width: 767px) {
+  .navbar-custom .navbar-brand {
+    display: none;
+  }
+}
+
 @media only screen and (min-width: 768px) {
   .navbar-custom {
     padding: 20px 0;
