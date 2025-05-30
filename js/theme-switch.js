@@ -9,4 +9,6 @@ document.getElementById('theme-switch').addEventListener('click', () => {
   toggleDarkMode(localStorage.getItem('darkmode') !== 'true');
 })
 
-toggleDarkMode(localStorage.getItem('darkmode') === 'true');
+toggleDarkMode(localStorage.getItem('darkmode') === 'true'
+  || localStorage.getItem('darkmode') === null
+  && window.matchMedia?.('(prefers-color-scheme: dark)').matches);
