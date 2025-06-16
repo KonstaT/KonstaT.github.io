@@ -7,6 +7,7 @@ permalink: /devices/rpi5/
 
 #### AOSP:
 
+- [AOSP - KonstaKANG (Android 16)](/devices/rpi5/AOSP16)
 - [AOSP - KonstaKANG (Android 15)](/devices/rpi5/AOSP15)
 - [AOSP - KonstaKANG (Android 14)](/devices/rpi5/AOSP14)
 
