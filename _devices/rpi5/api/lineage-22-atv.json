@@ -17,6 +17,15 @@
       "size": 614215545,
       "url": "https://github.com/lineage-rpi/OTA/releases/download/lineage-22.2-20250514/lineage-22.2-20250514-UNOFFICIAL-KonstaKANG-rpi5-atv-ota.zip",
       "version": "22.2"
+    },
+    {
+      "datetime": 1756201491,
+      "filename": "lineage-22.2-20250826-UNOFFICIAL-KonstaKANG-rpi5-atv-ota.zip",
+      "id": "e3169ceb8a63a5e4ddcaaaf10c9ce249d0471dfa8377b5b472944184f45ca37f",
+      "romtype": "UNOFFICIAL",
+      "size": 624439392,
+      "url": "https://github.com/lineage-rpi/OTA/releases/download/lineage-22.2-20250826/lineage-22.2-20250826-UNOFFICIAL-KonstaKANG-rpi5-atv-ota.zip",
+      "version": "22.2"
     }
   ]
 }

@@ -1,7 +1,7 @@
 ---
 title: LineageOS 22.2 Android TV (Android 15)
 subtitle: for Raspberry Pi 5
-date: 2025-05-14
+date: 2025-08-26
 tags: [rpi5, LineageOS, LOS22, AndroidTV]
 screenshot: /img/rpi5/LineageOS22/Screenshot_20241217-150000_Settings.png
 ---
@@ -14,13 +14,13 @@ Here's my build of LineageOS 22.2 Android TV for Raspberry Pi 5, Pi 500, and Com
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
-[**lineage-22.2-20250514-UNOFFICIAL-KonstaKANG-rpi5-atv.zip**](https://app.filen.io/#/d/07746e09-bf20-43be-9472-11b869721895%23vc2fyCtieCU3efpxmtUfAGJQJUB5Szvl)  
-sha256:cae3299cf870c467627639ada2c4a1b2df37c173f7452f101f612dca94c1e440
+[**lineage-22.2-20250826-UNOFFICIAL-KonstaKANG-rpi5-atv.zip**](https://app.filen.io/#/d/f057df69-9468-4580-99b1-3e53d2633754%235669487873476270736e635f6c746d434e334f4d436b4351413876543043697a)  
+sha256:2e6c9309a54cc14303ad1bac6a581ca2d2b16b85864f0e56f09f5fc614889804
 
 <span style="color:#FF0000;">Note!</span> It's not possible to OTA update from builds older than 20250417. Clean installation is required!
 
-[**lineage-22.2-20250514-UNOFFICIAL-KonstaKANG-rpi5-atv-ota.zip**](https://app.filen.io/#/d/e58cebd5-a391-4637-a5a7-5018e34022ca%236Q9CQG00L13sufdDJJgFywlOvyXRl20g) (TWRP flashable OTA package)  
-sha256:598c3fd8dc55dc6d1bc611a0e5c8e9d3eb68f70eefeabaa6b0288cadaa829426
+[**lineage-22.2-20250826-UNOFFICIAL-KonstaKANG-rpi5-atv-ota.zip**](https://app.filen.io/#/d/e6c8d6e5-8394-4440-9cef-634dd859f899%23364c736e617a5a7a423657726e6d416537614b6f4b63434765373865786b5144) (TWRP flashable OTA package)  
+sha256:e3169ceb8a63a5e4ddcaaaf10c9ce249d0471dfa8377b5b472944184f45ca37f
 
 **Working:**
 
@@ -222,6 +222,18 @@ Q: How to install Google apps?
 <!--block-->
 
 [Merged commits](https://review.lineageos.org/#/q/status:merged+branch:lineage-22.2+-project:%255E.*device.*+-project:%255E.*kernel.*) not mentioned in the changelog.
+
+**26.8. changelog:**
+
+- fix unpairing bluetooth devices (merged)
+- fix enter key behaviour on leanback keyboard (thanks to supechicken)
+- convert Mesa makefiles to soong blueprint (ninja-to-soong)
+- convert libcamera makefiles to soong blueprint (ninja-to-soong)
+- convert libcamera HAL to AIDL (thanks to Mattijs Korpershoek)
+- update to libcamera master/v0.5.2
+- update to Mesa 25.2.1
+- update to Linux 6.6.102 kernel and patch known vulnerabilities (CVE-xxxx-xxxx, and more)
+- Android security patch level: 1 August 2025
 
 **14.5. changelog:**
 

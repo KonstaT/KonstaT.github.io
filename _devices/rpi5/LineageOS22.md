@@ -1,7 +1,7 @@
 ---
 title: LineageOS 22.2 (Android 15)
 subtitle: for Raspberry Pi 5
-date: 2025-05-14
+date: 2025-08-26
 tags: [rpi5, LineageOS, LOS22]
 screenshot: /img/rpi5/LineageOS22/Screenshot_20241217-154615_Settings.png
 ---
@@ -14,13 +14,13 @@ Here's my build of LineageOS 22.2 for Raspberry Pi 5, Pi 500, and Compute Module
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
-[**lineage-22.2-20250514-UNOFFICIAL-KonstaKANG-rpi5.zip**](https://app.filen.io/#/d/ed4260a2-4dce-4c10-b69a-e9defb3b89b2%23mZYqKctMFZdXr5okrMmokfFf8PwMzawf)  
-sha256:17de000929871025f4103b5d3f907b68fdcaaaf7e971aaab399cea9695beaa8c
+[**lineage-22.2-20250826-UNOFFICIAL-KonstaKANG-rpi5.zip**](https://app.filen.io/#/d/5d5d6590-b571-4fc0-a17a-78b37307b1a2%2376686d5158486b4f696c723331376b445a3575556b3056436171596b746b4b6d)  
+sha256:dfe94d944b21aee5fba1c8bda744df13e02df7c837bd647be55d0c759ded8ffc
 
 <span style="color:#FF0000;">Note!</span> It's not possible to OTA update from builds older than 20250417. Clean installation is required!
 
-[**lineage-22.2-20250514-UNOFFICIAL-KonstaKANG-rpi5-ota.zip**](https://app.filen.io/#/d/c6f251db-2ca1-40e5-8871-703609410d70%23MFwFYtEGAZLuSbkigqX5j0cmzaDnGUXB) (TWRP flashable OTA package)  
-sha256:db608692d80bb335073885e69140694acbcdf65fa66a3992d938e02a24b80dc1
+[**lineage-22.2-20250826-UNOFFICIAL-KonstaKANG-rpi5-ota.zip**](https://app.filen.io/#/d/ad4d24a2-55fb-4871-b9c0-1767f7729f70%23684b794c344c78386130724447706d2d2d49666d474535433632362d3248742d) (TWRP flashable OTA package)  
+sha256:b55c97cd9f5f5a882cfcfba9ec1e3afb70731a1455b0ecdf4d17230982db8217
 
 **Working:**
 
@@ -221,6 +221,16 @@ Q: How to install Google apps?
 <!--block-->
 
 [Merged commits](https://review.lineageos.org/#/q/status:merged+branch:lineage-22.2+-project:%255E.*device.*+-project:%255E.*kernel.*) not mentioned in the changelog.
+
+**26.8. changelog:**
+
+- convert Mesa makefiles to soong blueprint (ninja-to-soong)
+- convert libcamera makefiles to soong blueprint (ninja-to-soong)
+- convert libcamera HAL to AIDL (thanks to Mattijs Korpershoek)
+- update to libcamera master/v0.5.2
+- update to Mesa 25.2.1
+- update to Linux 6.6.102 kernel and patch known vulnerabilities (CVE-xxxx-xxxx, and more)
+- Android security patch level: 1 August 2025
 
 **14.5. changelog:**
 

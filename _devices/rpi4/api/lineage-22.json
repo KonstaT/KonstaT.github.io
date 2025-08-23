@@ -17,6 +17,15 @@
       "size": 801688832,
       "url": "https://github.com/lineage-rpi/OTA/releases/download/lineage-22.2-20250514/lineage-22.2-20250514-UNOFFICIAL-KonstaKANG-rpi4-ota.zip",
       "version": "22.2"
+    },
+    {
+      "datetime": 1756199375,
+      "filename": "lineage-22.2-20250826-UNOFFICIAL-KonstaKANG-rpi4-ota.zip",
+      "id": "0a76b60d88e2c83189dca8325055524af7cc71e9dec19c4060d738ca4729a100",
+      "romtype": "UNOFFICIAL",
+      "size": 812885501,
+      "url": "https://github.com/lineage-rpi/OTA/releases/download/lineage-22.2-20250826/lineage-22.2-20250826-UNOFFICIAL-KonstaKANG-rpi4-ota.zip",
+      "version": "22.2"
     }
   ]
 }
