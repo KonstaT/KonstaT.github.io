@@ -14,12 +14,12 @@ Here's my build of LineageOS 21 for Raspberry Pi 5. It is unofficial and unsuppo
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
-<span style="color:#FF0000;">Note!</span> This release is discontinued from development. Please use more recent Android releases instead.
+<span style="color:#FF0000;">Note!</span> This release is discontinued from development, seriously outdated, and no longer available. Please use more recent Android releases instead.
 
-[**lineage-21.0-20240816-UNOFFICIAL-KonstaKANG-rpi5.zip**](https://app.filen.io/#/d/542aa4fc-67f7-42d9-8a97-8e5a78de88d5%23WgO16b5KpWgX4lr083PIsT4d9MelRdcj)  
+**lineage-21.0-20240816-UNOFFICIAL-KonstaKANG-rpi5.zip**  
 sha256:bd820332ca1f6c486ca77af952e59db019a5c3cc3025d29a7654d086cf85c62b
 
-[**lineage-21.0-20240816-UNOFFICIAL-KonstaKANG-rpi5-ota.zip**](https://app.filen.io/#/d/c11419de-a17d-4270-a222-189ef6d69fd0%23sWb2KwY6l9hwMilcfSugJKgfkKpgnOuv) (TWRP flashable OTA package)  
+**lineage-21.0-20240816-UNOFFICIAL-KonstaKANG-rpi5-ota.zip** (TWRP flashable OTA package)  
 sha256:aba6caaac0126860909666168ba358a667374206ad32ff876470a04c61fd39c8
 
 **Working:**

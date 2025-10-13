@@ -14,15 +14,15 @@ Here's my build of AOSP (Android 14) for Raspberry Pi 4 Model B, Pi 400, and Com
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
-<span style="color:#FF0000;">Note!</span> This release is discontinued from development. Please use more recent Android releases instead.
+<span style="color:#FF0000;">Note!</span> This release is discontinued from development, seriously outdated, and no longer available. Please use more recent Android releases instead.
 
-[**AOSP14-20240704-KonstaKANG-rpi4.zip**](https://app.filen.io/#/d/12a448cb-0fe7-41e9-b1af-e0b18ee69c11%23IJMeofr1VRr5DX7MEfSJQ1kzIOXtNmaQ)  
+**AOSP14-20240704-KonstaKANG-rpi4.zip**  
 sha256:70baa434d8dc4397c27c9f33fc7dbca3c0204c4ec0cedf5b6eb3c98ab8bb0211
 
-[**AOSP14-20240704-KonstaKANG-rpi4-ota.zip**](https://app.filen.io/#/d/ef39b7a2-7d9a-45f8-9d95-0d3d711d6546%23JhgcyArZphXeBs1ZLkUTlXsaLXg9hbPl) (TWRP flashable OTA package)  
+**AOSP14-20240704-KonstaKANG-rpi4-ota.zip** (TWRP flashable OTA package)  
 sha256:e678a740141ca2238deda66a97747305badc87b5f8d4e9ec8caf7567b6033625
 
-[**AOSP14-20240704-KonstaKANG-rpi4-6.6-kernel.zip**](https://app.filen.io/#/d/30a52c7b-0d2e-4cfb-b43e-00b34c3efb82%23Ky2Jjxj8tiwLoQdQrzzcAdSwQO4KaLXw) (optional add-on)  
+**AOSP14-20240704-KonstaKANG-rpi4-6.6-kernel.zip** (optional add-on)  
 sha256:5df84fe2387be88058c7e530e1781b2df29f5bf1f98011f4f447f6631db7e33f
 
 **Working:**

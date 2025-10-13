@@ -14,6 +14,8 @@ Here's my build of AOSP (Android 15) for Raspberry Pi 5, Pi 500, and Compute Mod
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
+<span style="color:#FF0000;">Note!</span> This release is discontinued from development. Please use more recent Android releases instead.
+
 [**AOSP15-20250306-KonstaKANG-rpi5.zip**](https://app.filen.io/#/d/8e8a4849-7a8e-43b8-95ea-e7a4419c8285%23Rzlw0KupomABRHrCZaSbUEEgaYTTr7uT)  
 sha256:7a6b5cdf4ae9dc6dfb1a366299f65e9b1a34447e632e61bfa903771eda1d065f
 
