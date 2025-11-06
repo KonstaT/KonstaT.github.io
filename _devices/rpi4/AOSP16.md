@@ -1,7 +1,7 @@
 ---
 title: AOSP (Android 16)
 subtitle: for Raspberry Pi 4
-date: 2025-06-17
+date: 2025-11-06
 tags: [rpi4, AOSP]
 screenshot: /img/rpi4/AOSP16/Screenshot_20250617-080240.png
 ---
@@ -14,13 +14,13 @@ Here's my build of AOSP (Android 16) for Raspberry Pi 4 Model B, Pi 400, and Com
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
-[**AOSP16-20250617-KonstaKANG-rpi4.zip**](https://app.filen.io/#/d/ad9c6103-3125-4103-b762-a5283dcfdc1c%23V1htz8Yo6Z0acpoplsA4Z5Mkawu1dwOW)  
-sha256:4b9065fdb6a102e324a557dbb0f2b05f5d7fe512dd5d62d79a47046a1deb90a6
+[**AOSP16-20251106-KonstaKANG-rpi4.zip**](https://app.filen.io/#/d/b72046d6-4307-405a-9a7f-eb25e3b0c65f%23746f6a515f4a31594d68597171726d6a4936797947447a777955494d3571454b)  
+sha256:a4be3e1bd4d804e9f969c62e3ee0d13751e3bf615651a8cb9867cc9ff22c8c96
 
 <span style="color:#FF0000;">Note!</span> It's not possible to OTA update from builds older than 20250617. Clean installation is required!
 
-[**AOSP16-20250617-KonstaKANG-rpi4-ota.zip**](https://app.filen.io/#/d/7d9c08ba-e186-4d6e-b194-7c128d452b05%23rQAlXcOa5RDb2yGFzqdMDejrCc4su1tN) (TWRP flashable OTA package)  
-sha256:587ee5e2d3b5b1cdaefc958de4e4a7fd09e1ce2279f1b5396c4e46265035ac9d
+[**AOSP16-20251106-KonstaKANG-rpi4-ota.zip**](https://app.filen.io/#/d/a5cf18f6-cf25-4301-9fab-0f00237d6ac4%2374586d44596b41696f53347358555275304678564b7a63355f6c4a6b3356724d) (TWRP flashable OTA package)  
+sha256:f1f28b65c527e66b3ab758196441583a96cc78028970e575fbf248df85130827
 
 **Working:**
 
@@ -224,6 +224,28 @@ Q: How to install Google apps?
 
 ----
 <!--block-->
+
+**6.11. changelog:**
+
+- update to AIDL audio HAL
+- convert Mesa makefiles to soong blueprint (ninja-to-soong)
+- convert libcamera makefiles to soong blueprint (ninja-to-soong)
+- convert libcamera HAL to AIDL (thanks to Mattijs Korpershoek)
+- convert v4l2_codec2 to AIDL and switch to AIDL codec2 framework
+- convert ffmpeg_codec2 and v4l2_codec2 HALs to APEX
+- convert libcamera, external camera, and minigbm gralloc HALs to APEX
+- convert vulkan to APEX
+- all HALs that are part of Raspberry Vanilla have been updated to AIDL and packaged into APEX! \o/
+- fix kernel DRM driver issue with YVU formats (upstream)
+- fix kernel wifi driver issue with ANQP/Hotspot 2.0 networks (upstream)
+- disable HDR
+- read model from device tree
+- replace WebView Browser Tester with Jelly browser
+- update to FFmpeg 8.0
+- update to libcamera v0.5.2
+- update to v4l-utils 1.32.0
+- update to Mesa 25.2.6
+- update to Linux 6.12.53 kernel and patch known vulnerabilities (CVE-xxxx-xxxx, and more)
 
 **17.6. changelog:**
 
