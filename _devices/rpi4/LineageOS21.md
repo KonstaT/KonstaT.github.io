@@ -71,6 +71,8 @@ sha256:02682b2169846c1f6b3a6774a2fc128c4231be2d5b09872ffeafd70ad0027888
 
 1. Follow the official [Raspberry Pi instructions](https://www.raspberrypi.org/documentation/computers/getting-started.html#installing-the-operating-system) for writing the image to the SD card.
 
+**How to update:**
+
 You can also update to newer builds using TWRP flashable OTA packages. OTA updates pushed through the built-in Updater app are stored at /data/lineageos_updates/.
 
 1. Download lineage-21.0-xxxxxxxx-UNOFFICIAL-KonstaKANG-rpi4-ota.zip and save it to your device's internal storage or use an external USB drive

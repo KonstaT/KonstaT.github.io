@@ -75,6 +75,8 @@ sha256:3b38506b5a8abaaf3fe1a6a4639e0facd6780a5a555831b2ba89958508a54184
 
 1. Follow the official [Raspberry Pi instructions](https://www.raspberrypi.org/documentation/computers/getting-started.html#installing-the-operating-system) for writing the image to the SD card.
 
+**How to update:**
+
 You can also update to newer builds using TWRP flashable OTA packages. OTA updates pushed through the built-in Updater app are stored at /data/lineageos_updates/.
 
 1. Download lineage-20.0-xxxxxxxx-UNOFFICIAL-KonstaKANG-rpi5-atv-ota.zip and save it to your device's internal storage or use an external USB drive

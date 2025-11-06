@@ -75,6 +75,8 @@ sha256:c75bb6daabbdc6e90357efec3fd1196f63e6b971413678ebae89a0de732067f8
 
 1. Follow the official [Raspberry Pi instructions](https://www.raspberrypi.org/documentation/computers/getting-started.html#installing-the-operating-system) for writing the image to the SD card.
 
+**How to update:**
+
 You can also update to newer builds using TWRP flashable OTA packages.
 
 1. Download AOSP15-xxxxxxxx-KonstaKANG-rpi5-ota.zip and save it to your device's internal storage or use an external USB drive

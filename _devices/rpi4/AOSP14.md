@@ -74,6 +74,8 @@ sha256:5df84fe2387be88058c7e530e1781b2df29f5bf1f98011f4f447f6631db7e33f
 
 1. Follow the official [Raspberry Pi instructions](https://www.raspberrypi.org/documentation/computers/getting-started.html#installing-the-operating-system) for writing the image to the SD card.
 
+**How to update:**
+
 You can also update to newer builds using TWRP flashable OTA packages.
 
 1. Download AOSP14-xxxxxxxx-KonstaKANG-rpi4-ota.zip and save it to your device's internal storage or use an external USB drive

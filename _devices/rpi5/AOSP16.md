@@ -65,6 +65,8 @@ sha256:2d9abc68cdd6700a98f365543a8c472ef9132b203b777d9ec51607ca97cc0507
 
 1. Follow the official [Raspberry Pi instructions](https://www.raspberrypi.org/documentation/computers/getting-started.html#installing-the-operating-system) for writing the image to the SD card.
 
+**How to update:**
+
 You can also update to newer builds using TWRP flashable OTA packages.
 
 <span style="color:#FF0000;">Note!</span> It's not possible to OTA update from builds older than 20250617. Clean installation is required!
