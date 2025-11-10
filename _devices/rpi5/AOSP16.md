@@ -219,8 +219,7 @@ Q: How to install Google apps?
 - convert Mesa makefiles to soong blueprint (ninja-to-soong)
 - convert libcamera makefiles to soong blueprint (ninja-to-soong)
 - convert libcamera HAL to AIDL (thanks to Mattijs Korpershoek)
-- convert v4l2_codec2 to AIDL and switch to AIDL codec2 framework
-- convert ffmpeg_codec2 and v4l2_codec2 HALs to APEX
+- convert ffmpeg_codec2 HAL to APEX
 - convert libcamera, external camera, and minigbm gralloc HALs to APEX
 - convert vulkan to APEX
 - all HALs that are part of Raspberry Vanilla have been updated to AIDL and packaged into APEX! \o/

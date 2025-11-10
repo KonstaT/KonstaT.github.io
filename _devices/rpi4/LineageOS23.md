@@ -1,7 +1,7 @@
 ---
 title: LineageOS 23.0 (Android 16)
 subtitle: for Raspberry Pi 4
-date: 2025-10-07
+date: 2025-11-11
 tags: [rpi4, LineageOS, LOS23]
 screenshot: /img/rpi4/LineageOS23/Screenshot_20251007-143920_Settings.png
 ---
@@ -14,13 +14,13 @@ Here's my build of LineageOS 23.0 for Raspberry Pi 4 Model B, Pi 400, and Comput
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
-[**lineage-23.0-20251007-UNOFFICIAL-KonstaKANG-rpi4.zip**](https://app.filen.io/#/d/d6807acc-cec6-4387-b789-60d727ee478f%237569564675353637796c6a4a54444a3732326c63542d30396e36774164357954)  
-sha256:9bc1d81b4d4eb3dbc6ae119604f27fcdc411229074f9ef6095bb6b34c6bbfebf
+[**lineage-23.0-20251111-UNOFFICIAL-KonstaKANG-rpi4.zip**](https://app.filen.io/#/d/b1bb5371-5638-456d-b5de-2b37134ce465%236550573436796a7a53724a52416c71704448706175766f41745a392d574a4450)  
+sha256:05a68eeba152eebae7cab4e043603be6a13fa781f4d7d832679d47b3544d97b6
 
 <span style="color:#FF0000;">Note!</span> It's not possible to OTA update from builds older than 20250417. Clean installation is required!
 
-[**lineage-23.0-20251007-UNOFFICIAL-KonstaKANG-rpi4-ota.zip**](https://app.filen.io/#/d/660faed1-2459-4338-b6d9-02d7c7675911%237a684163666145704a4a5f49597354446b6c612d3048716f443135554b764753) (TWRP flashable OTA package)  
-sha256:5b696315cea707961ffe17492e122b0d4fbf167ed8d39390622d803c8d788c89
+[**lineage-23.0-20251111-UNOFFICIAL-KonstaKANG-rpi4-ota.zip**](https://app.filen.io/#/d/d7d72931-3746-4f91-ac6b-8a251b5cf372%2348494f713372544c6a4c6143304d4b6c4a4b4959736e54733356756f65644e76) (TWRP flashable OTA package)  
+sha256:773c755c2b1b0dc80ae7d9029a1ec7ca4cca2539c5f1bbfe57e4d1d1621f1673
 
 **Working:**
 
@@ -227,6 +227,21 @@ Q: How to install Google apps?
 <!--block-->
 
 [Merged commits](https://review.lineageos.org/#/q/status:merged+branch:lineage-23.0+-project:%255E.*device.*+-project:%255E.*kernel.*) not mentioned in the changelog.
+
+**11.11. changelog:**
+
+- update to AIDL audio HAL
+- convert v4l2_codec2 to AIDL and switch to AIDL codec2 framework
+- convert ffmpeg_codec2 and v4l2_codec2 HALs to APEX
+- convert libcamera, external camera, and minigbm gralloc HALs to APEX
+- convert vulkan to APEX
+- all HALs that are part of Raspberry Vanilla have been updated to AIDL and packaged into APEX! \o/
+- fix kernel wifi driver issue with ANQP/Hotspot 2.0 networks (upstream)
+- read model from device tree
+- update to v4l-utils 1.32.0
+- update to Mesa 25.2.6
+- update to Linux 6.12.53 kernel and patch known vulnerabilities (CVE-xxxx-xxxx, and more)
+- Android security patch level: 1 November 2025
 
 **7.10. changelog:**
 

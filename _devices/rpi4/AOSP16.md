@@ -236,7 +236,6 @@ Q: How to install Google apps?
 - convert libcamera, external camera, and minigbm gralloc HALs to APEX
 - convert vulkan to APEX
 - all HALs that are part of Raspberry Vanilla have been updated to AIDL and packaged into APEX! \o/
-- fix kernel DRM driver issue with YVU formats (upstream)
 - fix kernel wifi driver issue with ANQP/Hotspot 2.0 networks (upstream)
 - disable HDR
 - read model from device tree
