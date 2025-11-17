@@ -238,8 +238,8 @@ GEM
       jekyll-seo-tag (~> 2.1)
     minitest (5.26.1)
     mutex_m (0.3.0)
-    net-http (0.7.0)
-      uri
+    net-http (0.8.0)
+      uri (>= 0.11.1)
     nokogiri (1.17.2)
       mini_portile2 (~> 2.8.2)
       racc (~> 1.4)
