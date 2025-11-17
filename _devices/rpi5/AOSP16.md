@@ -1,9 +1,9 @@
 ---
 title: AOSP (Android 16)
 subtitle: for Raspberry Pi 5
-date: 2025-11-06
+date: 2025-11-17
 tags: [rpi5, AOSP]
-screenshot: /img/rpi5/AOSP16/Screenshot_20250617-074257.png
+screenshot: /img/rpi5/AOSP16/Screenshot_20251117-140026.png
 ---
 
 Here's my build of AOSP (Android 16) for Raspberry Pi 5, Pi 500, and Compute Module 5. It's for **advanced users** only.
@@ -14,13 +14,13 @@ Here's my build of AOSP (Android 16) for Raspberry Pi 5, Pi 500, and Compute Mod
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
-[**AOSP16-20251106-KonstaKANG-rpi5.zip**](https://app.filen.io/#/d/313eb018-bae4-49df-ad4b-a7b9d420d5df%2341656c594d6c57523067456242674a5a616c5f4b704f4c6c416f724e576a394a)  
-sha256:ba5716e320d0b85cdd86d19409cecd2d59a5d1e751b85a42363e123d7a823ff3
+[**AOSP16-20251117-KonstaKANG-rpi5.zip**](https://app.filen.io/#/d/91e96bed-0907-425b-8ced-583f65e8a5cc%235f494a31432d2d3435324d6d73574678304e53486776795541544a43656a5963)  
+sha256:06ba8da303d63ba7f24baf9d45a6432c20fa72e03a6085af630f718e284cd533
 
 <span style="color:#FF0000;">Note!</span> It's not possible to OTA update from builds older than 20250617. Clean installation is required!
 
-[**AOSP16-20251106-KonstaKANG-rpi5-ota.zip**](https://app.filen.io/#/d/a08c96ea-b513-47ed-a82a-0004b612f0fb%2333697155704679734a544567335839373072354a4c327a4e7755617479784447) (TWRP flashable OTA package)  
-sha256:1d4794e4dddd20c4b14f3308230cdd7cd3799d673f1e5515d55ea23419407a48
+[**AOSP16-20251117-KonstaKANG-rpi5-ota.zip**](https://app.filen.io/#/d/42eb8b34-b7ac-4c02-8d3f-8b56e7fe0148%2371313557676531367a51576d5f6f51594a414b652d61514f4d7476426e45646c) (TWRP flashable OTA package)  
+sha256:06ba8da303d63ba7f24baf9d45a6432c20fa72e03a6085af630f718e284cd533
 
 **Working:**
 
@@ -110,6 +110,9 @@ Q: My display is not working. I can only see the rainbow screen but no Android b
 Q: How to use the official 7" DSI touchscreen display?  
 *A: You can enable required configurations using a settings option found in Settings -> System -> Raspberry Pi settings -> Touchscreen. You need to disconnect any HDMI display when using the DSI display.*
 
+Q: How to use desktop mode on primary display?  
+*A: Enable Settings -> System -> Raspberry Pi settings -> Desktop mode and reboot the device.*
+
 Q: Is there any keyboard shortcuts for Android system functions?  
 *A: Following keyboard keys work as Android buttons: F1 = Home, F2 = Back, F3 = Multi-tasking, F4 = Menu, F5 = Power, F11 = Volume down, and F12 = Volume up.*
 
@@ -144,11 +147,6 @@ ssh -i my_private_key root@192.168.0.100
 ```
 
 *It's recommended to disable adb after this.*
-
-Q: How to use VNC?  
-*A: You can start/stop the built-in VNC server by using a settings option found in Settings -> System -> Raspberry Pi settings -> VNC.*
-
-*Default password for VNC is 'KonstaKANG'. You can change the password and create additional view-only password by using ```vncpasswd``` in rooted shell.*
 
 Q: How to boot from USB or NVME device?  
 *A:*
@@ -208,10 +206,21 @@ Q: How to install Google apps?
 3. Install GApps-16.0-arm64-xxxxxxxx.zip from your selected storage
 4. Wipe -> Factory reset!
 5. Boot out of recovery (see FAQ)
-6. [Register Google Services Framework Android ID](https://www.google.com/android/uncertified/) if/when prompted
+6. Settings -> Google -> Sign in
+7. [Register Google Services Framework Android ID](https://www.google.com/android/uncertified/) with the same Google account you've signed in
+8. Wait for a while and reboot the device until you've signed into your Google account successfully
 
 ----
 <!--block-->
+
+**17.11. changelog:**
+
+- update to latest AOSP release (Android 16 QPR1 - android-16.0.0_r3)
+- add option to enable desktop mode on primary display
+- add options to set GPS serial device and baud rate
+- remove built-in VNC server (no longer maintainable due to upstream changes)
+- update to Mesa 25.3.0
+- Android security patch level: 5 September 2025
 
 **6.11. changelog:**
 

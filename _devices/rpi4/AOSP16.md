@@ -1,9 +1,9 @@
 ---
 title: AOSP (Android 16)
 subtitle: for Raspberry Pi 4
-date: 2025-11-06
+date: 2025-11-17
 tags: [rpi4, AOSP]
-screenshot: /img/rpi4/AOSP16/Screenshot_20250617-080240.png
+screenshot: /img/rpi4/AOSP16/Screenshot_20251117-144604.png
 ---
 
 Here's my build of AOSP (Android 16) for Raspberry Pi 4 Model B, Pi 400, and Compute Module 4. It's for **advanced users** only. Pi 4 model with at least 2GB of RAM is required to run this build.
@@ -14,13 +14,13 @@ Here's my build of AOSP (Android 16) for Raspberry Pi 4 Model B, Pi 400, and Com
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
-[**AOSP16-20251106-KonstaKANG-rpi4.zip**](https://app.filen.io/#/d/b72046d6-4307-405a-9a7f-eb25e3b0c65f%23746f6a515f4a31594d68597171726d6a4936797947447a777955494d3571454b)  
-sha256:a4be3e1bd4d804e9f969c62e3ee0d13751e3bf615651a8cb9867cc9ff22c8c96
+[**AOSP16-20251117-KonstaKANG-rpi4.zip**](https://app.filen.io/#/d/d842c06e-1ded-4512-a1da-1c0a04849fd9%23346a5f4c484472644c716c6933484a6154386c625049677a7964417873624778)  
+sha256:f060e57ee78d22c13420fd889b38b2f07ea0641ee43ab962a31c3ef07bd6be27
 
 <span style="color:#FF0000;">Note!</span> It's not possible to OTA update from builds older than 20250617. Clean installation is required!
 
-[**AOSP16-20251106-KonstaKANG-rpi4-ota.zip**](https://app.filen.io/#/d/a5cf18f6-cf25-4301-9fab-0f00237d6ac4%2374586d44596b41696f53347358555275304678564b7a63355f6c4a6b3356724d) (TWRP flashable OTA package)  
-sha256:f1f28b65c527e66b3ab758196441583a96cc78028970e575fbf248df85130827
+[**AOSP16-20251117-KonstaKANG-rpi4-ota.zip**](https://app.filen.io/#/d/a5f4116c-cdc1-4f5a-9b21-fdbbf50a4143%2333414270765747416b53687244465f6c53735657304d444e34492d5037326243) (TWRP flashable OTA package)  
+sha256:d93a523c33f6de832385ff4ebf1d5e61db3835262382076b630964dd69b8295e
 
 **Working:**
 
@@ -109,6 +109,9 @@ Q: My display is not working. I can only see the rainbow screen but no Android b
 Q: How to use the official 7" DSI touchscreen display?  
 *A: You can enable required configurations using a settings option found in Settings -> System -> Raspberry Pi settings -> Touchscreen. You need to disconnect any HDMI display when using the DSI display.*
 
+Q: How to use desktop mode on primary display?  
+*A: Enable Settings -> System -> Raspberry Pi settings -> Desktop mode and reboot the device.*
+
 Q: Raspberry Pi doesn't have a power button. How to power off/reboot device?  
 *A: Following keyboard keys work as Android buttons: F1 = Home, F2 = Back, F3 = Multi-tasking, F4 = Menu, F5 = Power, F11 = Volume down, and F12 = Volume up. You can also use one of many third party reboot applications.*
 
@@ -155,11 +158,6 @@ ssh -i my_private_key root@192.168.0.100
 ```
 
 *It's recommended to disable adb after this.*
-
-Q: How to use VNC?  
-*A: You can start/stop the built-in VNC server by using a settings option found in Settings -> System -> Raspberry Pi settings -> VNC.*
-
-*Default password for VNC is 'KonstaKANG'. You can change the password and create additional view-only password by using ```vncpasswd``` in rooted shell.*
 
 Q: How to boot from USB device?  
 *A:*
@@ -220,10 +218,21 @@ Q: How to install Google apps?
 3. Install GApps-16.0-arm64-xxxxxxxx.zip from your selected storage
 4. Wipe -> Factory reset!
 5. Boot out of recovery (see FAQ)
-6. [Register Google Services Framework Android ID](https://www.google.com/android/uncertified/) if/when prompted
+6. Settings -> Google -> Sign in
+7. [Register Google Services Framework Android ID](https://www.google.com/android/uncertified/) with the same Google account you've signed in
+8. Wait for a while and reboot the device until you've signed into your Google account successfully
 
 ----
 <!--block-->
+
+**17.11. changelog:**
+
+- update to latest AOSP release (Android 16 QPR1 - android-16.0.0_r3)
+- add option to enable desktop mode on primary display
+- add options to set GPS serial device and baud rate
+- remove built-in VNC server (no longer maintainable due to upstream changes)
+- update to Mesa 25.3.0
+- Android security patch level: 5 September 2025
 
 **6.11. changelog:**
 
