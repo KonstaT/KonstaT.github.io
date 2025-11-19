@@ -14,6 +14,8 @@ Here's my build of LineageOS 22.2 Android TV for Raspberry Pi 5, Pi 500, and Com
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
+<span style="color:#FF0000;">Note!</span> This release is discontinued from development. Please use more recent Android releases instead.
+
 [**lineage-22.2-20250826-UNOFFICIAL-KonstaKANG-rpi5-atv.zip**](https://app.filen.io/#/d/f057df69-9468-4580-99b1-3e53d2633754%235669487873476270736e635f6c746d434e334f4d436b4351413876543043697a)  
 sha256:2e6c9309a54cc14303ad1bac6a581ca2d2b16b85864f0e56f09f5fc614889804
 
