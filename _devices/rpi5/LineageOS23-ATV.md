@@ -206,7 +206,7 @@ Q: How to install Magisk?
 Q: How to install Google apps?  
 *A:*
 
-1. Download [MindTheGapps-16.0.0-arm64-only-ATV-xxxxxxxx_xxxxxx.zip](https://app.filen.io/#/d/a023b3e0-27d7-425a-ab64-f2fc30e8af34%2339394e327a4d4d33536d7a7053685971314c795a36526d775f56674569574976) and save it to your device's internal storage or use an external USB drive
+1. Download [MindTheGapps-16.0.0-arm64-only-ATV-xxxxxxxx.zip](https://app.filen.io/#/d/b52500de-6851-422e-bc16-c317e0107cba%23356e79454e67526d587535547949376342636239637155413052527577715f76) and save it to your device's internal storage or use an external USB drive
 2. Boot to TWRP recovery (see FAQ)
 3. Install MindTheGapps-16.0.0-arm64-only-ATV-xxxxxxxx_xxxxxx.zip from your selected storage
 4. Wipe -> Factory reset!
