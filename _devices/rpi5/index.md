@@ -27,7 +27,7 @@ permalink: /devices/rpi5/
 
 #### Recovery:
 
-- [TWRP 3.7.0_11-2](/devices/rpi5/TWRP)
+- [TWRP 3.7.0_11-3](/devices/rpi5/TWRP)
 
 #### Downloads:
 
