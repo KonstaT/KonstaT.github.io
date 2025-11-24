@@ -1,7 +1,7 @@
 ---
-title: TWRP 3.7.0_11-2
+title: TWRP 3.7.0_11-3
 subtitle: for Raspberry Pi 4
-date: 2025-04-17
+date: 2025-11-24
 tags: [rpi4, TWRP]
 ---
 
@@ -12,6 +12,11 @@ This is my build of [Team Win Recovery Project](https://twrp.me) (TWRP) for Rasp
 - [twrp-raspberry](https://github.com/twrp-raspberry/android_local_manifest)
 
 ----
+
+**24.11. changelog:**
+
+- TWRP 3.7.0_11-3
+- add metadata partition
 
 **17.4. 2025 changelog:**
 

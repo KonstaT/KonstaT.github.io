@@ -1,9 +1,9 @@
 ---
 title: AOSP (Android 16)
 subtitle: for Raspberry Pi 5
-date: 2025-11-17
+date: 2025-11-24
 tags: [rpi5, AOSP]
-screenshot: /img/rpi5/AOSP16/Screenshot_20251117-140026.png
+screenshot: /img/rpi5/AOSP16/Screenshot_20251124-103012.png
 ---
 
 Here's my build of AOSP (Android 16) for Raspberry Pi 5, Pi 500, and Compute Module 5. It's for **advanced users** only.
@@ -14,13 +14,13 @@ Here's my build of AOSP (Android 16) for Raspberry Pi 5, Pi 500, and Compute Mod
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
-[**AOSP16-20251117-KonstaKANG-rpi5.zip**](https://app.filen.io/#/d/91e96bed-0907-425b-8ced-583f65e8a5cc%235f494a31432d2d3435324d6d73574678304e53486776795541544a43656a5963)  
-sha256:06ba8da303d63ba7f24baf9d45a6432c20fa72e03a6085af630f718e284cd533
+[**AOSP16-20251124-KonstaKANG-rpi5.zip**](https://app.filen.io/#/d/c0b8fe04-ad8d-4b83-8717-e23070012d8d%237955704b63315f395f336b3141576549726f436b44396b677a6f43716e324163)  
+sha256:45f9cee138ec9014487cc288ebffdaf68a0981be8afdc96968b1ad0193ee78ae
 
-<span style="color:#FF0000;">Note!</span> It's not possible to OTA update from builds older than 20250617. Clean installation is required!
+<span style="color:#FF0000;">Note!</span> It's not possible to OTA update from builds older than 20251124. Clean installation is required!
 
-[**AOSP16-20251117-KonstaKANG-rpi5-ota.zip**](https://app.filen.io/#/d/42eb8b34-b7ac-4c02-8d3f-8b56e7fe0148%2371313557676531367a51576d5f6f51594a414b652d61514f4d7476426e45646c) (TWRP flashable OTA package)  
-sha256:06ba8da303d63ba7f24baf9d45a6432c20fa72e03a6085af630f718e284cd533
+[**AOSP16-20251124-KonstaKANG-rpi5-ota.zip**](https://app.filen.io/#/d/966b6107-7662-41e9-ae6c-cf193fcf9b76%2345525a6468725433372d304852725934517a68343461366a67342d5950585651) (TWRP flashable OTA package)  
+sha256:b0354667f9e3c16077d0f4bb55061278fd1329185e6786e21c512a7174882319
 
 **Working:**
 
@@ -69,7 +69,7 @@ sha256:06ba8da303d63ba7f24baf9d45a6432c20fa72e03a6085af630f718e284cd533
 
 You can also update to newer builds using TWRP flashable OTA packages.
 
-<span style="color:#FF0000;">Note!</span> It's not possible to OTA update from builds older than 20250617. Clean installation is required!
+<span style="color:#FF0000;">Note!</span> It's not possible to OTA update from builds older than 20251124. Clean installation is required!
 
 1. Download AOSP16-xxxxxxxx-KonstaKANG-rpi5-ota.zip and save it to your device's internal storage or use an external USB drive
 2. Boot to TWRP recovery (see FAQ)
@@ -165,6 +165,8 @@ Q: How to boot to TWRP recovery?
 
 *If mouse cursor doesn't appear, try replugging your mouse.*
 
+*Booting to TWRP is not supported with DSI displays. HDMI display must be used when booting to recovery mode.*
+
 Q: How to boot out of TWRP recovery?  
 *A: You can boot out of recovery by simply selecting reboot to system option in TWRP.*
 
@@ -174,7 +176,7 @@ Q: My device keeps booting into TWRP recovery. What should I do?
 Q: Settings -> Storage shows total system size of 15.5 GB. There's unallocated space on my sdcard. What should I do?  
 *A: This is a 15.5 GB image, remaining space on your sdcard will remain unallocated.*
 
-1. Download [KonstaKANG-rpi-resize.zip](https://app.filen.io/#/d/359e14ab-fe03-4fa5-8382-d8bab79de308%23OcYCkizytCC8RXhUGHoeP1c3ejocPZDr) (sha256:851d67e03b5c290c3a223d0322f80fa1afba8ee4cb136938a743b1db7c95894e) and save it to your device's internal storage or use an external USB drive
+1. Download [KonstaKANG-rpi-resize.zip](https://app.filen.io/#/d/00b60e66-e76f-407d-8bcf-d2bdeb727a9f%235f4d384e744f3952755837347a737a2d48774f466f39377833536579674e664a) (sha256:6e84ccce8682db905668e337d51f986b76d58cfb91b57edd7fd118f4c52ade92) and save it to your device's internal storage or use an external USB drive
 2. Boot to TWRP recovery (see FAQ)
 3. Install KonstaKANG-rpi-resize.zip from your selected storage
 4. Boot out of recovery (see FAQ)
@@ -212,6 +214,14 @@ Q: How to install Google apps?
 
 ----
 <!--block-->
+
+**24.11. changelog:**
+
+- add metadata partition for new aconfig storage
+- add support for effects with the new audio HAL
+- update Raspberry Pi settings to Material 3 Expressive
+- update to TWRP 3.7.0_11-3-KonstaKANG
+- update to Linux 6.12.58 kernel and patch known vulnerabilities (CVE-xxxx-xxxx, and more)
 
 **17.11. changelog:**
 
