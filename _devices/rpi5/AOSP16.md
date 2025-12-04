@@ -1,12 +1,12 @@
 ---
 title: AOSP (Android 16)
 subtitle: for Raspberry Pi 5
-date: 2025-11-24
+date: 2025-12-04
 tags: [rpi5, AOSP]
 screenshot: /img/rpi5/AOSP16/Screenshot_20251124-103012.png
 ---
 
-Here's my build of AOSP (Android 16) for Raspberry Pi 5, Pi 500, and Compute Module 5. It's for **advanced users** only.
+Here's my build of AOSP (Android 16) for Raspberry Pi 5, Pi 500, and Compute Module 5. It's for **advanced users** only. Pi 5 model with at least 2GB of RAM is required to run this build.
 
 <span style="color:#FF0000;">Important!</span> Raspberry Pi hardware specific implementation in this build is based on source code released on my [Raspberry Vanilla](https://github.com/raspberry-vanilla) project but this build offers various additional features and enhancements. This image includes parts that are licensed under non-commercial license ([Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International](http://creativecommons.org/licenses/by-nc-sa/4.0/)). You may use this build freely in personal/educational/etc use. Commercial use is not allowed with this build! You can contact me by email to discuss creating customized Android builds for commercial purposes.
 
@@ -14,13 +14,13 @@ Here's my build of AOSP (Android 16) for Raspberry Pi 5, Pi 500, and Compute Mod
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
-[**AOSP16-20251124-KonstaKANG-rpi5.zip**](https://app.filen.io/#/d/c0b8fe04-ad8d-4b83-8717-e23070012d8d%237955704b63315f395f336b3141576549726f436b44396b677a6f43716e324163)  
-sha256:45f9cee138ec9014487cc288ebffdaf68a0981be8afdc96968b1ad0193ee78ae
+[**AOSP16-20251204-KonstaKANG-rpi5.zip**](https://app.filen.io/#/d/9dbe69eb-b571-4831-bd6f-1d3b688edb6a%237668307a74737a33484e4166726372527a36446b4330587053466b6369344d46)  
+sha256:23975bece15fd42fa79d6f8a375d32d171449b8b82013bcdcb0fca19b5ed4070
 
 <span style="color:#FF0000;">Note!</span> It's not possible to OTA update from builds older than 20251124. Clean installation is required!
 
-[**AOSP16-20251124-KonstaKANG-rpi5-ota.zip**](https://app.filen.io/#/d/966b6107-7662-41e9-ae6c-cf193fcf9b76%2345525a6468725433372d304852725934517a68343461366a67342d5950585651) (TWRP flashable OTA package)  
-sha256:b0354667f9e3c16077d0f4bb55061278fd1329185e6786e21c512a7174882319
+[**AOSP16-20251204-KonstaKANG-rpi5-ota.zip**](https://app.filen.io/#/d/fc323560-a5e9-43df-94fc-c76c916e09cc%23796671726c5175724168793178363762757434566c4c6a37784f507a54743453) (TWRP flashable OTA package)  
+sha256:467158361ba1c984571ec9289ed5f04c2670933c730253abc83284ccaccd5049
 
 **Working:**
 
@@ -214,6 +214,16 @@ Q: How to install Google apps?
 
 ----
 <!--block-->
+
+**4.12. changelog:**
+
+- update to latest AOSP release (Android 16 QPR2 - android-16.0.0_r4)
+- convert Mesa EGL to APEX
+- update to libcamera v0.6.0, libpisp v1.3.0
+- update to FFmpeg 8.0.1
+- update to Mesa 25.3.1
+- update to Linux 6.12.60 kernel and patch known vulnerabilities (CVE-xxxx-xxxx, and more)
+- Android security patch level: 5 December 2025
 
 **24.11. changelog:**
 

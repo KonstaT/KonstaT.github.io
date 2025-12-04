@@ -1,7 +1,7 @@
 ---
 title: AOSP (Android 16)
 subtitle: for Raspberry Pi 4
-date: 2025-11-24
+date: 2025-12-04
 tags: [rpi4, AOSP]
 screenshot: /img/rpi4/AOSP16/Screenshot_20251124-103744.png
 ---
@@ -14,13 +14,13 @@ Here's my build of AOSP (Android 16) for Raspberry Pi 4 Model B, Pi 400, and Com
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
-[**AOSP16-20251124-KonstaKANG-rpi4.zip**](https://app.filen.io/#/d/19cfa36a-d7f4-455c-9c31-73c9ed54a2c5%2373735744763361775a6d5253695972567969366b6451664a4b51534430652d6d)  
-sha256:3a172ab961a282ca023411bae5508b20a86607ed0c885068bbb1c9a9d814f210
+[**AOSP16-20251204-KonstaKANG-rpi4.zip**](https://app.filen.io/#/d/ca25f6af-822b-4966-a42a-77a2efe9be70%236835753859306d394f33524545655737654631447247505f67673132684a5a2d)  
+sha256:e497379ac27757dfbbb6dcb9a89004a92f0f412e595e88b12c707c6ea7f7c096
 
 <span style="color:#FF0000;">Note!</span> It's not possible to OTA update from builds older than 20251124. Clean installation is required!
 
-[**AOSP16-20251124-KonstaKANG-rpi4-ota.zip**](https://app.filen.io/#/d/fd3044cf-0998-4044-91a9-1caa8529aacb%23626e634a5676644b466a555f69477477726f61393272776f4332695272436e63) (TWRP flashable OTA package)  
-sha256:95852d3ae4d993001a45e43050bfea6d3165df24e559652790611c4b25df66e9
+[**AOSP16-20251204-KonstaKANG-rpi4-ota.zip**](https://app.filen.io/#/d/956942f0-47b7-475f-b655-15a11ee0cc1d%236935386f744738736f646b4b706e70586162466755676330616a39775f785165) (TWRP flashable OTA package)  
+sha256:e63b57bd9851d33accfdbffbb4a95547c327d359bcd42cfe09b417a5b0803c03
 
 **Working:**
 
@@ -226,6 +226,16 @@ Q: How to install Google apps?
 
 ----
 <!--block-->
+
+**4.12. changelog:**
+
+- update to latest AOSP release (Android 16 QPR2 - android-16.0.0_r4)
+- convert Mesa EGL to APEX
+- update to libcamera v0.6.0, libpisp v1.3.0
+- update to FFmpeg 8.0.1
+- update to Mesa 25.3.1
+- update to Linux 6.12.60 kernel and patch known vulnerabilities (CVE-xxxx-xxxx, and more)
+- Android security patch level: 5 December 2025
 
 **24.11. changelog:**
 
