@@ -107,8 +107,8 @@ Q: How to enable root access?
 Q: My display is not working. I can only see the rainbow screen but no Android boot animation. What should I do?  
 *A: This build only supports HDMI displays that report supported resolutions using EDID. 1920x1080 resolution is used by default with this build. You can change value in /boot/resolution.txt to use a different resolution that your display supports. Removing /boot/resolution.txt will use the preferred resolution of your display.*
 
-Q: How to use the official 7" DSI touchscreen display?  
-*A: You can enable required configurations using a settings option found in Settings -> System -> Raspberry Pi settings -> Touchscreen. You need to disconnect any HDMI display when using the DSI display.*
+Q: How to use DSI touchscreen displays?  
+*A: You can enable required configurations using a settings option found in Settings -> System -> Raspberry Pi settings -> DSI display. You need to disconnect any HDMI display when using the DSI display.*
 
 Q: How to use desktop mode on primary display?  
 *A: Enable Settings -> System -> Raspberry Pi settings -> Desktop mode and reboot the device.*

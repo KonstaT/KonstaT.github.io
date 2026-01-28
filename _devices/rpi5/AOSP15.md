@@ -6,7 +6,7 @@ tags: [rpi5, AOSP]
 screenshot: /img/rpi5/AOSP15/Screenshot_20240904-111229.png
 ---
 
-Here's my build of AOSP (Android 15) for Raspberry Pi 5, Pi 500, and Compute Module 5. It's for **advanced users** only.
+Here's my build of AOSP (Android 15) for Raspberry Pi 5, Pi 500, and Compute Module 5. It's for **advanced users** only. Pi 5 model with at least 2GB of RAM is required to run this build.
 
 <span style="color:#FF0000;">Important!</span> Raspberry Pi hardware specific implementation in this build is based on source code released on my [Raspberry Vanilla](https://github.com/raspberry-vanilla) project but this build offers various additional features and enhancements. This image includes parts that are licensed under non-commercial license ([Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International](http://creativecommons.org/licenses/by-nc-sa/4.0/)). You may use this build freely in personal/educational/etc use. Commercial use is not allowed with this build! You can contact me by email to discuss creating customized Android builds for commercial purposes.
 

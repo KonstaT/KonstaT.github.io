@@ -1,12 +1,12 @@
 ---
-title: LineageOS 23.0 Android TV (Android 16)
+title: LineageOS 23.2 Android TV (Android 16)
 subtitle: for Raspberry Pi 4
-date: 2025-11-11
+date: 2026-01-28
 tags: [rpi4, LineageOS, LOS23, AndroidTV]
-screenshot: /img/rpi4/LineageOS23/Screenshot_20251014-120000_Settings.png
+screenshot: /img/rpi4/LineageOS23/Screenshot_20260128-120000_Settings.png
 ---
 
-Here's my build of LineageOS 23.0 Android TV for Raspberry Pi 4 Model B, Pi 400, and Compute Module 4. It is unofficial and unsupported by the LineageOS team. It's for **advanced users** only. Pi 4 model with at least 2GB of RAM is required to run this build.
+Here's my build of LineageOS 23.2 Android TV for Raspberry Pi 4 Model B, Pi 400, and Compute Module 4. It is unofficial and unsupported by the LineageOS team. It's for **advanced users** only. Pi 4 model with at least 2GB of RAM is required to run this build.
 
 <span style="color:#FF0000;">Important!</span> Raspberry Pi hardware specific implementation in this build is based on source code released on my [Raspberry Vanilla](https://github.com/raspberry-vanilla) project but this build offers various additional features and enhancements. This image includes parts that are licensed under non-commercial license ([Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International](http://creativecommons.org/licenses/by-nc-sa/4.0/)). You may use this build freely in personal/educational/etc use. Commercial use is not allowed with this build! You can contact me by email to discuss creating customized Android builds for commercial purposes.
 
@@ -14,13 +14,13 @@ Here's my build of LineageOS 23.0 Android TV for Raspberry Pi 4 Model B, Pi 400,
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
-[**lineage-23.0-20251111-UNOFFICIAL-KonstaKANG-rpi4-atv.zip**](https://app.filen.io/#/d/89eece6f-7076-42ca-b13f-704c0e75d6d3%23694e716434636a755a41534f3843553856493963535964573670515846415437)  
-sha256:4619c7e43603dc5d07ec161fa72f1274de72841ae08931e98ad5d4fb98ee4478
+[**lineage-23.2-20260128-UNOFFICIAL-KonstaKANG-rpi4-atv.zip**](https://app.filen.io/#/d/19bfecc9-e980-46ec-8de0-5ca34beff8f9%23675368566f7a395241614753653856623743496b716f673635556b5669746c4d)  
+sha256:de124390652ee622ab105b43aa080276dcc7beee8d14895ea9c6c64066fbb386
 
-<span style="color:#FF0000;">Note!</span> It's not possible to OTA update from builds older than 20250417. Clean installation is required!
+<span style="color:#FF0000;">Note!</span> It's not possible to OTA update from builds older than 20260128. Clean installation is required!
 
-[**lineage-23.0-20251111-UNOFFICIAL-KonstaKANG-rpi4-atv-ota.zip**](https://app.filen.io/#/d/d2534a2c-afbd-4f94-83dd-d359e2c5a118%236e304571324531522d546f5252363056574e415839764d42556e677a3148716e) (TWRP flashable OTA package)  
-sha256:65d60b02f660637cccd6b0929881b89ceeafc001af7f937e45709e004c0c9c37
+[**lineage-23.2-20260128-UNOFFICIAL-KonstaKANG-rpi4-atv-ota.zip**](https://app.filen.io/#/d/3830237e-744f-40b5-b663-94ce9236dd6b%23354669624177726b5674585230744b585247537a476a414f774a3248666e6659) (TWRP flashable OTA package)  
+sha256:4f15a7ff40d144fb12b6b32a9a7ace1628add2d64f693f584e5116b41f7f0624
 
 **Working:**
 
@@ -68,11 +68,11 @@ sha256:65d60b02f660637cccd6b0929881b89ceeafc001af7f937e45709e004c0c9c37
 
 You can also update to newer builds using TWRP flashable OTA packages. OTA updates pushed through the built-in Updater app are stored at /data/lineageos_updates/.
 
-<span style="color:#FF0000;">Note!</span> It's not possible to OTA update from builds older than 20250417. Clean installation is required!
+<span style="color:#FF0000;">Note!</span> It's not possible to OTA update from builds older than 20260128. Clean installation is required!
 
-1. Download lineage-23.0-xxxxxxxx-UNOFFICIAL-KonstaKANG-rpi4-atv-ota.zip and save it to your device's internal storage or use an external USB drive
+1. Download lineage-23.2-xxxxxxxx-UNOFFICIAL-KonstaKANG-rpi4-atv-ota.zip and save it to your device's internal storage or use an external USB drive
 2. Boot to TWRP recovery (see FAQ)
-3. Install lineage-23.0-xxxxxxxx-UNOFFICIAL-KonstaKANG-rpi4-atv-ota.zip from your selected storage
+3. Install lineage-23.2-xxxxxxxx-UNOFFICIAL-KonstaKANG-rpi4-atv-ota.zip from your selected storage
 4. (Flash Magisk/other add-ons you had previously installed)
 5. Boot out of recovery (see FAQ)
 
@@ -104,7 +104,7 @@ Q: How to enable developer options?
 *A: Settings -> System -> About -> Click 'Build number' several times.*
 
 Q: How to enable root access?  
-*A: LineageOS no longer has built-in root management for applications. You can have root access via ADB after enabling Settings -> System -> Developer options -> Rooted debugging, SSH (see FAQ below), or serial console. It is also possible to install Magisk following instructions later in the FAQ.*
+*A: LineageOS no longer has built-in root management for applications. You can have root access via ADB after enabling Settings -> System -> Developer options -> Rooted debugging or serial console. It is also possible to install Magisk following instructions later in the FAQ.*
 
 Q: My display is not working. I can only see the rainbow screen but no Android boot animation. What should I do?  
 *A: This build only supports HDMI displays that report supported resolutions using EDID. 1920x1080 resolution is used by default with this build. You can change value in /boot/resolution.txt to use a different resolution that your display supports. Removing /boot/resolution.txt will use the preferred resolution of your display.*
@@ -141,29 +141,6 @@ Q: How to use RTC?
 hwclock -w -f /dev/rtc0
 ```
 
-Q: How to use SSH?  
-*A: You can start/stop the built-in SSH server by using a settings option found in Settings -> System -> Raspberry Pi settings -> SSH.*
-
-*Android doesn't have user accounts with passwords so key based authentication is used with SSH instead. Necessary keys are generated on the first boot and you need to pull the private key to your computer (or alternatively you can push your own previously generated keys to the device). See Settings -> System -> About -> Status -> IP address for your device's IP address (192.168.0.100 is assumed here). Enable Android debugging & Rooted debugging under Settings -> System -> Developer options.*
-
-```
-adb connect 192.168.0.100
-adb root
-adb pull /data/ssh/ssh_host_ed25519_key my_private_key
-```
-
-```
-chmod 600 my_private_key
-ssh -i my_private_key root@192.168.0.100
-```
-
-*It's recommended to disable adb after this.*
-
-Q: How to use VNC?  
-*A: You can start/stop the built-in VNC server by using a settings option found in Settings -> System -> Raspberry Pi settings -> VNC.*
-
-*Default password for VNC is 'KonstaKANG'. You can change the password and create additional view-only password by using ```vncpasswd``` in rooted shell.*
-
 Q: How to boot from USB device?  
 *A:*
 
@@ -182,6 +159,8 @@ Q: How to boot to TWRP recovery?
 
 *If mouse cursor doesn't appear, try replugging your mouse.*
 
+*Booting to TWRP is not supported with DSI displays. HDMI display must be used when booting to recovery mode.*
+
 Q: How to boot out of TWRP recovery?  
 *A: You can boot out of recovery by simply selecting reboot to system option in TWRP.*
 
@@ -191,7 +170,7 @@ Q: My device keeps booting into TWRP recovery. What should I do?
 Q: Settings -> Storage shows total system size of 15.5 GB. There's unallocated space on my sdcard. What should I do?  
 *A: This is a 15.5 GB image, remaining space on your sdcard will remain unallocated.*
 
-1. Download [KonstaKANG-rpi-resize.zip](https://app.filen.io/#/d/359e14ab-fe03-4fa5-8382-d8bab79de308%23OcYCkizytCC8RXhUGHoeP1c3ejocPZDr) (sha256:851d67e03b5c290c3a223d0322f80fa1afba8ee4cb136938a743b1db7c95894e) and save it to your device's internal storage or use an external USB drive
+1. Download [KonstaKANG-rpi-resize.zip](https://app.filen.io/#/d/00b60e66-e76f-407d-8bcf-d2bdeb727a9f%235f4d384e744f3952755837347a737a2d48774f466f39377833536579674e664a) (sha256:6e84ccce8682db905668e337d51f986b76d58cfb91b57edd7fd118f4c52ade92) and save it to your device's internal storage or use an external USB drive
 2. Boot to TWRP recovery (see FAQ)
 3. Install KonstaKANG-rpi-resize.zip from your selected storage
 4. Boot out of recovery (see FAQ)
@@ -218,7 +197,7 @@ Q: How to install Magisk?
 Q: How to install Google apps?  
 *A:*
 
-1. Download [MindTheGapps-16.0.0-arm64-only-ATV-xxxxxxxx.zip](https://app.filen.io/#/d/b52500de-6851-422e-bc16-c317e0107cba%23356e79454e67526d587535547949376342636239637155413052527577715f76) and save it to your device's internal storage or use an external USB drive
+1. Download [MindTheGapps-16.0.0-arm64-only-ATV-20260126.zip](https://app.filen.io/#/d/d911df1b-170f-439b-bb67-d7ca5ad078e9%23714b737a6674417971434b4b44744e616e5f68557545454b714d4b6c76777a36) (sha256:8491c427c956bc3c38734dd5c05d00ecbaeece432ecf5dd3bc413b0ab027ea7d) and save it to your device's internal storage or use an external USB drive
 2. Boot to TWRP recovery (see FAQ)
 3. Install MindTheGapps-16.0.0-arm64-only-ATV-xxxxxxxx_xxxxxx.zip from your selected storage
 4. Wipe -> Factory reset!
@@ -227,7 +206,24 @@ Q: How to install Google apps?
 ----
 <!--block-->
 
-[Merged commits](https://review.lineageos.org/#/q/status:merged+branch:lineage-23.0+-project:%255E.*device.*+-project:%255E.*kernel.*) not mentioned in the changelog.
+[Merged commits](https://review.lineageos.org/#/q/status:merged+branch:lineage-23.2+-project:%255E.*device.*+-project:%255E.*kernel.*) not mentioned in the changelog.
+
+**28.1. 2026 changelog:**
+
+- LineageOS 23.2 (Android 16 QPR2)
+- add options to set GPS serial device and baud rate
+- remove built-in VNC server (no longer maintainable due to upstream changes)
+- add support for effects with the new audio HAL
+- add metadata partition for new aconfig storage
+- update Raspberry Pi settings theme to Material 3 Expressive
+- convert Mesa EGL to APEX
+- update to TWRP 3.7.0_11-3-KonstaKANG
+- update to libcamera v0.6.0, libpisp v1.3.0
+- update to FFmpeg 8.0.1
+- update to alsa-lib v1.2.15.3, alsa-utils v1.2.15.2
+- update to Mesa 25.3.4
+- update to Linux 6.12.67 kernel and patch known vulnerabilities (CVE-xxxx-xxxx, and more)
+- Android security patch level: 1 January 2026
 
 **11.11. changelog:**
 
