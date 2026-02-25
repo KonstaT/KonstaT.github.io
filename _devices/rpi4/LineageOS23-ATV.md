@@ -186,12 +186,12 @@ Q: How to install Widevine L3?
 Q: How to install Magisk?  
 *A:*
 
-1. Download [KonstaKANG-rpi-magisk-v30.6.zip](https://app.filen.io/#/d/683fb7f9-0372-49cb-b4ff-2b0eb14ed008%23695a714d56645166523836765870744f59694e716f64474344387a4c37445948) (sha256:67e49ef52867a7b714bf0f09663d192696d5682cb78d899180d24b0ab7e27161) and save it to your device's internal storage or use an external USB drive
-2. Download [Magisk-v30.6.apk](https://github.com/topjohnwu/Magisk/releases/tag/v30.6)
+1. Download [KonstaKANG-rpi-magisk-v30.7.zip](https://app.filen.io/#/d/1ede1dd2-73c7-4bf3-a272-d2d2d1114af9%23696e55746c536d50336632745048412d57464c3646374442503955376e5a554e) (sha256:8f7dfab3653107cc76b5ff050f01acb04d939e059d86535f82cc305635b031fc) and save it to your device's internal storage or use an external USB drive
+2. Download [Magisk-v30.7.apk](https://github.com/topjohnwu/Magisk/releases/tag/v30.7)
 3. Boot to TWRP recovery (see FAQ)
-4. Install KonstaKANG-rpi-magisk-v30.6.zip from your selected storage
+4. Install KonstaKANG-rpi-magisk-v30.7.zip from your selected storage
 5. Boot out of recovery (see FAQ)
-6. Install Magisk-v30.6.apk using Android's built-in file manager/```adb install```/etc.
+6. Install Magisk-v30.7.apk using Android's built-in file manager/```adb install```/etc.
 7. Ignore suggestions to reinstall Magisk within the app and/or warning about the installation method
 
 Q: How to install Google apps?  
