@@ -1,7 +1,7 @@
 ---
 title: AOSP (Android 16)
 subtitle: for Raspberry Pi 4
-date: 2025-12-04
+date: 2026-04-28
 tags: [rpi4, AOSP]
 screenshot: /img/rpi4/AOSP16/Screenshot_20251124-103744.png
 ---
@@ -14,13 +14,16 @@ Here's my build of AOSP (Android 16) for Raspberry Pi 4 Model B, Pi 400, and Com
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
-[**AOSP16-20251204-KonstaKANG-rpi4.zip**](https://app.filen.io/#/d/ca25f6af-822b-4966-a42a-77a2efe9be70%236835753859306d394f33524545655737654631447247505f67673132684a5a2d)  
-sha256:e497379ac27757dfbbb6dcb9a89004a92f0f412e595e88b12c707c6ea7f7c096
+[**AOSP16-20260428-KonstaKANG-rpi4.zip**](https://app.filen.io/#/d/e2050aa5-6829-43f6-b3ef-eb29f8c3cc81%233162574a533143653556324b325039564630314149735755396467586335566a)  
+sha256:936882f768e25de2d1ff925e71c942682c42d2dfe2c4f33bfd307eff95979576
 
 <span style="color:#FF0000;">Note!</span> It's not possible to OTA update from builds older than 20251124. Clean installation is required!
 
-[**AOSP16-20251204-KonstaKANG-rpi4-ota.zip**](https://app.filen.io/#/d/956942f0-47b7-475f-b655-15a11ee0cc1d%236935386f744738736f646b4b706e70586162466755676330616a39775f785165) (TWRP flashable OTA package)  
-sha256:e63b57bd9851d33accfdbffbb4a95547c327d359bcd42cfe09b417a5b0803c03
+[**AOSP16-20260428-KonstaKANG-rpi4-ota.zip**](https://app.filen.io/#/d/ba390352-bd96-4f29-8c2e-9238ac9a416a%235670576430444c654f49362d41783545474a6f4948436a455a47506571544853) (TWRP flashable OTA package)  
+sha256:d2413632ee396eaa509ef4daa15bc8535e4554616e95db2f8abef01e7ca3ecd4
+
+[**AOSP16-20260428-KonstaKANG-rpi4-6.12-kernel.zip**](https://app.filen.io/#/d/ee917d71-20ab-4870-9303-fe91da5b220c%234c43473448783246574a37374861344b2d2d6f75556a64342d47464d65786750) (optional add-on)  
+sha256:61e2ead2c061c0f4075ce4c1dfe2863eedde3d72ce472a5bf31441d27d137698
 
 **Working:**
 
@@ -226,6 +229,21 @@ Q: How to install Google apps?
 
 ----
 <!--block-->
+
+**28.4. 2026 changelog:**
+
+- enable ethernet settings
+- fix built-in SSH server
+- update to FFMpeg 8.1
+- update to libcamera v0.7.0
+- update to alsa-lib v1.2.15.3, alsa-utils v1.2.15.2
+- update to TWRP 3.7.0_11-4-KonstaKANG
+- update to Mesa 26.0.5
+- update to Linux 6.12.77 kernel and patch known vulnerabilities (CVE-xxxx-xxxx, and more)
+
+Linux 6.18 kernel: (optional add-on)
+- new Raspberry Pi Android kernel bring-up based on AOSP android17-6.18
+- update to Linux 6.18.21 kernel and patch known vulnerabilities (CVE-xxxx-xxxx, and more)
 
 **4.12. changelog:**
 

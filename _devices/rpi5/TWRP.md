@@ -1,7 +1,7 @@
 ---
 title: TWRP 3.7.0_11-3
 subtitle: for Raspberry Pi 5
-date: 2025-11-24
+date: 2026-04-28
 tags: [rpi5, TWRP]
 ---
 
@@ -12,6 +12,11 @@ This is my build of [Team Win Recovery Project](https://twrp.me) (TWRP) for Rasp
 - [twrp-raspberry](https://github.com/twrp-raspberry/android_local_manifest)
 
 ----
+
+**28.4. 2026 changelog:**
+
+- TWRP 3.7.0_11-4
+- enable more language support
 
 **24.11. changelog:**
 
