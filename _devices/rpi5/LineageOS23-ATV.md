@@ -1,7 +1,7 @@
 ---
 title: LineageOS 23.2 Android TV (Android 16)
 subtitle: for Raspberry Pi 5
-date: 2026-01-28
+date: 2026-05-20
 tags: [rpi5, LineageOS, LOS23, AndroidTV]
 screenshot: /img/rpi5/LineageOS23/Screenshot_20260128-120000_Settings.png
 ---
@@ -14,13 +14,13 @@ Here's my build of LineageOS 23.2 Android TV for Raspberry Pi 5, Pi 500, and Com
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
-[**lineage-23.2-20260128-UNOFFICIAL-KonstaKANG-rpi5-atv.zip**](https://app.filen.io/#/d/304669f6-f5d4-4ce1-ace5-4f6dcf0f5438%23344670313067474856587768667232634c594c347250596968424b5373734f45)  
-sha256:4d7fc46d49b90527ef4f36a05c59d991538046066d79def7beb960a76677c398
+[**lineage-23.2-20260520-UNOFFICIAL-KonstaKANG-rpi5-atv.zip**](https://app.filen.io/#/d/dd64d9de-06e3-4319-b6da-994e929fb375%2333734858746865626a2d3038375250534c744f436973616f5f306b396a4f4158)  
+sha256:cbe7d7231a664decf234420dd8fd664bec75681331250f82196e77bd0d1f6056
 
 <span style="color:#FF0000;">Note!</span> It's not possible to OTA update from builds older than 20260128. Clean installation is required!
 
-[**lineage-23.2-20260128-UNOFFICIAL-KonstaKANG-rpi5-atv-ota.zip**](https://app.filen.io/#/d/c709cef8-de41-4c69-87e1-d8484ef15843%23776d454d5275546771586146644f5244636e506c6c786d4a4a31367247774b4e) (TWRP flashable OTA package)  
-sha256:76b6c1d62f443bc45d5ac05992f4c516789c9570048d8e4191a8ca9007f6974b
+[**lineage-23.2-20260520-UNOFFICIAL-KonstaKANG-rpi5-atv-ota.zip**](https://app.filen.io/#/d/5832e11c-5bcb-439b-8ae6-9112410aa700%234c377a55737833555a38384165326d675930394c793059316f5635506e506667) (TWRP flashable OTA package)  
+sha256:0eaba928c4f1295ea78424ccc30f6392e4389871b965f30dbf7ddd49716e4f13
 
 **Working:**
 
@@ -105,7 +105,7 @@ Q: How to enable developer options?
 *A: Settings -> System -> About -> Click 'Build number' several times.*
 
 Q: How to enable root access?  
-*A: LineageOS no longer has built-in root management for applications. You can have root access via ADB after enabling Settings -> System -> Developer options -> Rooted debugging or serial console. It is also possible to install Magisk following instructions later in the FAQ.*
+*A: LineageOS no longer has built-in root management for applications. You can have root access via ADB after enabling Settings -> System -> Developer options -> Rooted debugging, SSH (see FAQ below), or serial console. It is also possible to install Magisk following instructions later in the FAQ.*
 
 Q: My display is not working. I can only see the rainbow screen but no Android boot animation. What should I do?  
 *A: This build only supports HDMI displays that report supported resolutions using EDID. 1920x1080 resolution is used by default with this build. You can change value in /boot/resolution.txt to use a different resolution that your display supports. Removing /boot/resolution.txt will use the preferred resolution of your display.*
@@ -129,6 +129,24 @@ Q: How to use IR remote?
 *A: You can enable the feature by using a settings option found in Settings -> System -> Raspberry Pi settings -> Infrared remote.*
 
 *You can place a keymap for your remote as /boot/rc_keymap.txt to be automatically loaded on boot. See [available keymaps](https://github.com/lineage-rpi/android_external_ir-keytable/tree/lineage-18.1/rc_keymaps) for reference. You can use ```ir-keytable -p all -t``` in rooted shell to figure out the keycodes for the remote you're using.*
+
+Q: How to use SSH?  
+*A: You can start/stop the built-in SSH server by using a settings option found in Settings -> System -> Raspberry Pi settings -> SSH.*
+
+*Android doesn't have user accounts with passwords so key based authentication is used with SSH instead. Necessary keys are generated on the first boot and you need to pull the private key to your computer (or alternatively you can push your own previously generated keys to the device). See Settings -> About tablet -> IP address for your device's IP address (192.168.0.100 is assumed here). Enable Settings -> System -> Raspberry Pi settings -> ADB.*
+
+```
+adb connect 192.168.0.100
+adb root
+adb pull /data/ssh/ssh_host_ed25519_key my_private_key
+```
+
+```
+chmod 600 my_private_key
+ssh -i my_private_key root@192.168.0.100
+```
+
+*It's recommended to disable adb after this.*
 
 Q: How to boot from USB or NVME device?  
 *A:*
@@ -195,6 +213,17 @@ Q: How to install Google apps?
 <!--block-->
 
 [Merged commits](https://review.lineageos.org/#/q/status:merged+branch:lineage-23.2+-project:%255E.*device.*+-project:%255E.*kernel.*) not mentioned in the changelog.
+
+**20.5. changelog:**
+
+- fix physical keyboard function keys
+- fix built-in SSH server
+- update to FFMpeg 8.1.1
+- update to libcamera v0.7.1
+- update to TWRP 3.7.0_11-4-KonstaKANG
+- update to Mesa 26.1.1
+- update to Linux 6.12.85 kernel and patch known vulnerabilities (CVE-xxxx-xxxx, and more)
+- Android security patch level: 1 May 2026
 
 **28.1. 2026 changelog:**
 
