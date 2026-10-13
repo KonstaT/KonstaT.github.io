@@ -14,14 +14,14 @@ Here's my build of LineageOS 22.2 for Raspberry Pi 4 Model B, Pi 400, and Comput
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
-<span style="color:#FF0000;">Note!</span> This release is discontinued from development. Please use more recent Android releases instead.
+<span style="color:#FF0000;">Note!</span> This release is discontinued from development, seriously outdated, and no longer available. Please use more recent Android releases instead.
 
-[**lineage-22.2-20250826-UNOFFICIAL-KonstaKANG-rpi4.zip**](https://app.filen.io/#/d/b90e453a-427c-4475-88e8-a640920ea432%23763337425175594b33485a75726b7175457375704e432d5a745274384c6d7058)  
+**lineage-22.2-20250826-UNOFFICIAL-KonstaKANG-rpi4.zip**  
 sha256:852024c2ac3772f8bd194be67bd0087f1d2c78151d6384caa389dee24b06c88c
 
 <span style="color:#FF0000;">Note!</span> It's not possible to OTA update from builds older than 20250417. Clean installation is required!
 
-[**lineage-22.2-20250826-UNOFFICIAL-KonstaKANG-rpi4-ota.zip**](https://app.filen.io/#/d/61846b15-7c9f-4398-a6a0-76b385006aeb%2371747741307877317151464f57685241344a656374696b386332732d52646358) (TWRP flashable OTA package)  
+**lineage-22.2-20250826-UNOFFICIAL-KonstaKANG-rpi4-ota.zip** (TWRP flashable OTA package)  
 sha256:0a76b60d88e2c83189dca8325055524af7cc71e9dec19c4060d738ca4729a100
 
 **Working:**

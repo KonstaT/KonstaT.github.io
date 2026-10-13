@@ -215,7 +215,7 @@ Q: How to install Google apps?
 ----
 <!--block-->
 
-**30.6. changelog:**
+**2.7. changelog:**
 
 - initial release (android-17.0.0_r1)
 - Mesa 26.1.4

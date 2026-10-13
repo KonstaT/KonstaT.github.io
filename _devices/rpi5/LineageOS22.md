@@ -14,14 +14,14 @@ Here's my build of LineageOS 22.2 for Raspberry Pi 5, Pi 500, and Compute Module
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
-<span style="color:#FF0000;">Note!</span> This release is discontinued from development. Please use more recent Android releases instead.
+<span style="color:#FF0000;">Note!</span> This release is discontinued from development, seriously outdated, and no longer available. Please use more recent Android releases instead.
 
-[**lineage-22.2-20250826-UNOFFICIAL-KonstaKANG-rpi5.zip**](https://app.filen.io/#/d/5d5d6590-b571-4fc0-a17a-78b37307b1a2%2376686d5158486b4f696c723331376b445a3575556b3056436171596b746b4b6d)  
+**lineage-22.2-20250826-UNOFFICIAL-KonstaKANG-rpi5.zip**  
 sha256:dfe94d944b21aee5fba1c8bda744df13e02df7c837bd647be55d0c759ded8ffc
 
 <span style="color:#FF0000;">Note!</span> It's not possible to OTA update from builds older than 20250417. Clean installation is required!
 
-[**lineage-22.2-20250826-UNOFFICIAL-KonstaKANG-rpi5-ota.zip**](https://app.filen.io/#/d/ad4d24a2-55fb-4871-b9c0-1767f7729f70%23684b794c344c78386130724447706d2d2d49666d474535433632362d3248742d) (TWRP flashable OTA package)  
+**lineage-22.2-20250826-UNOFFICIAL-KonstaKANG-rpi5-ota.zip** (TWRP flashable OTA package)  
 sha256:b55c97cd9f5f5a882cfcfba9ec1e3afb70731a1455b0ecdf4d17230982db8217
 
 **Working:**

@@ -14,14 +14,14 @@ Here's my build of LineageOS 22.2 Android TV for Raspberry Pi 4 Model B, Pi 400,
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
-<span style="color:#FF0000;">Note!</span> This release is discontinued from development. Please use more recent Android releases instead.
+<span style="color:#FF0000;">Note!</span> This release is discontinued from development, seriously outdated, and no longer available. Please use more recent Android releases instead.
 
-[**lineage-22.2-20250826-UNOFFICIAL-KonstaKANG-rpi4-atv.zip**](https://app.filen.io/#/d/746c616c-aad5-476b-af1c-20691d736239%2334484732765f49455853733750657a4c7947515079724e4e6f7567346159546b)  
+**lineage-22.2-20250826-UNOFFICIAL-KonstaKANG-rpi4-atv.zip**  
 sha256:2ce1ecd71105fe65a7f22e56eaa865c1f0ca930511d9a8181189e4f479cbeec9
 
 <span style="color:#FF0000;">Note!</span> It's not possible to OTA update from builds older than 20250417. Clean installation is required!
 
-[**lineage-22.2-20250826-UNOFFICIAL-KonstaKANG-rpi4-atv-ota.zip**](https://app.filen.io/#/d/63ae4ccc-255f-4e5e-8b07-661e5664e6c3%2351324f6e5876713861584632514b5f4135646456794b374c37466c6463707a5f) (TWRP flashable OTA package)  
+**lineage-22.2-20250826-UNOFFICIAL-KonstaKANG-rpi4-atv-ota.zip** (TWRP flashable OTA package)  
 sha256:d6c54dd6abed1d753ef0b9ab040e2550c72b6a5abf1623f16fb43643d922cbf8
 
 **Working:**

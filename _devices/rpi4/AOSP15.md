@@ -14,15 +14,15 @@ Here's my build of AOSP (Android 15) for Raspberry Pi 4 Model B, Pi 400, and Com
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
-<span style="color:#FF0000;">Note!</span> This release is discontinued from development. Please use more recent Android releases instead.
+<span style="color:#FF0000;">Note!</span> This release is discontinued from development, seriously outdated, and no longer available. Please use more recent Android releases instead.
 
-[**AOSP15-20250306-KonstaKANG-rpi4.zip**](https://app.filen.io/#/d/5301a938-01cb-469e-aaf8-36a4eea378ff%23LgIij9eZ3NcTBpJ05AnYDG1L2TsHufnr)  
+**AOSP15-20250306-KonstaKANG-rpi4.zip**  
 sha256:f29f1e5820dd65b7dfb8e9ccb1612f78efaf0d691af27530346ba732f3b94797
 
-[**AOSP15-20250306-KonstaKANG-rpi4-ota.zip**](https://app.filen.io/#/d/c8c51895-356f-4bb4-bd75-3b04bae5bf6a%23uWjoPEwhethesIrwpGzDsCmCMAaGU0mH) (TWRP flashable OTA package)  
+**AOSP15-20250306-KonstaKANG-rpi4-ota.zip** (TWRP flashable OTA package)  
 sha256:d7ede4fcf9e6b91feddfd66b19eb09310b4beeb2b94a5ddb36ab4e3c37d29ae6
 
-[**AOSP15-20250306-KonstaKANG-rpi4-6.12-kernel.zip**](https://app.filen.io/#/d/2c51f25f-aeaa-4f73-828e-f29a3eb6ace5%239T0nJ03atxLYxzY1gfghUh63x8ictJPp) (optional add-on)  
+**AOSP15-20250306-KonstaKANG-rpi4-6.12-kernel.zip** (optional add-on)  
 sha256:ff6681534876175ca2f82405e83849c62acb09a99e42046e44fedb899ccb1c05
 
 **Working:**
