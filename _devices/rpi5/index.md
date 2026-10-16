@@ -14,6 +14,7 @@ permalink: /devices/rpi5/
 
 #### LineageOS:
 
+- [LineageOS 24.0 - KonstaKANG (Android 17)](/devices/rpi5/LineageOS24)
 - [LineageOS 23.2 - KonstaKANG (Android 16)](/devices/rpi5/LineageOS23)
 - [LineageOS 22.2 - KonstaKANG (Android 15)](/devices/rpi5/LineageOS22)
 - [LineageOS 21 - KonstaKANG (Android 14)](/devices/rpi5/LineageOS21)
@@ -21,6 +22,7 @@ permalink: /devices/rpi5/
 
 #### LineageOS Android TV:
 
+- [LineageOS 24.0 Android TV - KonstaKANG (Android 17)](/devices/rpi5/LineageOS24-ATV)
 - [LineageOS 23.2 Android TV - KonstaKANG (Android 16)](/devices/rpi5/LineageOS23-ATV)
 - [LineageOS 22.2 Android TV - KonstaKANG (Android 15)](/devices/rpi5/LineageOS22-ATV)
 - [LineageOS 21 Android TV - KonstaKANG (Android 14)](/devices/rpi5/LineageOS21-ATV)

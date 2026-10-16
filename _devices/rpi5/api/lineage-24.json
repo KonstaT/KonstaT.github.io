@@ -1,0 +1,17 @@
+[
+  {
+    "datetime": 1792140863,
+    "files": [
+      {
+        "filename": "lineage-24.0-20261016-UNOFFICIAL-KonstaKANG-rpi5-ota.zip",
+        "os_patch_level": "2026-10-01",
+        "os_sdk_level": 37,
+        "sha256": "72fdfbb0f5a914ede5b531e6c68a8bc771ed9501bf85b07d9862843567a3f577",
+        "size": 943695978,
+        "url": "https://github.com/lineage-rpi/OTA/releases/download/lineage-24.0-20261016/lineage-24.0-20261016-UNOFFICIAL-KonstaKANG-rpi5-ota.zip"
+      }
+    ],
+    "type": "UNOFFICIAL",
+    "version": "24.0"
+  }
+]
