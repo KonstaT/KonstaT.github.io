@@ -176,7 +176,7 @@ Q: My device keeps booting into TWRP recovery. What should I do?
 Q: Settings -> Storage shows total system size of 15.5 GB. There's unallocated space on my sdcard. What should I do?  
 *A: This is a 15.5 GB image, remaining space on your sdcard will remain unallocated.*
 
-1. Download [KonstaKANG-rpi-resize.zip](https://app.filen.io/#/d/00b60e66-e76f-407d-8bcf-d2bdeb727a9f%235f4d384e744f3952755837347a737a2d48774f466f39377833536579674e664a) (sha256:6e84ccce8682db905668e337d51f986b76d58cfb91b57edd7fd118f4c52ade92) and save it to your device's internal storage or use an external USB drive
+1. Download [KonstaKANG-rpi-resize.zip](https://app.filen.io/#/d/dd1377f4-d493-447f-84f7-82c53dff605b%237372514857456d416533552d38726e30414236355472364f4f65746b4d366772) (sha256:f495955633afe38ae36fee5e550602aec490a3703c3d7f455342800ac394bef4) and save it to your device's internal storage or use an external USB drive
 2. Boot to TWRP recovery (see FAQ)
 3. Install KonstaKANG-rpi-resize.zip from your selected storage
 4. Boot out of recovery (see FAQ)
