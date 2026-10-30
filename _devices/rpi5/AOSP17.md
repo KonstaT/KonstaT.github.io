@@ -1,7 +1,7 @@
 ---
 title: AOSP (Android 17)
 subtitle: for Raspberry Pi 5
-date: 2026-07-02
+date: 2026-10-30
 tags: [rpi5, AOSP]
 screenshot: /img/rpi5/AOSP17/Screenshot_20260702-131747.png
 ---
@@ -14,13 +14,13 @@ Here's my build of AOSP (Android 17) for Raspberry Pi 5, Pi 500, and Compute Mod
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
-[**AOSP17-20260702-KonstaKANG-rpi5.zip**](https://app.filen.io/#/d/4fdad5d9-27e5-491e-a1c2-d3e77997a4c1%23396f51655f50344c2d34384b3674514f6b7a68513938746c3947546461315876)  
-sha256:a83cf6f9cd596d0fd33063ad6095d6ab42762c88ded11ab58be15a51ebf1c179
+[**AOSP17-20261030-KonstaKANG-rpi5.zip**](https://app.filen.io/#/d/e775343a-fb9d-4745-8e03-a6e7eb5cf1cf%236c6a6e54774e4d4e6174475345475f4672797330416d5568346b6f706d485538)  
+sha256:eaa9dac9d94f0244e09b3d40765395c9a66e363e8f9d6d168ee6103000da03e9
 
 <span style="color:#FF0000;">Note!</span> It's not possible to OTA update from builds older than 20251124. Clean installation is required!
 
-[**AOSP17-20260702-KonstaKANG-rpi5-ota.zip**](https://app.filen.io/#/d/50451fd4-14f3-42b7-b97f-1a96dca88685%237a6630784876794b3543306a5f4673334f656f6d336d74666b64766c63686248) (TWRP flashable OTA package)  
-sha256:1b85520f5707128caffff71e041d885bc3a46a83c4ff589e0eef1bf9d9293cc2
+[**AOSP17-20261030-KonstaKANG-rpi5-ota.zip**](https://app.filen.io/#/d/e064e9a1-0eb7-42d8-add8-58f937dc0159%2371723368765446743636765546424a53557a305058314664784e5951415a4e47) (recovery flashable OTA package)  
+sha256:4b955744ed2a83338c6fff9c3f8fc7b57e944a1e7f83ceea9e7f105db2a9f3ac
 
 **Working:**
 
@@ -67,12 +67,12 @@ sha256:1b85520f5707128caffff71e041d885bc3a46a83c4ff589e0eef1bf9d9293cc2
 
 **How to update:**
 
-You can also update to newer builds using TWRP flashable OTA packages.
+You can also update to newer builds using recovery flashable OTA packages.
 
 <span style="color:#FF0000;">Note!</span> It's not possible to OTA update from builds older than 20251124. Clean installation is required!
 
 1. Download AOSP17-xxxxxxxx-KonstaKANG-rpi5-ota.zip and save it to your device's internal storage or use an external USB drive
-2. Boot to TWRP recovery (see FAQ)
+2. Boot to recovery mode (see FAQ)
 3. Install AOSP17-xxxxxxxx-KonstaKANG-rpi5-ota.zip from your selected storage
 4. (Flash GApps/Magisk/Widevine/other add-ons you had previously installed)
 5. Boot out of recovery (see FAQ)
@@ -123,7 +123,7 @@ Q: How to create a DIY hardware power button?
 
 *You can enable the feature by using a settings option found in Settings -> System -> Raspberry Pi settings -> Power button.*
 
-*You can also use the DIY power button to boot the device to TWRP recovery. Press and hold the button while powering on the device until you see the TWRP screen.*
+*You can also use the DIY power button to boot the device to recovery mode. Press and hold the button while powering on the device until you see the recovery mode screen.*
 
 Q: How to use IR remote?  
 *A: You can enable the feature by using a settings option found in Settings -> System -> Raspberry Pi settings -> Infrared remote.*
@@ -160,24 +160,20 @@ dtoverlay=android-usb
 ```
 3. Connect the USB/NVME device to your Raspberry Pi, remove any sdcard, and boot
 
-Q: How to boot to TWRP recovery?  
-*A: AOSP doesn't have reboot to recovery option in power menu. You can boot to TWRP by selecting option in Settings -> System -> Raspberry Pi settings -> Reboot to recovery.*
+Q: How to boot to recovery mode?  
+*A: AOSP doesn't have reboot to recovery option in power menu. You can boot to recovery mode by selecting option in Settings -> System -> Raspberry Pi settings -> Reboot to recovery.*
 
-*If mouse cursor doesn't appear, try replugging your mouse.*
+Q: How to boot out of recovery mode?  
+*A: You can boot out of recovery by simply selecting 'Reboot system' option in recovery mode.*
 
-*Booting to TWRP is not supported with DSI displays. HDMI display must be used when booting to recovery mode.*
-
-Q: How to boot out of TWRP recovery?  
-*A: You can boot out of recovery by simply selecting reboot to system option in TWRP.*
-
-Q: My device keeps booting into TWRP recovery. What should I do?  
-*A: If you have GPIO21 connected to ground (or if you have something drawing power from it) your device will always boot to TWRP recovery (see FAQ section about DIY power button). If you have a hardware failure on GPIO21 you can edit /boot/config.txt to remove the GPIO21 related logic (see 'Ramdisk' and 'Graphics acceleration' sections).*
+Q: My device keeps booting into recovery mode. What should I do?  
+*A: If you have GPIO21 connected to ground (or if you have something drawing power from it) your device will always boot to recovery mode (see FAQ section about DIY power button). If you have a hardware failure on GPIO21 you can edit /boot/config.txt to remove the GPIO21 related logic (see 'Ramdisk' and 'Graphics acceleration' sections).*
 
 Q: Settings -> Storage shows total system size of 15.5 GB. There's unallocated space on my sdcard. What should I do?  
 *A: This is a 15.5 GB image, remaining space on your sdcard will remain unallocated.*
 
 1. Download [KonstaKANG-rpi-resize.zip](https://app.filen.io/#/d/dd1377f4-d493-447f-84f7-82c53dff605b%237372514857456d416533552d38726e30414236355472364f4f65746b4d366772) (sha256:f495955633afe38ae36fee5e550602aec490a3703c3d7f455342800ac394bef4) and save it to your device's internal storage or use an external USB drive
-2. Boot to TWRP recovery (see FAQ)
+2. Boot to recovery mode (see FAQ)
 3. Install KonstaKANG-rpi-resize.zip from your selected storage
 4. Boot out of recovery (see FAQ)
 
@@ -185,7 +181,7 @@ Q: How to install Widevine L3?
 *A:*
 
 1. Download [KonstaKANG-rpi-widevine-17.zip](https://app.filen.io/#/d/91465e0d-19d2-4a80-8820-24afe9845dfb%23366d4a48516b595636785f74784b7a46446b683054684f79314f6e6b68683745) (sha256:fdd225c8704f35876d5f32dd6457b152ca56738cbbfc3373c00978e7a1914b66) and save it to your device's internal storage or use an external USB drive
-2. Boot to TWRP recovery (see FAQ)
+2. Boot to recovery mode (see FAQ)
 3. Install KonstaKANG-rpi-widevine-17.zip from your selected storage
 4. Boot out of recovery (see FAQ)
 
@@ -194,7 +190,7 @@ Q: How to install Magisk?
 
 1. Download [KonstaKANG-rpi-magisk-v31.1.zip](https://app.filen.io/#/d/73d008d9-bfdd-494e-91f6-81c835ba4a1a%236e3747396e5f6a35597878614e6d74596e4c6a503877576a4a7078576a2d5754) (sha256:c0a2c55ea224cce20c56a7dca44da41683c9734c4617a0cb0bfeea232be90180) and save it to your device's internal storage or use an external USB drive
 2. Download [Magisk-v31.1.apk](https://github.com/topjohnwu/Magisk/releases/tag/v31.1)
-3. Boot to TWRP recovery (see FAQ)
+3. Boot to recovery mode (see FAQ)
 4. Install KonstaKANG-rpi-magisk-v31.1.zip from your selected storage
 5. Boot out of recovery (see FAQ)
 6. Install Magisk-v31.1.apk using Android's built-in file manager/```adb install```/etc.
@@ -204,9 +200,9 @@ Q: How to install Google apps?
 *A:*
 
 1. Download GApps-17.0-arm64-xxxxxxxx.zip and save it to your device's internal storage or use an external USB drive
-2. Boot to TWRP recovery (see FAQ)
+2. Boot to recovery mode (see FAQ)
 3. Install GApps-17.0-arm64-xxxxxxxx.zip from your selected storage
-4. Wipe -> Factory reset!
+4. Factory reset -> Format data partition / factory reset!
 5. Boot out of recovery (see FAQ)
 6. Settings -> Google -> Sign in
 7. [Register Google Services Framework Android ID](https://www.google.com/android/uncertified/) with the same Google account you've signed in
@@ -214,6 +210,16 @@ Q: How to install Google apps?
 
 ----
 <!--block-->
+
+**30.10. changelog:**
+
+- switch to 16k page size
+- implement new recovery mode
+- add support for wifi direct
+- update to FFMpeg 9.0.2
+- update to libcamera v0.7.2, libpisp v1.5.0
+- update to Mesa 26.2.6
+- update to Linux 6.18.38 kernel and patch known vulnerabilities (CVE-xxxx-xxxx, and more)
 
 **2.7. changelog:**
 
