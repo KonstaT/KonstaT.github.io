@@ -7,6 +7,8 @@ tags: [rpi5, TWRP]
 
 This is my build of [Team Win Recovery Project](https://twrp.me) (TWRP) for Raspberry Pi 5, Pi 500, and Compute Module 5. It's included in my [Android](/devices/rpi5) images. Please read the FAQ on how to boot to recovery.
 
+<span style="color:#FF0000;">Note!</span> This is discontinued from development and longer included in my Android releases after 20261030.
+
 **Sources:**
 
 - [twrp-raspberry](https://github.com/twrp-raspberry/android_local_manifest)

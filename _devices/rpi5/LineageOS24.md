@@ -1,7 +1,7 @@
 ---
 title: LineageOS 24.0 (Android 17)
 subtitle: for Raspberry Pi 5
-date: 2026-10-16
+date: 2026-11-18
 tags: [rpi5, LineageOS, LOS24]
 screenshot: /img/rpi5/LineageOS24/Screenshot_20261016-134840_Settings.png
 ---
@@ -14,13 +14,13 @@ Here's my build of LineageOS 24.0 for Raspberry Pi 5, Pi 500, and Compute Module
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
-[**lineage-24.0-20261016-UNOFFICIAL-KonstaKANG-rpi5.zip**](https://app.filen.io/#/d/87844196-efdc-4bd9-8972-f7df02f9a344%234a6775775164685f643343524e307a743936495a716a73534d696d43434f5772)  
-sha256:fa45e58cb78fcccc9be3eae696793094c127291d3c240117c43c0a4aa9bdc980
+[**lineage-24.0-20261118-UNOFFICIAL-KonstaKANG-rpi5.zip**](https://app.filen.io/#/d/3764a839-48d1-47c6-912c-ed9896dc3bef%234b50504d74364a6e7838424c2d445534745f652d583632784d454f3762416d7a)  
+sha256:127efdcf6cec06c019a469c9faef5e8bd96b98cc6cb4c44f082097fa4953bde0
 
 <span style="color:#FF0000;">Note!</span> It's not possible to OTA update from builds older than 20260128. Clean installation is required!
 
-[**lineage-24.0-20261016-UNOFFICIAL-KonstaKANG-rpi5-ota.zip**](https://app.filen.io/#/d/06eb8720-98e4-447a-bc22-7bbb0883157e%2372526e645f695249494c2d776d2d4c4c4c685548596f782d3348485952427457) (TWRP flashable OTA package)  
-sha256:72fdfbb0f5a914ede5b531e6c68a8bc771ed9501bf85b07d9862843567a3f577
+[**lineage-24.0-20261118-UNOFFICIAL-KonstaKANG-rpi5-ota.zip**](https://app.filen.io/#/d/bc37a0d7-6847-4141-9340-ae8f5b815be0%23424b666e477643444e4c725f4d6f7168744b6f5f6e554167393070333370446f) (recovery flashable OTA package)  
+sha256:e7a2a1a31e24bd1c87ff3a60ef1e9ac67289093517cd2b9e854b6c99fd24a89c
 
 **Working:**
 
@@ -66,15 +66,15 @@ sha256:72fdfbb0f5a914ede5b531e6c68a8bc771ed9501bf85b07d9862843567a3f577
 
 **How to update:**
 
-You can also update to newer builds using TWRP flashable OTA packages. OTA updates pushed through the built-in Updater app are stored at /data/lineageos_updates/.
+You can also update to newer builds using recovery flashable OTA packages. OTA updates pushed through the built-in Updater app are stored at /data/lineageos_updates/.
 
 <span style="color:#FF0000;">Note!</span> It's not possible to OTA update from builds older than 20260128. Clean installation is required!
 
 1. Download lineage-24.0-xxxxxxxx-UNOFFICIAL-KonstaKANG-rpi5-ota.zip and save it to your device's internal storage or use an external USB drive
-2. Boot to TWRP recovery (see FAQ)
+2. Boot to recovery mode (see FAQ)
 3. Install lineage-24.0-xxxxxxxx-UNOFFICIAL-KonstaKANG-rpi5-ota.zip from your selected storage
 4. (Flash Magisk/other add-ons you had previously installed)
-5. Boot out of recovery (see FAQ)
+5. Boot out of recovery mode
 
 Changes that are backed up and restored flashing OTAs:
 
@@ -110,7 +110,7 @@ Q: My display is not working. I can only see the rainbow screen but no Android b
 *A: This build only supports HDMI displays that report supported resolutions using EDID. 1920x1080 resolution is used by default with this build. You can change value in /boot/resolution.txt to use a different resolution that your display supports. Removing /boot/resolution.txt will use the preferred resolution of your display.*
 
 Q: How to use DSI touchscreen displays?  
-*A: You can enable required configurations using a settings option found in Settings -> System -> Raspberry Pi settings -> DSI display. You need to disconnect any HDMI display when using the DSI display.*
+*A: Official Raspberry Pi Touch Displays are automatically detected and require no additional configuration. For third party DSI displays, you can enable required configurations using a settings option found in Settings -> System -> Raspberry Pi settings -> DSI display. You need to disconnect any HDMI display when using the DSI display.*
 
 Q: How to use desktop mode on primary display?  
 *A: Enable Settings -> System -> Raspberry Pi settings -> Desktop mode and reboot the device.*
@@ -125,7 +125,7 @@ Q: How to create a DIY hardware power button?
 
 *You can enable the feature by using a settings option found in Settings -> System -> Raspberry Pi settings -> Power button.*
 
-*You can also use the DIY power button to boot the device to TWRP recovery. Press and hold the button while powering on the device until you see the TWRP screen.*
+*You can also use the DIY power button to boot the device to recovery mode. Press and hold the button while powering on the device until you see the recovery mode screen.*
 
 Q: How to use IR remote?  
 *A: You can enable the feature by using a settings option found in Settings -> System -> Raspberry Pi settings -> Infrared remote.*
@@ -162,43 +162,36 @@ dtoverlay=android-usb
 ```
 3. Connect the USB/NVME device to your Raspberry Pi, remove any sdcard, and boot
 
-Q: How to boot to TWRP recovery?  
-*A: You can boot to TWRP by selecting recovery option in Android power menu after enabling advanced restart options.*
+Q: How to boot to recovery mode?  
+*A: You can boot to recovery mode by selecting recovery option in Android power menu after enabling advanced restart options.*
 
-*If mouse cursor doesn't appear, try replugging your mouse.*
-
-*Booting to TWRP is not supported with DSI displays. HDMI display must be used when booting to recovery mode.*
-
-Q: How to boot out of TWRP recovery?  
-*A: You can boot out of recovery by simply selecting reboot to system option in TWRP.*
-
-Q: My device keeps booting into TWRP recovery. What should I do?  
-*A: If you have GPIO21 connected to ground (or if you have something drawing power from it) your device will always boot to TWRP recovery (see FAQ section about DIY power button). If you have a hardware failure on GPIO21 you can edit /boot/config.txt to remove the GPIO21 related logic (see 'Ramdisk' and 'Graphics acceleration' sections).*
+Q: My device keeps booting into recovery mode. What should I do?  
+*A: If you have GPIO21 connected to ground (or if you have something drawing power from it) your device will always boot to recovery mode (see FAQ section about DIY power button). If you have a hardware failure on GPIO21 you can edit /boot/config.txt to remove the GPIO21 related logic (see 'Ramdisk' section).*
 
 Q: Settings -> Storage shows total system size of 15.5 GB. There's unallocated space on my sdcard. What should I do?  
 *A: This is a 15.5 GB image, remaining space on your sdcard will remain unallocated.*
 
 1. Download [KonstaKANG-rpi-resize.zip](https://app.filen.io/#/d/dd1377f4-d493-447f-84f7-82c53dff605b%237372514857456d416533552d38726e30414236355472364f4f65746b4d366772) (sha256:f495955633afe38ae36fee5e550602aec490a3703c3d7f455342800ac394bef4) and save it to your device's internal storage or use an external USB drive
-2. Boot to TWRP recovery (see FAQ)
+2. Boot to recovery mode (see FAQ)
 3. Install KonstaKANG-rpi-resize.zip from your selected storage
-4. Boot out of recovery (see FAQ)
+4. Boot out of recovery mode
 
 Q: How to install Widevine L3?  
 *A:*
 
 1. Download [KonstaKANG-rpi-widevine-17.zip](https://app.filen.io/#/d/91465e0d-19d2-4a80-8820-24afe9845dfb%23366d4a48516b595636785f74784b7a46446b683054684f79314f6e6b68683745) (sha256:fdd225c8704f35876d5f32dd6457b152ca56738cbbfc3373c00978e7a1914b66) and save it to your device's internal storage or use an external USB drive
-2. Boot to TWRP recovery (see FAQ)
+2. Boot to recovery mode (see FAQ)
 3. Install KonstaKANG-rpi-widevine-17.zip from your selected storage
-4. Boot out of recovery (see FAQ)
+4. Boot out of recovery mode
 
 Q: How to install Magisk?  
 *A:*
 
 1. Download [KonstaKANG-rpi-magisk-v31.1.zip](https://app.filen.io/#/d/73d008d9-bfdd-494e-91f6-81c835ba4a1a%236e3747396e5f6a35597878614e6d74596e4c6a503877576a4a7078576a2d5754) (sha256:c0a2c55ea224cce20c56a7dca44da41683c9734c4617a0cb0bfeea232be90180) and save it to your device's internal storage or use an external USB drive
 2. Download [Magisk-v31.1.apk](https://github.com/topjohnwu/Magisk/releases/tag/v31.1)
-3. Boot to TWRP recovery (see FAQ)
+3. Boot to recovery mode (see FAQ)
 4. Install KonstaKANG-rpi-magisk-v31.1.zip from your selected storage
-5. Boot out of recovery (see FAQ)
+5. Boot out of recovery mode
 6. Install Magisk-v31.1.apk using Android's built-in file manager/```adb install```/etc.
 7. Ignore suggestions to reinstall Magisk within the app and/or warning about the installation method
 
@@ -206,15 +199,32 @@ Q: How to install Google apps?
 *A:*
 
 1. Download [MindTheGapps-17.0.0-arm64-xxxxxxxx_xxxxxx.zip](https://github.com/MindTheGapps/17.0.0-arm64/releases/latest) and save it to your device's internal storage or use an external USB drive
-2. Boot to TWRP recovery (see FAQ)
+2. Boot to recovery mode (see FAQ)
 3. Install MindTheGapps-17.0.0-arm64-xxxxxxxx_xxxxxx.zip from your selected storage
 4. Wipe -> Factory reset!
-5. Boot out of recovery (see FAQ)
+5. Boot out of recovery mode
 
 ----
 <!--block-->
 
 [Merged commits](https://review.lineageos.org/#/q/status:merged+branch:lineage-24.0+-project:%255E.*device.*+-project:%255E.*kernel.*) not mentioned in the changelog.
+
+**18.11. changelog:**
+
+- switch to 16k page size
+- implement new recovery mode
+- add support for wifi direct
+- various DSI display improvements
+  - auto-detect official Raspberry Pi DSI displays
+  - force display resolution only on HDMI displays
+  - touch to wake on DSI and USB touchscreens
+  - use drm_hwcomposer for adjusting display backlight brightness
+  - support using DSI displays in recovery mode
+- update to FFmpeg 9.0.2
+- update to libcamera v0.8.0
+- update to Mesa 26.3.0
+- update to Linux 6.18.62 kernel and patch known vulnerabilities (CVE-xxxx-xxxx, and more)
+- Android security patch level: 1 November 2026
 
 **16.10. changelog:**
 

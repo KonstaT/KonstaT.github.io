@@ -75,7 +75,7 @@ You can also update to newer builds using recovery flashable OTA packages.
 2. Boot to recovery mode (see FAQ)
 3. Install AOSP17-xxxxxxxx-KonstaKANG-rpi5-ota.zip from your selected storage
 4. (Flash GApps/Magisk/Widevine/other add-ons you had previously installed)
-5. Boot out of recovery (see FAQ)
+5. Boot out of recovery mode
 
 Changes that are backed up and restored flashing OTAs:
 
@@ -163,11 +163,8 @@ dtoverlay=android-usb
 Q: How to boot to recovery mode?  
 *A: AOSP doesn't have reboot to recovery option in power menu. You can boot to recovery mode by selecting option in Settings -> System -> Raspberry Pi settings -> Reboot to recovery.*
 
-Q: How to boot out of recovery mode?  
-*A: You can boot out of recovery by simply selecting 'Reboot system' option in recovery mode.*
-
 Q: My device keeps booting into recovery mode. What should I do?  
-*A: If you have GPIO21 connected to ground (or if you have something drawing power from it) your device will always boot to recovery mode (see FAQ section about DIY power button). If you have a hardware failure on GPIO21 you can edit /boot/config.txt to remove the GPIO21 related logic (see 'Ramdisk' and 'Graphics acceleration' sections).*
+*A: If you have GPIO21 connected to ground (or if you have something drawing power from it) your device will always boot to recovery mode (see FAQ section about DIY power button). If you have a hardware failure on GPIO21 you can edit /boot/config.txt to remove the GPIO21 related logic (see 'Ramdisk' section).*
 
 Q: Settings -> Storage shows total system size of 15.5 GB. There's unallocated space on my sdcard. What should I do?  
 *A: This is a 15.5 GB image, remaining space on your sdcard will remain unallocated.*
@@ -175,7 +172,7 @@ Q: Settings -> Storage shows total system size of 15.5 GB. There's unallocated s
 1. Download [KonstaKANG-rpi-resize.zip](https://app.filen.io/#/d/dd1377f4-d493-447f-84f7-82c53dff605b%237372514857456d416533552d38726e30414236355472364f4f65746b4d366772) (sha256:f495955633afe38ae36fee5e550602aec490a3703c3d7f455342800ac394bef4) and save it to your device's internal storage or use an external USB drive
 2. Boot to recovery mode (see FAQ)
 3. Install KonstaKANG-rpi-resize.zip from your selected storage
-4. Boot out of recovery (see FAQ)
+4. Boot out of recovery mode
 
 Q: How to install Widevine L3?  
 *A:*
@@ -183,7 +180,7 @@ Q: How to install Widevine L3?
 1. Download [KonstaKANG-rpi-widevine-17.zip](https://app.filen.io/#/d/91465e0d-19d2-4a80-8820-24afe9845dfb%23366d4a48516b595636785f74784b7a46446b683054684f79314f6e6b68683745) (sha256:fdd225c8704f35876d5f32dd6457b152ca56738cbbfc3373c00978e7a1914b66) and save it to your device's internal storage or use an external USB drive
 2. Boot to recovery mode (see FAQ)
 3. Install KonstaKANG-rpi-widevine-17.zip from your selected storage
-4. Boot out of recovery (see FAQ)
+4. Boot out of recovery mode
 
 Q: How to install Magisk?  
 *A:*
@@ -192,7 +189,7 @@ Q: How to install Magisk?
 2. Download [Magisk-v31.1.apk](https://github.com/topjohnwu/Magisk/releases/tag/v31.1)
 3. Boot to recovery mode (see FAQ)
 4. Install KonstaKANG-rpi-magisk-v31.1.zip from your selected storage
-5. Boot out of recovery (see FAQ)
+5. Boot out of recovery mode
 6. Install Magisk-v31.1.apk using Android's built-in file manager/```adb install```/etc.
 7. Ignore suggestions to reinstall Magisk within the app and/or warning about the installation method
 
@@ -203,7 +200,7 @@ Q: How to install Google apps?
 2. Boot to recovery mode (see FAQ)
 3. Install GApps-17.0-arm64-xxxxxxxx.zip from your selected storage
 4. Factory reset -> Format data partition / factory reset!
-5. Boot out of recovery (see FAQ)
+5. Boot out of recovery mode
 6. Settings -> Google -> Sign in
 7. [Register Google Services Framework Android ID](https://www.google.com/android/uncertified/) with the same Google account you've signed in
 8. Wait for a while and reboot the device until you've signed into your Google account successfully
