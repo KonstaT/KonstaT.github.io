@@ -14,6 +14,8 @@ Here's my build of AOSP (Android 16) for Raspberry Pi 5, Pi 500, and Compute Mod
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
+<span style="color:#FF0000;">Note!</span> This release is discontinued from development. Please use more recent Android releases instead.
+
 [**AOSP16-20260428-KonstaKANG-rpi5.zip**](https://app.filen.io/#/d/1e0d670b-0145-4d8c-a298-703f2cc9c1a2%237449486c6d574c5f34654a413655307a747964376944704e4430462d6f76475a)  
 sha256:1ab883852967370513528000ac232f177766b4af98b2262233d1c8a4a5906968
 

@@ -14,6 +14,8 @@ Here's my build of LineageOS 23.2 for Raspberry Pi 4 Model B, Pi 400, and Comput
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
+<span style="color:#FF0000;">Note!</span> This release is discontinued from development. Please use more recent Android releases instead.
+
 [**lineage-23.2-20260520-UNOFFICIAL-KonstaKANG-rpi4.zip**](https://app.filen.io/#/d/93b3b87b-c943-465f-8360-e914552de6dc%2372434b4167454c3576324b68464d4a465f5a5f36545f63434d49474363527345)  
 sha256:7244f927796a40d8d460992f574b507ac93543a88f0dce1715f63aa64ca2c675
 

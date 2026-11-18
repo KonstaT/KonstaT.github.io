@@ -14,6 +14,8 @@ Here's my build of AOSP (Android 16) for Raspberry Pi 4 Model B, Pi 400, and Com
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
+<span style="color:#FF0000;">Note!</span> This release is discontinued from development. Please use more recent Android releases instead.
+
 [**AOSP16-20260428-KonstaKANG-rpi4.zip**](https://app.filen.io/#/d/e2050aa5-6829-43f6-b3ef-eb29f8c3cc81%233162574a533143653556324b325039564630314149735755396467586335566a)  
 sha256:936882f768e25de2d1ff925e71c942682c42d2dfe2c4f33bfd307eff95979576
 

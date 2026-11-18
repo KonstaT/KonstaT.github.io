@@ -14,6 +14,8 @@ Here's my build of LineageOS 23.2 for Raspberry Pi 5, Pi 500, and Compute Module
 
 <span style="color:#FF0000;">Do not mirror my builds!</span> Please post a link to this page instead.
 
+<span style="color:#FF0000;">Note!</span> This release is discontinued from development. Please use more recent Android releases instead.
+
 [**lineage-23.2-20260520-UNOFFICIAL-KonstaKANG-rpi5.zip**](https://app.filen.io/#/d/e01924d7-9afe-47b8-85e5-89f37c5012da%234b4441582d77306a4f434d5f7549776e5a694463536d44717844374c324f6767)  
 sha256:4d38a4b7912cfb0653571a4072678684cc0ab36e8732cb8962dc45071b0951d3
 
